@@ -5,8 +5,8 @@ tagline: 专为 Mac 打造的沉浸式剪贴板管理应用
 actionText: 免费下载试用
 actionLink: https://macaify.lemonsqueezy.com/checkout?cart=a2c02148-939d-4650-bb02-8608dbc83ac5
 features:
-  - title: 💡 ⌘ + ; 呼出快捷菜单
-    details: 任意场景快速呼出，获得最近五条复制记录
+  - title: 💡 「 ⌘ + ; 」 呼出快捷菜单
+    details: 任意场景快速呼出，获得最近 5 条复制记录
   - title: ⌨️ 呼出位置跟随输入光标
     details: 无需切换视野焦点，弹窗总在光标处出现
   - title: ❤️ 沉浸式交互风格
