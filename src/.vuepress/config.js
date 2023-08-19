@@ -4,7 +4,7 @@ module.exports = {
     themeConfig: {
         nav: [
           { text: '演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
-          { text: '早鸟 12 元优惠', link: 'https://macaify.lemonsqueezy.com/checkout/buy/c8cf48f0-a3ac-4aac-8a7d-6135e0305700', target:'_blank' },
+          { text: '早鸟 12 元限时优惠', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
         //   { text: '限时特惠，终身会员五折优惠！', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
           {
             text: '联系我们',
