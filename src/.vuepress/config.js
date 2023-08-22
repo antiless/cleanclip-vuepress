@@ -17,6 +17,10 @@ module.exports = {
             ]
           }
         ],
-        search: false
+        search: false,
+        sidebar: [
+          '/',
+          '/text'
+        ]
       }    
 }
