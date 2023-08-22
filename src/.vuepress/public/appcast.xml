@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>CleanClip</title>
-    <link>https://raw.githubusercontent.com/auv1107/cleancliprun/main/appcast.xml</link>
+    <link>https://clip.macaify.com/appcast.xml</link>
     <description>最近的更改，附带更新的链接</description>
     <language>zh</language>
     <item>
@@ -12,15 +12,16 @@
           <ul>
             <li>支持暗黑模式</li>
             <li>支持自动更新</li>
-            <li>调整 UI</li>
+            <li>调整 UI 及文案</li>
+            <li>修复了长文本粘贴不全的 bug</li>
           </ul>
         ]]>
       </description>
       <pubDate>2023-08-21</pubDate>
-      <releaseNotesLink>https://github.com/auv1107/cleancliprun/releases/tag/v1.0.1</releaseNotesLink>
+      <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="hhttp://localhost:3000/releases/download/v1.0.1/CleanClip.app.zip"
+        url="https://clip.macaify.com/releases/download/v1.0.1/CleanClip.app.zip"
         sparkle:version="3"
         sparkle:shortVersionString="1.0.1"
         length="0"
