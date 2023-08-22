@@ -6,6 +6,7 @@ module.exports = {
           { text: '演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
         //   { text: '早鸟 12 元限时优惠', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
           { text: '国区用户进群获取五折优惠码', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
+          { text: '更新日志', link: '/docs/changelog.html' },
           {
             text: '联系我们',
             ariaLabel: '反馈菜单',
@@ -15,7 +16,7 @@ module.exports = {
               { text: '邮箱 📮', link: 'mailto:cleanclip.gokoding.com', target:'_blank'},
               { text: '微信群', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank'}
             ]
-          }
+          },
         ],
         search: false
       }    
