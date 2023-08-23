@@ -17,13 +17,13 @@
           </ul>
         ]]>
       </description>
-      <pubDate>2023-08-21</pubDate>
+      <pubDate>2023-08-23</pubDate>
       <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://clip.macaify.com/releases/download/v1.0.1/CleanClip.app.zip"
-        sparkle:version="2"
-        sparkle:shortVersionString="1.0.1"
+        url="https://clip.macaify.com/releases/download/v1.0.2/CleanClip.app.zip"
+        sparkle:version="100002"
+        sparkle:shortVersionString="1.0.2"
         length="0"
         type="application/octet-stream"
       />
