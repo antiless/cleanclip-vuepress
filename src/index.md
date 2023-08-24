@@ -3,7 +3,7 @@ home: true
 heroImage: https://p.ipic.vip/mdi0sg.png
 tagline: 专为 Mac 打造的沉浸式剪贴板管理应用
 actionText: 免费下载试用
-actionLink: https://clip.macaify.com/releases/download/v1.0.1/CleanClip.app.zip
+actionLink: https://clip.macaify.com/releases/download/v1.0.3/CleanClip.app.zip
 features:
   - title: 💡 「 ⌘ + ; 」 呼出快捷菜单
     details: 任意场景快速呼出，获得最近 5 条复制记录
