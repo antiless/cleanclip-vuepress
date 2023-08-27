@@ -3,19 +3,18 @@
   <channel>
     <title>CleanClip</title>
     <link>https://clip.macaify.com/appcast.xml</link>
-    <description>最近的更改，附带更新的链接</description>
+    <description>支持更多历史记录，支持搜索</description>
     <language>zh</language>
     <item>
-      <title>1.0.3</title>
+      <title>1.1.0</title>
       <description>
         <![CDATA[
           <ul>
-            <li>支持暗黑模式</li>
-            <li>支持自动更新</li>
-            <li>调整 UI 及文案</li>
-            <li>修复了长文本粘贴不全的 bug</li>
-            <li>购买地址 404 问题</li>
-            <li>支持在网页中精确定位光标</li>
+            <li>支持查询更多历史记录📖</li>
+            <li>新增搜索功能🔍</li>
+            <li>添加音效🎵</li>
+            <li>鼠标 hover 时展示详情📗</li>
+            <li>修复了一些 bug</li>
           </ul>
         ]]>
       </description>
@@ -23,9 +22,9 @@
       <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://clip.macaify.com/releases/download/v1.0.3/CleanClip.app.zip"
-        sparkle:version="10003"
-        sparkle:shortVersionString="1.0.3"
+        url="https://clip.macaify.com/releases/download/v1.1.0/CleanClip.app.zip"
+        sparkle:version="101000"
+        sparkle:shortVersionString="1.1.0"
         length="0"
         type="application/octet-stream"
       />

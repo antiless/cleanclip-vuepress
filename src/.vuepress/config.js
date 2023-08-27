@@ -8,6 +8,7 @@ module.exports = {
           { text: '早鸟二期优惠 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
           // { text: '国区用户进群获取五折优惠码', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
           { text: '更新日志', link: '/docs/changelog.html' },
+          { text: '更新计划 📅', link: '/docs/roadmap.html' },
           {
             text: '联系我们',
             ariaLabel: '反馈菜单',
@@ -20,5 +21,5 @@ module.exports = {
           },
         ],
         search: false
-      }    
+      }
 }
