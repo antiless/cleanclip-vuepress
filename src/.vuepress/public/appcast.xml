@@ -23,7 +23,7 @@
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://clip.macaify.com/releases/download/v1.1.0/CleanClip.app.zip"
-        sparkle:version="101000"
+        sparkle:version="10100"
         sparkle:shortVersionString="1.1.0"
         length="0"
         type="application/octet-stream"
