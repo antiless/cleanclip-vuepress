@@ -1,23 +1,23 @@
 ---
 home: true
 heroImage: https://p.ipic.vip/mdi0sg.png
-tagline: 专为 Mac 打造的沉浸式剪贴板管理应用
-actionText: 免费下载试用
+tagline: An immersive clipboard management application designed specifically for Mac
+actionText: Download for Free Trial
 actionLink: https://clip.macaify.com/releases/download/v1.1.1/CleanClip.app.zip
 features:
-  - title: 💡 「 ⌘ + ; 」 呼出快捷菜单
-    details: 任意场景快速呼出，获得最近 5 条复制记录
-  - title: ⌨️ 呼出位置跟随输入光标
-    details: 无需切换视野焦点，弹窗总在光标处出现
-  - title: ❤️ 沉浸式交互风格
-    details: 简洁优雅，与系统完美融合
-  - title: 🔍 快速搜索
-    details: 键入字母快速搜索，再久远的记录也瞬间找到
-  - title: 💻 专为 Mac 打造
-    details: 支持 macOS 11.0+
-  - title: ♾️ 无限期免费试用
-    details: 基础功能免费试用，不限制时间
-  - title: 💰 不满意退款
-    details: 7 天内不满意退款
-footer: Made by  with ❤️Sintone Li
+  - title: 💡 Quick Menu with "⌘ + ;"
+    details: Quickly access the 5 most recent copied items in any scenario
+  - title: ⌨️ Pop-up Window Follows the Editing Box
+    details: No need to switch focus, the pop-up window always appears at the position of the editing box.
+  - title: ❤️ Immersive Interaction Style
+    details: Sleek and elegant, seamlessly integrates with your system
+  - title: 🔍 Fast Search
+    details: Type a letter to quickly search and find even the oldest records
+  - title: 💻 Designed for Mac
+    details: Supports macOS 11.0+
+  - title: ♾️ Unlimited Free Trial
+    details: Basic features are free to try, no time restrictions
+  - title: 💰 Money-Back Guarantee
+    details: Not satisfied? Get a refund within 7 days
+footer: Made by with ❤️Sintone Li
 ---
