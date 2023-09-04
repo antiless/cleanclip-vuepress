@@ -18,10 +18,11 @@ module.exports = {
             }
           },
           nav: [
-            { text: 'Demo Video Phase 1', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
-            { text: 'Demo Video Phase 2', link: 'https://clip.macaify.com/videos/search.mp4' },
-            { text: 'Early Bird Phase 2 Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
+            // { text: 'Demo Video Phase 1', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
+            // { text: 'Demo Video Phase 2', link: 'https://clip.macaify.com/videos/search.mp4' },
+            // { text: 'Early Bird Phase 2 Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
             // { text: 'Join Group for 50% Off Code (China Users)', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
+            { text: 'User Manual', link: '/docs/manual.html' },
             { text: 'Changelog', link: '/docs/changelog.html' },
             { text: 'Roadmap 📅', link: '/docs/roadmap.html' },
             {
@@ -52,12 +53,13 @@ module.exports = {
             }
           },
           nav: [
-            { text: '一期演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
-            { text: '二期演示视频', link: 'https://clip.macaify.com/videos/search.mp4' },
-            { text: '早鸟二期优惠 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
+            // { text: '一期演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
+            // { text: '二期演示视频', link: 'https://clip.macaify.com/videos/search.mp4' },
+            // { text: '早鸟二期优惠 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
             // { text: '国区用户进群获取五折优惠码', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
-            { text: '更新日志', link: '/docs/changelog.html' },
-            { text: '更新计划 📅', link: '/docs/roadmap.html' },
+            { text: '用户手册', link: '/zh/docs/manual.html' },
+            { text: '更新日志', link: '/zh/docs/changelog.html' },
+            { text: '更新计划 📅', link: '/zh/docs/roadmap.html' },
             {
               text: '联系我们',
               ariaLabel: '反馈菜单',
@@ -77,12 +79,14 @@ module.exports = {
         '/': {
           lang: 'en-US',
           title: 'CleanClip',
-          description: 'Perfect white home appliances on Mac, a minimalist clipboard application that focuses on immersive experience.'
+          description: 'Perfect white home appliances on Mac, a minimalist clipboard application that focuses on immersive experience.',
+          search: false
         },
         '/zh/': {
           lang: 'zh-CN',
           title: 'CleanClip',
-          description: 'Mac 上完美的白色家电，专注于沉浸式体验的极简剪贴板应用'
+          description: 'Mac 上完美的白色家电，专注于沉浸式体验的极简剪贴板应用',
+          search: false
         }
       }
 }

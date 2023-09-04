@@ -2,22 +2,26 @@
 home: true
 heroImage: https://p.ipic.vip/mdi0sg.png
 tagline: An immersive clipboard management application designed specifically for Mac
-actionText: Download for Free Trial
-actionLink: https://clip.macaify.com/releases/download/v1.1.1/CleanClip.app.zip
+actionText: Free Download and Try
+actionLink: https://clip.macaify.com/releases/download/v1.2.0/CleanClip.app.zip
 features:
   - title: 💡 Quick Menu with "⌘ + ;"
     details: Quickly access the 5 most recent copied items in any scenario
-  - title: ⌨️ Pop-up Window Follows the Editing Box
-    details: No need to switch focus, the pop-up window always appears at the position of the editing box.
+  - title: ⌨️ Follows the Editing Field
+    details: The popup window appears at the position of the editing field, no need to switch your focus anymore
   - title: ❤️ Immersive Interaction Style
-    details: Sleek and elegant, seamlessly integrates with your system
-  - title: 🔍 Fast Search
-    details: Type a letter to quickly search and find even the oldest records
+    details: Simple and elegant, seamlessly integrated with the system
+  - title: 🔍 Quick Search
+    details: Instantly find even the oldest records by typing a letter
+  - title: 🌈 Full Format Support
+    details: Supports all copyable formats, including images and files
+  - title: 📱 Mobile Records Retention
+    details: With iCloud enabled, text and image records copied on your phone can be viewed on your Mac
   - title: 💻 Designed for Mac
     details: Supports macOS 11.0+
   - title: ♾️ Unlimited Free Trial
-    details: Basic features are free to try, no time restrictions
+    details: Basic features are free to try with no time restrictions
   - title: 💰 Money-Back Guarantee
-    details: Not satisfied? Get a refund within 7 days
+    details: 7-day refund policy if you are not satisfied
 footer: Made by with ❤️Sintone Li
 ---

@@ -1,42 +1,53 @@
-# 更新日志
+# Release Notes
+## 1.2.0
+Date: September 4, 2023
+
+**Updates**
+- Added support for image and file recording📖
+- Added support for previewing historical records👀
+- Added support for searching numbers using "fn + number keys"🔢
+- Added user manual📗
+
+![](/images/roadmap/phase3.webp)
+
 ## 1.1.0
-日期：2023.8.27
+Date: August 27, 2023
 
-**更新内容**
-- 支持查询更多历史记录📖
-- 新增搜索功能🔍
-- 添加音效🎵
-- 鼠标 hover 时展示详情📗
+**Updates**
+- Added support for querying more historical records📖
+- Added search function🔍
+- Added sound effects🎵
+- Added hover details on mouseover📗
 
-Bug修复：
-- 激活码窗口输入格式检查
-- 解决开机无网络情况下弹窗问题
-- notion 多段文本复制问题
+Bug Fixes:
+- Fixed input format check for activation code window
+- Resolved popup issue when there is no network on startup
+- Fixed multi-line text copying issue in Notion
 
 ![](/images/roadmap/snap2.png)
 
 ## 1.0.2
-日期：2023.8.23
+Date: August 23, 2023
 
-**更新内容**
-- 购买地址 404 问题
+**Updates**
+- Fixed 404 issue with purchase link
 
 ## 1.0.1
-日期：2023.8.22
+Date: August 22, 2023
 
-**更新内容：**
-- 支持暗黑模式
-- 支持自动更新
-- 调整 UI 及文案
-- 修复了长文本粘贴不全的 bug
+**Updates**
+- Added support for dark mode
+- Added support for automatic updates
+- Adjusted UI and copy
+- Fixed bug where long text was not fully pasted
 
 ## 1.0.0
-日期：2023.8.19
+Date: August 19, 2023
 
-**更新内容：**
-- 💡 「 ⌘ + ; 」 呼出快捷菜单
-- ⌨️ 呼出位置跟随输入光标
-- ❤️ 沉浸式交互风格
-- 支持订阅激活码
+**Updates**
+- 💡 Press "⌘ + ;" to bring up the shortcut menu
+- ⌨️ Menu appears next to the input cursor
+- ❤️ Immersive interactive style
+- Added support for subscribing to activation codes
 
 ![](/images/roadmap/snap1.png)

@@ -1,63 +1,63 @@
-# CleanClip 规划路线
+# CleanClip Roadmap
 
-## 一期：基础功能 ✅
+## Phase 1: Basic Features ✅
 
-**📅 上线日期**
-- 2023.8.19
+**📅 Launch Date**
+- August 19, 2023
 
-**🔧 功能**
-- 快捷键呼出历史记录
-- 呼出位置跟随输入光标
+**🔧 Features**
+- Shortcut key to access clipboard history
+- Cursor-following location retrieval
 
-**💰 早鸟优惠计划**
-- 12 元买断
+**💰 Early Bird Discount Plan**
+- One-time purchase for 12 yuan
 
 ![](/images/roadmap/snap1.png)
 
-## 二期：高效查询 ✅
+## Phase 2: Efficient Search ✅
 
-**📅 上线日期**
-- 2023.8.27
+**📅 Launch Date**
+- August 27, 2023
 
-**🔧 功能**
-- 快速查询更多历史记录📝
-- 支持 pinyin 搜索
+**🔧 Features**
+- Quick access to more clipboard history 📝
+- Support for pinyin search
 
-**💰 早鸟优惠计划**
-- 18 元买断
-- 8.26～8.27 开放
+**💰 Early Bird Discount Plan**
+- One-time purchase for 18 yuan
+- Open from August 26 to August 27
 
 ![](/images/roadmap/snap2.png)
 
-## 三期：图片、文件等多种格式 🕙
-**📅 上线日期**
-- 2023.9.3
+## Phase 3: Support for Various Formats ✅
+**📅 Launch Date**
+- September 4, 2023
 
-**🔧 功能**
-- 支持图片、文件格式
+**🔧 Features**
+- Support for images, files, and other formats
 
-**💰 早鸟优惠计划**
-- 28 元买断
-- 9.1~9.3 开放
+**💰 Early Bird Discount Plan**
+- One-time purchase for 28 yuan
+- Open from September 5 to September 8
 
-## 四期：收藏功能 📅
-**📅 上线日期**
-- 2023.9.10
+## Phase 4: Bookmarking Functionality 🕙
+**📅 Launch Date**
+- September 11, 2023
 
-**🔧 功能**
-- 支持收藏功能
+**🔧 Features**
+- Support for bookmarking functionality
 
-**💰 早鸟优惠计划**
-- 38 元买断
-- 9.8~9.10 开放
+**💰 Early Bird Discount Plan**
+- One-time purchase for 38 yuan
+- Open from September 12 to September 15
 
-## 五期：iCloud 同步 📅
-**📅 上线日期**
-- 2023.9.17
+## Phase 5: iCloud Sync 📅
+**📅 Launch Date**
+- September 18, 2023
 
-**🔧 功能**
-- 支持多端历史记录通过 iCloud 同步
+**🔧 Features**
+- Support for syncing clipboard history across multiple devices via iCloud
 
-**💰 早鸟优惠计划**
-- 48 元买断
-- 9.15~9.17 开放
+**💰 Early Bird Discount Plan**
+- One-time purchase for 48 yuan
+- Open from September 19 to September 22

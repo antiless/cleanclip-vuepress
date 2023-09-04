@@ -3,28 +3,27 @@
   <channel>
     <title>CleanClip</title>
     <link>https://clip.macaify.com/appcast.xml</link>
-    <description>支持更多历史记录，支持搜索</description>
+    <description>支持文件、图片记录，支持预览</description>
     <language>zh</language>
     <item>
-      <title>1.1.1</title>
+      <title>1.2.0</title>
       <description>
         <![CDATA[
           <ul>
-            <li>支持查询更多历史记录📖</li>
-            <li>新增搜索功能🔍</li>
-            <li>添加音效🎵</li>
-            <li>鼠标 hover 时展示详情📗</li>
-            <li>修复了一些 bug</li>
+            <li>支持图片、文件记录📖</li>
+            <li>支持历史记录预览👀</li>
+            <li>支持「fn+数字键」搜索数字🔢</li>
+            <li>添加用户手册📗</li>
           </ul>
         ]]>
       </description>
-      <pubDate>2023-08-28</pubDate>
+      <pubDate>2023-09-04</pubDate>
       <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://clip.macaify.com/releases/download/v1.1.1/CleanClip.app.zip"
-        sparkle:version="10101"
-        sparkle:shortVersionString="1.1.1"
+        url="https://clip.macaify.com/releases/download/v1.2.0/CleanClip.app.zip"
+        sparkle:version="10200"
+        sparkle:shortVersionString="1.2.0"
         length="0"
         type="application/octet-stream"
       />
