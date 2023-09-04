@@ -40,6 +40,8 @@
 - One-time purchase for 28 yuan
 - Open from September 5 to September 8
 
+![](/images/roadmap/phase3.webp)
+
 ## Phase 4: Bookmarking Functionality 🕙
 **📅 Launch Date**
 - September 11, 2023
