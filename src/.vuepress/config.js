@@ -19,6 +19,7 @@ module.exports = {
               ariaLabel: 'Product Menu',
               items: [
                 { text: 'User Manual', link: '/docs/manual.html' },
+                { text: "Preview Video", link: "https://clip.macaify.com/videos/preview.mp4" },
                 { text: 'Changelog', link: '/docs/changelog.html' },
                 { text: 'Roadmap 📅', link: '/docs/roadmap.html' },
               ]
@@ -31,6 +32,7 @@ module.exports = {
                 { text: 'Report an Issue 📮', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
               ]
             },
+            { "text": "Pricing", "link": "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b" }
           ],
           search: false
         },
@@ -50,7 +52,7 @@ module.exports = {
               ariaLabel: '产品介绍菜单',
               items: [
                 { text: '用户手册', link: '/zh/docs/manual.html' },
-                { text: '预览视频', link: '/zh/docs/manual.html' },
+                { text: '预览视频', link: 'https://clip.macaify.com/videos/preview.mp4' },
                 { text: '更新日志', link: '/zh/docs/changelog.html' },
                 { text: '更新计划 📅', link: '/zh/docs/roadmap.html' },
               ]
@@ -64,6 +66,7 @@ module.exports = {
                 { text: '提出建议', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank'}
               ]
             },
+            { text: '价格', link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b' },
           ],
           search: false
         }
