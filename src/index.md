@@ -3,7 +3,7 @@ home: true
 heroImage: https://p.ipic.vip/mdi0sg.png
 tagline: An immersive clipboard management application designed specifically for Mac
 actionText: Free Download and Try
-actionLink: https://clip.macaify.com/releases/download/v1.2.0/CleanClip.app.zip
+actionLink: https://clip.macaify.com/releases/download/v1.2.1/CleanClip.app.zip
 features:
   - title: 💡 Quick Menu with "⌘ + ;"
     details: Quickly access the 5 most recent copied items in any scenario

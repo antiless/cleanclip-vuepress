@@ -1,4 +1,11 @@
 # Release Notes
+
+## 1.2.1
+Date: September 14, 2023
+
+**Update Details**
+- Optimized the pop-up position in the browser.
+
 ## 1.2.0
 Date: September 4, 2023
 
