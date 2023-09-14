@@ -40,4 +40,4 @@ Supports macOS 11.0+.
 Basic features are free to use with no time restrictions. So you can use CleanClip's basic features permanently without paying.
 
 ### 💰 Can I get a refund if I'm not satisfied?
-You can request a refund within 7 days for any reason. Just send an email📧 to cleanclip@gokoding.com, including: [Refund Request], [Your Purchase Email], [Reason for Refund], [Any suggestions or feedback that can help me].## 🙋🏻常见问题
+You can request a refund within 7 days for any reason. Just send an email📧 to cleanclip@gokoding.com, including: [Refund Request], [Your Purchase Email], [Reason for Refund], [Any suggestions or feedback that can help me].
