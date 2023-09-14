@@ -1,7 +1,15 @@
 module.exports = {
     title: 'CleanClip',
     description: 'Mac 上完美的白色家电，专注于沉浸式体验的极简剪贴板应用',
+    theme: 'antdocs',
+    head: [
+      ["link", { rel: "icon", href: "/images/logo.png" }],
+    ],
     themeConfig: {
+      logo: '/images/logo.png',
+      smoothScroll: true,
+      backToTop: true,
+      search: false,
       locales: {
         '/': {
           // text for the language dropdown
@@ -62,8 +70,8 @@ module.exports = {
               ariaLabel: '反馈菜单',
               items: [
                 { text: '跟踪进展🐦', link: 'https://twitter.com/s1ntone', target:'_blank' },
-                { text: '反馈问题📮', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
-                { text: '提出建议', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank'}
+                { text: '反馈问题📮', link: 'https://github.com/auv1107/cleancliprun/issues', target:'_blank'},
+                { text: '申请退款', link: 'mailto:cleanclip@gokoding.com', target:'_blank'}
               ]
             },
             { text: '价格', link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b' },
@@ -75,13 +83,11 @@ module.exports = {
       locales: {
         '/': {
           lang: 'en-US',
-          title: 'CleanClip',
           description: 'Immersive Clipboard Management App Designed Exclusively for Mac',
           search: false
         },
         '/zh/': {
           lang: 'zh-CN',
-          title: 'CleanClip',
           description: '专为 Mac 打造的沉浸式剪贴板管理应用',
           search: false
         }

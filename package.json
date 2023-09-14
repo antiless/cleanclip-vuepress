@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "vuepress": "1.9.7"
+  },
+  "dependencies": {
+    "vuepress-theme-antdocs": "^1.4.6"
   }
 }
