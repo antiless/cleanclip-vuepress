@@ -4,9 +4,7 @@
     "dev": "vuepress dev src",
     "build": "vuepress build src"
   },
-  "engines": {
-    "node": ">=14.0.0 <18.0.0"
-  },
+  "engines": { "node": "18.x" },
   "devDependencies": {
     "vuepress": "1.9.7"
   },
