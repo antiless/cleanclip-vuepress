@@ -1,5 +1,12 @@
 # Release Notes
 
+## 1.2.2
+Date: September 22, 2023
+
+**Update Details**
+- Updated icons
+- Added settings option: Maximum number of saved items/Ignore App
+
 ## 1.2.1
 Date: September 14, 2023
 

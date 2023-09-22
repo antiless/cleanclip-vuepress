@@ -3,14 +3,16 @@
   <channel>
     <title>CleanClip</title>
     <link>https://clip.macaify.com/appcast.xml</link>
-    <description>优化在浏览器中的弹出位置</description>
+    <description>优化弹出位置、更新图标、添加设置项</description>
     <language>zh</language>
     <item>
-      <title>1.2.1</title>
+      <title>1.2.2</title>
       <description>
         <![CDATA[
           <ul>
             <li>优化在浏览器中的弹出位置🌍</li>
+            <li>添加设置项：最大保存条数/忽略App</li>
+            <li>更新图标</li>
           </ul>
         ]]>
       </description>
@@ -18,9 +20,9 @@
       <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://clip.macaify.com/releases/download/v1.2.1/CleanClip.app.zip"
-        sparkle:version="10201"
-        sparkle:shortVersionString="1.2.1"
+        url="https://clip.macaify.com/releases/download/v1.2.2/CleanClip.app.zip"
+        sparkle:version="10202"
+        sparkle:shortVersionString="1.2.2"
         length="0"
         type="application/octet-stream"
       />

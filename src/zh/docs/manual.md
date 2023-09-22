@@ -1,5 +1,11 @@
 # 用户手册
 
+<video autoplay muted loop width=700>
+    <source src="/videos/search.mp4" type="video/mp4">
+    <iframe width="700" src="/videos/search.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</video>
+
+
 ## 快捷键操作
 - Tab: 展开/下一页
 - Shift+Tab: 上一页
@@ -12,7 +18,13 @@
 ## 操作技巧
 
 ### ⌘H 查看操作提示
-如果忘记了操作按键，可以 ⌘H 或点击右下角的「操作提示」查看快捷键。
+如果忘记了操作按键，可以 `⌘H` 或点击右下角的 `操作提示` 查看快捷键。
+
+<img src=/images/helptip.webp width="500"/>
+
+<br/>
+<br/>
+<br/>
 
 ### Space 长按/短按效果不同
 长按 Space 临时预览。按住不放后预览，松开后预览消失。
@@ -20,16 +32,52 @@
 
 预览过程中，仍然可以按 Tab/上下键翻页或切换选项，预览状态下移动鼠标🖱️也可切换预览的项。
 
-### 如何查看图片、文件
+<video autoplay muted loop width=500>
+    <source src="/videos/spacetopreview.mp4" type="video/mp4">
+    <iframe width="500" src="/videos/spacetopreview.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</video>
+
+<br/>
+<br/>
+<br/>
+
+### 查看图片、文件
 搜索「image」「file」可筛选出所有图片、文件
+
+<video autoplay muted loop width=300>
+    <source src="/videos/searchimagefile.mp4" type="video/mp4">
+    <iframe width="300" src="/videos/searchimagefile.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</video>
+
+<br/>
+<br/>
+<br/>
 
 ### 查找链接
 搜索「http」
+
+<video autoplay muted loop width=300>
+    <source src="/videos/searchhttp.mp4" type="video/mp4">
+    <iframe width="300" src="/videos/searchhttp.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</video>
+
+<br/>
+<br/>
+<br/>
 
 ### 我想选取文字记录中的一部分来粘贴
 1. 预览目标字符串
 2. 鼠标在预览弹窗中选择部分文字
 3. 「⌘ + C」复制
+
+<video autoplay muted loop width=700>
+    <source src="/videos/selectpart.mp4" type="video/mp4">
+    <iframe width="700" src="/videos/selectpartsm.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</video>
+
+<br/>
+<br/>
+<br/>
 
 ## 用户场景
 

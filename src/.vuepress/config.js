@@ -1,6 +1,6 @@
 module.exports = {
     title: 'CleanClip',
-    description: 'Mac 上完美的白色家电，专注于沉浸式体验的极简剪贴板应用',
+    description: '专为 Mac 打造的沉浸式剪贴板管理应用',
     theme: 'antdocs',
     head: [
       ["link", { rel: "icon", href: "/images/logo.png" }],
@@ -21,13 +21,12 @@ module.exports = {
             // { text: 'Phase 2 Demo Video', link: 'https://clip.macaify.com/videos/search.mp4' },
             // { text: 'Early Bird Phase 2 Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
             // { text: 'Join the Group for 50% Off for Users in China', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
-            { text: 'Early Bird Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
+            // { text: 'Early Bird Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
             {
               text: 'Product',
               ariaLabel: 'Product Menu',
               items: [
                 { text: 'User Manual', link: '/docs/manual.html' },
-                { text: "Preview Video", link: "https://clip.macaify.com/videos/preview.mp4" },
                 { text: 'Changelog', link: '/docs/changelog.html' },
                 { text: 'Roadmap 📅', link: '/docs/roadmap.html' },
               ]
@@ -54,13 +53,12 @@ module.exports = {
             // { text: '二期演示视频', link: 'https://clip.macaify.com/videos/search.mp4' },
             // { text: '早鸟二期优惠 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
             // { text: '国区用户进群获取五折优惠码', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
-            { text: '早鸟优惠🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
+            // { text: '早鸟优惠🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
             {
               text: '产品介绍',
               ariaLabel: '产品介绍菜单',
               items: [
                 { text: '用户手册', link: '/zh/docs/manual.html' },
-                { text: '预览视频', link: 'https://clip.macaify.com/videos/preview.mp4' },
                 { text: '更新日志', link: '/zh/docs/changelog.html' },
                 { text: '更新计划 📅', link: '/zh/docs/roadmap.html' },
               ]
