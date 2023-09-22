@@ -39,7 +39,7 @@ module.exports = {
                 { text: 'Report an Issue 📮', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
               ]
             },
-            { "text": "Pricing", "link": "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b" }
+            { "text": "Pricing", "link": "https://clip-purchase.macaify.com" }
           ],
           search: false
         },
@@ -72,7 +72,7 @@ module.exports = {
                 { text: '申请退款', link: 'mailto:cleanclip@gokoding.com', target:'_blank'}
               ]
             },
-            { text: '价格', link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b' },
+            { text: '价格', link: 'https://clip-purchase.macaify.com' },
           ],
           search: false
         }
