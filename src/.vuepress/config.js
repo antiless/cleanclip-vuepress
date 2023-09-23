@@ -4,6 +4,9 @@ module.exports = {
     theme: 'antdocs',
     head: [
       ["link", { rel: "icon", href: "/images/logo.png" }],
+      ['meta', { property: 'og:title', content: 'CleanClip for Mac' }],
+      ['meta', { property: 'og:description', content: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.' }],
+      ['meta', { property: 'og:image', content: '/images/hero.png' }],
     ],
     themeConfig: {
       logo: '/images/logo.png',
