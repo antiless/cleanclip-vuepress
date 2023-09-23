@@ -6,8 +6,10 @@ module.exports = {
       ["link", { rel: "icon", href: "/images/logo.png" }],
       ['meta', { property: 'og:title', content: 'CleanClip - Rediscover the Value of Clipboard Content' }],
       ['meta', { property: 'og:description', content: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.' }],
-      ['meta', { property: 'og:image', content: '/images/hero.png' }],
+      ['meta', { property: 'og:image', content: 'https://cleanclip.cc//images/hero.png' }],
       ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
+      ['meta', { property: 'og:type', content: 'website' }],
+      ['meta', { name: 'robots', content: 'index,follow' }],
       ['meta', { name: "twitter:card", content: "summary_large_image"}],
       ['meta', { name: "twitter:site", content: "@s1ntone"}],
       ['meta', { name: "twitter:creator", content: "@s1ntone"}]
