@@ -4,9 +4,13 @@ module.exports = {
     theme: 'antdocs',
     head: [
       ["link", { rel: "icon", href: "/images/logo.png" }],
-      ['meta', { property: 'og:title', content: 'CleanClip for Mac' }],
+      ['meta', { property: 'og:title', content: 'CleanClip - Rediscover the Value of Clipboard Content' }],
       ['meta', { property: 'og:description', content: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.' }],
       ['meta', { property: 'og:image', content: '/images/hero.png' }],
+      ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
+      ['meta', { name: "twitter:card", content: "summary_large_image"}],
+      ['meta', { name: "twitter:site", content: "@s1ntone"}],
+      ['meta', { name: "twitter:creator", content: "@s1ntone"}]
     ],
     themeConfig: {
       logo: '/images/logo.png',
@@ -84,12 +88,12 @@ module.exports = {
       locales: {
         '/': {
           lang: 'en-US',
-          description: 'Immersive Clipboard Management App Designed Exclusively for Mac',
+          description: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
           search: false
         },
         '/zh/': {
           lang: 'zh-CN',
-          description: '专为 Mac 打造的沉浸式剪贴板管理应用',
+          description: '专为 Mac 打造的沉浸式剪贴板管理工具，在你的输入位置快速查询、预览、使用剪贴板历史记录',
           search: false
         }
       }
