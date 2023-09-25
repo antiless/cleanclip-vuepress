@@ -1,6 +1,12 @@
 module.exports = {
     title: 'CleanClip',
     description: '专为 Mac 打造的沉浸式剪贴板管理应用',
+    plugins: [
+      [
+        'vuepress-plugin-sitemap',
+        { hostname: 'https://cleanclip.cc' }
+      ]
+    ],
     theme: 'antdocs',
     head: [
       ["link", { rel: "icon", type: "image/ico", href: "/images/favicon.ico" }],
@@ -14,7 +20,7 @@ module.exports = {
       ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card.png' }],
       ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
       ['meta', { property: 'og:type', content: 'website' }],
-      ['meta', { name: 'robots', content: 'index,follow' }],
+      ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard'}],
       ['meta', { name: "twitter:card", content: "summary_large_image"}],
       ['meta', { name: "twitter:site", content: "@s1ntone"}],
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],

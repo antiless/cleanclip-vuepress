@@ -11,6 +11,7 @@
     "vuepress": "1.9.7"
   },
   "dependencies": {
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-antdocs": "^1.4.6"
   }
 }
