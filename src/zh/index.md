@@ -41,3 +41,6 @@ footer: Made by ❤️Sintone Li
 
 ### 💰 不满意是否可以退款？
 可以 7 天无理由退款，只需要发邮件📧到 cleanclip@gokoding.com，内容包括：【退款申请】【你的购买邮箱】【退款理由】【可以帮助到我的建议或意见】。
+
+### 👩‍🎓🧑‍🎓有无教育优惠？
+使用教育邮箱发送📧邮件至 cleanclip.edu@gokoding.com 可获取教育五折优惠！

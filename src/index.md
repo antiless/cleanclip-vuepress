@@ -41,3 +41,6 @@ The basic features are free to use with no time restrictions. So you can use Cle
 
 ### 💰 Can I get a refund if I'm not satisfied?
 You can request a refund within 7 days for any reason. Just send an email📧 to cleanclip@gokoding.com, including: [Refund Request], [Your Purchase Email], [Reason for Refund], [Any suggestions or feedback that can help me].
+
+### 👩‍🎓🧑‍🎓Are there any educational discounts?
+You can send an email to cleanclip.edu@gokoding.com using your educational email to get a 50% educational discount!
