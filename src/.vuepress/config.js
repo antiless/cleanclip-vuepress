@@ -26,7 +26,8 @@ module.exports = {
       ['meta', { name: "twitter:site", content: "@s1ntone"}],
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],
       ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card.png"}],
-      ['script', { src: '/js/base.js' }]
+      ['script', { src: '/js/base.js' }],
+      ['script', { src: '/js/enhanceApp.js' }],
     ],
     themeConfig: {
       logo: '/images/logo.png',

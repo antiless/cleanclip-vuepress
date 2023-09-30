@@ -30,14 +30,56 @@
     letter-spacing: 1px !important;
 }
 
-table, th, td {
-    border: none;
-}
+.home {
+    table, th, td {
+        border: none;
+    }
 
-thead, tr{
-    border: none;
-}
+    thead, tr{
+        border: none;
+    }
 
-td {
-    font-size: x-large;
+    td {
+        font-size: x-large;
+    }
+
+    td:first {
+        padding-right: 0.5rem;
+    }
+    td:first-child {
+        padding-right: 0.5rem;
+    }
+
+    td:second-child {
+        padding-left: 0.5rem;
+    }
+
+    th, td {
+        padding: 0 0 1.5rem 0;
+    }
+
+    tr {
+        vertical-align: top;
+    }
+
+    thead {
+        display: none;
+    }
+
+    /* 去掉表格隔行背景色 */
+    table tr:nth-child(even) {
+        background-color: transparent !important;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+
+    .header-anchor {
+        display: none;
+    }
 }

@@ -16,16 +16,20 @@ actions:
     size: large
     shape: circle
 features:
-  - title: 💡 随时使用
-    details: 任意场景「 ⌘ + ; 」一键呼出，查看、搜索、预览、使用你的所有记录
+  - title: 📥 自动保存
+    details: 自动保存复制记录，无需担心丢失重要内容
+  - title: 🚀 快速使用
+    details: 任意场景：「 ⌘ + ; 」呼出，Space 预览，🔢 粘贴，无比丝滑
+  - title: 🌈 全格式支持
+    details: 支持包括图片、文件在内的所有可复制格式
   - title: ⌨️ 沉浸式弹窗
     details: 无需切换视野焦点，弹窗总在编辑框位置出现
   - title: 🔍 快速搜索
     details: 键入字母快速搜索，再久远的记录也瞬间找到
-  - title: 🌈 全格式支持
-    details: 支持包括图片、文件在内的所有可复制格式
-  - title: 📱同步手机端记录
+  - title: 📱 Mac 查看手机端记录
     details: 开启 iCloud 后，手机端复制的文字、图片记录可以在 Mac 上查看
+  - title: 🔜 即将推出
+    details: 固定记录、iCloud 同步、更强大的内容管理即将到来，敬请期待！
   - title: 
     details: 
 footer: Made by ❤️Sintone Li
