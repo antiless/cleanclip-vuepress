@@ -1,29 +1,50 @@
 # CleanClip Roadmap
 
 ## In Progress 🕙
-### Phase 4: Bookmarking Feature🌟
+### Phase 4: Pinned Copy Items🌟
 **📅 Launch Date**
-- September 11, 2023
+- To be determined
 
 **🔧 Features**
-- Support for bookmarking feature
-
-**💰 Early Bird Discount Plan**
-- One-time purchase for 38 yuan
-- Open from September 12 to September 15
+- Support for pinning specified copy items
 
 ## Planned
 
 ### Phase 5: iCloud Sync 📅
 **📅 Launch Date**
-- September 18, 2023
+- To be determined
 
 **🔧 Features**
-- Support for syncing history records across multiple devices via iCloud
+- Support for syncing multi-platform history records via iCloud
 
-**💰 Early Bird Discount Plan**
-- One-time purchase for 48 yuan
-- Open from September 19 to September 22
+
+### Copy Stack
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Support for copy stack, allowing users to continuously paste and pop the recently pasted content by pressing CMD + V
+
+### iOS Version
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Support for sharing records between Mac and mobile devices
+
+### Smart Lists and Group Management
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Extension of fixed features, with smart lists, grouping, and more
+
+### Webpage Source
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Specific source attribution to a webpage
 
 ## Completed
 ### Phase 1: Basic Features ✅
@@ -32,11 +53,8 @@
 - August 19, 2023
 
 **🔧 Features**
-- Quick access to history records using keyboard shortcuts
-- History panel follows the input cursor
-
-**💰 Early Bird Discount Plan**
-- One-time purchase for 12 yuan
+- Shortcut key to access history records
+- Follows the input cursor position when invoked
 
 ![](/images/roadmap/snap1.png)
 
@@ -49,21 +67,13 @@
 - Quick search for more history records📝
 - Support for pinyin search
 
-**💰 Early Bird Discount Plan**
-- One-time purchase for 18 yuan
-- Open from August 26 to August 27
-
 ![](/images/roadmap/snap2.png)
 
-### Phase 3: Support for Various Formats (Images, Files, etc.) ✅
+### Phase 3: Various Formats (Images, Files, etc.) ✅
 **📅 Launch Date**
 - September 4, 2023
 
 **🔧 Features**
 - Support for images, files, and other formats
-
-**💰 Early Bird Discount Plan**
-- One-time purchase for 28 yuan
-- Open from September 5 to September 8
 
 ![](/images/roadmap/phase3.webp)
