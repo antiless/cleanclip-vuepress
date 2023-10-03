@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/hero.png
+heroImage: /images/hero.webp
 heroText: Rediscover the Value of Clipboard Content
 tagline: An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.
 actions:
