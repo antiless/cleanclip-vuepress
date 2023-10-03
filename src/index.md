@@ -5,7 +5,7 @@ heroText: Rediscover the Value of Clipboard Content
 tagline: An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.
 actions:
   - text: Try it Free
-    link: https://clip.macaify.com/releases/download/v1.2.2/CleanClip.app.zip
+    link: https://cleanclip.cc/releases/download/v1.2.2/CleanClip.app.zip
     type: primary
     size: large
     shape: round

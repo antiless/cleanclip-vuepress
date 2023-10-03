@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>CleanClip</title>
-    <link>https://clip.macaify.com/appcast.xml</link>
+    <link>https://cleanclip.cc/appcast.xml</link>
     <description>优化弹出位置、更新图标、添加设置项</description>
     <language>zh</language>
     <item>
@@ -20,7 +20,7 @@
       <releaseNotesLink>https://clip.macaify.com/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://clip.macaify.com/releases/download/v1.2.2/CleanClip.app.zip"
+        url="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.app.zip"
         sparkle:version="10202"
         sparkle:shortVersionString="1.2.2"
         length="0"

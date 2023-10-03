@@ -27,7 +27,7 @@ module.exports = {
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],
       ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card.png"}],
       ['script', { src: '/js/base.js' }],
-      ['script', { src: '/js/enhanceApp.js' }],
+      // ['script', { src: '/js/enhanceApp.js' }],
     ],
     themeConfig: {
       logo: '/images/logo.png',
@@ -40,6 +40,7 @@ module.exports = {
           selectText: 'Languages',
           // label for this locale in the language dropdown
           label: 'English',
+          lastUpdated: 'Last Updated',
           nav: [
             // { text: 'Phase 1 Demo Video', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
             // { text: 'Phase 2 Demo Video', link: 'https://clip.macaify.com/videos/search.mp4' },
@@ -72,6 +73,7 @@ module.exports = {
           selectText: '选择语言',
           // label for this locale in the language dropdown
           label: '简体中文',
+          lastUpdated: '最近更新',
           nav: [
             // { text: '一期演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
             // { text: '二期演示视频', link: 'https://clip.macaify.com/videos/search.mp4' },
