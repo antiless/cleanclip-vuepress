@@ -20,7 +20,7 @@ module.exports = {
       ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card.png' }],
       ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
       ['meta', { property: 'og:type', content: 'website' }],
-      ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app'}],
+      ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app'}],
       ['meta', { name: "robots", content: "index,follow"}],
       ['meta', { name: "twitter:card", content: "summary_large_image"}],
       ['meta', { name: "twitter:site", content: "@s1ntone"}],
