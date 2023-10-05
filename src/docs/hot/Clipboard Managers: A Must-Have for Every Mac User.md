@@ -2,7 +2,7 @@
 
 Listen up, folks. I've got something important to share with you all today. It's about **clipboard managers** - those handy little utilities that save everything you copy or cut to an easy-to-access history. 
 
-Now I know what you're thinking: *"Clipboard managers? Those are for, like, mega nerds🤓️ and productivity geeks😎!"* 
+Now I know what you're thinking: _"Clipboard managers? Those are for, like, mega nerds🤓️ and productivity geeks😎!"_
 
 ![Clipboard managers? Those are for, like, mega nerds🤓️ and productivity geeks😎!](https://media.giphy.com/media/eU2sRBEme4GIM/giphy.gif)
 
@@ -46,7 +46,7 @@ Once you try a dedicated clipboard tool, you'll never go back to the limited def
 
 ## See Clipboard Manager is Cool！
 
-If I've convinced you to get a clipboard manager, 🙏 check out [CleanClip](https://cleanclip.cc). It's a brand new Mac clipboard tool built for simplicity and speed.
+If I've convinced you to get a clipboard manager, check out [CleanClip](https://cleanclip.cc). It's a brand new Mac clipboard tool built for simplicity and speed.
 
 ![I need to use a clipboard manager right away](https://media.giphy.com/media/MXJQinVv3o4NwcaRhA/giphy.gif)
 
