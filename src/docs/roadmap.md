@@ -1,4 +1,13 @@
-# CleanClip Roadmap
+---
+tags:
+  - macOS Clipboard Manager
+  - best macOS Clipboard Manager
+
+canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
+
+---
+
+# Roadmap 📅
 
 ## In Progress 🕙
 ### Phase 4: Pinned Copy Items🌟
@@ -18,7 +27,7 @@
 - Support for syncing multi-platform history records via iCloud
 
 
-### Copy Stack
+### Copy&Paste Sequence
 **📅 Launch Date**
 - To be determined
 

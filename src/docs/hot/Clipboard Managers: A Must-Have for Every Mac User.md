@@ -1,3 +1,7 @@
+---
+canonicalUrl: '/docs/hot/musthaveforeverymacuser'
+---
+
 # Clipboard Managers: A Must-Have for Every Mac User
 
 Listen up, folks. I've got something important to share with you all today. It's about **clipboard managers** - those handy little utilities that save everything you copy or cut to an easy-to-access history. 

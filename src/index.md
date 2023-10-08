@@ -10,7 +10,7 @@ actions:
     size: large
     shape: round
   - text: Why Do You Need Clipboard Management?🫵🏻
-    link: /docs/whyyouneedclipboardmanager
+    link: /docs/hot/Clipboard%20Managers:%20A%20Must-Have%20for%20Every%20Mac%20User.html
     type: primary
     ghost: true
     size: large
@@ -33,6 +33,8 @@ features:
 - title: 
   details: 
 footer: Made by ❤️Sintone Li
+canonicalUrl: 'https://cleanclip.cc/'
+
 ---
 
 </br>
@@ -69,6 +71,3 @@ You can request a refund within 7 days for any reason. Just send an email📧 to
 
 ### 👩‍🎓🧑‍🎓Are there any educational discounts?
 You can send an email to cleanclip.edu@gokoding.com using your educational email to get a 50% educational discount!
-
-<CustomComponent/>
-<custom-component/>

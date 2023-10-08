@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/changelog'
+---
+
 # Release Notes
 
 ## 1.2.2

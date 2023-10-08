@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/whyyouneedclipboardmanager'
+---
+
 # Why do you need a clipboard manager
 
 ## Why clipboard content is important
@@ -14,6 +18,3 @@ It eliminates the tedious steps of opening other applications to create new note
 
 ### Instant access
 Having a clipboard manager means you can build your own knowledge repository and manage data, gain inspiration, and complete work more efficiently. It will become your most practical creative assistant and work partner.
-
-<custom-component/>
-<CustomComponent/>

@@ -33,6 +33,7 @@ features:
   - title: 
     details: 
 footer: Made by ❤️Sintone Li
+canonicalUrl: 'https://cleanclip.cc/zh'
 ---
 
 ---

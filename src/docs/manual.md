@@ -1,3 +1,8 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/manual'
+---
+
+
 # User Manual
 
 <video autoplay muted loop width=700>

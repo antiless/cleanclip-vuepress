@@ -1,7 +1,16 @@
+const autometa_options = {
+  site: {
+    name   : 'CleanClip - macOS Clipboard Manager',
+    twitter: 's1ntone',
+  },
+  canonical_base: 'https://cleanclip.cc',
+};
+
 module.exports = {
     title: 'CleanClip',
     description: '专为 Mac 打造的沉浸式剪贴板管理应用',
     plugins: [
+      [ require('./plugins/autometa'), autometa_options ],
       [
         'vuepress-plugin-sitemap',
         { hostname: 'https://cleanclip.cc' }

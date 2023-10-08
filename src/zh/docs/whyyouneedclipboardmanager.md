@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/whyyouneedclipboardmanager'
+---
+
 # 为什么你需要一款剪贴板管理软件
 
 ## 为什么剪贴板内容重要

@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/manual'
+---
+
 # 用户手册
 
 <video autoplay muted loop width=700>

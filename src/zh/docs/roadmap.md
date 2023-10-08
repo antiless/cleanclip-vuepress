@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
+---
+
 # CleanClip 规划路线
 
 ## 正在做🕙

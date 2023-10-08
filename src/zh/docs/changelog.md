@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
+---
+
 # 更新日志
 
 ## 1.2.2

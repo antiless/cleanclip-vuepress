@@ -1,3 +1,7 @@
+---
+canonicalUrl: '/docs/hot/AnUnderratedUtility'
+---
+
 # Clipboard Managers: An Underrated Utility
 
 We’ve all done it before - you copy some text or an image to paste elsewhere, only to accidentally copy over it before pasting.
