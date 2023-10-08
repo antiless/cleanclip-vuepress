@@ -8,7 +8,7 @@ const autometa_options = {
 
 module.exports = {
     title: 'CleanClip',
-    description: '专为 Mac 打造的沉浸式剪贴板管理应用',
+    description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
       [
