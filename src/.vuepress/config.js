@@ -1,9 +1,9 @@
 const autometa_options = {
   site: {
-    name   : 'CleanClip - macOS Clipboard Manager',
-    twitter: 's1ntone',
+    name   : 'CleanClip - macOS Clipboard Manager'
   },
-  canonical_base: 'https://cleanclip.cc',
+  twitter: false,
+  canonical_base: 'https://cleanclip.cc'
 };
 
 module.exports = {
