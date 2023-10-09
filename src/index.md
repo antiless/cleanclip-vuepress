@@ -2,34 +2,34 @@
 home: true
 heroImage: /images/hero.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
-tagline: An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.
+tagline: Search and use everything you copy right at the input position, not in the menu bar 1000 miles away.
 actions:
-  - text: Try it Free
+  - text: Get 2x productivity - for Free
     link: https://cleanclip.cc/releases/download/v1.2.2/CleanClip.app.zip
     type: primary
     size: large
     shape: round
-  - text: Why Do You Need Clipboard Management?🫵🏻
-    link: /docs/hot/Clipboard%20Managers:%20A%20Must-Have%20for%20Every%20Mac%20User.html
+  - text: User Manual
+    link: /docs/manual
     type: primary
     ghost: true
     size: large
-    shape: circle
+    shape: round
 features:
-- title: 📥 Auto Save
-  details: Automatically save copied records, no need to worry about losing important content.
-- title: 🚀 Quick and Easy to Use
-  details: Works in any scenario： "⌘ + ;" to bring up, Space to preview, 🔢 to paste, incredibly smooth.
-- title: 🌈 Full Format Support
-  details: Supports all copyable formats, including images and files.
-- title: ⌨️ Immersive Pop-up Window
-  details: Pop-up window appears at the editing field position without switching focus.
+- title: 📥 Auto Save Copies
+  details: No need to worry about losing important content.
+- title: 🚀 Easy to Use
+  details: ⌘ + ; to bring up, 0-9 to paste, incredibly smooth.
+- title: 🌈 Full Format
+  details: Supports all copyable formats, text, link, images, files and more.
+- title: ⌨️ Input-focused Menu
+  details: The pop-up menu appears right at the input position.
 - title: 🔍 Quick Search
-  details: Type a letter to quickly search, even the oldest records can be found instantly.
+  details: Type a letter to instantly search and find even the oldest records.
 - title: 📱 View iPhone Records on Mac
-  details: With iCloud enabled, text and image records copied on your phone can be viewed on your Mac.
+  details: Copy text and images on phone to view on Mac.
 - title: 🔜 Coming Soon
-  details: Pinned records, iCloud sync, and more powerful content management are coming soon. Stay tuned!
+  details: Pinned records, iCloud sync, paste sequences are coming soon. Stay tuned!
 - title: 
   details: 
 footer: Made by ❤️Sintone Li
@@ -41,7 +41,7 @@ canonicalUrl: 'https://cleanclip.cc/'
 </br>
 </br>
 
-# 🎉 Meet CleanClip Users
+## 🎉 Meet CleanClip Users
 #### From Reddit, the most genuine users all love CleanClip!
 
 </br>
@@ -56,18 +56,50 @@ canonicalUrl: 'https://cleanclip.cc/'
 </br>
 </br>
 
-# 🙋🏻 Frequently Asked Questions
+<div class="faq">
+
+## 🙋🏻 Frequently Asked Questions
 
 </br>
 
 ### 💻 Supported System Versions?
-Supports macOS 11.0+.
+> Supports macOS 11.0+.
 
 ### 🆓 Can I try it for free?
-The basic features are free to use with no time restrictions. So you can use CleanClip's basic features permanently without paying.
+> All features are available for free for 30 days.
 
 ### 💰 Can I get a refund if I'm not satisfied?
-You can request a refund within 7 days for any reason. Just send an email📧 to cleanclip@gokoding.com, including: [Refund Request], [Your Purchase Email], [Reason for Refund], [Any suggestions or feedback that can help me].
+> No, we offer a free trial, allowing you to make payment only after you are satisfied with the trial.
 
 ### 👩‍🎓🧑‍🎓Are there any educational discounts?
-You can send an email to cleanclip.edu@gokoding.com using your educational email to get a 50% educational discount!
+> You can send an email to <a href="mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License">edu@cleanclip.cc</a> using your educational email to get a **50% educational discount**!
+
+### 🕵️Are there any discounts for other clipboard manager users?
+> You can send an email to <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2050%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a> using your email to get a **50% veteran discount**!
+
+</div>
+
+</br>
+</br>
+</br>
+
+
+## 🚀 Productivity 10x is not easy, 2x first
+
+</br>
+</br>
+
+<div style="display: flex; justify-content: center;">
+  <div style="text-align: center">
+    <img src="/images/twitter_card.webp"/>
+    <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
+      <a href="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.app.zip" target="_blank">
+                    Get 2x productivity - for Free
+      </a>
+    </button>
+  </div>
+</div>
+
+</br>
+</br>
+</br>
