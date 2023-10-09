@@ -1,5 +1,5 @@
 ---
-canonicalUrl: '/docs/hot/musthaveforeverymacuser'
+canonicalUrl: 'https://cleanclip.cc/docs/hot/musthaveforeverymacuser'
 ---
 
 # Clipboard Managers: A Must-Have for Every Mac User
