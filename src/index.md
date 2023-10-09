@@ -93,7 +93,7 @@ canonicalUrl: 'https://cleanclip.cc/'
   <div style="text-align: center">
     <img src="/images/twitter_card.webp"/>
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
-      <a href="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.app.zip" target="_blank">
+      <a href="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg" target="_blank">
                     Get 2x productivity - for Free
       </a>
     </button>
