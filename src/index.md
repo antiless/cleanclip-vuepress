@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/hero.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
-tagline: Search and use everything you copy right at the input position, not in the menu bar 1000 miles away.
+tagline: Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.
 actions:
   - text: Get 2x productivity - for Free
     link: https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg
