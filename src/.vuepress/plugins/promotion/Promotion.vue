@@ -11,7 +11,7 @@
         <div class="">
           <span class="text-xl pr-4 m-auto">Discount code: <b>EARLYBIRD</b></span>
           <a href="https://clip-purchase.macaify.com/" target="_blank">
-            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-md font-semibold">Get Pro Access - <b>$9.99</b> <del class="text-base text-slate-400">$19.99</del></button>
+            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">Get Pro Access - <b>$9.99</b> <del class="text-base text-slate-400">$19.99</del></button>
           </a>
         </div>
       </div>
