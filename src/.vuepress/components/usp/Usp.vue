@@ -1,17 +1,17 @@
 <template>
   <div @mousedown.left="onMouseDown">
-    <vue-horizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
+    <VueHorizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
       <i class="pl"></i>
       <div class="item" v-for="(item, index) in items" :key="index">
           <UseCase class="max-w-md" :usecase="item" />
       </div>
-    </vue-horizontal>
+    </VueHorizontal>
   </div>
 </template>
 
 <script>
 import UseCase from '../usecase/UseCase.vue'
-import VueHorizontal from 'vue-horizontal';
+import VueHorizontal from '../vue-horizontal.vue';
 
 export default {
   components: {

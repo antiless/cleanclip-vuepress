@@ -11,7 +11,7 @@
 
 <script>
 import UseCase from './UseCase.vue'
-import VueHorizontal from 'vue-horizontal';
+import VueHorizontal from '../vue-horizontal.vue';
 
 export default {
   components: {

@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import VueHorizontal from 'vue-horizontal';
+import VueHorizontal from './vue-horizontal.vue';
 
 export default {
   name: 'MeetUsers',
