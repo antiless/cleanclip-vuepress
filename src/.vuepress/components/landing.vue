@@ -9,6 +9,7 @@
 
 <script>
 export default {
+  name: "CustomComponent",
   methods: {
     copyCode() {
       const code = "YOUR_DISCOUNT_CODE"; // 替换为你的优惠码

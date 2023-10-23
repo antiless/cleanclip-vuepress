@@ -154,12 +154,13 @@ export default {
 
 .home {
   padding: @navbarHeight 2rem 0;
-  max-width: @homePageWidth;
   margin: 0px auto;
   display: block;
   margin-bottom: 40px;
 
   .hero {
+    max-width: @homePageWidth;
+    margin: 0px auto;
     text-align: center;
 
     .hero-logo {
@@ -189,6 +190,8 @@ export default {
   }
 
   .features {
+    max-width: @homePageWidth;
+    margin: 0px auto;
     padding: 1.2rem 0;
     margin-top: 2.5rem;
     display: flex;
