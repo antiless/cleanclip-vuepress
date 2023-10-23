@@ -49,7 +49,7 @@ canonicalUrl: 'https://cleanclip.cc/zh'
   <div class="usecase">
 
   ## 👩‍💻 人们如何使用 CleanClip
-  #### 不同岗位的人是如何使用 CleanClip 提高生产力的？
+  #### 不同职业的人是如何使用 CleanClip 提高生产力的？
 
   <usecase-UseCases/>
 
