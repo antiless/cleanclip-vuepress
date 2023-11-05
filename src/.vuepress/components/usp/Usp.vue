@@ -57,7 +57,7 @@ export default {
           poster: "/images/clean.webp"
         },
         {
-          title: "Follow the text cursor",
+          title: "Nearby Text Cursor",
           subtitle: "Context switching interrupts the flow of thoughts and can be very annoying. We have taken \"refusing context switching\" to the extreme by displaying it at the text input position.",
           video: "/videos/followcursornoshadow265.mp4",
           poster: "/images/followcursornoshadow.webp"
