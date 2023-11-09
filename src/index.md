@@ -5,7 +5,7 @@ heroText: The cleanest Clipboard Manager on macOS, ever!
 tagline: Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.
 actions:
   - text: Get 2x productivity - for Free
-    link: https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg
+    link: https://cleanclip.cc/releases/download/v1.3.0/CleanClip.dmg
     type: primary
     size: large
     shape: round
@@ -26,6 +26,8 @@ features:
   details: The pop-up menu appears right at the input position.
 - title: 🔍 Quick Search
   details: Type a letter to instantly search and find even the oldest records.
+- title: 🔖 Paste Stack
+  details: Copy content consecutively into a queue, then paste them in order
 - title: 📱 View iPhone Records on Mac
   details: Copy text and images on phone to view on Mac.
 - title: 🔜 Coming Soon

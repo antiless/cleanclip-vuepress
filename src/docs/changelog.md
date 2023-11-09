@@ -4,6 +4,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 1.3.0
+Date: 2023.11.9
+
+**Update Details**
+- Added paste stack feature
+- Fixed some bugs
+
 ## 1.2.2
 Date: September 22, 2023
 

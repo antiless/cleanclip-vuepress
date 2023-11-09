@@ -10,16 +10,20 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 # Roadmap 📅
 
 ## In Progress 🕙
-### Phase 4: Pinned Copy Items🌟
+
+### Phase 5: Enhanced Management Features
 **📅 Launch Date**
-- To be determined
+- November 19, 2023
 
 **🔧 Features**
-- Support for pinning specified copy items
+- Major Feature 1: Collections and Smart Lists! Intelligently manage, browse, and utilize your browsing history.
+- Major Feature 2: Drag and Drop! Everything is draggable! Enhance efficiency in recording and content creation. User-friendly for content collectors and creators.
+- Major Feature 3: Professional Functionality! Regular expression filtering → sed script processing, solving complex workflow scenarios.
+
 
 ## Planned
 
-### Phase 5: iCloud Sync 📅
+### Phase 6: iCloud Sync 📅
 **📅 Launch Date**
 - To be determined
 
@@ -86,3 +90,10 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 - Support for images, files, and other formats
 
 ![](/images/roadmap/phase3.webp)
+
+### Phase 4: Paste Stack🌟
+**📅 Launch Date**
+- 2023.11.09
+
+**🔧 Features**
+- Copy content consecutively into a queue, then paste them in order

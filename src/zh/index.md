@@ -4,8 +4,8 @@ heroImage: /images/hero.webp
 heroText: 重新重视剪贴板内容的价值
 tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，在你的输入位置快速查询、预览、使用剪贴板历史记录
 actions:
-  - text: 免费获取 2 倍生产力
-    link: https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg
+  - text: 获取 2 倍生产力 - 免费
+    link: https://cleanclip.cc/releases/download/v1.3.0/CleanClip.dmg
     type: primary
     size: large
     shape: round
@@ -26,6 +26,8 @@ features:
     details: 无需切换视野焦点，弹窗总在编辑框位置出现
   - title: 🔍 快速搜索
     details: 键入字母快速搜索，再久远的记录也瞬间找到
+  - title: 🔖 粘贴队列
+    details: 连续复制内容到一个队列中，使用 CMD+V 会按顺序依次粘贴
   - title: 📱 Mac 查看手机端记录
     details: 开启 iCloud 后，手机端复制的文字、图片记录可以在 Mac 上查看
   - title: 🔜 即将推出

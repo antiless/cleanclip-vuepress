@@ -4,6 +4,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 1.3.0
+日期: 2023.11.9
+
+**更新内容**
+- 新增粘贴队列
+- 修复一些 bug
+
 ## 1.2.2
 日期: 2023.9.22
 
