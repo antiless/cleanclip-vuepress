@@ -3,27 +3,25 @@
   <channel>
     <title>CleanClip</title>
     <link>https://cleanclip.cc/appcast.xml</link>
-    <description>Add Paste Stack</description>
+    <description>添加粘贴队列</description>
     <language>zh</language>
     <item>
-      <title>1.3.2</title>
+      <title>1.3.1</title>
       <description>
         <![CDATA[
           <ul>
-            <li>Added Paste Stack</li>
-            <li>Added Paste Stack Shortcuts</li>
-            <li>Solved the issue of the pop-up window not displaying</li>
+            <li>Add Paste Stack Shortcuts</li>
             <li>Fixed some bugs</li>
           </ul>
         ]]>
       </description>
-      <pubDate>2023-11-13</pubDate>
+      <pubDate>2023-09-14</pubDate>
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>11.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.3.2/CleanClip.app.zip"
-        sparkle:version="10302"
-        sparkle:shortVersionString="1.3.2"
+        url="https://cleanclip.cc/releases/download/v1.3.1/CleanClip.app.zip"
+        sparkle:version="10301"
+        sparkle:shortVersionString="1.3.1"
         length="0"
         type="application/octet-stream"
       />
