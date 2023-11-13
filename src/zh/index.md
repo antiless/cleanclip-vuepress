@@ -64,7 +64,7 @@ canonicalUrl: 'https://cleanclip.cc/zh'
   ## 🙋🏻 常见问题
 
 ::: details 💻 支持的系统版本？
-> 支持 macOS 11.0+。
+> 支持 macOS 12.0+。
 :::
 
 ::: details 🆓 是否可以试用？

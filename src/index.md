@@ -76,7 +76,7 @@ canonicalUrl: 'https://cleanclip.cc/'
   ## 🙋🏻 Frequently Asked Questions
 
 ::: details 💻 Supported System Versions?
-> Supports macOS 11.0+.
+> Supports macOS 12.0+.
 :::
 
 ::: details 🆓 Can I try it for free?
