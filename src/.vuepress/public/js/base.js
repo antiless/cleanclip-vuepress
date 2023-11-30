@@ -10,3 +10,6 @@ mixpanel.init(TOKEN, { debug: true, track_pageview: true, persistence: 'localSto
  
 // Track an event. It can be anything, but in this example, we're tracking a Sign Up event.
 console.log("mixpanel inited")
+
+window.lemonSqueezyAffiliateConfig = { store: "macaify" };
+console.log("init lemonSqueezyAffiliate")
