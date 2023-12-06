@@ -22,12 +22,14 @@ features:
   details: ⌘ + ; to bring up, 0-9 to paste, incredibly smooth.
 - title: 🌈 Full Format
   details: Supports all copyable formats, text, link, images, files and more.
-- title: ⌨️ Input-focused Menu
+- title: 🧲 Context Switching-Free
   details: The pop-up menu appears right at the input position.
+- title: 📌 Pinboards
+  details: Double-click ⌘ + ; to quickly access the Pinboards.
+- title: 🗳️ Paste Stack
+  details: Copy content consecutively into a queue, then paste them in order
 - title: 🔍 Quick Search
   details: Type a letter to instantly search and find even the oldest records.
-- title: 🔖 Paste Stack
-  details: Copy content consecutively into a queue, then paste them in order
 - title: 📱 View iPhone Records on Mac
   details: Copy text and images on phone to view on Mac.
 - title: 🔜 Coming Soon

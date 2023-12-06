@@ -22,16 +22,18 @@ features:
     details: 任意场景：「 ⌘ + ; 」呼出，Space 预览，🔢 粘贴，无比丝滑
   - title: 🌈 全格式支持
     details: 支持包括图片、文件在内的所有可复制格式
-  - title: ⌨️ 沉浸式弹窗
-    details: 无需切换视野焦点，弹窗总在编辑框位置出现
+  - title: 🧲 拒绝上下文切换
+    details: 无需切换视野焦点，弹窗总在输入光标处出现
+  - title: 📌 固定面板
+    details: 双击 ⌘ + ; 快速访问固定面板
+  - title: 🗳️ 粘贴队列
+    details: 连续复制内容到一个队列中，使用 CMD+V 会按顺序依次粘贴
   - title: 🔍 快速搜索
     details: 键入字母快速搜索，再久远的记录也瞬间找到
-  - title: 🔖 粘贴队列
-    details: 连续复制内容到一个队列中，使用 CMD+V 会按顺序依次粘贴
   - title: 📱 Mac 查看手机端记录
     details: 开启 iCloud 后，手机端复制的文字、图片记录可以在 Mac 上查看
   - title: 🔜 即将推出
-    details: 固定记录、iCloud 同步、更强大的内容管理即将到来，敬请期待！
+    details: iCloud 同步、更强大的内容管理即将到来，敬请期待！
   - title: 
     details: 
 footer: Made by CleanClip Team.
