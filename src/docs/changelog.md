@@ -8,9 +8,9 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 Date: 2023.12.6
 
 **Update Content**
-- Support for Pinboards
-- Support for deleting content
-- Support for Chinese and numeric search
+- Added Pinboards
+- Supported content deletion
+- Supported Chinese and numeric search
 - Optimized search speed
 - Fixed some bugs
 
