@@ -33,7 +33,7 @@ features:
 - title: 📱 View iPhone Records on Mac
   details: Copy text and images on phone to view on Mac.
 - title: 🔜 Coming Soon
-  details: Pinned records, iCloud sync, paste sequences are coming soon. Stay tuned!
+  details: iCloud sync, paste sequences are coming soon. Stay tuned!
 - title: 
   details: 
 footer: Made by CleanClip Team.
