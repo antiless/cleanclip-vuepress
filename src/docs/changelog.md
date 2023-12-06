@@ -4,6 +4,16 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 1.4.0
+Date: 2023.12.6
+
+**Update Content**
+- Support for Pinboards
+- Support for deleting content
+- Support for Chinese and numeric search
+- Optimized search speed
+- Fixed some bugs
+
 ## 1.3.0
 Date: 2023.11.9
 
