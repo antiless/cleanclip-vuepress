@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.4.1
+Date: 2023.12.7
+
+**Update Content**
+- Updated search result transition animation
+- Adapted to night mode
+- Support CMD+SHIFT+C to automatically split and copy multiple lines
 
 ## 1.4.0
 Date: 2023.12.6

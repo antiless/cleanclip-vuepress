@@ -6,7 +6,7 @@
     <description>Add Paste Stack</description>
     <language>zh</language>
     <item>
-      <title>1.4.0</title>
+      <title>1.4.1</title>
       <description>
         <![CDATA[
           <ul>
@@ -22,9 +22,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.4.0/CleanClip.app.zip"
-        sparkle:version="10400"
-        sparkle:shortVersionString="1.4.0"
+        url="https://cleanclip.cc/releases/download/v1.4.1/CleanClip.app.zip"
+        sparkle:version="10401"
+        sparkle:shortVersionString="1.4.1"
         length="0"
         type="application/octet-stream"
       />
