@@ -3,6 +3,12 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.4.2
+Date: 2023.12.7
+
+**Update Content**
+- Support for modifying split copy shortcut keys
+
 ## 1.4.1
 Date: 2023.12.7
 
