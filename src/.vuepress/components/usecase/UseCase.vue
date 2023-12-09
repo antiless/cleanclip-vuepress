@@ -3,12 +3,12 @@
         <div @mouseover="mouseover = true" @mouseleave="mouseover = false">
 
             <div class="relative">
-                <video preload="none" playsinline="" loop="" muted draggable="true" :poster="usecase.poster"
+                <video preload="none" playsinline="" muted draggable="true" :poster="usecase.poster"
                     class="rounded-xl" ref="videoPlayer">
                     <source :src="usecase.video" type="video/mp4">
                 </video>
 
-                <div v-if="mouseover || !playing" class="play-button" @click="playVideo">
+                <div v-if="(mouseover || !playing) && usecase.video" class="play-button" @click="playVideo">
                     <i class="fas fa-play">
                         <svg v-if="playing" width="1em" height="1em" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg" class="sc-8a9c0b15-4 eQFgPn">
@@ -32,6 +32,7 @@
         </p>
 
         <p class="mt-2 text-slate-800">{{ usecase.subtitle }}</p>
+        <p v-if="usecase.body" class="mt-2 text-slate-400">{{ usecase.body }}</p>
     </div>
 </template>
 
@@ -43,6 +44,7 @@ export default {
         usecase: {
             title: String,
             subtitle: String,
+            body: String,
             video: String,
             poster: String,
             label: String,
@@ -55,6 +57,16 @@ export default {
             mouseover: false,
             playing: false
         }
+    },
+    mounted() {
+        console.log("mounted video")
+        const videoPlayer = this.$refs.videoPlayer;
+        videoPlayer.addEventListener('ended', () => {
+            console.log("video play ended")
+            videoPlayer.load();
+            videoPlayer.autoplay = false;
+            this.playing = false;
+        })
     },
     computed: {
         paused() {
@@ -98,4 +110,5 @@ export default {
 .play-button i {
     color: white;
     font-size: 30px;
-}</style>
+}
+</style>
