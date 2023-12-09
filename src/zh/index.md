@@ -5,7 +5,7 @@ heroText: 重新重视剪贴板内容的价值
 tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，在你的输入位置快速查询、预览、使用剪贴板历史记录
 actions:
   - text: 免费试用
-    link: https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f
+    link: https://clip-purchase.macaify.com
     type: primary
     size: large
     shape: round

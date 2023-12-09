@@ -5,7 +5,7 @@ heroText: The cleanest Clipboard Manager on macOS, ever!
 tagline: Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.
 actions:
   - text: Get 2x productivity - for Free
-    link: https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f
+    link: https://clip-purchase.macaify.com
     type: primary
     size: large
     shape: round

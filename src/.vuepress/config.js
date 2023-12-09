@@ -76,7 +76,7 @@ module.exports = {
                 { text: 'License Manager', link: 'https://app.lemonsqueezy.com/my-orders' },
               ]
             },
-            { "text": "Pricing", "link": "https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f" },
+            { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
           ],
           search: false
         },
@@ -106,7 +106,7 @@ module.exports = {
                 { text: '许可证管理', link: 'https://app.lemonsqueezy.com/my-orders' },
               ]
             },
-            { text: '价格', link: 'https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f' },
+            { text: '价格', link: 'https://clip-purchase.macaify.com' },
           ],
           search: false
         }
