@@ -11,7 +11,7 @@ module.exports = {
     description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
-      [ require('./plugins/promotion')],
+      // [ require('./plugins/promotion')],
       [
         'vuepress-plugin-sitemap',
         { hostname: 'https://cleanclip.cc' }
@@ -57,11 +57,6 @@ module.exports = {
           label: 'English',
           lastUpdated: 'Last Updated',
           nav: [
-            // { text: 'Phase 1 Demo Video', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
-            // { text: 'Phase 2 Demo Video', link: 'https://clip.macaify.com/videos/search.mp4' },
-            // { text: 'Early Bird Phase 2 Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
-            // { text: 'Join the Group for 50% Off for Users in China', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
-            // { text: 'Early Bird Discount 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
             {
               text: 'Product',
               ariaLabel: 'Product Menu',
@@ -77,10 +72,11 @@ module.exports = {
               items: [
                 { text: 'Follow Progress 🐦', link: 'https://twitter.com/s1ntone', target:'_blank' },
                 { text: 'Report an Issue 📮', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
+                { text: 'Affiliate', link: 'https://store.cleanclip.cc/affiliates' },
+                { text: 'License Manager', link: 'https://app.lemonsqueezy.com/my-orders' },
               ]
             },
-            { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
-            { "text": 'Affiliate', "link": 'https://macaify.lemonsqueezy.com/affiliates' },
+            { "text": "Pricing", "link": "https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f" },
           ],
           search: false
         },
@@ -91,11 +87,6 @@ module.exports = {
           label: '简体中文',
           lastUpdated: '最近更新',
           nav: [
-            // { text: '一期演示视频', link: 'https://www.bilibili.com/video/BV1594y1r7nF/?vd_source=49d41f6da6ceddbaeb919efc1f0d9f00' },
-            // { text: '二期演示视频', link: 'https://clip.macaify.com/videos/search.mp4' },
-            // { text: '早鸟二期优惠 🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54', target:'_blank' },
-            // { text: '国区用户进群获取五折优惠码', link: 'https://p.ipic.vip/m9duho.JPG', target:'_blank' },
-            // { text: '早鸟优惠🎁', link: 'https://macaify.lemonsqueezy.com/checkout/buy/ea407526-6a45-443e-8cc1-ba69ff760f54' },
             {
               text: '产品介绍',
               ariaLabel: '产品介绍菜单',
@@ -111,11 +102,11 @@ module.exports = {
               items: [
                 { text: '跟踪进展🐦', link: 'https://twitter.com/s1ntone', target:'_blank' },
                 { text: '反馈问题📮', link: 'https://github.com/auv1107/cleancliprun/issues', target:'_blank'},
-                { text: '申请退款', link: 'mailto:cleanclip@gokoding.com', target:'_blank'}
+                { text: '推荐返现', link: 'https://store.cleanclip.cc/affiliates' },
+                { text: '许可证管理', link: 'https://app.lemonsqueezy.com/my-orders' },
               ]
             },
-            { text: '价格', link: 'https://clip-purchase.macaify.com' },
-            { text: 'Affiliate', link: 'https://macaify.lemonsqueezy.com/affiliates' },
+            { text: '价格', link: 'https://store.cleanclip.cc/checkout/buy/1623649f-b21f-48fc-9d3d-1c6b2665bd6f' },
           ],
           search: false
         }
