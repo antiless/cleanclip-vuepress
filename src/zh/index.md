@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /images/hero.webp
-heroText: 重新重视剪贴板内容的价值
+heroText: 可能是 macOS 上最干净的剪贴板管理器！
 tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，在你的输入位置快速查询、预览、使用剪贴板历史记录
 actions:
   - text: 免费试用
