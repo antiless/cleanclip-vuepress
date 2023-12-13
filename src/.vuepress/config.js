@@ -70,10 +70,11 @@ module.exports = {
               text: 'Help',
               ariaLabel: 'Feedback Menu',
               items: [
-                { text: 'Follow Progress 🐦', link: 'https://twitter.com/s1ntone', target:'_blank' },
-                { text: 'Report an Issue 📮', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
+                { text: 'CleanClip on X', link: 'https://twitter.com/cleanclipapp', target:'_blank' },
+                { text: 'Report an Issue', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
                 { text: 'Affiliate', link: 'https://store.cleanclip.cc/affiliates' },
                 { text: 'License Manager', link: 'https://app.lemonsqueezy.com/my-orders' },
+                { text: 'Student Discount 30% off', link: 'mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License', target:'_blank'},
               ]
             },
             { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
@@ -100,10 +101,11 @@ module.exports = {
               text: '帮助',
               ariaLabel: '反馈菜单',
               items: [
-                { text: '跟踪进展🐦', link: 'https://twitter.com/s1ntone', target:'_blank' },
+                { text: '@CleanClip', link: 'https://twitter.com/cleanclipapp', target:'_blank' },
                 { text: '反馈问题📮', link: 'https://github.com/auv1107/cleancliprun/issues', target:'_blank'},
                 { text: '推荐返现', link: 'https://store.cleanclip.cc/affiliates' },
                 { text: '许可证管理', link: 'https://app.lemonsqueezy.com/my-orders' },
+                { text: '学生优惠 7 折', link: 'mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License', target:'_blank'},
               ]
             },
             { text: '价格', link: 'https://clip-purchase.macaify.com' },

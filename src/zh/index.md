@@ -78,11 +78,11 @@ canonicalUrl: 'https://cleanclip.cc/zh'
 :::
 
 ::: details 👩‍🎓🧑‍🎓 有无教育优惠？
-  > 您可以使用您的教育邮箱发送电子邮件至<a href="mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License">edu@cleanclip.cc</a>，以获取**50%的教育折扣**！
+  > 您可以使用您的教育邮箱发送电子邮件至<a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE&BODY=REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE">edu@cleanclip.cc</a>，以获取*7折教育折扣**！
 :::
 
 ::: details 🕵️ 我已经付费买了其它剪贴板管理器，可以获得折扣吗？
-  > 您可以使用您的电子邮件发送电子邮件给<a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2050%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a>获取**50%的剪贴板专家折扣**！
+  > 您可以使用您的电子邮件发送电子邮件给<a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a>获取**7折剪贴板专家折扣**！
 :::
   </div>
   </div>

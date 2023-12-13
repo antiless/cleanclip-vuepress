@@ -90,11 +90,11 @@ canonicalUrl: 'https://cleanclip.cc/'
 :::
 
 ::: details 👩‍🎓🧑‍🎓 Are there any educational discounts?
-  > You can send an email to <a href="mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License">edu@cleanclip.cc</a> using your educational email to get a **50% educational discount**!
+  > You can send an email to <a href="mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License">edu@cleanclip.cc</a> using your educational email to get a **30% off educational discount**!
 :::
 
 ::: details 🕵️ Are there any discounts for other clipboard manager users?
-  > You can send an email to <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2050%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2050%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a> using your email to get a **50% veteran discount**!
+  > You can send an email to <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a> using your email to get a **30% off veteran discount**!
 :::
 
   </div>
