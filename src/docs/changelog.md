@@ -3,6 +3,19 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+
+## 1.5.0
+Date: 2023.12.14
+
+**Updates**
+- Added support for plain text pasting
+- Added support for pasting content formatting
+- Added support for hiding menu bar icon
+- Menu bar now displays recent copy items
+- Paste Stack now supports clicking # to jump to a specific item
+- Fine-tuned AppIcon
+- Fixed some bugs
+
 ## 1.4.2
 Date: 2023.12.7
 
