@@ -4,13 +4,6 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
-## 1.5.1
-Date: 2023.12.16
-
-**Updates**
-- Added support for clearing all history records
-- Added support for long-pressing numbers to format text
-
 ## 1.5.0
 Date: 2023.12.14
 
