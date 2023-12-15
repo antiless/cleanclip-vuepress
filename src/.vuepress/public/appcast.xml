@@ -6,9 +6,12 @@
     <description>Add Paste Stack</description>
     <language>zh</language>
     <item xml:lang="en">
-      <title>1.5.0</title>
+      <title>1.5.1</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>1.5.1</h2>
+            <li>Added support for clearing all history records</li>
+            <li>Added support for long-pressing numbers to format text</li>
           <h2>1.5.0</h2>
             <li>Added support for plain text pasting</li>
             <li>Added support for pasting content formatting</li>
@@ -54,6 +57,9 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>1.5.1</h2>
+            <li>支持清除所有历史记录</li>
+            <li>支持长按数字键格式化文本粘贴</li>
           <h2>1.5.0</h2>
             <li>支持纯文本粘贴</li>
             <li>支持粘贴内容格式化</li>
@@ -101,9 +107,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.0/CleanClip.app.zip"
-        sparkle:version="10500"
-        sparkle:shortVersionString="1.5.0"
+        url="https://cleanclip.cc/releases/download/v1.5.1/CleanClip.app.zip"
+        sparkle:version="10501"
+        sparkle:shortVersionString="1.5.1"
         length="0"
         type="application/octet-stream"
       />
