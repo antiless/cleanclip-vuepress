@@ -4,6 +4,12 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 1.5.2
+Date: 2023.12.16
+
+**Updates**
+- Fixed the focus issue with formatted paste
+
 ## 1.5.1
 Date: 2023.12.16
 

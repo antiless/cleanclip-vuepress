@@ -4,6 +4,12 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 1.5.2
+日期: 2023.12.16
+
+**更新内容**
+- 修复格式化粘贴的焦点问题
+
 ## 1.5.1
 日期: 2023.12.16
 
