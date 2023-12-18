@@ -3,6 +3,12 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 1.5.3
+日期: 2023.11.18
+
+**更新内容**
+- 添加enter长按
+- 粘贴队列支持粘贴后自动按下按键
 
 ## 1.5.2
 日期: 2023.12.16

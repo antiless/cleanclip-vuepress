@@ -4,6 +4,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 1.5.3
+Date: 2023.11.18
+
+**Updates**
+- Added long press for enter key
+- Added support for automatically pressing keys after pasting from clipboard
+
 ## 1.5.2
 Date: 2023.12.16
 
