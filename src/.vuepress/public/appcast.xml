@@ -6,9 +6,11 @@
     <description>Add Paste Stack</description>
     <language>zh</language>
     <item xml:lang="en">
-      <title>1.5.3</title>
+      <title>1.5.4</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>1.5.4</h2>
+            <li>Support preview of formatted content with spaces</li>
           <h2>1.5.3</h2>
             <li>Added long press for enter key</li>
             <li>Added support for automatically pressing keys after pasting from clipboard</li>
@@ -62,6 +64,8 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>1.5.4</h2>
+            <li>支持空格预览格式化后的内容</li>
           <h2>1.5.3</h2>
             <li>添加enter长按</li>
             <li>粘贴队列支持粘贴后自动按下按键</li>
@@ -113,13 +117,13 @@
             <li>添加了订阅激活码的支持</li>
         ]]>
       </description>
-      <pubDate>2023-12-14</pubDate>
+      <pubDate>2023-12-18</pubDate>
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.3/CleanClip.app.zip"
-        sparkle:version="10503"
-        sparkle:shortVersionString="1.5.3"
+        url="https://cleanclip.cc/releases/download/v1.5.4/CleanClip.app.zip"
+        sparkle:version="10504"
+        sparkle:shortVersionString="1.5.4"
         length="0"
         type="application/octet-stream"
       />

@@ -3,6 +3,12 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 1.5.4
+日期: 2023.11.18
+
+**更新内容**
+- 支持空格预览格式化后的内容
+
 ## 1.5.3
 日期: 2023.11.18
 

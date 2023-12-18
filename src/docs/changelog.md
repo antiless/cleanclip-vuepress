@@ -3,6 +3,11 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.5.4
+Date: 2023.11.18
+
+**Update Content**
+- Support preview of formatted content with spaces.
 
 ## 1.5.3
 Date: 2023.11.18
