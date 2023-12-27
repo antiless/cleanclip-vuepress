@@ -9,6 +9,8 @@
       <title>1.5.7</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>1.5.8</h2>
+            <li>Removed the monkey that escaped from the zoo</li>
           <h2>1.5.7</h2>
             <li>Fixed lagging issue with long text preview</li>
             <li>Fixed some crash issues</li>
@@ -67,6 +69,8 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>1.5.8</h2>
+            <li>删除从动物园跑出来的猴子</li>
           <h2>1.5.7</h2>
             <li>修复长文本预览卡顿问题</li>
             <li>修复一些闪退问题</li>
@@ -127,9 +131,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.7/CleanClip.app.zip"
-        sparkle:version="10507"
-        sparkle:shortVersionString="1.5.7"
+        url="https://cleanclip.cc/releases/download/v1.5.8/CleanClip.app.zip"
+        sparkle:version="10508"
+        sparkle:shortVersionString="1.5.8"
         length="0"
         type="application/octet-stream"
       />

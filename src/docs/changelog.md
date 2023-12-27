@@ -3,10 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.5.8
+Date: 2023.12.28
+
+**Updates**
+- Removed the monkey that escaped from the zoo.
+
 ## 1.5.7
 Date: 2023.12.27
 
-Updates:
+**Updates**
 - Fixed lagging issue with long text preview
 - Fixed some crash issues
 

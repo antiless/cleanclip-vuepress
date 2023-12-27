@@ -3,6 +3,12 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 1.5.8
+日期：2023年12月28日
+
+**更新**
+- 删除从动物园跑出来的猴子
+
 ## 1.5.7
 日期: 2023.12.27
 
@@ -11,7 +17,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 - 修复一些闪退问题
 
 ## 1.5.4
-日期: 2023.11.18
+日期: 2023.12.18
 
 **更新内容**
 - 支持空格预览格式化后的内容
