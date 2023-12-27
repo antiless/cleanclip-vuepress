@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.5.7
+Date: 2023.12.27
+
+Updates:
+- Fixed lagging issue with long text preview
+- Fixed some crash issues
+
 ## 1.5.4
 Date: 2023.11.18
 

@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 1.5.7
+日期: 2023.12.27
+
+更新内容:
+- 修复长文本预览卡顿问题
+- 修复一些闪退问题
+
 ## 1.5.4
 日期: 2023.11.18
 
@@ -10,7 +17,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 - 支持空格预览格式化后的内容
 
 ## 1.5.3
-日期: 2023.11.18
+日期: 2023.12.18
 
 **更新内容**
 - 添加enter长按
