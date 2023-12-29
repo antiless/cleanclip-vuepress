@@ -9,6 +9,11 @@
       <title>1.5.7</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>1.5.9</h2>
+            <li>Added support for editing history records</li>
+            <li>Added support for dragging records to other apps</li>
+            <li>Added support for copying images as files and pasting them</li>
+            <li>Added drag and drop sorting for Paste Stack</li>
           <h2>1.5.8</h2>
             <li>Removed the monkey that escaped from the zoo</li>
           <h2>1.5.7</h2>
@@ -69,6 +74,11 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>1.5.9</h2>
+            <li>支持编辑历史记录</li>
+            <li>支持把记录拖拽到其它 App</li>
+            <li>支持把图片复制成文件粘贴</li>
+            <li>粘贴队列支持拖拽排序</li>
           <h2>1.5.8</h2>
             <li>删除从动物园跑出来的猴子</li>
           <h2>1.5.7</h2>
@@ -127,13 +137,13 @@
             <li>添加了订阅激活码的支持</li>
         ]]>
       </description>
-      <pubDate>2023-12-18</pubDate>
+      <pubDate>2023-12-30</pubDate>
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.8/CleanClip.app.zip"
-        sparkle:version="10508"
-        sparkle:shortVersionString="1.5.8"
+        url="https://cleanclip.cc/releases/download/v1.5.9/CleanClip.app.zip"
+        sparkle:version="10509"
+        sparkle:shortVersionString="1.5.9"
         length="0"
         type="application/octet-stream"
       />

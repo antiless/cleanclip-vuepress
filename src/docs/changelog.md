@@ -3,6 +3,15 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 1.5.9
+Date: December 30, 2023
+
+**Updates**
+- Added support for editing history records
+- Added support for dragging records to other apps
+- Added support for copying images as files and pasting them
+- Added drag and drop sorting for Paste Stack
+
 ## 1.5.8
 Date: 2023.12.28
 
