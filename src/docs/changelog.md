@@ -9,7 +9,7 @@ Date: December 30, 2023
 **Updates**
 - Added support for editing history records
 - Added support for dragging records to other apps
-- Added support for copying images as files and pasting them
+- Added support for pasting images as files
 - Added drag and drop sorting for Paste Stack
 
 ## 1.5.8

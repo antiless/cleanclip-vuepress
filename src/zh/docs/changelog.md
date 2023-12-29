@@ -9,7 +9,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 **更新内容**
 - 支持编辑历史记录
 - 支持把记录拖拽到其它 App
-- 支持把图片复制成文件粘贴
+- 支持把图片粘贴成文件
 - 粘贴队列支持拖拽排序
 
 ## 1.5.8
