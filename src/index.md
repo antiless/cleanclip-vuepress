@@ -36,7 +36,7 @@ features:
   details: iCloud sync, paste sequences are coming soon. Stay tuned!
 - title: 
   details: 
-footer: Made by CleanClip Team.
+footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/'
 
 ---
@@ -112,7 +112,7 @@ canonicalUrl: 'https://cleanclip.cc/'
     <div style="text-align: center">
       <!-- <img src="/images/twitter_card.webp"/> -->
       <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
-        <a href="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg" target="_blank">
+        <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button">
                       Get 2x productivity - for Free
         </a>
       </button>
@@ -125,3 +125,5 @@ canonicalUrl: 'https://cleanclip.cc/'
   </div>
 
 </div>
+
+<NewFooter/>

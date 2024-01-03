@@ -41,6 +41,7 @@ module.exports = {
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
       ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
+      ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
       ['link', { rel: "preconnect", href: "https://fonts.googleapis.com" }],
       ['link', { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true }],
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,400;12..96,600;12..96,800&display=swap' }],
@@ -59,25 +60,8 @@ module.exports = {
           lastUpdated: 'Last Updated',
           nav: [
             {
-              text: 'Product',
-              ariaLabel: 'Product Menu',
-              items: [
-                { text: 'User Manual', link: '/docs/manual.html' },
-                { text: 'Changelog', link: '/docs/changelog.html' },
-                { text: 'Roadmap', link: '/docs/roadmap.html' },
-                { text: 'Download', link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543' },
-              ]
-            },
-            {
-              text: 'Help',
-              ariaLabel: 'Feedback Menu',
-              items: [
-                { text: 'CleanClip on X', link: 'https://twitter.com/cleanclipapp', target:'_blank' },
-                { text: 'Report an Issue', link: 'mailto:cleanclip@gokoding.com', target:'_blank'},
-                { text: 'Affiliate', link: 'https://store.cleanclip.cc/affiliates' },
-                { text: 'License Manager', link: 'https://app.lemonsqueezy.com/my-orders' },
-                { text: 'Student Discount 30% off', link: 'mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License', target:'_blank'},
-              ]
+              text: 'Download',
+              link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
             },
             { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
           ],
@@ -91,25 +75,8 @@ module.exports = {
           lastUpdated: '最近更新',
           nav: [
             {
-              text: '产品介绍',
-              ariaLabel: '产品介绍菜单',
-              items: [
-                { text: '用户手册', link: '/zh/docs/manual.html' },
-                { text: '更新日志', link: '/zh/docs/changelog.html' },
-                { text: '更新计划', link: '/zh/docs/roadmap.html' },
-                { text: '下载', link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543' },
-              ]
-            },
-            {
-              text: '帮助',
-              ariaLabel: '反馈菜单',
-              items: [
-                { text: '@CleanClip', link: 'https://twitter.com/cleanclipapp', target:'_blank' },
-                { text: '反馈问题📮', link: 'https://github.com/auv1107/cleancliprun/issues', target:'_blank'},
-                { text: '推荐返现', link: 'https://store.cleanclip.cc/affiliates' },
-                { text: '许可证管理', link: 'https://app.lemonsqueezy.com/my-orders' },
-                { text: '学生优惠 7 折', link: 'mailto:edu@cleanclip.cc?subject=%5Bedu%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License', target:'_blank'},
-              ]
+              text: '下载',
+              link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
             },
             { text: '价格', link: 'https://clip-purchase.macaify.com' },
           ],

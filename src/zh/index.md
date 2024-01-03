@@ -36,7 +36,7 @@ features:
     details: iCloud 同步、更强大的内容管理即将到来，敬请期待！
   - title: 
     details: 
-footer: Made by CleanClip Team.
+footer: Copyright © 2024 南京最美佳科技有限公司
 canonicalUrl: 'https://cleanclip.cc/zh'
 ---
 
@@ -97,9 +97,8 @@ canonicalUrl: 'https://cleanclip.cc/zh'
 
   <div style="display: flex; justify-content: center;">
     <div style="text-align: center">
-      <img src="/images/twitter_card.webp"/>
       <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
-        <a href="https://cleanclip.cc/releases/download/v1.2.2/CleanClip.dmg" target="_blank">
+        <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button">
                       免费获取 2 倍生产力
         </a>
       </button>
@@ -112,3 +111,5 @@ canonicalUrl: 'https://cleanclip.cc/zh'
   </div>
 
 </div>
+
+<NewFooter/>
