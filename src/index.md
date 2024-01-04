@@ -127,3 +127,4 @@ canonicalUrl: 'https://cleanclip.cc/'
 </div>
 
 <NewFooter/>
+<MixPanel/>
