@@ -18,6 +18,8 @@ Date: 2023.12.28
 **Updates**
 - Removed the monkey that escaped from the zoo.
 
+[Download](https://cleanclip.cc/releases/download/v1.5.8/CleanClip.dmg)
+
 ## 1.5.7
 Date: 2023.12.27
 
@@ -31,6 +33,8 @@ Date: 2023.11.18
 **Update Content**
 - Support preview of formatted content with spaces.
 
+[Download](https://cleanclip.cc/releases/download/v1.5.4/CleanClip.dmg)
+
 ## 1.5.3
 Date: 2023.11.18
 
@@ -38,11 +42,15 @@ Date: 2023.11.18
 - Added long press for enter key
 - Added support for automatically pressing keys after pasting from clipboard
 
+[Download](https://cleanclip.cc/releases/download/v1.5.3/CleanClip.dmg)
+
 ## 1.5.2
 Date: 2023.12.16
 
 **Updates**
 - Fixed the focus issue with formatted paste
+
+[Download](https://cleanclip.cc/releases/download/v1.5.2/CleanClip.dmg)
 
 ## 1.5.1
 Date: 2023.12.16
@@ -50,6 +58,8 @@ Date: 2023.12.16
 **Updates**
 - Added support for clearing all history records
 - Added support for long-pressing numbers to format text
+
+[Download](https://cleanclip.cc/releases/download/v1.5.1/CleanClip.dmg)
 
 ## 1.5.0
 Date: 2023.12.14
@@ -63,11 +73,15 @@ Date: 2023.12.14
 - Fine-tuned AppIcon
 - Fixed some bugs
 
+[Download](https://cleanclip.cc/releases/download/v1.5.0/CleanClip.dmg)
+
 ## 1.4.2
 Date: 2023.12.7
 
 **Update Content**
 - Support for modifying split copy shortcut keys
+
+[Download](https://cleanclip.cc/releases/download/v1.4.2/CleanClip.dmg)
 
 ## 1.4.1
 Date: 2023.12.7
