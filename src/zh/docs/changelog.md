@@ -3,6 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+
+## 1.5.10
+日期: 2024年1月7日
+
+**更新内容**
+- 支持配置弹窗位置
+- 修复直接安装 1.5.7-1.5.9 版本无法获取复制内容的问题
+
+[Download](https://cleanclip.cc/releases/download/v1.5.10/CleanClip.dmg)
+
 ## 1.5.9
 日期: 2023.12.30
 

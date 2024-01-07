@@ -3,6 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+
+## 1.5.10
+Date: January 7, 2024
+
+**Updates**
+- Added support for configuring popup position
+- Fixed an issue where copying content was not working when directly installing versions 1.5.7-1.5.9
+
+[Download](https://cleanclip.cc/releases/download/v1.5.10/CleanClip.dmg)
+
 ## 1.5.9
 Date: December 30, 2023
 
