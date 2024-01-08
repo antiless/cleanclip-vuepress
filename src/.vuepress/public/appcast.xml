@@ -9,6 +9,8 @@
       <title>1.5.10</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>1.5.12</h2>
+            <li>Fixed logic error with plain/original paste</li>
           <h2>1.5.11</h2>
             <li>Added quick start guide</li>
             <li>Fixed issue with pinning</li>
@@ -82,6 +84,8 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>1.5.12</h2>
+            <li>修复纯文本/原始格式粘贴的逻辑错误</li>
           <h2>1.5.11</h2>
             <li>添加快速入门指南</li>
             <li>修复不能pin的问题</li>
@@ -157,9 +161,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.11/CleanClip.app.zip"
-        sparkle:version="10511"
-        sparkle:shortVersionString="1.5.11"
+        url="https://cleanclip.cc/releases/download/v1.5.12/CleanClip.app.zip"
+        sparkle:version="10512"
+        sparkle:shortVersionString="1.5.12"
         length="0"
         type="application/octet-stream"
       />

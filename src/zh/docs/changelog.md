@@ -4,6 +4,14 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 1.5.12
+日期: 2024年1月9日
+
+**更新内容**
+- 修复纯文本/原始格式粘贴的逻辑错误
+
+[Download](https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg)
+
 ## 1.5.11
 日期: 2024年1月9日
 

@@ -4,6 +4,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 1.5.12
+Date: January 9, 2024
+
+**Updates**
+- Fixed logic error with plain text/original format paste
+
+[Download](https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg)
 
 ## 1.5.11
 Date: January 9, 2024
