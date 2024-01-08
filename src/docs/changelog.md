@@ -4,6 +4,18 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+
+## 1.5.11
+Date: January 9, 2024
+
+**Updates**
+- Added quick start guide
+- Fixed issue with pinning
+- Fixed position issue with paste format menu
+- Optimized details of paste format menu
+
+[Download](https://cleanclip.cc/releases/download/v1.5.11/CleanClip.dmg)
+
 ## 1.5.10
 Date: January 7, 2024
 

@@ -4,6 +4,17 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 1.5.11
+日期: 2024年1月9日
+
+**更新内容**
+- 添加快速入门指南
+- 修复不能pin的问题
+- 修复粘贴格式菜单的位置问题
+- 优化粘贴格式菜单细节
+
+[Download](https://cleanclip.cc/releases/download/v1.5.11/CleanClip.dmg)
+
 ## 1.5.10
 日期: 2024年1月7日
 
