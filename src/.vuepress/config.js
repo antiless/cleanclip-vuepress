@@ -70,7 +70,8 @@ module.exports = {
             },
             {
               text: 'Download',
-              link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
+              link: 'https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg'
+              // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
             },
             { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
           ],
@@ -94,7 +95,8 @@ module.exports = {
             },
             {
               text: '下载',
-              link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
+              // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
+              link: 'https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg'
             },
             { text: '价格', link: 'https://clip-purchase.macaify.com' },
           ],

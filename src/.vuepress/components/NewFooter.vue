@@ -57,7 +57,8 @@ export default {
             },
             {
               name: "Download",
-              url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
+              // url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
+              url: "https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg",
               class: "lemonsqueezy-button"
             },
             {
@@ -144,7 +145,8 @@ export default {
             },
             {
               name: "下载",
-              url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
+              // url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
+              url: "https://cleanclip.cc/releases/download/v1.5.12/CleanClip.dmg",
               class: "lemonsqueezy-button"
             },
             {
