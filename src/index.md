@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /images/hero.webp
+heroImage: /images/hero2.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
 tagline: Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.
 actions:
