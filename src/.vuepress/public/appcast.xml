@@ -9,6 +9,14 @@
       <title>1.5.10</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>2.0.0</h2>
+            <li>Added new desktop pinned windows</li>
+            <li>Added support for batch management</li>
+            <li>Added support for automatically following foreground applications</li>
+            <li>Added support for favorite lists, smart lists, and multiple filters</li>
+            <li>Added support for drag and drop operations</li>
+            <li>Added support for copying items from fcp, sketch, etc.</li>
+
           <h2>1.5.12</h2>
             <li>Fixed logic error with plain/original paste</li>
           <h2>1.5.11</h2>
@@ -84,6 +92,14 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>2.0.0</h2>
+            <li>添加新的桌面固定窗口</li>
+            <li>支持批量管理</li>
+            <li>支持自动跟随前台应用</li>
+            <li>支持收藏列表、智能列表，支持多种过滤器</li>
+            <li>支持拖拽操作</li>
+            <li>支持 fcp、sketch 等的复制项</li>
+
           <h2>1.5.12</h2>
             <li>修复纯文本/原始格式粘贴的逻辑错误</li>
           <h2>1.5.11</h2>
@@ -161,9 +177,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v1.5.12/CleanClip.app.zip"
-        sparkle:version="10512"
-        sparkle:shortVersionString="1.5.12"
+        url="https://cleanclip.cc/releases/download/v2.0.0/CleanClip.app.zip"
+        sparkle:version="20000"
+        sparkle:shortVersionString="2.0.0"
         length="0"
         type="application/octet-stream"
       />

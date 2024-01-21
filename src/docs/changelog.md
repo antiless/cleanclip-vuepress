@@ -4,6 +4,20 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+
+## 2.0.0
+Date: January 21, 2024
+
+**Updates**
+- Added new desktop pinned windows
+- Added support for batch management
+- Added support for automatically following foreground applications
+- Added support for favorite lists, smart lists, and multiple filters
+- Added support for drag and drop operations
+- Added support for copying items from fcp, sketch, etc.
+
+[Download](https://cleanclip.cc/releases/download/v2.0.0/CleanClip.dmg)
+
 ## 1.5.12
 Date: January 9, 2024
 

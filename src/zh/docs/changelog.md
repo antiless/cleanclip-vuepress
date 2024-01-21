@@ -4,6 +4,19 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 2.0.0
+日期: 2024年1月21日
+
+**更新内容**
+- 添加新的桌面固定窗口
+- 支持批量管理
+- 支持自动跟随前台应用
+- 支持收藏列表、智能列表，支持多种过滤器
+- 支持拖拽操作
+- 支持 fcp、sketch 等的复制项
+
+[Download](https://cleanclip.cc/releases/download/v2.0.0/CleanClip.dmg)
+
 ## 1.5.12
 日期: 2024年1月9日
 
