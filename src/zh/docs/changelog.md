@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 2.0.1
+日期: 2024年1月23日
+
+**更新内容**
+- 打开 app 时不展示主界面
+
+[Download](https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg)
 
 ## 2.0.0
 日期: 2024年1月21日

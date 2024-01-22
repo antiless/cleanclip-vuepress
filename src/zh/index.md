@@ -6,7 +6,7 @@ tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，让你像使用输
 actions:
   - text: 免费试用
     # link: https://clip-purchase.macaify.com
-    link: https://cleanclip.cc/releases/download/v2.0.0/CleanClip.dmg
+    link: https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg
     type: primary
     size: large
     shape: round
@@ -100,7 +100,7 @@ canonicalUrl: 'https://cleanclip.cc/zh'
     <div style="text-align: center">
       <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
         <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-        <a href="https://cleanclip.cc/releases/download/v2.0.0/CleanClip.dmg">
+        <a href="https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg">
                       免费获取 2 倍生产力
         </a>
       </button>

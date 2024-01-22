@@ -4,6 +4,13 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.0.1
+Date: January 23, 2024
+
+**Updates**
+- Do not active main window when open app
+
+[Download](https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg)
 
 ## 2.0.0
 Date: January 21, 2024
