@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/hero2.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
-tagline: Be a happy copycat, not a starting from scratch log.
+tagline: Be a happy COPY cat, don't start from scratch all the time.
 # tagline: Curate and organize all your copyable content, helping you stay focused on your creative process and saving you precious time.
 actions:
   - text: Get 2x productivity - for Free
