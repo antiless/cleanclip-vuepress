@@ -23,18 +23,12 @@ features:
     details: 任意场景：「 ⌘ + ; 」呼出，Space 预览，🔢 粘贴，无比丝滑
   - title: 🌈 全格式支持
     details: 支持包括图片、文件在内的所有可复制格式
-  - title: 🧲 拒绝上下文切换
-    details: 无需切换视野焦点，弹窗总在输入光标处出现
-  - title: 📌 固定面板
-    details: 双击 ⌘ + ; 快速访问固定面板
-  - title: 🗳️ 粘贴队列
-    details: 连续复制内容到一个队列中，使用 CMD+V 会按顺序依次粘贴
-  - title: 🔍 快速搜索
-    details: 键入字母快速搜索，再久远的记录也瞬间找到
-  - title: 📱 Mac 查看手机端记录
-    details: 开启 iCloud 后，手机端复制的文字、图片记录可以在 Mac 上查看
-  - title: 🔜 即将推出
-    details: iCloud 同步、更强大的内容管理即将到来，敬请期待！
+  - title: 📌 主窗口
+    details: 固定在屏幕上的具有强大的书签列表和智能列表的窗口
+  - title: 🧲 快速菜单
+    details: 专为键盘操作设计，一个即用即走的快捷窗口
+  - title: 🗳️ 粘贴堆栈
+    details: 粘贴队列提供了一个可以快速按顺序粘贴内容的方式
   - title: 
     details: 
 footer: Copyright © 2024 南京最美佳科技有限公司
@@ -42,6 +36,10 @@ canonicalUrl: 'https://cleanclip.cc/zh'
 ---
 
 <div class="segments">
+  <TabFeatures-MainWindow class="tabfeatures"/>
+  <TabFeatures-QuickMenu class="tabfeatures"/>
+  <TabFeatures-PasteStack class="tabfeatures"/>
+
   <div class="usp">
 
   ## CleanClip 的独特之处 ✨

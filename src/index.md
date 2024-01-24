@@ -2,7 +2,8 @@
 home: true
 heroImage: /images/hero2.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
-tagline: Search and use everything you copied right at the input position, not in the menu bar 1000 miles away.
+tagline: Be a happy copycat, not a starting from scratch log.
+# tagline: Curate and organize all your copyable content, helping you stay focused on your creative process and saving you precious time.
 actions:
   - text: Get 2x productivity - for Free
     # link: https://clip-purchase.macaify.com
@@ -22,19 +23,13 @@ features:
 - title: 🚀 Easy to Use
   details: ⌘ + ; to bring up, 0-9 to paste, incredibly smooth.
 - title: 🌈 Full Format
-  details: Supports all copyable formats, text, link, images, files and more.
-- title: 🧲 Context Switching-Free
-  details: The pop-up menu appears right at the input position.
-- title: 📌 Pinboards
-  details: Double-click ⌘ + ; to quickly access the Pinboards.
+  details: Supports all copyable formats, text, images, files, Sketch styles and more.
+- title: 📌 Main Window
+  details: A window pinned on screen has a powerful bookmark list and smart list.
+- title: 🧲 Quick Menu
+  details:  A quick menu that appears and disappears at the input position at any time.
 - title: 🗳️ Paste Stack
-  details: Copy content consecutively into a queue, then paste them in order
-- title: 🔍 Quick Search
-  details: Type a letter to instantly search and find even the oldest records.
-- title: 📱 View iPhone Records on Mac
-  details: Copy text and images on phone to view on Mac.
-- title: 🔜 Coming Soon
-  details: iCloud sync, paste sequences are coming soon. Stay tuned!
+  details: Paste Stack provides a way to paste content quickly in order.
 - title: 
   details: 
 footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
@@ -46,6 +41,11 @@ canonicalUrl: 'https://cleanclip.cc/'
 </br>
 
 <div class="segments">
+
+  <TabFeatures-MainWindow class="tabfeatures"/>
+  <TabFeatures-QuickMenu class="tabfeatures"/>
+  <TabFeatures-PasteStack class="tabfeatures"/>
+
   <div class="usp">
 
   ## What makes CleanClip unique ✨
