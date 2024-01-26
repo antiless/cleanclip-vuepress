@@ -79,8 +79,8 @@ export default {
           title: "Sales",
           items: [
             {
-              name: "Student Discount",
-              url: "mailto:support@cleanclip.cc",
+              name: "Education discounts",
+              url: "/students",
               label: "30%"
             },
             {
@@ -167,8 +167,8 @@ export default {
           title: "销售",
           items: [
             {
-              name: "学生折扣",
-              url: "mailto:support@cleanclip.cc",
+              name: "教育优惠",
+              url: "/students",
               label: "30%"
             },
             {
