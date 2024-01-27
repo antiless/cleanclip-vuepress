@@ -47,9 +47,7 @@
                 <p class="text-sm">
                   {{ item.subtitle }}
                 </p>
-                <video autoplay loop controls playsinline="" muted draggable="true" :poster="item.poster" class="rounded-lg">
-              <source :src="item.video" type="video/mp4">
-            </video>
+                <UseCase class="max-w-md" :usecase="item" :showTitle="false"/>
               </div>
             </div>
           </transition-group>
@@ -64,10 +62,13 @@
 </template>
 
 <script>
+import UseCase from '../usecase/UseCase.vue'
+
 
 export default {
   components: {
-  },
+    UseCase
+},
   computed: {
     // items() {
     //   if (this.$lang === 'zh-CN') {

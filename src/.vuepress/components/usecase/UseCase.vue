@@ -27,12 +27,14 @@
             </div>
         </div>
 
-        <p class="text-2xl text-slate-900 font-semibold mt-6 mb-0">{{ usecase.title }}
-            <Badge v-if="usecase.label" :text="usecase.label" :type="usecase.labelType" vertical="middle" />
-        </p>
+        <div v-if="showTitle">
+            <p class="text-2xl text-slate-900 font-semibold mt-6 mb-0">{{ usecase.title }}
+                <Badge v-if="usecase.label" :text="usecase.label" :type="usecase.labelType" vertical="middle" />
+            </p>
 
-        <p class="mt-2 text-slate-800">{{ usecase.subtitle }}</p>
-        <p v-if="usecase.body" class="mt-2 text-slate-400">{{ usecase.body }}</p>
+            <p class="mt-2 text-slate-800">{{ usecase.subtitle }}</p>
+            <p v-if="usecase.body" class="mt-2 text-slate-400">{{ usecase.body }}</p>
+        </div>
     </div>
 </template>
 
@@ -48,7 +50,13 @@ export default {
             video: String,
             poster: String,
             label: String,
-            labelType: String
+            labelType: String,
+        },
+        showTitle: {
+            type: Boolean,
+            default: function() {
+                return true
+            }
         },
         width: Number
     },
