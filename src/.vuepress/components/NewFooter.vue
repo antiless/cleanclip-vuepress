@@ -79,7 +79,7 @@ export default {
           title: "Sales",
           items: [
             {
-              name: "Education discounts",
+              name: "Education Discount",
               url: "/students",
               label: "30%"
             },
