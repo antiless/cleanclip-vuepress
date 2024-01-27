@@ -47,7 +47,7 @@
                 <p class="text-sm">
                   {{ item.subtitle }}
                 </p>
-                <video autoplay loop controls playsinline="" muted draggable="true" :poster="item.poster" class="rounded-lg" ref="videoPlayer">
+                <video autoplay loop controls playsinline="" muted draggable="true" :poster="item.poster" class="rounded-lg">
               <source :src="item.video" type="video/mp4">
             </video>
               </div>
@@ -157,13 +157,7 @@ export default {
       const videoPlayer = this.$refs.videoPlayer;
       // 设置为当前video
       videoPlayer.load();
-      if (videoPlayer.paused) {
-        videoPlayer.play();
-        this.playing = true;
-      } else {
-        videoPlayer.pause();
-        this.playing = false;
-      }
+      videoPlayer.play()
     }
   },
   mounted() {
