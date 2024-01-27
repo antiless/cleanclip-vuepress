@@ -1,11 +1,19 @@
 <template>
-  <div @mousedown.left="onMouseDown">
-    <VueHorizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
+  <div>
+    <div class="max-md:hidden" @mousedown.left="onMouseDown">
+      <VueHorizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
+        <i class="pl"></i>
+        <div class="item" v-for="(item, index) in items" :key="index">
+          <UseCase class="max-w-md" :usecase="item" />
+        </div>
+      </VueHorizontal>
+    </div>
+    <div class="md:hidden">
       <i class="pl"></i>
       <div class="item" v-for="(item, index) in items" :key="index">
-          <UseCase class="max-w-md" :usecase="item" />
+        <UseCase class="max-w-md" :usecase="item" />
       </div>
-    </VueHorizontal>
+    </div>
   </div>
 </template>
 
@@ -36,7 +44,7 @@ export default {
       lastPageX: 0,
       speed: 0,
       items_zh: [
-           {
+        {
           title: "真正的极简 UI",
           subtitle: "对于任何 UI 元素，如果你不需要，则不显示",
           body: "初始只显示最近的 5 条记录，当你想浏览更多时会展开成每页 10 条，输入字母搜索时才出现搜索 UI。",

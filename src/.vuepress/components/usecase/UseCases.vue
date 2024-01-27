@@ -1,11 +1,21 @@
 <template>
-  <div @mousedown.left="onMouseDown">
-    <vue-horizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
-      <i class="pl"></i>
-      <div class="item" v-for="(item, index) in items" :key="index">
-        <UseCase class="max-w-md" :usecase="item" />
-      </div>
-    </vue-horizontal>
+  <div>
+    <!-- pc -->
+    <div class="max-md:hidden" @mousedown.left="onMouseDown">
+      <vue-horizontal class="horizontal" ref="horizontal" snap="none" @scroll="onScroll">
+        <i class="pl"></i>
+        <div class="item" v-for="(item, index) in items" :key="index">
+          <UseCase class="max-w-md" :usecase="item" />
+        </div>
+      </vue-horizontal>
+    </div>
+
+    <!-- 移动 -->
+    <div class="md:hidden">
+        <div class="item flex-col" v-for="(item, index) in items" :key="index">
+          <UseCase class="max-w-md" :usecase="item" />
+        </div>
+    </div>
   </div>
 </template>
 
@@ -166,6 +176,7 @@ export default {
 * {
   --home-page-width: 960px;
 }
+
 .scroll-container {
   overflow-x: scroll;
 
@@ -187,6 +198,7 @@ export default {
   .v-hl-btn-prev {
     transform: unset !important;
   }
+
   .v-hl-btn-next {
     transform: unset !important;
   }
@@ -195,6 +207,4 @@ export default {
 .pl {
   padding-left: calc((100% - var(--home-page-width))/2 - 20px);
 }
-
-
 </style>

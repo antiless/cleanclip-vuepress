@@ -13,7 +13,8 @@
       <p class="text-lg mb-8 text-center">
         {{ subtitle }}
       </p>
-      <div class="flex">
+      <!-- pc 端 -->
+      <div class="flex max-md:hidden">
         <div class="flex flex-col w-1/2 pr-4">
           <transition-group name="fade" mode="out-in" appear>
             <div v-for="(item, index) in items" :key="item.title" v-on:click="onSelect(item, index)">
@@ -32,6 +33,29 @@
               :style="{ marginTop: selectedIndex * 60 + 'px', transition: 'margin-top 0.3s ease-in-out' }" ref="videoPlayer">
               <source :src="selected.video" type="video/mp4">
             </video>
+        </div>
+      </div>
+
+      <!-- 移动端 -->
+      <div class="flex-col md:hidden">
+        <div class="flex flex-col pr-4">
+          <transition-group name="fade" mode="out-in" appear>
+            <div v-for="(item, index) in items" :key="item.title">
+              <div
+                :class="['p-4 pt-1 pb-1 rounded-lg', 'mb-2']">
+                <h3 class="text-xl font-semibold mb-0">{{ item.title }}</h3>
+                <p class="text-sm">
+                  {{ item.subtitle }}
+                </p>
+                <video autoplay loop controls playsinline="" muted draggable="true" :poster="item.poster" class="rounded-lg" ref="videoPlayer">
+              <source :src="item.video" type="video/mp4">
+            </video>
+              </div>
+            </div>
+          </transition-group>
+        </div>
+        <div class="">
+            
         </div>
 
       </div>

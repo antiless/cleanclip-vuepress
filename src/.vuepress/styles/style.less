@@ -23,6 +23,14 @@
     .nav-button .anticon {
         visibility: visible;
     }
+
+    .ant-space {
+        flex-direction: column;
+    }
+    .ant-space-item {
+        margin-top: 10px !important;
+        padding-top: 10px !important;
+    }
 }
 
 .home .hero .hero-logo {
@@ -43,8 +51,13 @@
     padding-right: 0px !important;
     margin-bottom: 0px !important;
 
-    --block-padding-top: 8rem;
-    --block-padding-bottom: 8rem;
+    --block-padding-top: 4rem;
+    --block-padding-bottom: 4rem;
+
+    @media (max-width: 767px) {
+        --block-padding-top: 2rem;
+        --block-padding-bottom: 2rem;
+    }
 
     .comments {
         padding-top: var(--block-padding-top);
@@ -109,6 +122,8 @@
         details {
             background-color: unset !important;
             padding: unset !important;
+            padding-left: 16px !important;
+            padding-right: 16px !important;
 
             summary {
                 font-size: 1.4rem !important;
@@ -173,7 +188,7 @@
 
     .usp {
         padding-top: var(--block-padding-top);
-        padding-bottom: var(--block-padding-bottom);
+        // padding-bottom: var(--block-padding-bottom);
     }
 
     .usecase {

@@ -42,10 +42,6 @@ canonicalUrl: 'https://cleanclip.cc/'
 
 <div class="segments">
 
-  <TabFeatures-MainWindow class="tabfeatures"/>
-  <TabFeatures-QuickMenu class="tabfeatures"/>
-  <TabFeatures-PasteStack class="tabfeatures"/>
-
   <div class="usp">
 
   ## What makes CleanClip unique ✨
@@ -54,6 +50,10 @@ canonicalUrl: 'https://cleanclip.cc/'
   <usp-Usp/>
 
   </div>
+
+  <TabFeatures-MainWindow class="tabfeatures"/>
+  <TabFeatures-QuickMenu class="tabfeatures"/>
+  <TabFeatures-PasteStack class="tabfeatures"/>
   
   <div class="usecase">
 
