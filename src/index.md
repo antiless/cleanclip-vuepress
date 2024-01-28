@@ -11,8 +11,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: User Manual
-    link: /docs/manual
+  - text: Pricing
+    link: https://clip-purchase.macaify.com/
     type: primary
     ghost: true
     size: large
