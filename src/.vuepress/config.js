@@ -42,6 +42,21 @@ module.exports = {
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
       ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
       ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
+      ['script', {}, `
+      (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        console.log("init clarity")
+      })(window, document, "clarity", "script", "ksydzliajy");
+    `],
+    ['script', { src: 'https://www.googletagmanager.com/gtag/js?id=G-DT4VDM6DK7', async: true }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-DT4VDM6DK7');
+    `],
       ['link', { rel: "preconnect", href: "https://fonts.googleapis.com" }],
       ['link', { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true }],
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,400;12..96,600;12..96,800&display=swap' }],
