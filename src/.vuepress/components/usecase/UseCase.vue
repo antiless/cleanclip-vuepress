@@ -68,6 +68,17 @@ export default {
     },
     mounted() {
         console.log("mounted video")
+        this.$watch('usecase.video', (newVal, oldVal) => {
+            console.log("video changed", newVal)
+            if (newVal !== oldVal) {
+                const videoPlayer = this.$refs.videoPlayer;
+                videoPlayer.load();
+                if (this.playing) {
+                    videoPlayer.play();
+                    this.playing = true;
+                }
+            }
+        });
         const videoPlayer = this.$refs.videoPlayer;
         videoPlayer.addEventListener('ended', () => {
             console.log("video play ended")

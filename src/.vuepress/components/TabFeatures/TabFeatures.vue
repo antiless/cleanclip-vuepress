@@ -29,10 +29,11 @@
           </transition-group>
         </div>
         <div class="w-1/2">
-            <video autoplay loop controls playsinline="" muted draggable="true" :poster="selected.poster" class="rounded-lg"
+            <!-- <video autoplay loop controls playsinline="" muted draggable="true" :poster="selected.poster" class="rounded-lg"
               :style="{ marginTop: selectedIndex * 60 + 'px', transition: 'margin-top 0.3s ease-in-out' }" ref="videoPlayer">
               <source :src="selected.video" type="video/mp4">
-            </video>
+            </video> -->
+            <UseCase :usecase="selected" :showTitle="false" :style="{ marginTop: selectedIndex * 60 + 'px', transition: 'margin-top 0.3s ease-in-out' }"/>
         </div>
       </div>
 
@@ -152,7 +153,7 @@ export default {
       console.log("select", item, index)
       this.selected = item
       this.selectedIndex = index
-      this.playVideo()
+      // this.playVideo()
     },
     playVideo() {
       const videoPlayer = this.$refs.videoPlayer;
@@ -164,13 +165,13 @@ export default {
   mounted() {
     this.selected = this.items[0]
     console.log("mounted video")
-    const videoPlayer = this.$refs.videoPlayer;
-    videoPlayer.addEventListener('ended', () => {
-      console.log("video play ended")
-      videoPlayer.load();
-      videoPlayer.autoplay = false;
-      this.playing = false;
-    })
+    // const videoPlayer = this.$refs.videoPlayer;
+    // videoPlayer.addEventListener('ended', () => {
+    //   console.log("video play ended")
+    //   videoPlayer.load();
+    //   videoPlayer.autoplay = false;
+    //   this.playing = false;
+    // })
   }
 }
 

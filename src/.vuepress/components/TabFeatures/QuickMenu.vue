@@ -40,9 +40,9 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      title_zh: "快捷窗口",
-      title_en: "Quick Menu",
-      subtitle_zh: "专为键盘操作设计，一个即用即走的快捷窗口",
+      title_zh: "快捷窗口 - 一秒找到记录",
+      title_en: "Quick Menu - Find Records in One Second",
+      subtitle_zh: "双手无需离开键盘即可查找记录，一个即用即走的快捷窗口",
       subtitle_en: "Designed specifically for keyboard operations, a quick window that appears and disappears at the input position at any time",
       items_zh: [
         {

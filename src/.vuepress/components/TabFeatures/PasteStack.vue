@@ -40,8 +40,8 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      title_en: "Paste Stack",
-      title_zh: "粘贴队列",
+      title_en: "Paste Stack - Paste in Sequence",
+      title_zh: "粘贴队列 - 按顺序粘贴",
       subtitle_en: "Paste Stack provides a way to paste content quickly in order",
       subtitle_zh: "粘贴队列提供了一个可以快速按顺序粘贴内容的方式",
       items_zh: [

@@ -24,14 +24,12 @@ features:
   details: ⌘ + ; to bring up, 0-9 to paste, incredibly smooth.
 - title: 🌈 Full Format
   details: Supports all copyable formats, text, images, files, Sketch styles and more.
-- title: 📌 Main Window
-  details: A window pinned on screen has a powerful bookmark list and smart list.
+- title: 💡 Easy Management
+  details: Infinite bookmark lists and smart lists help you easily manage your content.
 - title: 🧲 Quick Menu
-  details:  A quick menu that appears and disappears at the input position at any time.
-- title: 🗳️ Paste Stack
+  details: Quickly find and use records in 1 second without leaving the keyboard.
+- title: 🗳️ Paste in Sequence
   details: Paste Stack provides a way to paste content quickly in order.
-- title: 
-  details: 
 footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/'
 

@@ -40,7 +40,7 @@ module.exports = {
       // ['script', { src: '/js/enhanceApp.js' }],
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
-      ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
+      // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
       ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
       ['script', {}, `
       (function(c,l,a,r,i,t,y){

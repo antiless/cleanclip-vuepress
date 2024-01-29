@@ -40,8 +40,8 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      title_en: "Main Window",
-      title_zh: "主窗口",
+      title_en: "Main Window - Easy Management",
+      title_zh: "主窗口 - 轻松管理",
       subtitle_en: "A window pinned on screen has a powerful bookmark list and smart list",
       subtitle_zh: "可轻松查看当前应用的复制记录。还支持无限制的收藏夹、智能列表。方便过滤内容",
       items_zh: [
