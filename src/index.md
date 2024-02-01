@@ -5,9 +5,10 @@ heroText: The cleanest Clipboard Manager on macOS, ever!
 tagline: Be a happy COPY cat, don't start from scratch all the time.
 # tagline: Curate and organize all your copyable content, helping you stay focused on your creative process and saving you precious time.
 actions:
-  - text: Get 2x productivity - for Free
+  - text: Get 2x productivity - 30-Day Free Trial
+    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
     # link: https://clip-purchase.macaify.com
-    link: https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg
+    # link: https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg
     type: primary
     size: large
     shape: round
@@ -112,8 +113,8 @@ canonicalUrl: 'https://cleanclip.cc/'
       <!-- <img src="/images/twitter_card.webp"/> -->
       <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
         <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-        <a href="https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg">
-                      Get 2x productivity - for Free
+        <a href="https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929">
+                      Get 2x productivity - 30-Day Free Trial
         </a>
       </button>
     </div>
