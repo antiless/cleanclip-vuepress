@@ -1,5 +1,7 @@
 ---
 
 ---
-<Students/>
-<NewFooter/>
+<div class="students">
+  <Students/>
+  <NewFooter/>
+</div>
