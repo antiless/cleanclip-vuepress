@@ -193,14 +193,11 @@ export default {
 
 <style>
 
-.students {
-.home .hero .description .theme-antdocs-content .theme-antdocs-content:not(.custom) {
-    max-width: unset !important;
-}
+.theme-container.students {
+  .theme-antdocs-content:not(.custom) {
+      max-width: unset !important;
+      padding: unset !important;
+  }
 }
 
-.theme-container.no-sidebar .theme-antdocs-content:not(.custom) {
-    max-width: unset !important;
-    padding: unset !important;
-}
 </style>
