@@ -11,7 +11,7 @@ module.exports = {
     description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
-      // [ require('./plugins/promotion')],
+      [ require('./plugins/promotion')],
       [
         'vuepress-plugin-sitemap',
         { hostname: 'https://cleanclip.cc' }
@@ -40,7 +40,7 @@ module.exports = {
       // ['script', { src: '/js/enhanceApp.js' }],
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
-      ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
+      // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
       ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
       ['script', {}, `
       (function(c,l,a,r,i,t,y){
