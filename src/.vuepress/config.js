@@ -7,7 +7,7 @@ const autometa_options = {
 };
 
 module.exports = {
-    title: 'CleanClip',
+    title: 'CleanClip - macOS Clipboard Manager',
     description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
@@ -40,7 +40,7 @@ module.exports = {
       // ['script', { src: '/js/enhanceApp.js' }],
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
-      // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
+      ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
       ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
       ['script', {}, `
       (function(c,l,a,r,i,t,y){
@@ -62,6 +62,7 @@ module.exports = {
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,400;12..96,600;12..96,800&display=swap' }],
     ],
     themeConfig: {
+      title: "CleanClip",
       logo: '/images/logo.webp',
       smoothScroll: true,
       backToTop: true,
