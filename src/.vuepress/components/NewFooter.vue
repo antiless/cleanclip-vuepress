@@ -58,7 +58,7 @@ export default {
             {
               name: "Download",
               // url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
-              url: "https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg",
+              url: "/download",
               class: "lemonsqueezy-button"
             },
             {
@@ -79,19 +79,14 @@ export default {
           title: "Sales",
           items: [
             {
-              name: "Education Discount",
-              url: "/students",
-              label: "30%"
+              name: "Affiliate",
+              url: "/affiliate",
+              label: "Earn up to $10.00"
             },
             {
-              name: "Competitor Discount",
-              url: "mailto:support@cleanclip.cc",
-              label: "30%"
-            },
-            {
-              name: "OSS Contributor Discount",
-              url: "mailto:support@cleanclip.cc",
-              label: "10%"
+              name: "Special Offers",
+              url: "/discounts",
+              label: "10%-55% Off"
             },
           ]
         },
@@ -106,10 +101,6 @@ export default {
             //   name: "Blog",
             //   url: "https://cleanclip.cc/blog",
             // },
-            {
-              name: "Affiliate",
-              url: "https://store.cleanclip.cc/affiliates",
-            },
             {
               name: "Help Translate",
               url: "https://crowdin.com/project/cleanclipapp",
@@ -146,7 +137,7 @@ export default {
             {
               name: "下载",
               // url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
-              url: "https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg",
+              url: "/zh/download",
               class: "lemonsqueezy-button"
             },
             {
@@ -167,19 +158,14 @@ export default {
           title: "销售",
           items: [
             {
-              name: "教育优惠",
-              url: "/students",
-              label: "30%"
+              name: "附属联盟",
+              url: "/affiliate",
+              label: "每单最多挣 $10.00"
             },
             {
-              name: "竞争对手折扣",
-              url: "mailto:support@cleanclip.cc",
-              label: "30%"
-            },
-            {
-              name: "开源软件贡献者折扣",
-              url: "mailto:support@cleanclip.cc",
-              label: "10%"
+              name: "特别优惠",
+              url: "/zh/discounts",
+              label: "4-9 折优惠"
             },
           ]
         },

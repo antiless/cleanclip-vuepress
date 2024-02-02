@@ -37,7 +37,7 @@ module.exports = {
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],
       ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card2.webp"}],
       ['script', { src: '/js/base.js' }],
-      // ['script', { src: '/js/enhanceApp.js' }],
+      ['script', { src: '/js/enhanceApp.js' }],
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
       // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
@@ -64,9 +64,16 @@ module.exports = {
     themeConfig: {
       title: "CleanClip",
       logo: '/images/logo.webp',
+      latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg',
+      freeTrailUrl: 'https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929',
+      purchaseUrl: 'https://clip-purchase.macaify.com',
       smoothScroll: true,
       backToTop: true,
       search: false,
+      alias: {
+        '/affiliate': 'https://store.cleanclip.cc/affiliates',
+        '/pricing': 'https://clip-purchase.macaify.com',
+      },
       locales: {
         '/': {
           // text for the language dropdown
@@ -86,10 +93,10 @@ module.exports = {
             },
             {
               text: 'Download',
-              link: 'https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg'
+              link: '/download'
               // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
             },
-            { "text": "Pricing", "link": "https://clip-purchase.macaify.com" },
+            { "text": "Pricing", "link": "/pricing" },
           ],
           search: false
         },
@@ -112,9 +119,9 @@ module.exports = {
             {
               text: '下载',
               // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
-              link: 'https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg'
+              link: '/zh/download'
             },
-            { text: '价格', link: 'https://clip-purchase.macaify.com' },
+            { text: '价格', link: '/pricing' },
           ],
           search: false
         }

@@ -8,7 +8,7 @@ actions:
   - text: Get 2x productivity - 30-Day Free Trial
     link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
     # link: https://clip-purchase.macaify.com
-    # link: https://cleanclip.cc/releases/download/v2.0.1/CleanClip.dmg
+    # link: /download
     type: primary
     size: large
     shape: round
