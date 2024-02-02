@@ -8,7 +8,7 @@ const autometa_options = {
 
 module.exports = {
     title: 'CleanClip - macOS Clipboard Manager',
-    description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
+    description: 'Auto save copies, easy management, find in second. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
       [ require('./plugins/promotion')],
@@ -130,7 +130,7 @@ module.exports = {
       locales: {
         '/': {
           lang: 'en-US',
-          description: 'An immersive clipboard management application designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.',
+          description: 'Auto save copies, easy management, find in second. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
           search: false
         },
         '/zh/': {
