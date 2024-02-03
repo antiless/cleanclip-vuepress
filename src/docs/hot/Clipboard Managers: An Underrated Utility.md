@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/docs/hot/AnUnderratedUtility'
+canonicalUrl: 'https://cleanclip.cc/docs/hot/Clipboard%20Managers:%20An%20Underrated%20Utility'
 ---
 
 # Clipboard Managers: An Underrated Utility

@@ -33,7 +33,7 @@ features:
   - title: 
     details: 
 footer: Copyright © 2024 南京最美佳科技有限公司
-canonicalUrl: 'https://cleanclip.cc/zh'
+canonicalUrl: 'https://cleanclip.cc/zh/'
 ---
 
 <div class="segments">
