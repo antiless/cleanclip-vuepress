@@ -80,7 +80,7 @@ export default {
           items: [
             {
               name: "Affiliate",
-              url: "/affiliate",
+              url: "https://store.cleanclip.cc/affiliates",
               label: "Earn up to $10.00"
             },
             {
@@ -158,8 +158,8 @@ export default {
           title: "销售",
           items: [
             {
-              name: "附属联盟",
-              url: "/affiliate",
+              name: "联盟计划",
+              url: "https://store.cleanclip.cc/affiliates",
               label: "每单最多挣 $10.00"
             },
             {
@@ -180,10 +180,6 @@ export default {
             //   name: "博客",
             //   url: "https://cleanclip.cc/zh/blog",
             // },
-            {
-              name: "联盟计划",
-              url: "https://store.cleanclip.cc/affiliates",
-            },
             {
               name: "协助翻译",
               url: "https://crowdin.com/project/cleanclipapp",
