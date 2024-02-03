@@ -45,5 +45,14 @@ export default ({
           window.location.href = 'https://store.cleanclip.cc/affiliates';
         },
       })
-  
+      router.addRoute(
+        {
+          path: '/affiliate.html', // the url users will visit
+          beforeEnter(to, from, next) {
+                    // you can add analysis or logging stuff here
+    
+                    // url user will be redirected to 👇
+            window.location.href = 'https://store.cleanclip.cc/affiliates';
+          },
+        })  
 }
