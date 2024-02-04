@@ -122,7 +122,7 @@ export default {
         title: "特别优惠",
         subtitle: "我们为不同的用户群体提供了一系列的优惠",
         student_title: "学生优惠",
-        student_desc: '我们为全日制学生提供 <b>30%</b> 优惠，帮助他们更好地学习和探索。<a href="/students">了解更多</a>',
+        student_desc: '我们为全日制学生提供 <b>30%</b> 优惠，帮助他们更好地学习和探索。<a href="/zh/students">了解更多</a>',
         competitor_title: "竞品用户优惠",
         competitor_desc: '如果你是我们竞品的用户，我们提供 <b>30%</b> 优惠，帮助你轻松切换到我们的产品。<a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="_blank">申请优惠</a>',
         open_source_contributor_title: "开源贡献者优惠",
@@ -148,4 +148,8 @@ export default {
   p {
     font-size: 1rem;
   }
-}</style>
+  .page-edit {
+    display: none;
+  }
+}
+</style>

@@ -7,19 +7,17 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 
 ---
 
-# Roadmap 📅
+# Roadmap
 
 ## In Progress 🕙
 
-### Phase 5: Enhanced Management Features
-**📅 Launch Date**
-- November 19, 2023
-
-**🔧 Features**
-- Major Feature 1: Collections and Smart Lists! Intelligently manage, browse, and utilize your browsing history.
-- Major Feature 2: Drag and Drop! Everything is draggable! Enhance efficiency in recording and content creation. User-friendly for content collectors and creators.
-- Major Feature 3: Professional Functionality! Regular expression filtering → sed script processing, solving complex workflow scenarios.
-
+### Phase 7: Optimization Phase
+- Synchronize the functionality of MainWindow and Quick Menu
+- Fix some critical bugs
+- Enhance fcp/resolve bugs
+- Rewrite settings
+- Custom text processing script
+- Synchronize paste stack/ main window content
 
 ## Planned
 
@@ -30,27 +28,12 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 **🔧 Features**
 - Support for syncing multi-platform history records via iCloud
 
-
-### Copy&Paste Sequence
-**📅 Launch Date**
-- To be determined
-
-**🔧 Features**
-- Support for copy stack, allowing users to continuously paste and pop the recently pasted content by pressing CMD + V
-
 ### iOS Version
 **📅 Launch Date**
 - To be determined
 
 **🔧 Features**
 - Support for sharing records between Mac and mobile devices
-
-### Smart Lists and Group Management
-**📅 Launch Date**
-- To be determined
-
-**🔧 Features**
-- Extension of fixed features, with smart lists, grouping, and more
 
 ### Webpage Source
 **📅 Launch Date**
@@ -91,9 +74,19 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 
 ![](/images/roadmap/phase3.webp)
 
-### Phase 4: Paste Stack🌟
+### Phase 4: Paste Stack ✅
 **📅 Launch Date**
 - 2023.11.09
 
 **🔧 Features**
 - Copy content consecutively into a queue, then paste them in order
+
+
+### Phase 5: Enhanced Management Features ✅
+**📅 Launch Date**
+- November 19, 2023
+
+**🔧 Features**
+- Major Feature 1: Collections and Smart Lists! Intelligently manage, browse, and utilize your browsing history.
+- Major Feature 2: Drag and Drop! Everything is draggable! Enhance efficiency in recording and content creation. User-friendly for content collectors and creators.
+- Major Feature 3: Professional Functionality! Regular expression filtering → sed script processing, solving complex workflow scenarios. (Postponed to the next stage)

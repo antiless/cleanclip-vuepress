@@ -2,7 +2,7 @@
   <main  :class="['page', { 'has-page-anchor': hasPageAnchor }]">
     <slot name="top" />
 
-    <Content class="theme-antdocs-content" />
+    <Content class="theme-antdocs-content" style="min-height: 65vh;"/>
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -57,7 +57,7 @@ export default {
 @import '../styles/palette.less';
 @import '../styles/wrapper.less';
 .page {
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   display: block;
   // transition: padding-right 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
 

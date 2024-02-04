@@ -4,18 +4,16 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 
 # CleanClip 规划路线
 
-## 正在做🕙
+## 正在做 🕙
+### 优化阶段
+- 同步 MainWindow 和 Quick Menu 功能
+- 修复一些重要 bug
+- fcp 增强/bug 解决
+- 重写设置
+- 自定义文字处理脚本
+- 粘贴队列/主窗口内容同步
 
-### 五期: 更强大的管理功能
-**📅 Launch Date**
-- 2023.11.19
-
-**🔧 Features**
-- 大功能一：收藏列表、智能列表！智能地管理、浏览、使用你的历史记录。
-- 大功能二：拖拽拖拽拖拽！所有内容都可拖拽！使用记录更高效！对内容收集、内容创造者友好。
-- 大功能三：专业功能！正则筛选→sed 脚本处理，解决复杂应用场景的工作流。
-
-## 计划中
+## 计划中 📅
 
 ### 六期：iCloud 同步 📅
 **📅 上线日期**
@@ -39,13 +37,6 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 **🔧 功能**
 - 支持 mac 端、手机端记录共享
 
-### 智能列表、分组管理功能
-**📅 上线日期**
-- 待定
-
-**🔧 功能**
-- 固定功能的延伸，智能列表、分组等作为固定项出现
-
 ### 网页来源
 **📅 上线日期**
 - 待定
@@ -53,7 +44,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 **🔧 功能**
 - 来源具体到某个网页
 
-## 已完成
+## 已完成 ✅
 ### 一期：基础功能 ✅
 
 **📅 上线日期**
@@ -96,3 +87,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
     <source src="/videos/pastestack265.mp4" type="video/mp4">
     <iframe width="700" src="/videos/search.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </video>
+
+
+### 五期: 更强大的管理功能
+**📅 Launch Date**
+- 2023.11.19
+
+**🔧 Features**
+- 大功能一：收藏列表、智能列表！智能地管理、浏览、使用你的历史记录。
+- 大功能二：拖拽拖拽拖拽！所有内容都可拖拽！使用记录更高效！对内容收集、内容创造者友好。
+- 大功能三：专业功能！正则筛选→sed 脚本处理，解决复杂应用场景的工作流。（移到下一阶段）

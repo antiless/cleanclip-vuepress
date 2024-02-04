@@ -68,11 +68,14 @@ module.exports = {
       freeTrailUrl: 'https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929',
       purchaseUrl: 'https://clip-purchase.macaify.com',
       smoothScroll: true,
-      backToTop: true,
+      backToTop: false,
       search: false,
       alias: {
         '/affiliate': 'https://store.cleanclip.cc/affiliates',
         '/pricing': 'https://clip-purchase.macaify.com',
+      },
+      pageAnchor:{
+        isDisabled: true,
       },
       locales: {
         '/': {
@@ -98,7 +101,30 @@ module.exports = {
             },
             { "text": "Pricing", "link": "/pricing" },
           ],
-          search: false
+          search: false,
+          sidebar: {
+            '/docs/': ['', 'manual', 'roadmap', 'changelog'],
+            // '/posts/': ['', 'ok'],
+            // '/posts/': [{
+            //   title: "posts1",
+            //   path: "/posts/",
+            //   collapsable: false,
+            //   children: ['', 'ok']
+            // }, {
+            //   title: "posts2",
+            //   path: "/posts/",
+            //   collapsable: false,
+            //   children: [['','入门'], 'ok', 'okk']
+            // }, {
+            //   title: "articles",
+            //   path: "/articles/",
+            //   collapsable: false,
+            //   children: [['','入门'], 'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',]
+            // }, ],
+            '/articles/': [
+              'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
+            ],
+        },
         },
         '/zh/': {
           // text for the language dropdown
@@ -123,7 +149,13 @@ module.exports = {
             },
             { text: '价格', link: '/pricing' },
           ],
-          search: false
+          search: false,
+          sidebar: {
+            '/zh/docs/': ['', 'manual', 'roadmap', 'changelog'],
+            '/zh/articles/': [
+              'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
+            ],
+        },
         }
       }
       },

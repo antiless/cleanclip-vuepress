@@ -1,3 +1,6 @@
+---
+tag: clipboard
+---
 # Why don't all clipboard manager apps support recording copy items from Final Cut Pro?
 
 Final Cut Pro has never had a useful bookmarking feature, so a clipboard tool with bookmarking functionality would be a great companion to Final Cut Pro.

@@ -198,6 +198,10 @@ export default {
       max-width: unset !important;
       padding: unset !important;
   }
+
+  .page-edit {
+    display: none;
+  }
 }
 
 </style>

@@ -20,6 +20,7 @@
       </template>
       <template #bottom>
         <slot name="page-bottom" />
+        <NewFooter class="bg-slate-50"/>
       </template>
     </Page>
 
@@ -33,6 +34,7 @@ import Navbar from '@theme/components/Navbar.vue';
 import Page from '@theme/components/Page.vue';
 import Sidebar from '@theme/components/Sidebar.vue';
 import { resolveSidebarItems } from '../util';
+import NewFooter from '../../components/NewFooter.vue';
 
 export default {
   name: 'Layout',
@@ -41,8 +43,9 @@ export default {
     Home,
     Page,
     Sidebar,
-    Navbar
-  },
+    Navbar,
+    NewFooter
+},
 
   computed: {
     shouldShowAnnouncementBar() {

@@ -97,10 +97,10 @@ export default {
               name: "Twitter",
               url: "https://x.com/cleanclipapp",
             },
-            // {
-            //   name: "Blog",
-            //   url: "https://cleanclip.cc/blog",
-            // },
+            {
+              name: "Articles",
+              url: "/articles",
+            },
             {
               name: "Help Translate",
               url: "https://crowdin.com/project/cleanclipapp",
@@ -176,10 +176,10 @@ export default {
               name: "Twitter",
               url: "https://x.com/cleanclipapp",
             },
-            // {
-            //   name: "博客",
-            //   url: "https://cleanclip.cc/zh/blog",
-            // },
+            {
+              name: "文章",
+              url: "/zh/articles",
+            },
             {
               name: "协助翻译",
               url: "https://crowdin.com/project/cleanclipapp",
