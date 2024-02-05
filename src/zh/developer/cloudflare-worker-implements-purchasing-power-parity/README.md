@@ -7,8 +7,9 @@ canonicalUrl: "https://cleanclip.cc/zh/developer/cloudflare-worker-implements-pu
 > **由于各个国家、地区购买力不一，出海产品需要为不同购买力的地区设定不同的价格。**
 
 实现购买力平价**需要两个数据：**
-1. 用户的位置数据
-2. 一份各国家的购买力水平清单
+
+- 用户的位置数据
+- 一份各国家的购买力水平清单
 
 **逻辑就很简单了：**
 位置数据 -> 购买力水平 -> 匹配相应价格信息并应用
@@ -26,9 +27,9 @@ Cloudflare Worker 的 **request 参数**带了非常详细的**位置数据**，
 
 ## 逻辑和实现代码
 大致逻辑是：
-1. 从 Worker 的 request 参数**获取国家代码**
-2. 使用国家代码从购买能力列表**获取购买力水平**
-3. 根据水平匹配相应的**折扣信息并应用**
+- 从 Worker 的 request 参数**获取国家代码**
+- 使用国家代码从购买能力列表**获取购买力水平**
+- 根据水平匹配相应的**折扣信息并应用**
 
 > 我在 [CleanClip](https://cleanclip.cc)(Mac 上的剪贴板工具) 中简单起见，直接为不同国家应用不同的折扣。
 > LemonSqueezy 可以这样直接应用折扣码：PRODUCT_URL + "?checkout%5Bdiscount_code%5D=" + discountCode

@@ -7,8 +7,9 @@ canonicalUrl: "https://cleanclip.cc/developer/cloudflare-worker-implements-purch
 > **Due to different purchasing power in different countries and regions, overseas products need to set different prices for areas with different purchasing power.**
 
 To achieve purchasing power parity, **two pieces of data are needed:**
-1. User location data
-2. A list of purchasing power levels for different countries
+
+- User location data
+- A list of purchasing power levels for different countries
 
 **The logic is simple:**
 Location data -> Purchasing power level -> Match corresponding price information and apply
@@ -26,9 +27,9 @@ The purchasing power level can be downloaded from this gist: [List of Purchasing
 
 ## Logic and Implementation Code
 The general logic is as follows:
-1. **Retrieve the country code** from the Worker's request parameter.
-2. Use the country code to **retrieve the purchasing power level** from the list.
-3. Match the corresponding **discount information based on the level** and apply it.
+- **Retrieve the country code** from the Worker's request parameter.
+- Use the country code to **retrieve the purchasing power level** from the list.
+- Match the corresponding **discount information based on the level** and apply it.
 
 > For simplicity, I directly apply different discounts for different countries in [CleanClip](https://cleanclip.cc) (a clipboard tool on Mac).
 > LemonSqueezy can apply discount codes like this: PRODUCT_URL + "?checkout%5Bdiscount_code%5D=" + discountCode
