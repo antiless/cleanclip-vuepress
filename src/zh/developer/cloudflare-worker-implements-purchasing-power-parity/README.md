@@ -18,7 +18,7 @@ canonicalUrl: "https://cleanclip.cc/zh/developer/cloudflare-worker-implements-pu
 
 ## 位置数据
 Cloudflare Worker 的 **request 参数**带了非常详细的**位置数据**，这让我们不需要再使用第三方服务就能方便地获取位置：
-<img alt="Cloudflare Worker request 字段" src="https://github.com/auv1107/blug/assets/2681464/7984b53b-4609-4835-8b7f-068819fec18a" width="300px"/>
+<img alt="Cloudflare Worker request 字段" src="./cloudflare-request-location-field.png" width="300px"/>
 
 它包括了经纬度、地区代码等，我们的颗粒度精确到国家，这里用**国家代码 country 字段**。
 

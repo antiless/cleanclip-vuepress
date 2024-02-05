@@ -19,6 +19,7 @@ module.exports = {
     ],
     theme: 'antdocs',
     head: [
+      ['link', { rel: 'stylesheet', href: '/css/output.css' }],
       ["link", { rel: "icon", type: "image/ico", href: "/images/favicon.ico" }],
       ["link", { rel: "shortcut icon", type: "image/x-icon", href: "/images/favicon.ico" }],
       ['link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicon-32x32.png' }],
@@ -38,7 +39,6 @@ module.exports = {
       ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card2.webp"}],
       ['script', { src: '/js/base.js' }],
       // ['script', { src: '/js/enhanceApp.js' }],
-      ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
       // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
       ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
