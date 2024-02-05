@@ -23,7 +23,7 @@ Cloudflare Worker 的 **request 参数**带了非常详细的**位置数据**，
 它包括了经纬度、地区代码等，我们的颗粒度精确到国家，这里用**国家代码 country 字段**。
 
 ## 购买力水平数据
-购买力水平等级可以在这个 gist 下载：[各国家购买力水平清单](https://gist.github.com/auv1107/999c97a62338833f93b6c3cc5ae08ce8.js)
+购买力水平等级可以在这个 gist 下载：[各国家购买力水平清单](https://gist.github.com/auv1107/999c97a62338833f93b6c3cc5ae08ce8)
 
 ## 逻辑和实现代码
 大致逻辑是：

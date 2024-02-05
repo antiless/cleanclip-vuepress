@@ -23,7 +23,7 @@ Cloudflare Worker's **request parameter** contains very detailed **location data
 It includes latitude and longitude, region codes, etc. Our granularity is accurate to the country level, and we use the **country code field** here.
 
 ## Purchasing Power Level Data
-The purchasing power level can be downloaded from this gist: [List of Purchasing Power Levels for Different Countries](https://gist.github.com/auv1107/999c97a62338833f93b6c3cc5ae08ce8.js)
+The purchasing power level can be downloaded from this gist: [List of Purchasing Power Levels for Different Countries](https://gist.github.com/auv1107/999c97a62338833f93b6c3cc5ae08ce8)
 
 ## Logic and Implementation Code
 The general logic is as follows:
