@@ -1,7 +1,7 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/hot/Clipboard%20Managers:%20An%20Underrated%20Utility'
+canonicalUrl: 'https://cleanclip.cc/zh/articles/clipboard-managers-an-underrated-utility'
 ---
-剪贴板管理器：一个被低估的实用工具
+# 剪贴板管理器：一个被低估的实用工具
 
 我们都曾经这样做过——你复制一些文本或图像以便粘贴到其他地方，结果在粘贴之前不小心又复制了一次。
 
@@ -26,3 +26,10 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/hot/Clipboard%20Managers:%20An%20Und
 ![哇，剪贴板管理器太棒了](https://media.giphy.com/media/rVVFWyTINqG7C/giphy.gif)
 
 对于Mac用户来说，CleanClip是一个很好的剪贴板管理器。它拥有简单而简约的设计，提供强大的剪贴板历史记录功能，没有不必要的臃肿。你可以[在这里查看CleanClip](https://cleanclip.cc/)。
+
+
+---
+
+作者：Sintone Li
+
+文章地址：{{ $page.frontmatter.canonicalUrl }}

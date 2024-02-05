@@ -102,6 +102,10 @@ export default {
               url: "/articles",
             },
             {
+              name: "Developer Blog",
+              url: "/developer",
+            },
+            {
               name: "Help Translate",
               url: "https://crowdin.com/project/cleanclipapp",
               label: "New"
@@ -179,6 +183,10 @@ export default {
             {
               name: "文章",
               url: "/zh/articles",
+            },
+            {
+              name: "开发者博客",
+              url: "/zh/developer",
             },
             {
               name: "协助翻译",

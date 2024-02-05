@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/docs/hot/Clipboard%20Managers:%20An%20Underrated%20Utility'
+canonicalUrl: 'https://cleanclip.cc/articles/clipboard-managers-an-underrated-utility'
 ---
 
 # Clipboard Managers: An Underrated Utility
@@ -27,3 +27,10 @@ Like many power user tools, clipboard managers are an elegantly simple solution 
 ![Wow, clipboard manager is amazing](https://media.giphy.com/media/rVVFWyTINqG7C/giphy.gif)
 
 For Mac users, CleanClip is an excellent clipboard manager to try. With a simple and minimalist design, it provides robust clipboard history functionality without unnecessary bloat. You can [check out CleanClip here](https://cleanclip.cc/).
+
+
+---
+
+Author: Sintone Li
+
+Article address: {{ $page.frontmatter.canonicalUrl }}

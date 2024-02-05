@@ -1,5 +1,5 @@
 ---
-tag: clipboard
+canonicalUrl: "https://cleanclip.cc/articles/Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/"
 ---
 # Why don't all clipboard manager apps support recording copy items from Final Cut Pro?
 
@@ -93,3 +93,10 @@ This is very possible if there is not enough user feedback and the developer lac
 I can think of those possibilities: **either the development team chose not to support it, or they didn't realize there was such a problem due to lack of experience.**
 
 I originally wanted to explain it briefly, but I accidentally said too much haha. I hope these words satisfies your curiosity.
+
+
+---
+
+Author: Sintone Li
+
+Article address: {{ $page.frontmatter.canonicalUrl }}

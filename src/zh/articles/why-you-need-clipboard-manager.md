@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/whyyouneedclipboardmanager'
+canonicalUrl: 'https://cleanclip.cc/zh/articles/why-you-need-clipboard-manager'
 ---
 
 # 为什么你需要一款剪贴板管理软件
@@ -18,3 +18,10 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/whyyouneedclipboardmanager'
 
 ### 随时取用
 拥有一款剪贴板管理器，意味着你可以建立自己的知识宝库，更高效地管理数据、获取灵感、完成工作。它会成为你最实用的创意助手和工作伙伴。
+
+
+---
+
+作者：Sintone Li
+
+文章地址：{{ $page.frontmatter.canonicalUrl }}

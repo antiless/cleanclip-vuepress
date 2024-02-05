@@ -2,7 +2,7 @@ const autometa_options = {
   site: {
     name   : 'CleanClip - macOS Clipboard Manager'
   },
-  twitter: false,
+  twitter: true,
   canonical_base: 'https://cleanclip.cc'
 };
 
@@ -104,26 +104,27 @@ module.exports = {
           search: false,
           sidebar: {
             '/docs/': ['', 'manual', 'roadmap', 'changelog'],
-            // '/posts/': ['', 'ok'],
-            // '/posts/': [{
-            //   title: "posts1",
-            //   path: "/posts/",
-            //   collapsable: false,
-            //   children: ['', 'ok']
-            // }, {
-            //   title: "posts2",
-            //   path: "/posts/",
-            //   collapsable: false,
-            //   children: [['','入门'], 'ok', 'okk']
-            // }, {
-            //   title: "articles",
-            //   path: "/articles/",
-            //   collapsable: false,
-            //   children: [['','入门'], 'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',]
-            // }, ],
-            '/articles/': [
-              'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
-            ],
+            '/developer/': [{
+              title: "Developer Blog",
+              collapsable: false,
+              children: [
+                'cloudflare-worker-implements-purchasing-power-parity/',
+                'cloudflare-worker-gmail-resend-enterprise-email/',
+                'swiftui-nswindow-inactive-firstmouse',
+                'web-axios-CROS',
+              ]
+            }],
+            '/articles/': [{
+              title: "Articles",
+              path: "/articles/",
+              collapsable: false,
+              children: [
+                'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
+                'clipboard-managers-a-must-have-for-every-mac-user',
+                'clipboard-managers-an-underrated-utility',
+                'why-you-need-clipboard-manager'
+              ]
+          }],
         },
         },
         '/zh/': {
@@ -152,9 +153,27 @@ module.exports = {
           search: false,
           sidebar: {
             '/zh/docs/': ['', 'manual', 'roadmap', 'changelog'],
-            '/zh/articles/': [
-              'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
-            ],
+            '/zh/developer/': [{
+              title: "开发者博客",
+              collapsable: false,
+              children: [
+                'cloudflare-worker-implements-purchasing-power-parity/',
+                'cloudflare-worker-gmail-resend-enterprise-email/',
+                'swiftui-nswindow-inactive-firstmouse',
+                'web-axios-CROS',
+              ]
+            }],
+            '/zh/articles/': [{
+              title: "文章",
+              path: "/zh/articles/",
+              collapsable: false,
+              children: [
+                'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
+                'clipboard-managers-a-must-have-for-every-mac-user',
+                'clipboard-managers-an-underrated-utility',
+                'why-you-need-clipboard-manager'
+              ]
+          }],
         },
         }
       }

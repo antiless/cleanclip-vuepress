@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/docs/hot/Clipboard%20Managers:%20A%20Must-Have%20for%20Every%20Mac%20User'
+canonicalUrl: 'https://cleanclip.cc/articles/clipboard-managers-a-must-have-for-every-mac-user'
 ---
 
 # Clipboard Managers: A Must-Have for Every Mac User
@@ -55,3 +55,10 @@ If I've convinced you to get a clipboard manager, check out [CleanClip](https://
 ![I need to use a clipboard manager right away](https://media.giphy.com/media/MXJQinVv3o4NwcaRhA/giphy.gif)
 
 Go ahead, try out CleanClip and take your clipboard to the next level. Your future copy-pasting self will thank you!
+
+
+---
+
+Author: Sintone Li
+
+Article address: {{ $page.frontmatter.canonicalUrl }}

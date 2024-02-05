@@ -1,7 +1,7 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/hot/Clipboard%20Managers:%20A%20Must-Have%20for%20Every%20Mac%20User'
+canonicalUrl: 'https://cleanclip.cc/zh/articles/clipboard-managers-a-must-have-for-every-mac-user'
 ---
-剪贴板管理器：每个Mac用户必备的工具
+# 剪贴板管理器：每个 Mac 用户必备的工具
 
 听好了，朋友们。今天我有一些重要的东西要与大家分享。这是关于**剪贴板管理器**的——那些方便的小工具，可以将您复制或剪切的所有内容保存在易于访问的历史记录中。
 
@@ -53,3 +53,10 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/hot/Clipboard%20Managers:%20A%20Must
 ![我需要立即使用剪贴板管理器](https://media.giphy.com/media/MXJQinVv3o4NwcaRhA/giphy.gif)
 
 去试试CleanClip，将您的剪贴板提升到一个新的水平。未来的自己会感谢您的复制粘贴！
+
+
+---
+
+作者：Sintone Li
+
+文章地址：{{ $page.frontmatter.canonicalUrl }}

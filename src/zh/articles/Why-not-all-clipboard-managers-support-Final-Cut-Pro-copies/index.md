@@ -1,3 +1,7 @@
+---
+canonicalUrl: "https://cleanclip.cc/zh/articles/Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/"
+---
+
 # 答用户问：为什么不是所有的剪贴板 App 都支持记录 Final Cut Pro 的复制项?
 
 Final Cut Pro从来没有一个有用的书签功能，所以一个带有书签功能的剪贴板工具将是Final Cut Pro的绝佳伴侣。
@@ -86,3 +90,11 @@ Mac 约定，每个放到剪贴板里的内容都要有至少两个东西：1. *
 我能想到大概就这些吧：**要么是开发团队选择不支持，要么是因为经验没有意识到有这类问题。**
 
 我本来想简单地解释一下，但是不小心说了太多哈哈。希望这些话满足了你的好奇心。
+
+
+---
+
+作者：Sintone Li
+
+文章地址：{{ $page.frontmatter.canonicalUrl }}
+
