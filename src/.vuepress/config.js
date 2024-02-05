@@ -37,7 +37,7 @@ module.exports = {
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],
       ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card2.webp"}],
       ['script', { src: '/js/base.js' }],
-      ['script', { src: '/js/enhanceApp.js' }],
+      // ['script', { src: '/js/enhanceApp.js' }],
       ['script', { src: 'https://cdn.tailwindcss.com' }],
       ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
       // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
@@ -61,6 +61,9 @@ module.exports = {
       ['link', { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: true }],
       ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,400;12..96,600;12..96,800&display=swap' }],
     ],
+    markdown: {
+      lineNumbers: true
+    },
     themeConfig: {
       title: "CleanClip",
       logo: '/images/logo.webp',
@@ -76,9 +79,6 @@ module.exports = {
       },
       pageAnchor:{
         isDisabled: true,
-      },
-      markdown: {
-        lineNumbers: true
       },
       locales: {
         '/': {
