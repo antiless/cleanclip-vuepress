@@ -77,6 +77,9 @@ module.exports = {
       pageAnchor:{
         isDisabled: true,
       },
+      markdown: {
+        lineNumbers: true
+      },
       locales: {
         '/': {
           // text for the language dropdown
