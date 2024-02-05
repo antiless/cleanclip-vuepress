@@ -1,3 +1,5 @@
+import './theme/styles/index.less';
+
 export default ({ router, siteData }) => {
   router.beforeResolve((to, from, next) => {
     console.log("resolve", from, to)
