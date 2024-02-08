@@ -11,6 +11,7 @@ Date: February 7, 2024
 - Added quick action bar to the shortcut menu
 - Added more customization options to the shortcut menu
 - Fixed some bugs
+
 [Download](https://cleanclip.cc/releases/download/v2.0.2/CleanClip.dmg)
 
 ## 2.0.1
