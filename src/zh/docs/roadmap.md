@@ -3,6 +3,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 ---
 
 # CleanClip 规划路线
+我们对 CleanClip 的愿景和设想。
 
 ## 正在做 🕙
 ### 优化阶段
@@ -15,7 +16,27 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 
 ## 计划中 📅
 
-### 六期：iCloud 同步 📅
+### 支持 TouchBar
+**📅 发布日期**
+- 待定
+
+**🔧 特点**
+- 在 TouchBar 展示复制记录
+结合 “Follow frontmost app" mode 或 lists，可以在指定 App 中自动展示特定的内容。比如，打开 Final Cut Pro 时自动显示保存过的一些模板内容，打开 Photoshop 时自动显示某个色卡等，打开浏览器是自动显示常用网址等。
+
+### 插件能力
+**📅 发布日期**
+- 待定
+
+**🔧 特点**
+- 插件能力将开放给开发者使用。
+这一能力允许有能力的开发者为每条记录开发特定的预处理、后处理能力。
+比如：
+- 为特定 App 的私有数据添加解析能力
+- 为文本/url 添加转 markdown 能力
+- 为图片添加压缩能力
+
+### iCloud 同步 📅
 **📅 上线日期**
 - 待定
 

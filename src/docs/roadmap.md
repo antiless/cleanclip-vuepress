@@ -8,6 +8,7 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 ---
 
 # Roadmap
+Our vision and concept for CleanClip.
 
 ## In Progress 🕙
 
@@ -20,8 +21,27 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 - Synchronize paste stack/ main window content
 
 ## Planned
+### Support for TouchBar
+**📅 Launch Date**
+- To be determined
 
-### Phase 6: iCloud Sync 📅
+**🔧 Features**
+- Display copy history on the TouchBar
+By combining with the "Follow frontmost app" mode or lists, specific content can be automatically displayed in a specified app. For example, when opening Final Cut Pro, automatically display saved templates, when opening Photoshop, automatically display a color palette, when opening a browser, automatically display frequently used websites, etc.
+
+### Plugin Capability
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Plugin capability will be open to developers.
+This capability allows capable developers to develop specific preprocessing and post-processing capabilities for each record.
+For example:
+- Add parsing capability to private data of specific apps
+- Add markdown conversion capability to text/URL
+- Add compression capability to images
+
+### iCloud Sync 📅
 **📅 Launch Date**
 - To be determined
 

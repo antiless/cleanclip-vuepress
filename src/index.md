@@ -39,7 +39,8 @@ features:
   details: Multiple intelligent filtering methods help you quickly organize and filter specific content.
 footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/'
-
+autometa:
+  twitter: false
 ---
 
 </br>
