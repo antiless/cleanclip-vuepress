@@ -10,8 +10,8 @@
       <description xml:lang="en">
         <![CDATA[
           <h2>2.0.2</h2>
-            <li>Added quick action bar to the shortcut menu</li>
-            <li>Added more customization options to the shortcut menu</li>
+            <li>Added quick action bar to the quick menu</li>
+            <li>Added more customization options to the quick menu</li>
             <li>Fixed some bugs</li>
           <h2>2.0.1</h2>
             <li>Do not active main window when open app</li>

@@ -8,8 +8,8 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 Date: February 7, 2024
 
 **Updates**
-- Added quick action bar to the shortcut menu
-- Added more customization options to the shortcut menu
+- Added quick action bar to the quick menu
+- Added more customization options to the quick menu
 - Fixed some bugs
 
 [Download](https://cleanclip.cc/releases/download/v2.0.2/CleanClip.dmg)
