@@ -2,7 +2,7 @@
 home: true
 heroImage: /images/hero2.webp
 heroText: The cleanest Clipboard Manager on macOS, ever!
-tagline: Be a happy COPY cat, don't start from scratch all the time.
+tagline: Simple, but powerful.
 # tagline: Curate and organize all your copyable content, helping you stay focused on your creative process and saving you precious time.
 actions:
   - text: Get 2x productivity - 30-Day Free Trial
@@ -24,13 +24,19 @@ features:
 - title: 🚀 Easy to Use
   details: ⌘ + ; to bring up, 0-9 to paste, incredibly smooth.
 - title: 🌈 Full Format
-  details: Supports all copyable formats, text, images, files, Sketch styles and more.
+  details: Support various private formats, save the template content of your favorite apps.
 - title: 💡 Easy Management
   details: Infinite bookmark lists and smart lists help you easily manage your content.
-- title: 🧲 Quick Menu
+- title: ⌨️ Quick Menu
   details: Quickly find and use records in 1 second without leaving the keyboard.
 - title: 🗳️ Paste in Sequence
   details: Paste Stack provides a way to paste content quickly in order.
+- title: 🧲 Follow Frontend App Mode
+  details: Auto display the copied content of the current app, improving efficiency in specific scenarios.
+- title: ♾️ Unlimited Collection Lists
+  details: Every category of content that needs to be reused can have its own place.
+- title: 🧠 Powerful Smart Lists
+  details: Multiple intelligent filtering methods help you quickly organize and filter specific content.
 footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/'
 

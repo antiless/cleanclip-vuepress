@@ -1,13 +1,12 @@
 const autometa_options = {
   site: {
-    name   : 'CleanClip - macOS Clipboard Manager'
+    name   : 'CleanClip - The cleanest Clipboard Manager on macOS, ever!'
   },
   twitter: true,
   canonical_base: 'https://cleanclip.cc'
 };
 
 module.exports = {
-    title: 'CleanClip - macOS Clipboard Manager',
     description: 'Auto save copies, easy management, find in seconds. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
     plugins: [
       [ require('./plugins/autometa'), autometa_options ],
@@ -26,13 +25,14 @@ module.exports = {
       ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon-16x16.png' }],
       ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/apple-touch-icon.png' }],  
       ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-      ['meta', { property: 'og:title', content: 'CleanClip - Rediscover the Value of Clipboard Content' }],
+      ['meta', { property: 'og:title', content: 'CleanClip - The cleanest Clipboard Manager on macOS, ever!' }],
       ['meta', { property: 'og:description', content: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.' }],
       ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card2.webp' }],
       ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
       ['meta', { property: 'og:type', content: 'website' }],
       ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app'}],
       ['meta', { name: "robots", content: "index,follow"}],
+      ['meta', { name: "twitter:title", content: "CleanClip - The cleanest Clipboard Manager on macOS, ever!"}],
       ['meta', { name: "twitter:card", content: "summary_large_image"}],
       ['meta', { name: "twitter:site", content: "@s1ntone"}],
       ['meta', { name: "twitter:creator", content: "@s1ntone"}],
@@ -184,13 +184,15 @@ module.exports = {
       locales: {
         '/': {
           lang: 'en-US',
-          description: 'Auto save copies, easy management, find in seconds. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
-          search: false
+          description: 'The cleanest Clipboard Manager on macOS. Auto save copies, easy management, find in seconds. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
+          search: false,
+          title: 'CleanClip - Clipboard Manager for macOS. Simple, but powerful.',
         },
         '/zh/': {
           lang: 'zh-CN',
-          description: '专为 Mac 打造的沉浸式剪贴板管理工具，在你的输入位置快速查询、预览、使用剪贴板历史记录',
-          search: false
+          description: '可能是 macOS 上最干净的剪贴板管理工具！自动保存复制内容，轻松管理，秒速查找。简单而强大。CleanClip 不仅可以保护您宝贵的内容不丢失，还提供强大的内容过滤、书签和组织能力。它渗透到您 Mac 使用日常的每个角落。',
+          search: false,
+          title: 'CleanClip - Mac 上最干净的剪贴板管理器。简单且强大！',
         }
       }
 }

@@ -22,15 +22,19 @@ features:
   - title: 🚀 快速使用
     details: 任意场景：「 ⌘ + ; 」呼出，Space 预览，🔢 粘贴，无比丝滑
   - title: 🌈 全格式支持
-    details: 支持包括图片、文件在内的所有可复制格式
+    details: 支持各种私有格式，收藏你最爱的 App 的模板内容。
   - title: 📌 主窗口
     details: 固定在屏幕上的具有强大的书签列表和智能列表的窗口
   - title: 🧲 快速菜单
     details: 专为键盘操作设计，一个即用即走的快捷窗口
   - title: 🗳️ 粘贴堆栈
     details: 粘贴队列提供了一个可以快速按顺序粘贴内容的方式
-  - title: 
-    details: 
+  - title: 🧲 跟随前台 App 模式
+    details: 自动显示当前 App 的复制内容，特定场景提效。
+  - title: ♾️ 无限制的收藏夹
+    details: 每一类需要重复使用的内容都可以有个归属。
+  - title: 🧠 强大的智能列表
+    details: 多种智能过滤方式，帮助你快速整理、筛选特定内容
 footer: Copyright © 2024 南京最美佳科技有限公司
 canonicalUrl: 'https://cleanclip.cc/zh/'
 ---
