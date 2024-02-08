@@ -4,6 +4,15 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.0.2
+Date: February 7, 2024
+
+**Updates**
+- Added quick action bar to the shortcut menu
+- Added more customization options to the shortcut menu
+- Fixed some bugs
+[Download](https://cleanclip.cc/releases/download/v2.0.2/CleanClip.dmg)
+
 ## 2.0.1
 Date: January 23, 2024
 

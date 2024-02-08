@@ -3,6 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+
+## 2.0.2
+日期: 2024年2月7日
+
+**更新内容**
+- 快捷菜单增加快捷操作栏
+- 快捷菜单增加更多个性化设置
+- 修复一些bug
+[Download](https://cleanclip.cc/releases/download/v2.0.2/CleanClip.dmg)
+
 ## 2.0.1
 日期: 2024年1月23日
 
