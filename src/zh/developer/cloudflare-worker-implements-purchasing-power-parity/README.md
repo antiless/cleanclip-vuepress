@@ -44,6 +44,7 @@ Cloudflare Worker 的 **request 参数**带了非常详细的**位置数据**，
 ```js
 import ppp from "./pppdata.js";
 
+// map 一下购买力数据的列表，方便搜索
 const flatppp = ppp.flatMap(category => category.countries.map( countryInfo => {
   return {
     range: category.range,
@@ -78,53 +79,53 @@ function getDiscount(env, range) {
   }
 }
 
+// 合并国家购买力信息+折扣信息
+function mergeDiscountResult(countryPPP, discount) {
+  return JSON.stringify({
+    range: countryPPP.range,
+    countryCode: countryPPP.countryCode,
+    countryName: countryPPP.countryName,
+    discountCode: discount.code,
+    discount: discount.discount
+  });
+}
+
+// 构造 response
+function responseFor(result, code) {
+  return new Response(result, {
+    status: code,
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Methods": "GET, OPTIONS, POST, PUT, DELETE",
+      "Access-Control-Max-Age": "0"
+    }
+  });
+}
+
+// ✨ 核心代码
 export default {
   async fetch(request, env, ctx) {
-    // 获取国家编码
+    // 1. 获取国家编码
     const countryCode = request.cf.country
-    console.log(countryCode)
 
-    // 在购买力列表中找到该国家
+    // 2. 在购买力列表中找到该国家
     let countryPPP = findCountry(countryCode)
-    console.log("find", countryPPP)
 
-    // 通过该国家购买力获取对应优惠信息
+    // 3. 通过该国家购买力获取对应优惠信息
     let discount = getDiscount(env, countryPPP.range)
-    console.log(discount)
 
-    // 构造结果
     if (countryPPP && discount) {
-      let result = JSON.stringify({
-        range: countryPPP.range,
-        countryCode: countryPPP.countryCode,
-        countryName: countryPPP.countryName,
-        discountCode: discount.code,
-        discount: discount.discount
-      });
-      console.log("result", result);
-
-      // 可以直接返回结果共其它服务调用
-      return new Response(result, {
-        status: 200,
-        headers: {
-          "Content-Type": "application/json",
-          "Access-Control-Allow-Origin": "*",
-          "Access-Control-Allow-Headers": "*",
-          "Access-Control-Allow-Methods": "GET, OPTIONS, POST, PUT, DELETE",
-          "Access-Control-Max-Age": "0"
-        }
-      });
+      // 构造结果
+      let result = mergeDiscountResult(countryPPP, discount)
+      // 4. 可以直接返回结果供其它服务调用
+      return responseFor(result, 200)
     } else {
-      return new Response("Error", { status: 500, headers: {
-        "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
-        "Access-Control-Allow-Headers": "*",
-        "Access-Control-Allow-Methods": "GET, OPTIONS, POST, PUT, DELETE",
-        "Access-Control-Max-Age": "0"
-      }});
+      return responseFor("Error", 500)
     }
 
-    // 或者直接 301 重定向到指定优惠链接
+    // 5. 或者直接 301 重定向到指定优惠链接
     // let url = env.TARGET_DOMAIN
     // if (discountCode !== undefined && discountCode.length > 0) {
     //   url = env.TARGET_DOMAIN + "?checkout%5Bdiscount_code%5D=" + discountCode
