@@ -4,6 +4,8 @@ canonicalUrl: "https://cleanclip.cc/developer/cloudflare-worker-implements-purch
 
 # Cloudflare Worker: Achieving Purchasing Power Parity for your overseas products quickly
 
+<img src="/images/headers/ppp.png" width="80%" style="max-width: unset;" class="mt-8"/>
+
 > **Due to different purchasing power in different countries and regions, overseas products need to set different prices for areas with different purchasing power.**
 
 To achieve purchasing power parity, **two pieces of data are needed:**

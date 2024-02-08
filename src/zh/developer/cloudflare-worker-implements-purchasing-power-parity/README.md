@@ -2,7 +2,9 @@
 canonicalUrl: "https://cleanclip.cc/zh/developer/cloudflare-worker-implements-purchasing-power-parity/"
 ---
 
-# Cloudflare Worker 一个文件快速为你的出海产品实现购买力平价（Purchasing Power Parity）
+# 借助 Cloudflare Worker 一个文件快速为你的出海产品实现购买力平价能力（Purchasing Power Parity）
+
+<img src="/images/headers/ppp.png" width="80%" style="max-width: unset;" class="mt-8"/>
 
 > **由于各个国家、地区购买力不一，出海产品需要为不同购买力的地区设定不同的价格。**
 
@@ -90,7 +92,7 @@ export default {
     let discount = getDiscount(env, countryPPP.range)
     console.log(discount)
 
-    // 返回结果
+    // 构造结果
     if (countryPPP && discount) {
       let result = JSON.stringify({
         range: countryPPP.range,
@@ -100,6 +102,8 @@ export default {
         discount: discount.discount
       });
       console.log("result", result);
+
+      // 可以直接返回结果共其它服务调用
       return new Response(result, {
         status: 200,
         headers: {
@@ -116,7 +120,7 @@ export default {
         "Access-Control-Allow-Origin": "*",
         "Access-Control-Allow-Headers": "*",
         "Access-Control-Allow-Methods": "GET, OPTIONS, POST, PUT, DELETE",
-        "Access-Control-Max-Age": "86400"
+        "Access-Control-Max-Age": "0"
       }});
     }
 
