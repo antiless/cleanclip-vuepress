@@ -5,7 +5,7 @@ heroText: The cleanest Clipboard Manager on macOS, ever!
 tagline: Simple, but powerful.
 # tagline: Curate and organize all your copyable content, helping you stay focused on your creative process and saving you precious time.
 actions:
-  - text: Get 2x productivity - 30-Day Free Trial
+  - text: Get 2x productivity - for Free
     link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
     # link: https://clip-purchase.macaify.com
     # link: /download
@@ -121,7 +121,7 @@ autometa:
       <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="margin-top: 64px">
         <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
         <a href="https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929">
-                      Get 2x productivity - 30-Day Free Trial
+                      Get 2x productivity - for Free
         </a>
       </button>
     </div>

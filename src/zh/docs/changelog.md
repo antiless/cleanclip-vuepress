@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 2.0.3
+日期: 2024年2月9日
+
+**更新内容**
+- 修复暗黑模式问题
+
+[Download](https://cleanclip.cc/releases/download/v2.0.3/CleanClip.dmg)
 
 ## 2.0.2
 日期: 2024年2月7日

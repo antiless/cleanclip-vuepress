@@ -4,6 +4,14 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.0.3
+Date: February 9, 2024
+
+**Updates**
+- Fixed dark mode issue
+
+[Download](https://cleanclip.cc/releases/download/v2.0.3/CleanClip.dmg)
+
 ## 2.0.2
 Date: February 7, 2024
 
