@@ -6,9 +6,12 @@
     <description>Add Paste Stack</description>
     <language>zh</language>
     <item xml:lang="en">
-      <title>2.0.3</title>
+      <title>2.1.0</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>2.1.0</h2>
+            <li>Added support for searching by text in images (OCR)</li>
+            <li>Added support for more languages: Slovak, French, Dutch</li>
           <h2>2.0.3</h2>
             <li>Fixed dark mode issue</li>
           <h2>2.0.2</h2>
@@ -100,6 +103,9 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>2.1.0</h2>
+            <li>支持按图片内文字搜索（ocr）</li>
+            <li>支持更多语言 Slovak/French/Dutch</li>
           <h2>2.0.3</h2>
             <li>修复暗黑模式问题</li>
           <h2>2.0.2</h2>
@@ -188,13 +194,13 @@
             <li>添加了订阅激活码的支持</li>
         ]]>
       </description>
-      <pubDate>2024.2.9</pubDate>
+      <pubDate>2024.2.19</pubDate>
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v2.0.3/CleanClip.app.zip"
-        sparkle:version="20003"
-        sparkle:shortVersionString="2.0.3"
+        url="https://cleanclip.cc/releases/download/v2.1.0/CleanClip.app.zip"
+        sparkle:version="20100"
+        sparkle:shortVersionString="2.1.0"
         length="0"
         type="application/octet-stream"
       />

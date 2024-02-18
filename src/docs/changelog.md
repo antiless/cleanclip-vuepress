@@ -4,6 +4,16 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+
+## 2.1.0
+Date: February 19, 2024
+
+**Updates**
+- Added support for searching by text in images (OCR)
+- Added support for more languages: Slovak, French, Dutch
+
+[Download](https://cleanclip.cc/releases/download/v2.1.0/CleanClip.dmg)
+
 ## 2.0.3
 Date: February 9, 2024
 

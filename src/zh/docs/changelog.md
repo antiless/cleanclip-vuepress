@@ -3,6 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+
+## 2.1.0
+日期: 2024.2.19
+
+**更新内容**
+- 支持按图片内文字搜索（ocr）
+- 支持更多语言 Slovak/French/Dutch
+
+[Download](https://cleanclip.cc/releases/download/v2.1.0/CleanClip.dmg)
+
 ## 2.0.3
 日期: 2024年2月9日
 
