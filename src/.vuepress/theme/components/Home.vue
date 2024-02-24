@@ -50,7 +50,7 @@
           class="feature"
         >
           <h2>{{ feature.title }}</h2>
-          <p>{{ feature.details }}</p>
+          <p v-html="feature.details"></p>
         </div>
       </div>
 
