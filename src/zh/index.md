@@ -36,7 +36,7 @@ features:
   - title: 🧠 强大的智能列表
     details: 多种智能过滤方式，帮助你快速整理、筛选特定内容
   - title: 🌍 多语言支持
-    details: 中文-简体，中文-繁體，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands <a href="/zh/discounts">帮助翻译</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands <a href="/zh/discounts">帮助翻译</a>
 footer: Copyright © 2024 南京最美佳科技有限公司
 canonicalUrl: 'https://cleanclip.cc/zh/'
 ---
