@@ -4,6 +4,17 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.1.1
+Date: March 4, 2024
+
+**Updates**
+- Enhanced parsing capability for FinalCutPro fields
+- Optimized storage structure to improve copying efficiency
+- Optimized quick window position on web pages
+- Optimized memory usage
+
+[Download](https://cleanclip.cc/releases/download/v2.1.1/CleanClip.dmg)
+
 
 ## 2.1.0
 Date: February 19, 2024

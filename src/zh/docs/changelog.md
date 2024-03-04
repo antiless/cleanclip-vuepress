@@ -4,6 +4,17 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 2.1.1
+日期: 2024.3.4
+
+**更新内容**
+- 强化 FinalCutPro 字段解析能力
+- 优化存储结构，加快复制效率
+- 优化 web 页面快捷窗口位置
+- 优化内存占用
+
+[Download](https://cleanclip.cc/releases/download/v2.1.1/CleanClip.dmg)
+
 ## 2.1.0
 日期: 2024.2.19
 

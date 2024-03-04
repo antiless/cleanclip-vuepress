@@ -9,6 +9,11 @@
       <title>2.1.0</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>2.1.1</h2>
+            <li>Optimize the position of quick menu on web pages</li>
+            <li>Optimize storage structure to speed up copying efficiency</li>
+            <li>Optimize memory usage</li>
+            <li>Enhance the parsing capability of FinalCutPro fields</li>
           <h2>2.1.0</h2>
             <li>Added support for searching by text in images (OCR)</li>
             <li>Added support for more languages: Slovak, French, Dutch</li>
@@ -103,6 +108,11 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>2.1.1</h2>
+            <li>优化 web 页面快捷窗口位置</li>
+            <li>优化存储结构，加快复制效率</li>
+            <li>优化内存占用</li>
+            <li>强化 FinalCutPro 字段解析能力</li>
           <h2>2.1.0</h2>
             <li>支持按图片内文字搜索（ocr）</li>
             <li>支持更多语言 Slovak/French/Dutch</li>
@@ -198,9 +208,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v2.1.0/CleanClip.app.zip"
-        sparkle:version="20100"
-        sparkle:shortVersionString="2.1.0"
+        url="https://cleanclip.cc/releases/download/v2.1.1/CleanClip.app.zip"
+        sparkle:version="20101"
+        sparkle:shortVersionString="2.1.1"
         length="0"
         type="application/octet-stream"
       />
