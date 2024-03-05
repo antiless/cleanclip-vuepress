@@ -4,6 +4,15 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.1.2
+Date: March 5, 2024
+
+**Updates**
+- Fixed the issue where the tutorial video could not be played
+- Fixed the display issue with Chinese text
+
+[Download](https://cleanclip.cc/releases/download/v2.1.2/CleanClip.dmg)
+
 ## 2.1.1
 Date: March 4, 2024
 

@@ -9,6 +9,9 @@
       <title>2.1.0</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>2.1.2</h2>
+            <li>Fixed the issue where the tutorial video could not be played</li>
+            <li>Fixed the display issue with Chinese text</li>
           <h2>2.1.1</h2>
             <li>Optimize the position of quick menu on web pages</li>
             <li>Optimize storage structure to speed up copying efficiency</li>
@@ -108,6 +111,9 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>2.1.2</h2>
+            <li>修复新手引导视频不能播放的问题</li>
+            <li>修复中文文案显示问题</li>
           <h2>2.1.1</h2>
             <li>优化 web 页面快捷窗口位置</li>
             <li>优化存储结构，加快复制效率</li>
@@ -208,9 +214,9 @@
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v2.1.1/CleanClip.app.zip"
-        sparkle:version="20101"
-        sparkle:shortVersionString="2.1.1"
+        url="https://cleanclip.cc/releases/download/v2.1.2/CleanClip.app.zip"
+        sparkle:version="20102"
+        sparkle:shortVersionString="2.1.2"
         length="0"
         type="application/octet-stream"
       />

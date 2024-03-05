@@ -4,6 +4,15 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 
 # 更新日志
 
+## 2.1.2
+日期: 2024.3.5
+
+**更新内容**
+- 修复新手引导视频不能播放的问题
+- 修复中文文案显示问题
+
+[Download](https://cleanclip.cc/releases/download/v2.1.2/CleanClip.dmg)
+
 ## 2.1.1
 日期: 2024.3.4
 
