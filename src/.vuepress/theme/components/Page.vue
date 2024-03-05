@@ -7,6 +7,7 @@
 
     <PageNav v-bind="{ sidebarItems }" />
     <PageAnchor v-if="!pageAnchorConfig.isDisabled" />
+    <PageDiscussion v-if="showDiscuss" />
 
     <slot name="bottom" />
   </main>
@@ -16,13 +17,19 @@
 import PageEdit from '@theme/components/PageEdit.vue';
 import PageNav from '@theme/components/PageNav.vue';
 import PageAnchor from '@theme/components/PageAnchor.vue';
+import PageDiscussion from '@theme/components/PageDiscussion.vue';
 
 // import { getLocalStorage } from '../util/index';
 
 export default {
-  components: { PageEdit, PageNav, PageAnchor },
+  components: { PageEdit, PageNav, PageAnchor, PageDiscussion },
   props: ['sidebarItems'],
   computed: {
+    showDiscuss() {
+      console.log("discuss")
+      console.log("discuss", this.$page.frontmatter.discuss, this.$site.themeConfig.discuss)
+      return this.$page.frontmatter.discuss ?? this.$site.themeConfig.discuss
+    },
     hasPageAnchor() {
       if (this.pageAnchorConfig.isDisabled){
         this.$store.state.global.isCollapsePageAnchor = true;
