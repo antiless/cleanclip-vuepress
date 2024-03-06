@@ -12,7 +12,7 @@
 }
 
 .theme-antdocs-content:not(.custom) {
-    font-size: 1.25rem;
+    font-size: 1rem;
 
     img {
         max-width: 400px;
@@ -245,6 +245,15 @@
     ol {
         list-style: decimal;
     }
+}
+.sidebar-group-items > li a {
+    padding-left: 2.5rem !important;
+}
+a.sidebar-link.active {
+    background-color: unset !important;
+}
+a.sidebar-link.active::after {
+    opacity: 0 !important;
 }
 
 .parity-banner {
