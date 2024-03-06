@@ -4,6 +4,14 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.1.3
+Date: March 6, 2024
+
+**Updates**
+- Fixed issue with duplicate data migration
+
+[Download](https://cleanclip.cc/releases/download/v2.1.3/CleanClip.dmg)
+
 ## 2.1.2
 Date: March 5, 2024
 

@@ -3,6 +3,13 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 2.1.3
+日期: 2024.3.6
+
+**更新内容**
+- 修复数据重复迁移问题
+
+[Download](https://cleanclip.cc/releases/download/v2.1.3/CleanClip.dmg)
 
 ## 2.1.2
 日期: 2024.3.5
