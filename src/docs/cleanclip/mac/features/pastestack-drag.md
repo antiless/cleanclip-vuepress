@@ -1,6 +1,6 @@
-# 拖拽
+# Drag and Drop
 
-无论是使用快捷窗口还是粘贴队列，都支持把目标拖拽到其它窗口进行粘贴。
+Whether using the quick window or the paste queue, you can drag and drop items to paste them into other windows.
 
 <video autoplay muted loop>
     <source src="/videos/pastestack-drag.mp4" type="video/mp4">
