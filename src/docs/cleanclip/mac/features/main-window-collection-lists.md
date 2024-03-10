@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/main-window-collection-lists'
+---
+
 # Collection Lists - Manual Management
 
 Select one or more "items", then right-click and choose "Add to List" from the context menu to bookmark the items to a specified list.

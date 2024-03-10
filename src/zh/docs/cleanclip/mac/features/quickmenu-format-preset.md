@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/quickmenu-format-preset'
+---
+
 # 统一预设粘贴格式
 
 预设置好格式后，所有的项目都按照指定格式粘贴。

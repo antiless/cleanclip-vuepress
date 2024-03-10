@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/statusbar_marked'
+---
+
 # 菜单栏功能
 
 1. 显示最近一条复制记录

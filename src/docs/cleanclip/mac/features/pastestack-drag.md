@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/pastestack-drag'
+---
+
 # Drag and Drop
 
 Whether using the quick window or the paste queue, you can drag and drop items to paste them into other windows.

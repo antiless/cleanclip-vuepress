@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/pastestack-present'
+---
+
 # Introduction
 
 After opening the paste queue with ⌘', any copied content will automatically enter the queue. ⌘V will paste the next item in the queue sequentially.

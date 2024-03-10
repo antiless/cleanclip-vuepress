@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/statusbar_marked'
+---
+
 # Menu Bar Functionality
 
 1. Displays the most recent clipboard entry

@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/quickmenu-format'
+---
+
 # Quick Format and Paste
 
 1. Long-press the content index number to show the format menu

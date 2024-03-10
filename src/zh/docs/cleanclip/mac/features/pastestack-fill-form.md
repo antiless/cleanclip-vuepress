@@ -1,3 +1,8 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-fill-form'
+---
+
+
 # 辅助填表
 
 使用粘贴队列可以辅助填写表单，依次复制、然后依次粘贴。

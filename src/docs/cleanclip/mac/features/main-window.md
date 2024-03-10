@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/main-window'
+---
+
 # Introduction
 
 The main window is fixed on the screen and serves as the interface for batch operations, management, and utilization of your clipboard history.

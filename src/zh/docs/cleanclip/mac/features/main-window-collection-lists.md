@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-collection-lists'
+---
+
 # 收藏列表 - 手动管理
 
 选中单个或多个"项目"，右键菜单选择"添加到列表"，即可将项目收藏到指定的列表中。

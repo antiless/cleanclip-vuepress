@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/quickmenu-format-preset'
+---
+
 # Preset Format and Paste
 
 After setting a preset format, all items will be pasted in the specified format.

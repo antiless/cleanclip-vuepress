@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/quick-use'
+---
+
 # Quick Usage
 
 1. ⌘; to open the quick menu

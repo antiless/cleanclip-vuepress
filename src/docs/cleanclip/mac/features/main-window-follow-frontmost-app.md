@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/main-window-follow-frontmost-app'
+---
+
 # Automatically Follow Front-Most App
 
 After enabling the Follow Front-Most App mode, the app filter will automatically switch to display the clipboard history for whichever app is currently active in the foreground.

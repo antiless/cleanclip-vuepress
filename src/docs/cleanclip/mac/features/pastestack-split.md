@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/pastestack-split'
+---
+
 # Split and Copy
 
 Use ⌘⇧C "Split and Copy" to split multiple lines directly into separate items and copy them to the paste queue. The "Paste and Press" option will automatically switch to the next field, making form filling a breeze!

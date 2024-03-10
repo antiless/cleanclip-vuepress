@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window'
+---
+
 # 介绍
 
 主窗口是固定在屏幕上，拥有对剪贴板记录进行批量操作、管理、使用的窗口。

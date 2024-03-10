@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/quick-use'
+---
+
 # 快速使用
 
 1. ⌘；调起快捷菜单

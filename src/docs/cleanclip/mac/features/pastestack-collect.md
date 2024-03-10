@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/pastestack-collect'
+---
+
 # Collect Information
 
 After gathering content from multiple pages, paste everything together on the target page to streamline the process and save time.

@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/quickmenu-format'
+---
+
 # 快速格式化粘贴
 
 1. 长按内容下标数字弹出格式菜单按下

@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-youtube-links'
+---
+
 # 智能列表 - 根据条件智能筛选项目
 
 利用智能列表，可以自由地设定筛选条件，从而获取到想要的内容。

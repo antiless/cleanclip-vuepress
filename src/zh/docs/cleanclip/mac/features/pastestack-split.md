@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-split'
+---
+
 # 快速填表-拆分复制
 
 使用 ⌘⇧C 「拆分复制」，可以把多行直接拆分成多项复制到粘贴队列里。「粘贴后按下」选项自动帮助切换到下一个格子，快速填表不要太强！

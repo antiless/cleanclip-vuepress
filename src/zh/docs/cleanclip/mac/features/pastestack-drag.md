@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-drag'
+---
+
 # 拖拽
 
 无论是使用快捷窗口还是粘贴队列，都支持把目标拖拽到其它窗口进行粘贴。

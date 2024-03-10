@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-present'
+---
+
 # 介绍
 
 ⌘' 打开粘贴队列后，复制的内容会自动进入队列，⌘V 会按序列依次粘贴队列里的下一项。

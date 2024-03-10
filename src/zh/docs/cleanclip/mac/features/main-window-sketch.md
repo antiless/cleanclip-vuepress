@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-sketch'
+---
+
 # 收藏列表 - 自动收集
 
 选择一个收藏列表，启用下方自动收集选项，你复制的内容会自动收集到指定目录。

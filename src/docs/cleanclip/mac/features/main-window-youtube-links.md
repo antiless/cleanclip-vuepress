@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/main-window-youtube-links'
+---
+
 # Smart Lists - Filter Items by Conditions
 
 With smart lists, you can freely set filtering conditions to obtain the desired content.

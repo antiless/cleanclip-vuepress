@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/pastestack-fill-form'
+---
+
 # Assist in Form Filling
 
 Use the paste queue to assist in filling out forms by copying items one after another, then pasting them sequentially.

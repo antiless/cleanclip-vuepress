@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/docs/cleanclip/mac/features/main-window-sketch'
+---
+
 # Collection Lists - Automatic Collection
 
 Select a collection list, enable the automatic collection option below, and any content you copy will be automatically collected into the specified folder.

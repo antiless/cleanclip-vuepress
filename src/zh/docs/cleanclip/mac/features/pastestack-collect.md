@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-collect'
+---
+
 # 收集信息
 
 在多个页面收集内容后，到目标页面统一粘贴，优化流程，节约时间。

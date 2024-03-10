@@ -1,3 +1,7 @@
+---
+canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-follow-frontmost-app'
+---
+
 # 自动跟随前台应用
 
 选择跟随前台应用模式后，应用筛选器会自动跟随前台应用变化，显示该应用的历史复制记录。
