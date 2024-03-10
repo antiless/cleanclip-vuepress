@@ -90,20 +90,16 @@ module.exports = {
         lastUpdated: 'Last Updated',
         nav: [
           {
-            text: 'Product',
-            ariaLabel: 'Product Menu',
-            items: [
-              { text: 'User Manual', link: '/docs/manual.html' },
-              { text: 'Changelog', link: '/docs/changelog.html' },
-              { text: 'Roadmap', link: '/docs/roadmap.html' },
-            ]
+            text: 'Documentation',
+            ariaLabel: 'Product Docs',
+            link: '/docs/'
           },
+          { "text": "Pricing", "link": "/pricing" },
           {
             text: 'Download',
             link: '/download'
             // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
           },
-          { "text": "Pricing", "link": "/pricing" },
         ],
         search: false,
         sidebar: {
@@ -187,20 +183,16 @@ module.exports = {
         lastUpdated: '最近更新',
         nav: [
           {
-            text: '产品介绍',
-            ariaLabel: '产品介绍菜单',
-            items: [
-              { text: '用户手册', link: '/zh/docs/manual.html' },
-              { text: '更新日志', link: '/zh/docs/changelog.html' },
-              { text: '更新计划', link: '/zh/docs/roadmap.html' },
-            ]
+            text: '产品文档',
+            ariaLabel: '产品文档',
+            link: '/docs/'
           },
+          { text: '价格', link: '/pricing' },
           {
             text: '下载',
             // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
             link: '/zh/download'
           },
-          { text: '价格', link: '/pricing' },
         ],
         search: false,
         sidebar: {
