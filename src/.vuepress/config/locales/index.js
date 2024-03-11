@@ -3,5 +3,6 @@ const { getLocales } = require('./shared')
 
 module.exports = {
   '/': getLocales(string.en),
-  '/zh/': getLocales(string.zh)
+  '/zh/': getLocales(string.zh),
+  '/jp/': getLocales(string.jp),
 }

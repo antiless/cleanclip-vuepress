@@ -1,7 +1,7 @@
-const en = require("../sidebar/en")
-const zh = require("../sidebar/zh")
+const string = require("../strings/index")
 
 module.exports = {
-  en: en,
-  zh: zh
+  en: string.en.sidebar,
+  zh: string.zh.sidebar,
+  jp: string.jp.sidebar,
 }

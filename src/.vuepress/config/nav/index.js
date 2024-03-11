@@ -1,7 +1,7 @@
-const en = require("../nav/en")
-const zh = require("../nav/zh")
+const string = require("../strings/index")
 
 module.exports = {
-  en: en,
-  zh: zh
+  en: string.en.nav,
+  zh: string.zh.nav,
+  jp: string.jp.nav,
 }

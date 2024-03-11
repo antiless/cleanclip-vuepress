@@ -1,0 +1,16 @@
+module.exports = {
+  title: "特别折扣",
+  subtitle: "我们为不同用户群体提供各种特权",
+  student_title: "学生折扣",
+  student_desc: '为正规学生提供<b>30%</b>的折扣，支持学习和探索。<a href="/jp/students">了解详情</a>',
+  competitor_title: "竞争用户折扣",
+  competitor_desc: '为我们竞争产品的用户提供<b>30%</b>的折扣，帮助他们轻松切换到我们的产品。<a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="_blank">申请特权</a>',
+  open_source_contributor_title: "开源贡献者折扣",
+  open_source_contributor_desc: '为开源社区做出贡献的人提供<b>10%</b>的折扣，表达我们的感激之情。<a href="https://forms.gle/m7TLTbSuZyJdfDgLA" target="_blank">申请特权</a>',
+  translator_title: "翻译贡献者奖励",
+  translator_desc: '为协助将产品翻译成其他语言的人提供<b>$5 - $20</b>的折扣券，以表示感谢，并在下次购买时表达感激之情。<a class="" href="https://crowdin.com/project/cleanclipapp" target="_blank">参与翻译</a>',
+  content_creator_title: "与内容创作者合作的福利",
+  content_creator_desc: '如果您是内容创作者，计划创建与CleanClip相关的内容，我们将提供宝贵的折扣码，帮助增强内容推广效果。合作邮件：<b>cooperation@cleanclip.cc</b>。',
+  war_zone_title: "战争地区的普通市民",
+  war_zone_desc: '为生活在战争地区的普通市民提供55%的特别折扣，表达我们的诚挚关怀和支持之意。<a href="https://forms.gle/sYErhfAD3KpFraqK8" target="_blank">注册居住地</a>',
+}

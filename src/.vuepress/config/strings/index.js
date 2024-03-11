@@ -1,5 +1,6 @@
 const en = require("./en");
 const zh = require("./zh");
+const jp = require("./jp");
 
 String.prototype.format = function() {
   let formatted = this;
@@ -12,5 +13,6 @@ String.prototype.format = function() {
 
 module.exports = {
   en: en,
-  zh: zh
+  zh: zh,
+  jp: jp
 }

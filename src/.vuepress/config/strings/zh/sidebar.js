@@ -1,4 +1,4 @@
-const { getArticlesSidebar, getDeveloperSidebar, getDocsSidebar } = require('./shared.js');
+const { getArticlesSidebar, getDeveloperSidebar, getDocsSidebar } = require('../../sidebar/shared.js');
 
 module.exports = {
   '/zh/articles/': getArticlesSidebar('文章'),
