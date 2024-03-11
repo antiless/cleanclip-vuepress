@@ -3,6 +3,7 @@
 </template>
 
 <script>
+import strings from '../../config/strings';
 import TabFeatures from './TabFeatures.vue';
 
 export default {
@@ -40,63 +41,12 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      title_en: "Paste Stack - Paste in Sequence",
-      title_zh: "粘贴队列 - 按顺序粘贴",
-      subtitle_en: "Paste Stack provides a way to paste content quickly in order",
-      subtitle_zh: "粘贴队列提供了一个可以快速按顺序粘贴内容的方式",
-      items_zh: [
-      {
-          "title": "按顺序粘贴",
-          "subtitle": "当打开粘贴堆栈时，复制的内容将自动进入堆栈，⌘V将按顺序粘贴堆栈中的下一项。",
-          "video": "/videos/pastestack-present.mp4",
-          "poster": "/images/pastestack-present.webp"
-        },
-        {
-          "title": "收集信息",
-          "subtitle": "在多个页面上收集内容，然后一次性将它们全部粘贴到目标页面上，优化流程，节省时间。",
-          "video": "/videos/pastestack-collect.mp4",
-          "poster": "/images/pastestack-collect.webp"
-        },
-        {
-          "title": "快速填写表单 - 分割复制",
-          "subtitle": "使用⌘⇧C '分割复制'直接将多行分割为多个项目并复制到粘贴堆栈中。",
-          "video": "/videos/pastestack-split.mp4",
-          "poster": "/images/pastestack-split.webp"
-        },
-        {
-          "title": "辅助填写表单",
-          "subtitle": "使用粘贴堆栈可以按顺序复制和粘贴来辅助填写表单。",
-          "video": "/videos/pastestack-fill-form.mp4",
-          "poster": "/images/pastestack-fill-form.webp"
-        },
-      ],
-      items_en: [
-        {
-          title: "Paste In Order",
-          subtitle: "When the paste stack is opened, the copied content will automatically enter the stack, and ⌘V will paste the next item in the stack in order.",
-          video: "/videos/pastestack-present.mp4",
-          poster: "/images/pastestack-present.webp"
-        },
-        {
-          title: "Collect Information",
-          subtitle: "Collect content on multiple pages and paste them all at once on the target page, optimizing the process and saving time.",
-          video: "/videos/pastestack-collect.mp4",
-          poster: "/images/pastestack-collect.webp"
-        },
-
-        {
-          title: "Quick Form Filling - Split Copy",
-          subtitle: "Use ⌘⇧C 'Split Copy' to directly split multiple lines into multiple items and copy them to the paste stack.",
-          video: "/videos/pastestack-split.mp4",
-          poster: "/images/pastestack-split.webp"
-        },
-        {
-          title: "Assist in Form Filling",
-          subtitle: "Using the paste stack can assist in filling out forms by copying and pasting in order.",
-          video: "/videos/pastestack-fill-form.mp4",
-          poster: "/images/pastestack-fill-form.webp"
-        },
-      ]
+      title_en: strings.en.paste_stack_title,
+      title_zh: strings.zh.paste_stack_title,
+      subtitle_en: strings.en.paste_stack_subtitle,
+      subtitle_zh: strings.zh.paste_stack_subtitle,
+      items_zh: strings.zh.paste_stack,
+      items_en: strings.en.paste_stack
     }
   },
   destroyed() {

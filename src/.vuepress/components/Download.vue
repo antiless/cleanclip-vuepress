@@ -30,6 +30,8 @@
 </template>
 
 <script>
+import strings from '../config/strings';
+
 export default {
   computed: {
     items() {
@@ -42,20 +44,8 @@ export default {
   },
   data() {
     return {
-      items_zh: {
-        title: "在 Mac 上下载 CleanClip",
-        desc: "如果您没有许可证密钥，您仍然可以使用所有功能，但在一定数量的粘贴后将出现激活窗口。",
-        appStore: "从 AppStore 下载",
-        download: "下载 .dmg",
-        system: "建议使用 macOS Monterey 12.0 或更高版本。"
-      },
-      items_en: {
-        title: "Download CleanClip for macOS",
-        desc: "If you do not have a license key, you can still use all the features, but the activation window will appear after a certain number of pastes.",
-        appStore: "Download from AppStore",
-        download: "Download .dmg",
-        system: "macOS Monterey 12.0 or higher is recommended."
-      }
+      items_zh: strings.zh.download,
+      items_en: strings.en.download
     }
   },
   mounted () {

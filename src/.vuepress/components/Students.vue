@@ -1,5 +1,6 @@
 <script>
 import axios from 'axios';
+import strings from '../config/strings';
 
 export default {
   methods: {
@@ -70,44 +71,8 @@ export default {
   data() {
     return {
       requestState: -1,
-      items_en: {
-        largeTitle: "Special pricing for students",
-        subtitle: "Get 30% off on CleanClip. Just use your education email.",
-        placeholder: "Enter your educational email...",
-        placeholder_error: "Enter correct educational email...",
-        cta: "Get Offer",
-        tip: "Your educational email cannot be applied? Send an email to edu@cleanclip.cc.",
-        howTo: "How to get your offer",
-        step1Title: "Enter your email",
-        step1Desc: "Type your EDU email above.",
-
-        step2Title: "Check your email",
-        step2Desc: "Open the email we sent you.",
-
-        step3Title: "Get your discount",
-        step3Desc: "Buy apps with the link in the email.",
-
-        successText: "Successful, please check your email."
-      },
-      items_zh: {
-        largeTitle: "学生特价优惠",
-        subtitle: "使用您的教育邮箱，在 CleanClip 享受 7 折优惠。",
-        placeholder: "输入您的教育邮箱",
-        placeholder_error: "输入正确的教育邮箱",
-        cta: "获取优惠",
-        tip: "你的邮箱无法申请？发邮件至 edu@cleanclip.cc。",
-        howTo: "如何获取您的优惠",
-        step1Title: "输入您的邮箱",
-        step1Desc: "在上方输入您的.EDU邮箱",
-
-        step2Title: "检查您的邮箱",
-        step2Desc: "打开我们发送给您的邮件",
-
-        step3Title: "获取您的折扣",
-        step3Desc: "使用邮件中的链接购买应用",
-
-        successText: "成功，请检查您的邮箱。"
-      }
+      items_en: strings.en.students,
+      items_zh: strings.zh.students
     }
   }
 };

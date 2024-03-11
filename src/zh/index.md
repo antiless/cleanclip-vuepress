@@ -2,20 +2,20 @@
 home: true
 heroImage: /images/hero2.webp
 heroText: 可能是 macOS 上最干净的剪贴板管理工具！
-tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，让你像使用输入法一样轻松使用剪贴板
+tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，简约而强大
 actions:
-  - text: 免费试用
+  - text: 免费获取 2 倍生产力
     # link: https://clip-purchase.macaify.com
     link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
     type: primary
     size: large
     shape: round
-  - text: 为什么你需要剪贴板管理？🫵🏻
+  - text: 产品文档
     link: /zh/docs/manual
     type: primary
     ghost: true
     size: large
-    shape: circle
+    shape: round
 features:
   - title: 📥 自动保存
     details: 自动保存复制记录，无需担心丢失重要内容

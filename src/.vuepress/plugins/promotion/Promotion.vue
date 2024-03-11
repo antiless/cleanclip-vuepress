@@ -5,13 +5,13 @@
       <div class="md:flex lg:h-20 md:h-24 h-32 justify-around items-center p-4 relative">
         <div class="flex items-center justify-around">
           <!-- <a class="pl-4 w-60" href="https://www.producthunt.com/posts/find-next-wow-app?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-find&#0045;next&#0045;wow&#0045;app" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=418594&theme=light" alt="Find&#0032;Next&#0032;Wow&#0032;App - Find&#0032;your&#0032;next&#0032;&#0034;Wow&#0034;&#0032;App&#0044;&#0032;for&#0032;100&#0037;&#0032;Free&#0046; | Product Hunt"> </a> -->
-          <span class="text-xl">Parity Purchasing Power for friends from <b> {{ ppp.countryName }}</b> - <b>{{ppp.discount}}% off</b> on certain lifetime plans.</span>
+          <span class="text-xl" v-html="items.promotion.format(ppp.countryName, ppp.discount)"></span>
         </div>
         <!-- 展示优惠码，点击复制 -->
         <div class="">
-          <span class="text-xl pr-4 m-auto">Using code: <b>{{ppp.discountCode}}</b></span>
+          <span class="text-xl pr-4 m-auto" v-html="items.promotion_code.format(ppp.discountCode)"></span>
           <a href="https://clip-purchase.macaify.com" target="_blank">
-            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">Get Pro Access - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
+            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">{{ items.promotion_action }} - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
           </a>
         </div>
       </div>
@@ -23,6 +23,7 @@
 
 <script>
 import axios from 'axios';
+import strings from '../../config/strings';
 
 export default {
   name: 'Promotion',
@@ -36,11 +37,21 @@ export default {
 
   data () {
     return {
-      ppp: {}
+      ppp: {},
+      strings_en: strings.en,
+      strings_zh: strings.zh
     }
   },
 
-  computed: {},
+  computed: {
+    items() {
+      if (this.$lang === 'zh-CN') {
+        return this.strings_zh;
+      } else {
+        return this.strings_en;
+      }
+    },
+  },
 
   mounted () {
     new Promise((resolve, reject) => {
