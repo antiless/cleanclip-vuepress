@@ -12,25 +12,13 @@ export default {
   },
   computed: {
     items() {
-      if (this.$lang === 'zh-CN') {
-        return this.items_zh;
-      } else {
-        return this.items_en;
-      }
+      return this.$t().quick_menu
     },
     title() {
-      if (this.$lang === 'zh-CN') {
-        return this.title_zh;
-      } else {
-        return this.title_en;
-      }
+      return this.$t().quick_menu_title
     },
     subtitle() {
-      if (this.$lang === 'zh-CN') {
-        return this.subtitle_zh;
-      } else {
-        return this.subtitle_en;
-      }
+      return this.$t().quick_menu_subtitle
     },
   },
   data() {
@@ -41,12 +29,6 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      title_zh: strings.zh.quick_menu_title,
-      title_en: strings.en.quick_menu_title,
-      subtitle_zh: strings.zh.quick_menu_subtitle,
-      subtitle_en: strings.en.quick_menu_subtitle,
-      items_zh: strings.zh.quick_menu,
-      items_en: strings.en.quick_menu
     }
   },
   destroyed() {

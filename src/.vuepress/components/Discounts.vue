@@ -90,22 +90,10 @@
 </section></template>
 
 <script>
-import strings from '../config/strings';
-
 export default {
   computed: {
     items() {
-      if (this.$lang === 'zh-CN') {
-        return this.items_zh;
-      } else {
-        return this.items_en;
-      }
-    },
-  },
-  data() {
-    return {
-      items_en: strings.en.discounts,
-      items_zh: strings.zh.discounts
+      return this.$t().discounts
     }
   }
 }

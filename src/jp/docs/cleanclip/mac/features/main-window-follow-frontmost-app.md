@@ -1,12 +1,12 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-follow-frontmost-app'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/main-window-follow-frontmost-app'
 ---
 
-# 自动跟随前台应用
+# フロントアプリケーションを自動的に追跡
 
-选择跟随前台应用模式后，应用筛选器会自动跟随前台应用变化，显示该应用的历史复制记录。
+フロントアプリケーションを追跡するモードを選択すると、アプリケーションのフィルターは自動的にフロントアプリケーションの変更に追従し、そのアプリケーションの履歴コピーを表示します。
 
-该模式与列表配合使用，可以扩展出很多玩法，可以为每一个 App 新增专用收藏空间，释放应用潜力。
+このモードはリストと組み合わせて使用することで、さまざまな使い方を拡張でき、それぞれのアプリに専用のコレクションスペースを追加し、アプリの機能を解放できます。
 
 <video autoplay muted loop>
     <source src="/videos/followfrontmost_1080.mp4" type="video/mp4">

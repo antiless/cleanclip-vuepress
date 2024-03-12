@@ -61,18 +61,12 @@ export default {
   },
   computed: {
     items() {
-      if (this.$lang === 'zh-CN') {
-        return this.items_zh;
-      } else {
-        return this.items_en;
-      }
+      return this.$t().students
     },
   },
   data() {
     return {
       requestState: -1,
-      items_en: strings.en.students,
-      items_zh: strings.zh.students
     }
   }
 };

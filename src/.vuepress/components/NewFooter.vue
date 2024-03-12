@@ -21,26 +21,13 @@
   </footer>
 </template>
 <script>
-import strings from '../config/strings';
-
-
 export default {
   name: 'NewFooter',
   computed: {
     items() {
-      if (this.$lang === 'zh-CN') {
-        return this.items_zh;
-      } else {
-        return this.items_en;
-      }
+      return this.$t().footer
     },
-  },
-  data() {
-    return {
-      items_en: strings.en.footer,
-      items_zh: strings.zh.footer
-    }
-  },
+  }
 }
 </script>
 <style scoped>

@@ -1,12 +1,12 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/quickmenu-format-preset'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/quickmenu-format-preset'
 ---
 
-# 统一预设粘贴格式
+# 統一されたプリセット貼り付けフォーマット
 
-预设置好格式后，所有的项目都按照指定格式粘贴。
+フォーマットを事前に設定すると、すべてのアイテムが指定されたフォーマットで貼り付けられます。
 
-目前支持的格式有：纯文本粘贴、全小写、全大写等。
+現在サポートされているフォーマットには、純粋なテキストの貼り付け、すべて小文字、すべて大文字などがあります。
 
 <video autoplay muted loop>
     <source src="/videos/quickmenu-format-preset.mp4" type="video/mp4">

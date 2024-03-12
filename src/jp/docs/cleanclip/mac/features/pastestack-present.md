@@ -1,15 +1,15 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-present'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/pastestack-present'
 ---
 
-# 介绍
+# 紹介
 
-⌘' 打开粘贴队列后，复制的内容会自动进入队列，⌘V 会按序列依次粘贴队列里的下一项。
+⌘'を押してペーストスタックを開くと、コピーした内容が自動的にスタックに追加され、⌘Vを押すと順番にスタック内の次のアイテムがペーストされます。
 
-1. 点击底部的「上下箭头按钮」可反转列表
-2.「拖拽项目」可调换顺序
-3.「点击 #」 切换到指定项目
-4.「粘贴后按下」选项会在粘贴后自动按下对应按键
+1. リストを反転させるには、下部の「上下矢印ボタン」をクリックします。
+2. 順序を入れ替えるには、「アイテムをドラッグ」します。
+3. 特定のアイテムに切り替えるには、「＃をクリック」します。
+4. ペースト後にキーを押すと自動的に対応するキーが押されます。
 
 <video autoplay muted loop>
     <source src="/videos/pastestack-present.mp4" type="video/mp4">

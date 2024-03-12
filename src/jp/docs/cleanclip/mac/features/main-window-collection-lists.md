@@ -1,12 +1,12 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-collection-lists'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/main-window-collection-lists'
 ---
 
-# 收藏列表 - 手动管理
+# コレクションリスト - 手動管理
 
-选中单个或多个"项目"，右键菜单选择"添加到列表"，即可将项目收藏到指定的列表中。
+個別または複数の"アイテム"を選択し、右クリックメニューから"リストに追加"を選択すると、指定されたリストにアイテムをお気に入りに追加できます。
 
-收藏列表可以被智能列表筛选，这样就可以实现更多的玩法。
+お気に入りリストはスマートリストによってフィルタリングでき、より多くの遊び方を実現できます。
 
 <video autoplay muted loop>
     <source src="/videos/collection-lists.mp4" type="video/mp4">

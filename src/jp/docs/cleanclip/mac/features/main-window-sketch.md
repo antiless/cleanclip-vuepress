@@ -1,16 +1,16 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-sketch'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/main-window-sketch'
 ---
 
-# 收藏列表 - 自动收集
+# ブックマークリスト - 自動収集
 
-选择一个收藏列表，启用下方自动收集选项，你复制的内容会自动收集到指定目录。
+ブックマークリストを選択し、下の自動収集オプションを有効にすると、コピーしたコンテンツが指定されたディレクトリに自動的に収集されます。
 
-你可以为它设置别名，以后随时打开这个目录，方便取用。
+それに別名を設定することができ、そのディレクトリをいつでも開いて簡単に利用することができます。
 
-很多 App 特别是内容创作 App 缺少好用的收藏功能，比如 Sketch、Final Cut Pro 等等。
+多くのアプリ、特にコンテンツ作成アプリ、例えばSketchやFinal Cut Proなど、使いやすいブックマーク機能が欠けています。
 
-如果你的常用 App 不支持收藏夹功能，那么这个功能对你非常有用！
+もしよく使うアプリがブックマーク機能をサポートしていない場合、この機能は非常に役立ちます！
 
 <video autoplay muted loop>
     <source src="/videos/sketch-simple-full.mp4" type="video/mp4">

@@ -1,12 +1,12 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/main-window-youtube-links'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/main-window-youtube-links'
 ---
 
-# 智能列表 - 根据条件智能筛选项目
+# スマートリスト - 条件に基づいてプロジェクトをスマートにフィルタリング
 
-利用智能列表，可以自由地设定筛选条件，从而获取到想要的内容。
+スマートリストを使用すると、自由にフィルタリング条件を設定して、必要なコンテンツを取得できます。
 
-目前支持的筛选条件有: 媒体类型、关键字匹配、正则匹配、字符长度、来源 App、来源设备、所在收藏夹。
+現在サポートされているフィルタリング条件は、メディアタイプ、キーワードマッチ、正規表現マッチ、文字列長さ、アプリケーションのソース、デバイスのソース、およびフォルダ内の位置です。
 
 <video autoplay muted loop>
     <source src="/videos/youtubelinks-1080.mp4" type="video/mp4">

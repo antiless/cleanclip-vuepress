@@ -72,13 +72,6 @@ export default {
     UseCase
 },
   computed: {
-    // items() {
-    //   if (this.$lang === 'zh-CN') {
-    //     return this.items_zh;
-    //   } else {
-    //     return this.items_en;
-    //   }
-    // },
   },
   props: {
     items: {
@@ -105,8 +98,6 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      items_zh: strings.zh.tab_features,
-      items_en: strings.en.tab_features
     }
   },
   destroyed() {

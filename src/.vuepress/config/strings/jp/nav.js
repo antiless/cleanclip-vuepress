@@ -4,7 +4,7 @@ module.exports = [
     ariaLabel: '製品文書',
     link: '/jp/docs/'
   },
-  { text: '価格', link: '/jp/pricing' },
+  { text: '価格', link: '/pricing' },
   {
     text: 'ダウンロード',
     link: '/jp/download'

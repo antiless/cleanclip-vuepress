@@ -1,19 +1,19 @@
 module.exports = {
-  largeTitle: "学生特价優惠",
-  subtitle: "使用您的教育邮箱，在 CleanClip 享受 7 折優惠。",
-  placeholder: "輸入您的教育邮箱",
-  placeholder_error: "輸入正確的教育邮箱",
-  cta: "獲取優惠",
-  tip: "您的郵箱無法申請？發郵件至edu@cleanclip.cc。",
-  howTo: "如何獲取您的優惠",
-  step1Title: "輸入您的郵箱",
-  step1Desc: "在上方輸入您的.EDU郵箱",
+  largeTitle: "学生特別割引",
+  subtitle: "教育メールアドレスを使用して、CleanClip で 30% OFF をご利用いただけます。",
+  placeholder: "教育用メールアドレスを入力",
+  placeholder_error: "正しい教育用メールアドレスを入力してください",
+  cta: "割引を受け取る",
+  tip: "メールアドレスでの申し込みができない場合は、edu@cleanclip.cc にメールを送信してください。",
+  howTo: "割引の受け取り方",
+  step1Title: "メールアドレスを入力",
+  step1Desc: "上記にあなたの.EDUメールアドレスを入力してください",
 
-  step2Title: "檢查您的郵箱",
-  step2Desc: "打開我們發送給您的郵件",
+  step2Title: "メールを確認",
+  step2Desc: "私たちから送信されたメールを開いてください",
 
-  step3Title: "獲取您的折扣",
-  step3Desc: "使用郵件中的鏈接購買應用",
+  step3Title: "割引を受け取る",
+  step3Desc: "メール内のリンクを使用してアプリを購入してください",
 
-  successText: "成功，請檢查您的郵箱。"
+  successText: "成功しました。メールをご確認ください。"
 }

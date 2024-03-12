@@ -1,11 +1,11 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-fill-form'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/pastestack-fill-form'
 ---
 
 
-# 辅助填表
+# フォーム入力のサポート
 
-使用粘贴队列可以辅助填写表单，依次复制、然后依次粘贴。
+貼り付けキューを使用すると、フォーム入力をサポートすることができます。順番にコピーしてから順番に貼り付けます。
 
 <video autoplay muted loop>
     <source src="/videos/pastestack-fill-form.mp4" type="video/mp4">

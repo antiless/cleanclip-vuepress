@@ -1,3 +1,3 @@
-# 开始
+# 開始
 
-关于 CleanClip 的一切你需要知道的：[从这里开始](/zh/docs/manual)
+CleanClip について知っておくべきすべて：[ここから始める](/jp/docs/manual)

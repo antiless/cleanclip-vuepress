@@ -1,10 +1,10 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/pastestack-collect'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/pastestack-collect'
 ---
 
-# 收集信息
+# 情報の収集
 
-在多个页面收集内容后，到目标页面统一粘贴，优化流程，节约时间。
+複数のページから情報を集めた後、目的のページにまとめて貼り付けて、プロセスを最適化し、時間を節約します。
 
 <video autoplay muted loop>
     <source src="/videos/pastestack-collect.mp4" type="video/mp4">

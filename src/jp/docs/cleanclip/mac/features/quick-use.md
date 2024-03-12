@@ -1,14 +1,14 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/zh/docs/cleanclip/mac/features/quick-use'
+canonicalUrl: 'https://cleanclip.cc/jp/docs/cleanclip/mac/features/quick-use'
 ---
 
-# 快速使用
+# クイック使用法
 
-1. ⌘；调起快捷菜单
-2. a-z 直接开始搜索，输入 image 可搜索图片，输入 file 可搜索文件
-3. 空格键预览
-4. ⇥/⇧⇥ 上下翻页
-5. 数字键/回车 粘贴对应的项
+1. ⌘キーを押すとクイックメニューが表示されます
+2. a-zを入力すると直接検索が開始され、imageを入力すると画像を、fileを入力するとファイルを検索できます
+3. スペースキーでプレビューが表示されます
+4. ⇥/⇧⇥ キーでページを上下に移動できます
+5. 数字キー/Enterキーで対応する項目を貼り付けることができます
 
 <video autoplay muted loop>
     <source src="/videos/quickuse.mp4" type="video/mp4">

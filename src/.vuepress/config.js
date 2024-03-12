@@ -13,6 +13,7 @@ module.exports = {
   plugins: [
     [require('./plugins/autometa'), autometa_options],
     [require('./plugins/promotion')],
+    [require('./plugins/localization')],
     [
       'vuepress-plugin-sitemap',
       { hostname: 'https://cleanclip.cc' }

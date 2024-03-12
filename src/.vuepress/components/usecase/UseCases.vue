@@ -31,11 +31,7 @@ export default {
   },
   computed: {
     items() {
-      if (this.$lang === 'zh-CN') {
-        return this.items_zh;
-      } else {
-        return this.items_en;
-      }
+      return this.$t().usecases
     },
   },
   data() {
@@ -46,8 +42,6 @@ export default {
       lastTime: 0,
       lastPageX: 0,
       speed: 0,
-      items_zh: strings.zh.usecases,
-      items_en: strings.en.usecases
     }
   },
   destroyed() {

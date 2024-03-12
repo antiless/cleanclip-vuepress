@@ -14,5 +14,17 @@ String.prototype.format = function() {
 module.exports = {
   en: en,
   zh: zh,
-  jp: jp
+  jp: jp,
+  strings: function(lang) {
+    switch (lang) {
+      case "en-US":
+        return en;
+      case "zh-CN":
+        return zh;
+      case "jp":
+        return jp;
+      default:
+        return en;
+    }
+  }
 }
