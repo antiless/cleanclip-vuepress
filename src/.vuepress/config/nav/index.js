@@ -18,4 +18,5 @@ module.exports = {
   en: getNav(string.en.nav),
   zh: getNav(string.zh.nav),
   jp: getNav(string.jp.nav),
+  ko: getNav(string.ko.nav),
 }

@@ -1,6 +1,7 @@
 const en = require("./en");
 const zh = require("./zh");
 const jp = require("./jp");
+const ko = require("./ko");
 
 String.prototype.format = function() {
   let formatted = this;
@@ -15,6 +16,7 @@ module.exports = {
   en: en,
   zh: zh,
   jp: jp,
+  ko: ko,
   strings: function(lang) {
     switch (lang) {
       case "en-US":
@@ -23,6 +25,8 @@ module.exports = {
         return zh;
       case "jp":
         return jp;
+      case "ko":
+        return ko;  
       default:
         return en;
     }
