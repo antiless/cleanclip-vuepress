@@ -4,4 +4,4 @@ footer: 著作権所有 © 2024 南京ズイメイジアテクノロジー株式
 canonicalUrl: 'https://cleanclip.cc/jp/students'
 ---
 
-<学生/>
+<Students/>

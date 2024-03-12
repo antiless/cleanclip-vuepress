@@ -41,6 +41,9 @@
             <a-menu-item :key="link(subItem.link)" v-else>
               <RouterLink v-if="isInternal(subItem.link,subItem.target)" :to="link(subItem.link)">
                 {{ subItem.text }}
+                <span v-if="subItem.tag" class="inline-block px-2 py-0 text-xs font-semibold text-gray-800 bg-yellow-300 rounded-full">
+                  AI
+                </span>
               </RouterLink>
               <a
                 v-else
@@ -210,6 +213,8 @@ export default {
             const locale = locales[path];
             const text =
               (themeLocales[path] && themeLocales[path].label) || locale.lang;
+            const tag =
+              (themeLocales[path] && themeLocales[path].tag);
             let link;
             // Stay on the current page
             if (locale.lang === this.$lang) {
@@ -222,7 +227,7 @@ export default {
                 link = path;
               }
             }
-            return { text, link };
+            return { text, link, tag };
           })
         };
         return [...this.userNav, languageDropdown];
