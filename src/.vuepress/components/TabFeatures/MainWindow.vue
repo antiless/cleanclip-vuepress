@@ -11,8 +11,36 @@ export default {
     TabFeatures
   },
   computed: {
-    items() {
+    t() {
       return this.$t().main_window
+    },
+    items() {
+      return [
+        {
+          "title": this.t.follow_frontmost_title,
+          "subtitle": this.t.follow_frontmost_subtitle,
+          "video": "/videos/followfrontmost_1080.mp4",
+          "poster": "/images/followfrontmost_1080.webp"
+        },
+        {
+          "title": this.t.exclusive_space_title,
+          "subtitle": this.t.exclusive_space_subtitle,
+          "video": "/videos/sketch-simple-full.mp4",
+          "poster": "/images/sketch-simple-full.webp"
+        },
+        {
+          "title": this.t.smart_list_title,
+          "subtitle": this.t.smart_list_subtitle,
+          "video": "/videos/youtubelinks-1080.mp4",
+          "poster": "/images/youtubelinks-1080.webp"
+        },
+        {
+          "title": this.t.collection_list_title,
+          "subtitle": this.t.collection_list_subtitle,
+          "video": "/videos/collection-lists.mp4",
+          "poster": "/images/collection-lists.webp"
+        }
+      ]
     },
     title() {
       return this.$t().main_window_title
@@ -36,7 +64,7 @@ export default {
   },
   methods: {
     onScroll({ left }) {
-      this.left = left
+      eft = left
     },
     onMouseDown(e) {
       this.originX = e.pageX

@@ -3,7 +3,6 @@ const students = require('./students')
 const discounts = require('./discounts')
 const download = require('./download')
 const usp = require('./usp')
-const tab_features = require('./tab_features')
 const quick_menu = require('./quick_menu')
 const paste_stack = require('./paste_stack')
 const main_window = require('./main_window')
@@ -24,7 +23,6 @@ module.exports = {
   discounts: discounts,
   download: download,
   usp: usp,
-  tab_features: tab_features,
   quick_menu: quick_menu,
   quick_menu_subtitle: "Designed specifically for keyboard operations, a quick window that appears and disappears at the input position at any time",
   quick_menu_title: "Quick Menu - Find Records in One Second",

@@ -12,9 +12,9 @@
 
     <!-- 移动 -->
     <div class="md:hidden">
-        <div class="item flex-col" v-for="(item, index) in items" :key="index">
-          <UseCase class="max-w-md" :usecase="item" />
-        </div>
+      <div class="item flex-col" v-for="(item, index) in items" :key="index">
+        <UseCase class="max-w-md" :usecase="item" />
+      </div>
     </div>
   </div>
 </template>
@@ -22,7 +22,6 @@
 <script>
 import UseCase from './UseCase.vue'
 import VueHorizontal from '../vue-horizontal.vue';
-import strings from '../../config/strings';
 
 export default {
   components: {
@@ -30,8 +29,48 @@ export default {
     VueHorizontal
   },
   computed: {
-    items() {
+    t() {
       return this.$t().usecases
+    },
+    items() {
+      return [
+        {
+          title: this.t.collect_images_title,
+          subtitle: this.t.collect_images_subtitle,
+          video: "/videos/designer265.mp4",
+          poster: "/images/designer.webp"
+        },
+        {
+          title: this.t.sync_screenshots_title,
+          subtitle: this.t.sync_screenshots_subtitle,
+          video: "/videos/screenshots265.mp4",
+          poster: "/images/screenshots.webp"
+        },
+        {
+          title: this.t.plan_travel_title,
+          subtitle: this.t.plan_travel_subtitle,
+          video: "/videos/disneyland265.mp4",
+          poster: "/images/disneyland.webp"
+        },
+        {
+          title: this.t.search_email_templates_title,
+          subtitle: this.t.search_email_templates_subtitle,
+          video: "/videos/emailtemplate265.mp4",
+          poster: "/images/emailtemplate.webp"
+        },
+        {
+          title: this.t.submit_across_sites_title,
+          subtitle: this.t.submit_across_sites_subtitle,
+          video: "/videos/formfill265.mp4",
+          poster: "/images/formfill.webp"
+        },
+        {
+          title: this.t.search_command_history_title,
+          subtitle: this.t.search_command_history_subtitle,
+          video: "/videos/terminal265.mp4",
+          poster: "/images/terminal.webp"
+        }
+      ]
     },
   },
   data() {

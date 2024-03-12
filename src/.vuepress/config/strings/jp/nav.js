@@ -1,12 +1,9 @@
-module.exports = [
-  {
-    text: '製品文書',
-    ariaLabel: '製品文書',
-    link: '/jp/docs/'
-  },
-  { text: '価格', link: '/pricing' },
-  {
-    text: 'ダウンロード',
-    link: '/jp/download'
-  },
-]
+module.exports = {
+  product_documentation: '製品文書',
+  product_documentation_ariaLabel: '製品文書',
+  product_documentation_link: '/jp/docs/',
+  pricing: '価格',
+  pricing_link: '/pricing',
+  download: 'ダウンロード',
+  download_link: '/jp/download'
+}

@@ -11,8 +11,36 @@ export default {
     TabFeatures
   },
   computed: {
-    items() {
+    t() {
       return this.$t().paste_stack
+    },
+    items() {
+      return [
+        {
+          "title": this.t.paste_in_order_title,
+          "subtitle": this.t.paste_in_order_subtitle,
+          "video": "/videos/pastestack-present.mp4",
+          "poster": "/images/pastestack-present.webp"
+        },
+        {
+          "title": this.t.collect_info_title,
+          "subtitle": this.t.collect_info_subtitle,
+          "video": "/videos/pastestack-collect.mp4",
+          "poster": "/images/pastestack-collect.webp"
+        },
+        {
+          "title": this.t.quick_form_filling_title,
+          "subtitle": this.t.quick_form_filling_subtitle,
+          "video": "/videos/pastestack-split.mp4",
+          "poster": "/images/pastestack-split.webp"
+        },
+        {
+          "title": this.t.assist_form_filling_title,
+          "subtitle": this.t.assist_form_filling_subtitle,
+          "video": "/videos/pastestack-fill-form.mp4",
+          "poster": "/images/pastestack-fill-form.webp"
+        }
+      ]
     },
     title() {
       return this.$t().paste_stack_title

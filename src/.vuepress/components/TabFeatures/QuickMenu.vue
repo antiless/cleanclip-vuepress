@@ -11,8 +11,36 @@ export default {
     TabFeatures
   },
   computed: {
-    items() {
+    t() {
       return this.$t().quick_menu
+    },
+    items() {
+      return [
+        {
+          "title": this.t.contextless_menu_title,
+          "subtitle": this.t.contextless_menu_subtitle,
+          "video": "/videos/quickuse.mp4",
+          "poster": "/images/quickuse.webp"
+        },
+        {
+          "title": this.t.preset_paste_format_title,
+          "subtitle": this.t.preset_paste_format_subtitle,
+          "video": "/videos/quickmenu-format-preset.mp4",
+          "poster": "/images/quickmenu-format-preset.webp"
+        },
+        {
+          "title": this.t.quick_paste_format_title,
+          "subtitle": this.t.quick_paste_format_subtitle,
+          "video": "/videos/quickmenu-format.mp4",
+          "poster": "/images/quickmenu-format.webp"
+        },
+        {
+          "title": this.t.pin_frequently_used_title,
+          "subtitle": this.t.pin_frequently_used_subtitle,
+          "video": "/videos/quickmenu-pinboard.mp4",
+          "poster": "/images/quickmenu-pinboard.webp"
+        }
+      ]
     },
     title() {
       return this.$t().quick_menu_title

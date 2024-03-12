@@ -1,82 +1,29 @@
-module.exports = [
-  {
-    title: "製品",
-    items: [
-      {
-        name: "CleanClip",
-        url: "https://cleanclip.cc/jp",
-      },
-      {
-        name: "Macaify",
-        url: "https://macaify.com",
-      },
-    ]
-  },
-  {
-    title: "サポート",
-    items: [
-      {
-        name: "ロードマップ",
-        url: "/jp/docs/roadmap.html",
-      },
-      {
-        name: "ダウンロード",
-        url: "/jp/download",
-        class: "lemonsqueezy-button"
-      },
-      {
-        name: "ライセンス管理",
-        url: "https://app.lemonsqueezy.com/my-orders",
-      },
-      {
-        name: "サポートに連絡",
-        url: "mailto:support@cleanclip.cc",
-      },
-      {
-        name: "機能リクエスト",
-        url: "https://github.com/auv1107/cleancliprun/issues",
-      }
-    ]
-  },
-  {
-    title: "販売",
-    items: [
-      {
-        name: "アフィリエイトプログラム",
-        url: "https://store.cleanclip.cc/affiliates",
-        label: "$10.00までの毎注文報酬"
-      },
-      {
-        name: "特別オファー",
-        url: "/jp/discounts",
-        label: "4-9割引"
-      },
-    ]
-  },
-  {
-    title: "企業",
-    items: [
-      {
-        name: "Twitter",
-        url: "https://x.com/cleanclipapp",
-      },
-      {
-        name: "記事",
-        url: "/jp/articles",
-      },
-      {
-        name: "開発者ブログ",
-        url: "/jp/developer",
-      },
-      {
-        name: "翻訳を支援",
-        url: "https://crowdin.com/project/cleanclipapp",
-        label: "新"
-      },
-      {
-        name: "プライバシーポリシー",
-        url: "/jp/docs/privacy",
-      },
-    ]
-  },
-]
+module.exports = {
+  product_title: "製品",
+  product_cleanclip_url: "https://cleanclip.cc/jp",
+  support_title: "サポート",
+  support_roadmap_name: "ロードマップ",
+  support_roadmap_url: "/jp/docs/roadmap.html",
+  download_roadmap_name: "ダウンロード",
+  download_roadmap_url: "/jp/download",
+  license_manager_name: "ライセンスマネージャー",
+  contact_support_name: "サポートに連絡",
+  feature_request_name: "機能リクエスト",
+
+  sales_title: "販売",
+  sales_affiliate_name: "アフィリエイトプログラム",
+  sales_affiliate_label: "最大 $10.00 の報酬",
+  sales_discounts_name: "特別割引",
+  sales_discounts_url: "/jp/discounts",
+  sales_discounts_label: "4-9 折の割引",
+
+  company_title: "会社",
+  company_articles_name: "記事",
+  company_articles_url: "/jp/articles",
+  company_developer_blog_name: "開発者ブログ",
+  company_developer_blog_url: "/jp/developer",
+  company_translation_name: "翻訳の支援",
+  label_new: "新",
+  company_privacy_name: "プライバシーポリシー",
+  company_privacy_url: "/jp/docs/privacy",
+}

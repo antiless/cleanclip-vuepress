@@ -1,83 +1,29 @@
-module.exports = [
-  {
-    title: "产品",
-    items: [
-      {
-        name: "CleanClip",
-        url: "https://cleanclip.cc/zh",
-      },
-      {
-        name: "Macaify",
-        url: "https://macaify.com",
-      },
-    ]
-  },
-  {
-    title: "支持",
-    items: [
-      {
-        name: "路线图",
-        url: "/zh/docs/roadmap.html",
-      },
-      {
-        name: "下载",
-        // url: "https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543",
-        url: "/zh/download",
-        class: "lemonsqueezy-button"
-      },
-      {
-        name: "许可证管理器",
-        url: "https://app.lemonsqueezy.com/my-orders",
-      },
-      {
-        name: "联系支持",
-        url: "mailto:support@cleanclip.cc",
-      },
-      {
-        name: "功能请求",
-        url: "https://github.com/auv1107/cleancliprun/issues",
-      }
-    ]
-  },
-  {
-    title: "销售",
-    items: [
-      {
-        name: "联盟计划",
-        url: "https://store.cleanclip.cc/affiliates",
-        label: "每单最多挣 $10.00"
-      },
-      {
-        name: "特别优惠",
-        url: "/zh/discounts",
-        label: "4-9 折优惠"
-      },
-    ]
-  },
-  {
-    title: "公司",
-    items: [
-      {
-        name: "Twitter",
-        url: "https://x.com/cleanclipapp",
-      },
-      {
-        name: "文章",
-        url: "/zh/articles",
-      },
-      {
-        name: "开发者博客",
-        url: "/zh/developer",
-      },
-      {
-        name: "协助翻译",
-        url: "https://crowdin.com/project/cleanclipapp",
-        label: "新"
-      },
-      {
-        name: "隐私政策",
-        url: "/zh/docs/privacy",
-      },
-    ]
-  },
-]
+module.exports = {
+  product_title: "产品",
+  product_cleanclip_url: "https://cleanclip.cc/zh",
+  support_title: "支持",
+  support_roadmap_name: "路线图",
+  support_roadmap_url: "/zh/docs/roadmap.html",
+  download_roadmap_name: "下载",
+  download_roadmap_url: "/zh/download",
+  license_manager_name: "许可证管理器",
+  contact_support_name: "联系支持",
+  feature_request_name: "功能请求",
+
+  sales_title: "销售",
+  sales_affiliate_name: "联盟计划",
+  sales_affiliate_label: "每单最多挣 $10.00",
+  sales_discounts_name: "特别优惠",
+  sales_discounts_url: "/zh/discounts",
+  sales_discounts_label: "4-9 折优惠",
+
+  company_title: "公司",
+  company_articles_name: "文章",
+  company_articles_url: "/zh/articles",
+  company_developer_blog_name: "开发者博客",
+  company_developer_blog_url: "/zh/developer",
+  company_translation_name: "协助翻译",
+  label_new: "新",
+  company_privacy_name: "隐私政策",
+  company_privacy_url: "/zh/docs/privacy",
+}

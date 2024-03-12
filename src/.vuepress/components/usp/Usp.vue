@@ -28,8 +28,39 @@ export default {
     VueHorizontal
   },
   computed: {
-    items() {
+    t() {
       return this.$t().usp
+    },
+    items() {
+      return [
+        {
+          title: this.t.true_minimalist_ui_title,
+          subtitle: this.t.true_minimalist_ui_subtitle,
+          body: this.t.true_minimalist_ui_body,
+          video: "/videos/clean265.mp4",
+          poster: "/images/clean.webp"
+        },
+        {
+          title: this.t.reduce_context_switching_title,
+          subtitle: this.t.reduce_context_switching_subtitle,
+          body: this.t.reduce_context_switching_body,
+          video: "/videos/followcursornoshadow265.mp4",
+          poster: "/images/followcursornoshadow.webp"
+        },
+        {
+          title: this.t.keep_shortcuts_minimal_title,
+          subtitle: this.t.keep_shortcuts_minimal_subtitle,
+          body: this.t.keep_shortcuts_minimal_body,
+          poster: "/images/pinboards.webp"
+        },
+        {
+          title: this.t.paste_queue_assistant_title,
+          subtitle: this.t.paste_queue_assistant_subtitle,
+          body: this.t.paste_queue_assistant_body,
+          video: "/videos/pastestack.mp4",
+          poster: "/images/pastestack.webp"
+        }
+      ]
     },
   },
   data() {

@@ -1,13 +1,9 @@
-module.exports = [
-  {
-    text: 'Documentation',
-    ariaLabel: 'Product Docs',
-    link: '/docs/'
-  },
-  { "text": "Pricing", "link": "/pricing" },
-  {
-    text: 'Download',
-    link: '/download'
-    // link: 'https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?enabled=114543'
-  },
-]
+module.exports = {
+  product_documentation: 'Documentation',
+  product_documentation_ariaLabel: 'Product Docs',
+  product_documentation_link: '/docs/',
+  pricing: 'Pricing',
+  pricing_link: '/pricing',
+  download: 'Downloads',
+  download_link: '/download'
+}

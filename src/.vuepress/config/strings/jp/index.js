@@ -3,7 +3,6 @@ const students = require('./students')
 const discounts = require('./discounts')
 const download = require('./download')
 const usp = require('./usp')
-const tab_features = require('./tab_features')
 const quick_menu = require('./quick_menu')
 const paste_stack = require('./paste_stack')
 const main_window = require('./main_window')
@@ -24,7 +23,6 @@ module.exports = {
   discounts: discounts,
   download: download,
   usp: usp,
-  tab_features: tab_features,
   quick_menu: quick_menu,
   quick_menu_subtitle: "キーボードを離さずに記録を検索できる、即座に使用できるクイックウィンドウ",
   quick_menu_title: "クイックウィンドウ - レコードを1秒で見つける",
