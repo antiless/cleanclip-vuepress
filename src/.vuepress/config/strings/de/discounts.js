@@ -1,0 +1,16 @@
+module.exports = {
+  title: "Sonderangebote",
+  subtitle: "Wir bieten eine Reihe von Sonderangeboten für verschiedene Benutzergruppen an",
+  student_title: "Studentenangebot",
+  student_desc: 'Wir bieten Vollzeitstudenten einen <b>30%</b> Rabatt, um ihnen zu helfen, besser zu lernen und zu erkunden. <a href="/de/students">Weitere Informationen</a>',
+  competitor_title: "Angebot für Nutzer von Mitbewerberprodukten",
+  competitor_desc: 'Wenn Sie ein Nutzer unserer Konkurrenzprodukte sind, bieten wir Ihnen einen <b>30%</b> Rabatt an, um Ihnen den einfachen Wechsel zu unserem Produkt zu ermöglichen. <a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="_blank">Rabatt beantragen</a>',
+  open_source_contributor_title: "Angebot für Open-Source-Mitarbeiter",
+  open_source_contributor_desc: 'Für diejenigen, die zur Open-Source-Community beitragen, bieten wir einen <b>10%</b> Rabatt als Dankeschön an. <a href="https://forms.gle/m7TLTbSuZyJdfDgLA" target="_blank">Rabatt beantragen</a>',
+  translator_title: "Dank an Übersetzer",
+  translator_desc: 'Für diejenigen, die uns bei der Übersetzung des Produkts in andere Sprachen geholfen haben, bieten wir einen <b>$5 - $20</b> Gutschein für den Kauf unserer zukünftigen Produkte als Dank an. <a class="" href="https://crowdin.com/project/cleanclipapp" target="_blank">Übersetzen Sie mit</a>',
+  content_creator_title: "Angebot für Content-Ersteller",
+  content_creator_desc: 'Wenn Sie ein Content-Ersteller sind und planen, Inhalte im Zusammenhang mit CleanClip zu erstellen, bieten wir exklusive Rabattcodes an, um die Reichweite Ihrer Inhalte zu stärken. Kontakt für Zusammenarbeit: <b>cooperation@cleanclip.cc</b>.',
+  war_zone_title: "Angebot für normale Bürger in Kriegsgebieten",
+  war_zone_desc: 'Für Menschen, die in Kriegsgebieten leben, bieten wir einen 55%igen speziellen Rabatt an, um unsere Sorge und Unterstützung auszudrücken. <a href="https://forms.gle/sYErhfAD3KpFraqK8" target="_blank">Region angeben</a>',
+}

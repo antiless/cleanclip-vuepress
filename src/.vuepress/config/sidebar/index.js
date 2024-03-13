@@ -20,4 +20,6 @@ module.exports = {
   zh: getSidebar(string.zh.sidebar),
   jp: getSidebar(string.jp.sidebar),
   ko: getSidebar(string.ko.sidebar),
+  ar: getSidebar(string.ar.sidebar),
+  getSidebar: getSidebar
 }

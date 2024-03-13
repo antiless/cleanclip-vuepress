@@ -1,7 +1,7 @@
 module.exports = {
-  getLocales(string) {
+  getLocales(string, lang) {
     return {
-      lang: string.lang,
+      lang: lang,
       description: string.description,
       search: false,
       title: string.title,

@@ -16,7 +16,7 @@ module.exports = {
   title: 'CleanClip - Mac에서 가장 깔끔한 클립 보관함 관리자. 간편하고 강력합니다!',
   description: '아마도 macOS에서 가장 깔끔한 클립 보관함 도구 일 것입니다! 복사한 내용을 자동으로 저장하고, 쉽게 관리하며, 초고속 검색합니다. 간단하고 강력합니다. CleanClip은 소중한 콘텐츠가 손실되지 않도록 해줄 뿐만 아니라 강력한 콘텐츠 필터링, 즐겨찾기 및 조직 기능도 제공합니다. 맥을 사용하는 일상의 모든 코너에 스며듭니다.',
   selectText: '언어 선택',
-  label: '중국어 간체',
+  label: '한국어',
   lastUpdated: '최근 업데이트',
   footer: footer,
   students: students,

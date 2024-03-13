@@ -1,0 +1,16 @@
+module.exports = {
+  title: "عروض خاصة",
+  subtitle: "نحن نقدم مجموعة من العروض لمجموعات مختلفة من المستخدمين",
+  student_title: "عرض للطلاب",
+  student_desc: 'نحن نوفر خصمًا بنسبة <b>30%</b> للطلاب بدوام كامل، لمساعدتهم في التعلم والاستكشاف بشكل أفضل. <a href="/ar/students">اعرف المزيد</a>',
+  competitor_title: "عرض لمستخدمي المنافسين",
+  competitor_desc: 'إذا كنت من مستخدمي منافسينا، فإننا نقدم خصمًا بنسبة <b>30%</b> لمساعدتك في التبديل بسهولة إلى منتجنا. <a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="_blank">قدّم طلب العرض</a>',
+  open_source_contributor_title: "عرض للمساهمين في المصادر المفتوحة",
+  open_source_contributor_desc: 'لأولئك الذين يساهمون في مجتمع البرمجيات مفتوحة المصدر، نحن نقدم خصمًا بنسبة <b>10%</b> كتقدير لجهودهم. <a href="https://forms.gle/m7TLTbSuZyJdfDgLA" target="_blank">قدّم طلب العرض</a>',
+  translator_title: "عرض للمترجمين المساهمين",
+  translator_desc: 'لأولئك الذين يساعدوننا في ترجمة منتجاتنا إلى لغات أخرى، نحن نقدم قسيمة بقيمة <b>$5 - $20</b> لشراء منتجاتنا المستقبلية كتعبير عن شكرنا. <a class="" href="https://crowdin.com/project/cleanclipapp" target="_blank">انتقل للترجمة</a>',
+  content_creator_title: "عرض لشركاء مُنتج المحتوى",
+  content_creator_desc: 'إذا كنت من مبدعي المحتوى وتخطط لإنشاء محتوى متعلق بـ CleanClip، فنحن على استعداد لتوفير رمز تخفيضي حصري لزيادة تأثير العرض على النشر. البريد الإلكتروني للتعاون: <b>cooperation@cleanclip.cc</b>.',
+  war_zone_title: "عرض للمواطنين العاديين في المناطق الحربية",
+  war_zone_desc: 'لأولئك الذين يعيشون في المناطق الحربية، نحن نوفر خصمًا خاصًا بنسبة 55% كتعبير عن اهتمامنا ودعمنا. <a href="https://forms.gle/sYErhfAD3KpFraqK8" target="_blank">سجّل موقعك</a>',
+}

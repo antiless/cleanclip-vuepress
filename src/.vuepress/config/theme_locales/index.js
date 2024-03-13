@@ -1,12 +1,18 @@
-const string = require('../strings/index')
 const { getThemeLocale } = require('./shared')
 
-const nav = require("../nav/index")
-const sidebar = require("../sidebar/index")
+const i18nInfo = require('../strings/index').i18nInfo
+const getNav = require("../nav/index").getNav
+const getSidebar = require("../sidebar/index").getSidebar
+
+function i18nInfo2ThemeLocale() {
+  let themeLocale = {}
+  for (let i = 0; i < i18nInfo.length; i++) {
+    const langInfo = i18nInfo[i]
+    themeLocale[langInfo.path] = getThemeLocale(langInfo.translation, getNav(langInfo.translation.nav), getSidebar(langInfo.translation.sidebar), langInfo.isAI ? "AI" : "", langInfo.label)
+  }
+  return themeLocale
+}
 
 module.exports = {
-  '/': getThemeLocale(string.en, nav.en, sidebar.en),
-  '/zh/': getThemeLocale(string.zh, nav.zh, sidebar.zh),
-  '/jp/': getThemeLocale(string.jp, nav.jp, sidebar.jp, "AI"),
-  '/ko/': getThemeLocale(string.ko, nav.ko, sidebar.ko, "AI"),
+  ...i18nInfo2ThemeLocale()
 }

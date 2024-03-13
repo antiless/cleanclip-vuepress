@@ -1,0 +1,16 @@
+module.exports = {
+  title: "Särskilda erbjudanden",
+  subtitle: "Vi erbjuder en rad förmåner för olika användargrupper",
+  student_title: "Studentrabatt",
+  student_desc: 'Vi erbjuder <b>30%</b> rabatt för heltidsstudenter för att hjälpa dem att studera och utforska bättre.<a href="/se/students">Läs mer</a>',
+  competitor_title: "Konkurrentanvändares rabatt",
+  competitor_desc: 'Om du är användare av våra konkurrenter, erbjuder vi <b>30%</b> rabatt för att hjälpa dig att enkelt byta till våra produkter.<a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="_blank">Ansök om rabatt</a>',
+  open_source_contributor_title: "Rabatt för bidragsgivare till öppen källkod",
+  open_source_contributor_desc: 'För de som bidrar till öppna källkodsprojekt erbjuder vi <b>10%</b> rabatt som ett tack från oss.<a href="https://forms.gle/m7TLTbSuZyJdfDgLA" target="_blank">Ansök om rabatt</a>',
+  translator_title: "Tack till översättare",
+  translator_desc: 'För de som hjälper oss översätta produkten till andra språk erbjuder vi <b>$5 - $20</b> presentkort för att köpa våra framtida produkter som ett tack från oss.<a class="" href="https://crowdin.com/project/cleanclipapp" target="_blank">Översätt</a>',
+  content_creator_title: "Samarbetsförmåner för innehållsskapare",
+  content_creator_desc: 'Om du är innehållsskapare och planerar att skapa innehåll relaterat till CleanClip, erbjuder vi exklusiva rabattkoder för att stärka innehållets marknadsföringseffekter. Samarbeta via e-post: <b>cooperation@cleanclip.cc</b>.',
+  war_zone_title: "Allmänhet i krigszoner",
+  war_zone_desc: 'För vanliga människor som lever i krigszoner erbjuder vi en 55% specialrabatt för att visa vår omtanke och stöd.<a href="https://forms.gle/sYErhfAD3KpFraqK8" target="_blank">Registrera din region</a>',
+}
