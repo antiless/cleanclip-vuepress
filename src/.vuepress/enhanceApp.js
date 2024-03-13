@@ -3,7 +3,6 @@ import './theme/styles/index.less';
 export default ({ router, siteData }) => {
   router.beforeResolve((to, from, next) => {
     console.log("resolve", from, to)
-    console.log("site", siteData)
     console.log("site", siteData.themeConfig.alias)
     const toReroute = siteData.themeConfig.alias || []
 
