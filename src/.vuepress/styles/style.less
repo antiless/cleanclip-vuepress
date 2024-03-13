@@ -250,10 +250,23 @@
     padding-left: 2.5rem !important;
 }
 a.sidebar-link.active {
-    background-color: unset !important;
+    // background-color: unset !important;
+    margin-right: 30px;
+    padding-right: 30px;
 }
 a.sidebar-link.active::after {
     opacity: 0 !important;
+}
+a.sidebar-link {
+    font-size: 0.75rem !important;
+    &:not(.active) {
+        color: #000000 !important;
+    }
+}
+
+.sidebar-heading {
+    opacity: 1 !important;
+    font-weight: bold !important;
 }
 
 .parity-banner {
