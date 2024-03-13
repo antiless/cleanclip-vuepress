@@ -14,10 +14,10 @@ module.exports = {
     [require('./plugins/autometa'), autometa_options],
     [require('./plugins/promotion')],
     [require('./plugins/localization')],
-    [
-      'vuepress-plugin-sitemap',
-      { hostname: 'https://cleanclip.cc' }
-    ]
+    // [
+    //   'vuepress-plugin-sitemap',
+    //   { hostname: 'https://cleanclip.cc' }
+    // ]
   ],
   theme: 'antdocs',
   head: [
