@@ -65,7 +65,7 @@ export default {
             },
             {
               name: this.t.feature_request_name,
-              url: "https://github.com/auv1107/cleancliprun/issues",
+              url: "https://feedback.cleanclip.cc",
             }
           ]
         },

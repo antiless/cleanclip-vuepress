@@ -7,7 +7,7 @@ module.exports = {
   download_roadmap_name: "Downloads",
   download_roadmap_url: "/download",
   license_manager_name: "License Manager",
-  contact_support_name: "Contact Support",
+  contact_support_name: "Contact Us",
   feature_request_name: "Feature Requests",
 
   sales_title: "Sales",
