@@ -72,14 +72,14 @@ autometa:
 
   </div>
 
-  <div class="comments">
+  <!-- <div class="comments"> -->
 
-  ## 🎉 Meet CleanClip Users
+  <!-- ## 🎉 Meet CleanClip Users
   #### From Reddit, the most genuine users all love CleanClip!
 
   <MeetUsers/>
 
-  </div>
+  </div> -->
 
   <div class="faq">
   <div>
