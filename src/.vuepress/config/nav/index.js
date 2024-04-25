@@ -3,11 +3,6 @@ const string = require("../strings/index")
 function getNav(t) {
   return [
     {
-      text: "SecureClipX🛡️",
-      ariaLabel: "SecureClipX🛡️",
-      link: "https://secureclipx.cleanclip.cc"
-    },
-    {
       text: t.product_documentation,
       ariaLabel: t.product_documentation_ariaLabel,
       link: t.product_documentation_link
