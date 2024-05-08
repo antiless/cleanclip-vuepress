@@ -69,7 +69,7 @@ export default {
             },
             {
               name: this.t.feature_request_name,
-              url: "https://feedback.cleanclip.cc",
+              url: "https://cleanclip.sleekplan.app/",
             }
           ]
         },

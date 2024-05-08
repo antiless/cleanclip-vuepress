@@ -3,6 +3,16 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+
+## 2.1.4
+Date: May 8, 2024
+
+**Updates**
+- Added support for Japanese and Greek languages
+- Fixed paste queue error
+
+[Download](https://cleanclip.cc/releases/download/v2.1.4/CleanClip.dmg)
+
 ## 2.1.3
 日期: 2024.3.6
 

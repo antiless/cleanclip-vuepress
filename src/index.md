@@ -38,7 +38,7 @@ features:
 - title: 🧠 Powerful Smart Lists
   details: Multiple intelligent filtering methods help you quickly organize and filter specific content.
 - title: 🌍 Localization
-  details: English, 简体中文, 繁體中文, 🇸🇰Slovenčina, 🇫🇷Français, 🇳🇱Nederlands <a href="/discounts">Help Translate</a>
+  details: English, 简体中文, 繁體中文, 🇸🇰Slovenčina, 🇫🇷Français, 🇳🇱Nederlands, 🇯🇵にほんご, 🇬🇷ελληνικά <a href="/discounts">Help Translate</a>
 footer: Copyright © 2024 Nanjing Zui Mei Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/'
 autometa:

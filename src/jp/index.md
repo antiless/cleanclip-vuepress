@@ -35,7 +35,7 @@ features:
   - title: 🧠 パワフルなスマートリスト
     details: さまざまなスマートフィルタリング方法で、特定のコンテンツを素早く整理、選択できます。
   - title: 🌍 多言語サポート
-    details: 簡体字中国語、繁体字中国語、英語、🇸🇰スロバキア語、🇫🇷フランス語、🇳🇱オランダ語 <a href="/jp/discounts">翻訳を手伝う</a>
+    details: English, 简体中文, 繁體中文, 🇸🇰Slovenčina, 🇫🇷Français, 🇳🇱Nederlands, 🇯🇵にほんご, 🇬🇷ελληνικά <a href="/jp/discounts">翻訳を手伝う</a>
 footer: 著作権 © 2024 南京最美佳科技有限公司
 canonicalUrl: 'https://cleanclip.cc/jp/'
 ---
