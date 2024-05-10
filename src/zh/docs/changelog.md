@@ -3,13 +3,20 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
 
 # 更新日志
+## 2.1.5
+日期: 2024.5.10
+
+**更新内容**
+- 修复粘贴队列重复内容无效的问题
+
+[Download](https://cleanclip.cc/releases/download/v2.1.5/CleanClip.dmg)
 
 ## 2.1.4
 Date: May 8, 2024
 
 **Updates**
-- Added support for Japanese and Greek languages
-- Fixed paste queue error
+- 支持日语、希腊语
+- 修复粘贴队列错误
 
 [Download](https://cleanclip.cc/releases/download/v2.1.4/CleanClip.dmg)
 

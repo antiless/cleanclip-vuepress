@@ -3,6 +3,14 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 ---
 
 # Release Notes
+## 2.1.5
+Date: May 10, 2024
+
+**Updates**
+- Fixed the issue of invalid duplicate content in paste queue
+
+[Download](https://cleanclip.cc/releases/download/v2.1.5/CleanClip.dmg)
+
 ## 2.1.4
 Date: May 8, 2024
 

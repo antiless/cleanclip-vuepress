@@ -70,7 +70,7 @@ module.exports = {
   themeConfig: {
     title: "CleanClip",
     logo: '/images/logo.webp',
-    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.1.4/CleanClip.dmg',
+    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.1.5/CleanClip.dmg',
     freeTrailUrl: 'https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929',
     purchaseUrl: 'https://clip-purchase.macaify.com',
     smoothScroll: true,
