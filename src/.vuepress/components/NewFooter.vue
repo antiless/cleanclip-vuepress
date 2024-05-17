@@ -42,7 +42,7 @@ export default {
               url: "https://macaify.com",
             },
             {
-              name: "SecureClipX",
+              name: "Copi",
               url: "https://secureclipx.cleanclip.cc",
             },
           ]
