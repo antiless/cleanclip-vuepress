@@ -112,6 +112,10 @@ export default {
               name: this.t.company_privacy_name,
               url: this.t.company_privacy_url,
             },
+            {
+              name: "Terms of Service",
+              url: "/docs/terms-of-service"
+            }
           ]
         },
       ]
