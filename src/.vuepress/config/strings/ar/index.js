@@ -18,7 +18,7 @@ module.exports = {
   selectText: 'اختيار اللغة',
   label: 'اللغة العربية',
   lastUpdated: 'تم التحديث لآخر مرة',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,

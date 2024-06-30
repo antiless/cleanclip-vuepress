@@ -18,7 +18,7 @@ module.exports = {
   selectText: 'Select Language',
   label: 'British English',
   lastUpdated: 'Last Updated',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,

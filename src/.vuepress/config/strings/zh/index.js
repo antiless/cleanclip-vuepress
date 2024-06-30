@@ -18,7 +18,7 @@ module.exports = {
   selectText: '选择语言',
   label: '简体中文',
   lastUpdated: '最近更新',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,

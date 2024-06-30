@@ -26,4 +26,8 @@ module.exports = {
   label_new: "新",
   company_privacy_name: "隐私政策",
   company_privacy_url: "/zh/docs/privacy",
+
+  for_pros_title: "专业人士",
+  for_pros_vs_paste: "Paste 对比 CleanClip",
+  for_pros_vs_paste_url: "/zh/pages/a-cheaper-more-systematic-alternative-to-paste",
 }

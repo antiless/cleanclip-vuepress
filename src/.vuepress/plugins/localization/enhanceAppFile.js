@@ -7,4 +7,7 @@ export default ({ Vue }) => {
   Vue.prototype.$t = function () {
     return strings.strings(this.$lang)
   };
+  Vue.prototype.$td = function (key) {
+    return strings.strings(this.$lang)[key] ?? strings.defaultLang[key]
+  };
 }

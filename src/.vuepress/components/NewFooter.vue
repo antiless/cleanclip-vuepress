@@ -25,17 +25,14 @@
 export default {
   name: 'NewFooter',
   computed: {
-    t() {
-      return this.$t().footer
-    },
     items() {
       return [
         {
-          title: this.t.product_title,
+          title: this.td("product_title"),
           items: [
             {
               name: "CleanClip",
-              url: this.t.product_cleanclip_url,
+              url: this.td("product_cleanclip_url"),
             },
             {
               name: "Macaify",
@@ -48,69 +45,73 @@ export default {
           ]
         },
         {
-          title: this.t.support_title,
+          title: this.td("support_title"),
           items: [
             {
-              name: this.t.support_roadmap_name,
-              url: this.t.support_roadmap_url,
+              name: this.td("support_roadmap_name"),
+              url: this.td("support_roadmap_url"),
             },
             {
-              name: this.t.download_roadmap_name,
-              url: this.t.download_roadmap_url,
+              name: this.td("download_roadmap_name"),
+              url: this.td("download_roadmap_url"),
               class: "lemonsqueezy-button"
             },
             {
-              name: this.t.license_manager_name,
+              name: this.td("license_manager_name"),
               url: "https://app.lemonsqueezy.com/my-orders",
             },
             {
-              name: this.t.contact_support_name,
+              name: this.td("contact_support_name"),
               url: "mailto:support@cleanclip.cc",
             },
             {
-              name: this.t.feature_request_name,
+              name: this.td("feature_request_name"),
               url: "https://cleanclip.sleekplan.app/",
             }
           ]
         },
         {
-          title: this.t.sales_title,
+          title: this.td("for_pros_title"),
           items: [
             {
-              name: this.t.sales_affiliate_name,
-              url: "https://store.cleanclip.cc/affiliates",
-              label: this.t.sales_affiliate_label
+              name: this.td("for_pros_vs_paste"),
+              url: this.td("for_pros_vs_paste_url")
             },
             {
-              name: this.t.sales_discounts_name,
-              url: this.t.sales_discounts_url,
-              label: this.t.sales_discounts_label
+              name: this.td("sales_affiliate_name"),
+              url: "https://store.cleanclip.cc/affiliates",
+              label: this.td("sales_affiliate_label")
+            },
+            {
+              name: this.td("sales_discounts_name"),
+              url: this.td("sales_discounts_url"),
+              label: this.td("sales_discounts_label")
             },
           ]
         },
         {
-          title: this.t.company_title,
+          title: this.td("company_title"),
           items: [
             {
               name: "Twitter",
               url: "https://x.com/cleanclipapp",
             },
             {
-              name: this.t.company_articles_name,
-              url: this.t.company_articles_url,
+              name: this.td("company_articles_name"),
+              url: this.td("company_articles_url"),
             },
             {
-              name: this.t.company_developer_blog_name,
-              url: this.t.company_developer_blog_url,
+              name: this.td("company_developer_blog_name"),
+              url: this.td("company_developer_blog_url"),
             },
             {
-              name: this.t.company_translation_name,
+              name: this.td("company_translation_name"),
               url: "https://crowdin.com/project/cleanclipapp",
-              label: this.t.label_new
+              label: this.td("label_new")
             },
             {
-              name: this.t.company_privacy_name,
-              url: this.t.company_privacy_url,
+              name: this.td("company_privacy_name"),
+              url: this.td("company_privacy_url"),
             },
             {
               name: "Terms of Service",
@@ -119,6 +120,11 @@ export default {
           ]
         },
       ]
+    },
+  },
+  methods: {
+    td(key) {
+      return this.$td(key)
     },
   }
 }

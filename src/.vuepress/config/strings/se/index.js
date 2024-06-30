@@ -18,7 +18,7 @@ module.exports = {
   selectText: 'Välj språk',
   label: 'Sami',
   lastUpdated: 'Senast uppdaterad',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,

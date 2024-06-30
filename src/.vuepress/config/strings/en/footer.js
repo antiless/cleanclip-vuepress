@@ -25,5 +25,9 @@ module.exports = {
   company_translation_name: "Help Translate",
   label_new: "New",
   company_privacy_name: "Privacy Policy",
-  company_privacy_url: "/docs/privacy"
+  company_privacy_url: "/docs/privacy",
+
+  for_pros_title: "For Pros",
+  for_pros_vs_paste: "Paste vs CleanClip",
+  for_pros_vs_paste_url: "/pages/a-cheaper-more-systematic-alternative-to-paste",
 }

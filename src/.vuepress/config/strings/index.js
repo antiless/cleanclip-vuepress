@@ -102,4 +102,5 @@ module.exports = {
   ...toDict(),
   strings: findByLang,
   i18nInfo: i18nInfo,
+  defaultLang: i18nInfo[0].translation
 }

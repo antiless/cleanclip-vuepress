@@ -18,7 +18,7 @@ module.exports = {
   selectText: '언어 선택',
   label: '한국어',
   lastUpdated: '최근 업데이트',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,

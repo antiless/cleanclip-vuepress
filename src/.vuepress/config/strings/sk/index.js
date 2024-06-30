@@ -18,7 +18,7 @@ module.exports = {
   selectText: 'Vyberte jazyk',
   label: 'Zjednodušená čínština',
   lastUpdated: 'Naposledy aktualizované',
-  footer: footer,
+  ...footer,
   students: students,
   discounts: discounts,
   download: download,
