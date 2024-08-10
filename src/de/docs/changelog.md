@@ -3,6 +3,32 @@ canonicalUrl: 'https://cleanclip.cc/de/docs/changelog'
 ---
 
 # Versionshinweise
+
+## 2.2.0-beta.1
+Datum: 10. August 2024
+
+**Änderungen**
+- Optimierung des gesamten visuellen Rahmens
+- Behebung zahlreicher Fehler
+- Verbesserung der Benutzererfahrung
+- Unterstützung für den Dunkelmodus-Anpassung🌟
+- Unterstützung für Kontextmenüs
+- Unterstützung für Rechtsklick-Teilungskopie🌟
+- Vorschau kann auf dem Desktop fixiert werden🌟
+- Umfassende Dunkelmodus-Anpassung
+- Optionale Tonunterstützung
+- Direktes Öffnen von Gruppen über Tastenkombinationen🌟
+- Überarbeitung der Einstellungsseite
+- Unterstützung für SF Symbols-Anzeige🌟
+- Schnellmenü unterstützt die Anzeige aller Listen🌟
+- Hinzufügung von Gruppennavigations-Tastenkombinationen im Schnellmenü
+- Unterstützung für die Auswahl alternativer Popup-Positionen
+- Einfüge-Warteschlange unterstützt verschiedene Reihenfolgen
+- Unterstützung für Texteingabe nach dem Einfügen🌟
+- Optionale Beta-Versionsaktualisierungen
+
+[Download](https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.dmg)
+
 ## 2.1.3
 Datum: 6. März 2024
 

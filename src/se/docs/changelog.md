@@ -3,6 +3,33 @@ canonicalUrl: 'https://cleanclip.cc/se/docs/changelog'
 ---
 
 # Uppdateringslogg
+
+## 2.2.0-beta.1
+Datum: 10 augusti 2024
+
+**Uppdateringar**
+- Optimering av hela det visuella ramverket
+- Åtgärdande av ett stort antal buggar
+- Förbättrad användarupplevelse
+- Stöd för anpassning till mörkt läge🌟
+- Stöd för högerklicksmeny
+- Stöd för delad kopiering med högerklick🌟
+- Förhandsgranskning kan fästas på skrivbordet🌟
+- Omfattande anpassning för mörkt läge
+- Valfritt ljudstöd
+- Genvägar för att öppna grupper direkt🌟
+- Omskriven inställningssida
+- Stöd för visning av SF Symbols🌟
+- Snabbmeny stödjer visning av alla listor🌟
+- Tillagda genvägar för gruppnavigering i snabbmenyn
+- Stöd för val av alternativa popup-positioner
+- Klistringskö stödjer flera ordningar
+- Stöd för textinmatning efter klistring🌟
+- Valfria uppdateringar av betaversioner
+
+[Hämta](https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.dmg)
+
+
 ## 2.1.3
 Datum: 6 mars 2024
 

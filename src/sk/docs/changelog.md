@@ -3,6 +3,32 @@ canonicalUrl: 'https://cleanclip.cc/sk/docs/changelog'
 ---
 
 # Zoznam zmien
+
+## 2.2.0-beta.1
+Dátum: 10. augusta 2024
+
+**Zmeny**
+- Optimalizácia celkového vizuálneho rámca
+- Oprava mnohých chýb
+- Zlepšenie používateľskej skúsenosti
+- Podpora prispôsobenia tmavého režimu🌟
+- Podpora kontextových menu
+- Podpora kopírovania rozdelením pravým kliknutím🌟
+- Náhľad môže byť pripnutý na pracovnú plochu🌟
+- Komplexné prispôsobenie tmavého režimu
+- Voliteľná zvuková podpora
+- Priame otváranie skupín cez klávesové skratky🌟
+- Prepracovaná stránka nastavení
+- Podpora zobrazenia SF Symbols🌟
+- Rýchle menu podporuje zobrazenie všetkých zoznamov🌟
+- Pridané skratky pre navigáciu skupín v rýchlom menu
+- Podpora výberu alternatívnych pozícií vyskakovacích okien
+- Fronta vkladania podporuje rôzne poradie
+- Podpora zadávania textu po vložení🌟
+- Voliteľné aktualizácie beta verzií
+
+[Stiahnuť](https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.dmg)
+
 ## 2.1.3
 Dátum: 6. marca 2024
 

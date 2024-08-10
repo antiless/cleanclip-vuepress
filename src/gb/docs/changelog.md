@@ -3,6 +3,31 @@ canonicalUrl: 'https://cleanclip.cc/gb/docs/changelog'
 ---
 
 # Changelog
+## 2.2.0-beta.1
+Date: 10th August 2024
+
+**Updates**
+- Optimised overall visual framework
+- Fixed numerous bugs
+- Improved user experience
+- Support for dark mode adaptation🌟
+- Support for context menus
+- Support for right-click split copy🌟
+- Preview can be pinned to desktop🌟
+- Comprehensive dark mode adaptation
+- Optional sound support
+- Direct group opening via keyboard shortcuts🌟
+- Redesigned settings page
+- Support for SF Symbols display🌟
+- Quick menu supports viewing all lists🌟
+- Added group navigation shortcuts in quick menu
+- Support for selecting alternative popup positions
+- Paste queue supports various orders
+- Support for text input after pasting🌟
+- Optional beta version updates
+
+[Download](https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.dmg)
+
 ## 2.1.3
 Date: 6th March 2024
 
