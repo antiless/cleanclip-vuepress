@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/de/download",
   license_manager_name: "Lizenzmanager",
   contact_support_name: "Support kontaktieren",
-  feature_request_name: "Funktionsanfrage",
+  feature_request_name: "Feedback",
 
   sales_title: "Verkauf",
   sales_affiliate_name: "Partnerprogramm",

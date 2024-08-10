@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/zh/download",
   license_manager_name: "许可证管理器",
   contact_support_name: "联系支持",
-  feature_request_name: "功能请求",
+  feature_request_name: "反馈",
 
   sales_title: "销售",
   sales_affiliate_name: "联盟计划",

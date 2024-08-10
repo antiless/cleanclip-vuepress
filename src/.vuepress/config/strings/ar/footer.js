@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/ar/download",
   license_manager_name: "مدير التراخيص",
   contact_support_name: "الاتصال بالدعم",
-  feature_request_name: "طلب الميزات",
+  feature_request_name: "التغذية الراجعة",
 
   sales_title: "المبيعات",
   sales_affiliate_name: "برنامج الشراكة",

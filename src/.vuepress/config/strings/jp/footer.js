@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/jp/download",
   license_manager_name: "ライセンスマネージャー",
   contact_support_name: "サポートに連絡",
-  feature_request_name: "機能リクエスト",
+  feature_request_name: "フィードバック",
 
   sales_title: "販売",
   sales_affiliate_name: "アフィリエイトプログラム",

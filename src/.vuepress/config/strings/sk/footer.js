@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/sk/download",
   license_manager_name: "Správca licencií",
   contact_support_name: "Kontaktovať podporu",
-  feature_request_name: "Žiadosť o funkciu",
+  feature_request_name: "Spätná väzba",
 
   sales_title: "Predaj",
   sales_affiliate_name: "Partneri",

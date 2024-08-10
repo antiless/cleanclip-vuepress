@@ -8,7 +8,7 @@ module.exports = {
   download_roadmap_url: "/ko/download",
   license_manager_name: "라이센스 관리자",
   contact_support_name: "지원에 문의",
-  feature_request_name: "기능 요청",
+  feature_request_name: "피드백",
     
   sales_title: "판매",
   sales_affiliate_name: "제휴 프로그램",
