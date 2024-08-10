@@ -6,24 +6,6 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 我们对 CleanClip 的愿景和设想。
 
 ## 正在做 🕙
-### 优化阶段
-- 同步 MainWindow 和 Quick Menu 功能
-- 修复一些重要 bug
-- fcp 增强/bug 解决
-- 重写设置
-- 自定义文字处理脚本
-- 粘贴队列/主窗口内容同步
-
-## 计划中 📅
-
-### 支持 TouchBar
-**📅 发布日期**
-- 待定
-
-**🔧 特点**
-- 在 TouchBar 展示复制记录
-结合 “Follow frontmost app" mode 或 lists，可以在指定 App 中自动展示特定的内容。比如，打开 Final Cut Pro 时自动显示保存过的一些模板内容，打开 Photoshop 时自动显示某个色卡等，打开浏览器是自动显示常用网址等。
-
 ### 插件能力
 **📅 发布日期**
 - 待定
@@ -36,20 +18,22 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 - 为文本/url 添加转 markdown 能力
 - 为图片添加压缩能力
 
+## 计划中 📅
+
+### 支持 TouchBar
+**📅 发布日期**
+- 待定
+
+**🔧 特点**
+- 在 TouchBar 展示复制记录
+结合 “Follow frontmost app" mode 或 lists，可以在指定 App 中自动展示特定的内容。比如，打开 Final Cut Pro 时自动显示保存过的一些模板内容，打开 Photoshop 时自动显示某个色卡等，打开浏览器是自动显示常用网址等。
+
 ### iCloud 同步 📅
 **📅 上线日期**
 - 待定
 
 **🔧 功能**
 - 支持多端历史记录通过 iCloud 同步
-
-
-### 复制堆栈
-**📅 上线日期**
-- 待定
-
-**🔧 功能**
-- 支持复制堆栈，用户不断 CMD + V 可粘贴并将刚才粘贴的内容出栈
 
 ### iOS 版本
 **📅 上线日期**
@@ -118,3 +102,15 @@ canonicalUrl: 'https://cleanclip.cc/zh/docs/roadmap'
 - 大功能一：收藏列表、智能列表！智能地管理、浏览、使用你的历史记录。
 - 大功能二：拖拽拖拽拖拽！所有内容都可拖拽！使用记录更高效！对内容收集、内容创造者友好。
 - 大功能三：专业功能！正则筛选→sed 脚本处理，解决复杂应用场景的工作流。（移到下一阶段）
+
+### 六期：优化阶段
+**📅 Launch Date**
+- 2024.5.10
+
+**🔧 Features**
+- 同步 MainWindow 和 Quick Menu 功能
+- 修复一些重要 bug
+- fcp 增强/bug 解决
+- 重写设置
+- 自定义文字处理脚本
+- 粘贴队列/主窗口内容同步

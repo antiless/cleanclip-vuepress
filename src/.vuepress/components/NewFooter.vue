@@ -66,7 +66,7 @@ export default {
             },
             {
               name: this.td("feature_request_name"),
-              url: "https://cleanclip.sleekplan.app/",
+              url: "https://github.com/CleanClip/CleanClipApp/issues",
             }
           ]
         },

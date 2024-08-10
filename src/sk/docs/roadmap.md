@@ -2,77 +2,62 @@
 canonicalUrl: 'https://cleanclip.cc/sk/docs/roadmap'
 ---
 
-# Plánovací roadmap pre CleanClip
-Naša vize a plány pre CleanClip.
+# Plán vývoja CleanClip
+Naša vízia a plány pre CleanClip.
 
 ## Práve prebieha 🕙
-### Optimalizačné fázy
-- Synchronizácia funkcií Hlavného okna a Rýchleho menu
-- Oprava niektorých dôležitých chýb
-- Rozšírenie/oprava chýb fcp
-- Rewrite nastavení
-- Vlastné skripty spracovania textu
-- Synchronizácia zásobníka/v obsahu Hlavného okna
+### Schopnosti pluginov
+**📅 Dátum vydania**
+- Neurčený
+
+**🔧 Funkcie**
+- Schopnosti pluginov budú sprístupnené vývojárom.
+Táto funkcia umožní schopným vývojárom vytvárať špecifické funkcie pre predspracovanie a následné spracovanie každého záznamu.
+Napríklad:
+- Pridanie schopnosti analýzy súkromných údajov pre konkrétnu aplikáciu
+- Pridanie schopnosti konverzie textu/url na markdown
+- Pridanie schopnosti kompresie pre obrázky
 
 ## Plánované 📅
 
-### Podpora pre TouchBar
+### Podpora TouchBar
 **📅 Dátum vydania**
-- Neurčené
+- Neurčený
 
 **🔧 Funkcie**
-- Zobrazovanie záznamov kopírovania na TouchBar-e
-S funkciou "Nasleduj appku prednejší" alebo zoznammi môžete automaticky zobrazovať konkrétny obsah vo vybratom App. Napríklad, keď otvoríte Final Cut Pro, automaticky sa zobrazí niekoľko uložených šablón, keď otvoríte Photoshop, automaticky sa zobrazí nejaká farebná karta atď.
+- Zobrazenie histórie kopírovania na TouchBar
+V kombinácii s režimom "Sledovať aplikáciu v popredí" alebo zoznamami môžete automaticky zobrazovať špecifický obsah v určenej aplikácii. Napríklad, pri otvorení Final Cut Pro sa automaticky zobrazia niektoré uložené šablóny, pri otvorení Photoshopu sa automaticky zobrazí určitá farebná paleta, pri otvorení prehliadača sa automaticky zobrazia často používané webové stránky atď.
 
-### Schopnosť pluginov
-**📅 Dátum vydania**
-- Neurčené
-
-**🔧 Funkcie**
-- Schopnosť pluginov bude otvorená pre vývojárov.
-Táto schopnosť umožňuje schopným vývojárom vytvárať špecifické predspracovávacie a popospracovávacie schopnosti pre každý záznam.
-Napríklad:
-- Pridanie analytických schopností pre špecifické súkromné údaje App
-- Pridanie schopnosti konverzie textu/url do formátu markdown
-- Pridanie schopnosti komprimácie pre obrázky
-
-### iCloud synchronizácia 📅
+### Synchronizácia iCloud 📅
 **📅 Dátum spustenia**
-- Neurčené
+- Neurčený
 
 **🔧 Funkcie**
-- Podpora histórie záznamov na viacerých zariadeniach cez iCloud synchronizáciu
+- Podpora synchronizácie histórie záznamov medzi viacerými zariadeniami cez iCloud
 
-### Zásobník kopírovania
+### iOS verzia
 **📅 Dátum spustenia**
-- Neurčené
+- Neurčený
 
 **🔧 Funkcie**
-- Podpora zásobníka kopírovania, kde používateľ môže nepretržite stláčať CMD + V na postupné vkladanie práve skopírovaných obsahov
+- Podpora zdieľania záznamov medzi zariadeniami Mac a mobilnými zariadeniami
 
-### Verzia pre iOS
+### Webový zdroj
 **📅 Dátum spustenia**
-- Neurčené
+- Neurčený
 
 **🔧 Funkcie**
-- Podpora zdieľania záznamov medzi Macom a mobilným telefónom
-
-### Zdroje z webu
-**📅 Dátum spustenia**
-- Neurčené
-
-**🔧 Funkcie**
-- Zdroje presne na určitú webovú stránku
+- Zdroj špecifikovaný až na konkrétnu webovú stránku
 
 ## Dokončené ✅
-### Fáza 1: Základná funkcionalita ✅
+### Fáza 1: Základné funkcie ✅
 
 **📅 Dátum spustenia**
 - 19.8.2023
 
 **🔧 Funkcie**
-- Klávesová skratka pre zobrazenie histórie záznamov
-- Sledovanie polohy kurzora pri zobrazovaní
+- Vyvolanie histórie záznamov pomocou klávesovej skratky
+- Poloha vyvolania sleduje kurzor vstupu
 
 ![](/images/roadmap/snap1.png)
 
@@ -82,26 +67,26 @@ Napríklad:
 - 27.8.2023
 
 **🔧 Funkcie**
-- Rýchle vyhľadávanie viac existujúcich záznamov����
+- Rýchle vyhľadávanie viacerých historických záznamov📝
 - Podpora vyhľadávania pomocou pinyin
 
 ![](/images/roadmap/snap2.png)
 
-### Fáza 3: Viacnásobné formáty ako obrázky, súbory atď. ✅
+### Fáza 3: Viacero formátov ako obrázky, súbory atď. ✅
 **📅 Dátum spustenia**
 - 4.9.2023
 
 **🔧 Funkcie**
-- Podpora formátov ako obrázky, súbory
+- Podpora formátov obrázkov a súborov
 
 ![](/images/roadmap/phase3.webp)
 
-### Fáza 4: Zásobník lepenia ✅
+### Fáza 4: Fronta vkladania ✅
 **📅 Dátum spustenia**
 - 9.11.2023
 
 **🔧 Funkcie**
-- Kontinuálne kopírovanie obsahu do zásobníka, pri použití CMD+V sa obsahy postupne vkladajú
+- Nepretržité kopírovanie obsahu do fronty, použitím CMD+V sa obsah postupne vkladá
 
 <video autoplay muted loop width=700>
     <source src="/videos/pastestack265.mp4" type="video/mp4">
@@ -109,11 +94,23 @@ Napríklad:
 </video>
 
 
-### Fáza 5: Výkonnejšie správne funkcie
+### Fáza 5: Výkonnejšie funkcie správy
 **📅 Dátum spustenia**
 - 19.11.2023
 
 **🔧 Funkcie**
-- Veľká funkcia 1: Zoznamy obľúbených, inteligentné zoznamy! Inteligentne spravujte, prezerajte a používajte svoje záznamy histórie.
-- Veľká funkcia 2: Potiahni a pusť! Všetko je možné potiahnuť! Použitie záznamov efektívnejšie! Pre zber obsahu a tvorcov obsahu priateľské.
-- Veľká funkcia 3: Profesionálne funkcie! Regulárny výber→sed skripty spracovania, riešenie zložitých scenárov pracovného postupu. (Posunutá do nasledujúcej fázy)
+- Veľká funkcia 1: Zoznamy obľúbených položiek, inteligentné zoznamy! Inteligentne spravujte, prezerajte a používajte svoje historické záznamy.
+- Veľká funkcia 2: Ťahaj a pusť! Všetok obsah je možné ťahať! Efektívnejšie používanie záznamov! Priateľské pre zberateľov obsahu a tvorcov obsahu.
+- Veľká funkcia 3: Profesionálne funkcie! Regulárne filtrovanie→spracovanie sed skriptom, riešenie pracovných postupov v zložitých aplikačných scenároch. (Presunuté do ďalšej fázy)
+
+### Fáza 6: Fáza optimalizácie
+**📅 Dátum spustenia**
+- 10.5.2024
+
+**🔧 Funkcie**
+- Synchronizácia funkcií Hlavného okna a Rýchleho menu
+- Oprava niektorých dôležitých chýb
+- Vylepšenia/opravy chýb fcp
+- Prepísanie nastavení
+- Vlastné skripty na spracovanie textu
+- Synchronizácia fronty vkladania/obsahu hlavného okna

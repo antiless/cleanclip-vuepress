@@ -11,24 +11,6 @@ canonicalUrl: 'https://cleanclip.cc/docs/roadmap'
 Our vision and concept for CleanClip.
 
 ## In Progress 🕙
-
-### Phase 7: Optimization Phase
-- Synchronize the functionality of MainWindow and Quick Menu
-- Fix some critical bugs
-- Enhance fcp/resolve bugs
-- Rewrite settings
-- Custom text processing script
-- Synchronize paste stack/ main window content
-
-## Planned
-### Support for TouchBar
-**📅 Launch Date**
-- To be determined
-
-**🔧 Features**
-- Display copy history on the TouchBar
-By combining with the "Follow frontmost app" mode or lists, specific content can be automatically displayed in a specified app. For example, when opening Final Cut Pro, automatically display saved templates, when opening Photoshop, automatically display a color palette, when opening a browser, automatically display frequently used websites, etc.
-
 ### Plugin Capability
 **📅 Launch Date**
 - To be determined
@@ -40,6 +22,15 @@ For example:
 - Add parsing capability to private data of specific apps
 - Add markdown conversion capability to text/URL
 - Add compression capability to images
+
+## Planned
+### Support for TouchBar
+**📅 Launch Date**
+- To be determined
+
+**🔧 Features**
+- Display copy history on the TouchBar
+By combining with the "Follow frontmost app" mode or lists, specific content can be automatically displayed in a specified app. For example, when opening Final Cut Pro, automatically display saved templates, when opening Photoshop, automatically display a color palette, when opening a browser, automatically display frequently used websites, etc.
 
 ### iCloud Sync 📅
 **📅 Launch Date**
@@ -110,3 +101,15 @@ For example:
 - Major Feature 1: Collections and Smart Lists! Intelligently manage, browse, and utilize your browsing history.
 - Major Feature 2: Drag and Drop! Everything is draggable! Enhance efficiency in recording and content creation. User-friendly for content collectors and creators.
 - Major Feature 3: Professional Functionality! Regular expression filtering → sed script processing, solving complex workflow scenarios. (Postponed to the next stage)
+
+### Phase 6: Optimization Phase
+**📅 Launch Date**
+- May 10, 2024
+
+**🔧 Features**
+- Synchronize the functionality of MainWindow and Quick Menu
+- Fix some critical bugs
+- Enhance fcp/resolve bugs
+- Rewrite settings
+- Custom text processing script
+- Synchronize paste stack/ main window content

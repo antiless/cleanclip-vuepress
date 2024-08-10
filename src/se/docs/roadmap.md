@@ -6,24 +6,6 @@ canonicalUrl: 'https://cleanclip.cc/se/docs/roadmap'
 Vår vision och planer för CleanClip.
 
 ## Pågående 🕙
-### Optimeringsfas
-- Synkronisera MainWindow och Quick Menu-funktioner
-- Åtgärda några viktiga buggar
-- FcP-förstärkning/buggfix
-- Uppsättning omstrukturering
-- Anpassade textbehandlingsskript
-- Klistra in kö/innehåll för huvudfönstret synkronisering
-
-## Planerat 📅
-
-### Stöd för TouchBar
-**📅 Lanseringsdatum**
-- Ej fastställt
-
-**🔧 Funktioner**
-- Visa kopieringshistorik på TouchBar
-Genom att använda "Följ förgrundsapp"-läge eller listor kan du automatiskt visa specifikt innehåll i en angiven app. Till exempel, visa sparade mallar automatiskt när du öppnar Final Cut Pro, visa ett färgschema när du öppnar Photoshop eller visa vanliga webbadresser när du öppnar en webbläsare.
-
 ### Plugin-funktioner
 **📅 Lanseringsdatum**
 - Ej fastställt
@@ -36,20 +18,22 @@ Till exempel:
 - Lägg till förmåga att konvertera text/url till markdown
 - Lägg till komprimeringsförmåga för bilder
 
+## Planerat 📅
+
+### Stöd för TouchBar
+**📅 Lanseringsdatum**
+- Ej fastställt
+
+**🔧 Funktioner**
+- Visa kopieringshistorik på TouchBar
+Genom att använda "Följ förgrundsapp"-läge eller listor kan du automatiskt visa specifikt innehåll i en angiven app. Till exempel, visa sparade mallar automatiskt när du öppnar Final Cut Pro, visa ett färgschema när du öppnar Photoshop eller visa vanliga webbadresser när du öppnar en webbläsare.
+
 ### iCloud-synkronisering 📅
 **📅 Lanseringsdatum**
 - Ej fastställt
 
 **🔧 Funktioner**
 - Stöd för historiksynkronisering över flera enheter via iCloud
-
-
-### Kopieringsstack
-**📅 Lanseringsdatum**
-- Ej fastställt
-
-**🔧 Funktioner**
-- Stöd för kopieringsstack där användare kontinuerligt kan klistra in och ta bort det senast klistrade innehållet med CMD + V
 
 ### iOS-version
 **📅 Lanseringsdatum**
@@ -118,3 +102,15 @@ Till exempel:
 - Stor funktion 1: Spara listor, smarta listor! Hantera, bläddra i och använd din historik på ett intelligent sätt.
 - Stor funktion 2: Dra och släpp! Allt går att dra och släppa! Använda anteckningar blir effektivare! Användarvänligt för innehållssamling och skapande.
 - Stor funktion 3: Avancerade funktioner! Reguljär filtrering→sed-scriptbearbetning, löser komplexa arbetsflöden. (Flyttas till nästa fas)
+
+### Fas 6: Optimeringsfas
+**📅 Lanseringsdatum**
+- 10 maj 2024
+
+**🔧 Funktioner**
+- Synkronisera MainWindow och Quick Menu-funktioner
+- Åtgärda några viktiga buggar
+- FCP-förbättringar/buggfixar
+- Omskrivning av inställningar
+- Anpassade textbehandlingsskript
+- Synkronisering av klistra in-kö/huvudfönsterinnehåll

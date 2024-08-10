@@ -6,24 +6,6 @@ canonicalUrl: 'https://cleanclip.cc/de/docs/roadmap'
 Unsere Vision und Vorstellung von CleanClip.
 
 ## In Bearbeitung 🕙
-### Optimierungsphase
-- Synchronisierung von Hauptfenster und Schnellmenü-Funktion
-- Behebung einiger wichtiger Fehler
-- FCP-Verbesserungen/Fehlerbehebungen
-- Neugestaltung der Einstellungen
-- Anpassbare Textverarbeitungsskripte
-- Paste-Warteschlange/Hauptfenster-Inhalte synchronisieren
-
-## Geplant 📅
-
-### Unterstützung für TouchBar
-**📅 Veröffentlichungsdatum**
-- Ausstehend
-
-**🔧 Funktionen**
-- Zeigen von Kopieraufzeichnungen auf der TouchBar
-In Kombination mit dem „Folgen der Vordergrund-App“-Modus oder Listen können spezifische Inhalte automatisch in einer bestimmten App angezeigt werden. Zum Beispiel beim Öffnen von Final Cut Pro automatisch gespeicherte Vorlagen anzeigen, beim Öffnen von Photoshop automatisch eine Farbkarte anzeigen, beim Öffnen des Browsers automatisch häufig besuchte Websites anzeigen usw.
-
 ### Plugin-Fähigkeiten
 **📅 Veröffentlichungsdatum**
 - Ausstehend
@@ -36,19 +18,22 @@ Zum Beispiel:
 - Hinzufügen von Markdown-Konvertierungs-Fähigkeiten für Text/URLs
 - Hinzufügen von Komprimierungsfähigkeiten für Bilder
 
+## Geplant 📅
+
+### Unterstützung für TouchBar
+**📅 Veröffentlichungsdatum**
+- Ausstehend
+
+**🔧 Funktionen**
+- Zeigen von Kopieraufzeichnungen auf der TouchBar
+In Kombination mit dem „Folgen der Vordergrund-App"-Modus oder Listen können spezifische Inhalte automatisch in einer bestimmten App angezeigt werden. Zum Beispiel beim Öffnen von Final Cut Pro automatisch gespeicherte Vorlagen anzeigen, beim Öffnen von Photoshop automatisch eine Farbkarte anzeigen, beim Öffnen des Browsers automatisch häufig besuchte Websites anzeigen usw.
+
 ### iCloud-Synchronisierung 📅
 **📅 Veröffentlichungsdatum**
 - Ausstehend
 
 **🔧 Funktionen**
 - Unterstützung der Mehrgeräteverlaufsynchronisierung über iCloud
-
-### Copy-Stack
-**📅 Veröffentlichungsdatum**
-- Ausstehend
-
-**🔧 Funktionen**
-- Unterstützung eines Copy-Stacks, sodass Benutzer kontinuierlich mit CMD + V Inhalte kopieren und die zuletzt eingefügten Inhalte aus dem Stack abrufen können
 
 ### iOS-Version
 **📅 Veröffentlichungsdatum**
@@ -77,6 +62,7 @@ Zum Beispiel:
 ![](/images/roadmap/snap1.png)
 
 ### Phase 2: Effiziente Suche ✅
+
 **📅 Startdatum**
 - 27.08.2023
 
@@ -116,3 +102,15 @@ Zum Beispiel:
 - Hauptfunktion 1: Sammlungslisten, Smart-Listen! Intelligente Verwaltung, Durchsuchen und Verwenden Ihrer Verlaufsdaten.
 - Hauptfunktion 2: Ziehen und Ablegen, überall hin! Alle Inhalte sind ziehbar! Verwendung von Einträgen wird effizienter! Benutzerfreundlich für Inhaltskuratoren, Content Creators.
 - Hauptfunktion 3: Professionelle Funktionen! Regulärer Ausdruck-Filter→sed-Skriptverarbeitung, zur Lösung von komplexen Anwendungsfällen im Workflow. (In die nächste Phase verschoben)
+
+### Phase 6: Optimierungsphase
+**📅 Startdatum**
+- 10.05.2024
+
+**🔧 Funktionen**
+- Synchronisierung von Hauptfenster und Schnellmenü-Funktion
+- Behebung einiger wichtiger Fehler
+- FCP-Verbesserungen/Fehlerbehebungen
+- Neugestaltung der Einstellungen
+- Anpassbare Textverarbeitungsskripte
+- Paste-Warteschlange/Hauptfenster-Inhalte synchronisieren

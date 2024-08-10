@@ -6,24 +6,6 @@ canonicalUrl: 'https://cleanclip.cc/gb/docs/roadmap'
 Our vision and ideas for CleanClip.
 
 ## In Progress 🕙
-### Optimization Phase
-- Synchronize MainWindow and Quick Menu functions
-- Fix some critical bugs
-- Enhancements and bug fixes for FCP
-- Rewrite settings
-- Custom text processing scripts
-- Paste queue/main window content synchronization
-
-## Planned 📅
-
-### TouchBar Support
-**📅 Release Date**
-- To be determined
-
-**🔧 Features**
-- Display copy records on TouchBar
-By combining "Follow frontmost app" mode or lists, specific content can be automatically displayed in a designated app. For example, show saved templates automatically when Final Cut Pro is opened, display a color palette when Photoshop is opened, or show commonly used URLs when a browser is opened.
-
 ### Plugin Capability
 **📅 Release Date**
 - To be determined
@@ -36,19 +18,22 @@ For example:
 - Add markdown conversion capabilities for text/URLs
 - Add compression capabilities for images
 
+## Planned 📅
+
+### TouchBar Support
+**📅 Release Date**
+- To be determined
+
+**🔧 Features**
+- Display copy records on TouchBar
+By combining "Follow frontmost app" mode or lists, specific content can be automatically displayed in a designated app. For example, show saved templates automatically when Final Cut Pro is opened, display a colour palette when Photoshop is opened, or show commonly used URLs when a browser is opened.
+
 ### iCloud Sync 📅
 **📅 Launch Date**
 - To be determined
 
 **🔧 Functionality**
 - Support multi-device history record sync via iCloud
-
-### Copy Stack
-**📅 Launch Date**
-- To be determined
-
-**🔧 Functionality**
-- Support a copy stack, allowing users to continuously paste and pop off recently copied content by pressing CMD + V
 
 ### iOS Version
 **📅 Launch Date**
@@ -114,6 +99,18 @@ For example:
 - 19th November 2023
 
 **🔧 Features**
-- Major Feature One: Favorites and smart lists! Intelligently manage, browse, and use your history records.
+- Major Feature One: Favourites and smart lists! Intelligently manage, browse, and use your history records.
 - Major Feature Two: Drag and drop! All content is draggable! Use records more efficiently! Friendly to content collectors and creators.
 - Major Feature Three: Professional functions! Regex filtering → sed script processing, solving complex workflow scenarios. (Moved to the next phase)
+
+### Phase Six: Optimisation Phase
+**📅 Launch Date**
+- 10th May 2024
+
+**🔧 Features**
+- Synchronise MainWindow and Quick Menu functions
+- Fix some critical bugs
+- FCP enhancements/bug fixes
+- Rewrite settings
+- Custom text processing scripts
+- Paste queue/main window content synchronisation
