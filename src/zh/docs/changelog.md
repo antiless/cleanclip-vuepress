@@ -1,6 +1,7 @@
 ---
 canonicalUrl: 'https://cleanclip.cc/zh/docs/changelog'
 ---
+# 更新日志
 
 ## 2.2.0-beta.1
 日期: 2024年8月10日

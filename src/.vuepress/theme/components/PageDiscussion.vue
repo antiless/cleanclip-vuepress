@@ -1,6 +1,6 @@
 <template>
   <div>
-    <script src="https://giscus.app/client.js" data-repo="auv1107/cleancliprun" data-repo-id="R_kgDOKI4QKQ"
+    <script src="https://giscus.app/client.js" data-repo="CleanClip/CleanClipApp" data-repo-id="R_kgDOKI4QKQ"
       data-category="ArticleDiscussion" data-category-id="DIC_kwDOKI4QKc4Cdutb" data-mapping="og:title" data-strict="0"
       data-reactions-enabled="1" data-emit-metadata="1" data-input-position="top" data-theme="preferred_color_scheme"
       data-loading="lazy" crossorigin="anonymous" async>
