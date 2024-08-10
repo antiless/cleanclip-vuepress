@@ -106,7 +106,7 @@ export default {
             },
             {
               name: this.td("company_translation_name"),
-              url: "https://crowdin.com/project/cleanclipapp",
+              url: "https://github.com/CleanClip/CleanClipApp-Localizations",
               label: this.td("label_new")
             },
             {
