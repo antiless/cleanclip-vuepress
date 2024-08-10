@@ -6,9 +6,35 @@
     <description>Added support for Japanese and Greek languages</description>
     <language>zh</language>
     <item xml:lang="en">
-      <title>2.1.5</title>
+      <title>2.2.0-beta.1</title>
       <description xml:lang="en">
         <![CDATA[
+          <h2>2.2.0-beta.1</h2>
+          <h3>New Features:</h3>
+          <ul>
+            <li>Optimized overall visual framework</li>
+            <li>Support for dark mode adaptation🌟</li>
+            <li>Support for right-click menu</li>
+            <li>Support for right-click split copy🌟</li>
+            <li>Preview can be pinned to desktop🌟</li>
+            <li>Optional sound support</li>
+            <li>Shortcuts to open lists directly🌟</li>
+            <li>Rewritten settings page</li>
+            <li>Support for sf symbols display🌟</li>
+            <li>Quick menu supports viewing all lists🌟</li>
+            <li>Added shortcuts for group navigation in quick menu</li>
+            <li>Support for selecting popup alternative positions</li>
+            <li>Paste queue supports multiple orders</li>
+            <li>Paste queue supports text input after pasting🌟</li>
+            <li>Optional beta version updates</li>
+          </ul>
+          <h3>Bug Fixes and Improvements:</h3>
+          <ul>
+            <li>Fixed quick menu off-screen issue</li>
+            <li>Fixed some bugs in paste queue</li>
+            <li>Resolved issue where quick menu doesn't show in some apps</li>
+            <li>Image text paste issue in some apps</li>
+          </ul>
           <h2>2.1.5</h2>
             <li>Fixed the issue of invalid duplicate content in paste queue</li>
           <h2>2.1.4</h2>
@@ -118,6 +144,35 @@
       </description>
        <description xml:lang="zh-Hans">
         <![CDATA[
+          <h2>2.2.0-beta.1</h2>
+          <h3>新功能</h3>
+          <ul>
+            <li>优化整体视觉框架</li>
+            <li>修复大量bug</li>
+            <li>优化用户体验</li>
+            <li>支持暗黑模式适配🌟</li>
+            <li>支持右键菜单</li>
+            <li>支持右键分割复制🌟</li>
+            <li>预览可固定到桌面🌟</li>
+            <li>全面暗黑模式适配</li>
+            <li>可选声音支持</li>
+            <li>快捷键直接打开分组🌟</li>
+            <li>重写设置页面</li>
+            <li>支持sf symbols显示🌟</li>
+            <li>快速菜单支持查看所有列表🌟</li>
+            <li>快速菜单中添加分组导航快捷键</li>
+            <li>支持选择弹出式备选位置</li>
+            <li>粘贴队列支持多种顺序</li>
+            <li>粘贴后支持文本输入🌟</li>
+            <li>可选beta版本更新</li>
+          </ul>
+          <h3>问题修复与优化</h3>
+          <ul>
+            <li>修复快速菜单超出屏幕的问题</li>
+            <li>修复粘贴队列中的一些bug</li>
+            <li>解决快速菜单在某些应用中不显示的问题</li>
+            <li>修复某些应用中的图像文本粘贴问题</li>
+          </ul>
           <h2>2.1.5</h2>
             <li>修复粘贴队列重复内容无效的问题</li>
           <h2>2.1.4</h2>
@@ -224,13 +279,13 @@
             <li>添加了订阅激活码的支持</li>
         ]]>
       </description>
-      <pubDate>2024.5.10</pubDate>
+      <pubDate>2024.8.10</pubDate>
       <releaseNotesLink>https://cleanclip.cc/docs/changelog.html</releaseNotesLink>
       <sparkle:minimumSystemVersion>12.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://cleanclip.cc/releases/download/v2.1.5/CleanClip.app.zip"
-        sparkle:version="20105"
-        sparkle:shortVersionString="2.1.5"
+        url="https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.app.zip"
+        sparkle:version="20200"
+        sparkle:shortVersionString="2.2.0-beta.1"
         length="0"
         type="application/octet-stream"
       />
