@@ -1,7 +1,9 @@
 module.exports = {
-  title: "Stiahnite si CleanClip na Mac",
-  desc: "Ak nemáte licenčný kľúč, stále môžete používať všetky funkcie, ale po určitom počte vložení sa zobrazí aktivácia.",
+  download_title: "Stiahnite si CleanClip pre Mac",
+  desc: "Používajte 25-krát denne zadarmo, alebo <a href='https://clip-purchase.macaify.com' target='blank'>si zakúpte licenciu pre neobmedzený prístup</a>",
   appStore: "Stiahnuť z AppStore",
-  download: "Stiahnuť .dmg",
-  system: "Odporúčame používať macOS Monterey 12.0 alebo novšie verzie."
+  download: "Bezplatné stiahnutie",
+  system: "Odporúčané pre <b>macOS Ventura 13.0</b> alebo vyšší.",
+  brewCopiedToClipboard: "Skopírované do schránky",
+  brewCopiedToClipboardFailed: "Kopírovanie zlyhalo, skontrolujte povolenia na kopírovanie alebo skopírujte manuálne"
 }

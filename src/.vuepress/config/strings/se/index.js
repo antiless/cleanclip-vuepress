@@ -21,7 +21,7 @@ module.exports = {
   ...footer,
   students: students,
   discounts: discounts,
-  download: download,
+  ...download,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "Håll händerna på tangentbordet och hitta dina poster på nolltid med ett ögonblicksfönster",

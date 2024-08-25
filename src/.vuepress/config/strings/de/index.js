@@ -21,7 +21,7 @@ module.exports = {
   ...footer,
   students: students,
   discounts: discounts,
-  download: download,
+  ...download,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "Finden Sie Einträge bequem, ohne die Hände von der Tastatur nehmen zu müssen. Ein praktisches Fenster auf Abruf.",

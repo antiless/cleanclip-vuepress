@@ -21,7 +21,7 @@ module.exports = {
   ...footer,
   students: students,
   discounts: discounts,
-  download: download,
+  ...download,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "키보드를 떠나지 않고 레코드를 찾아보세요. 즉시 사용 가능한 빠른 창",

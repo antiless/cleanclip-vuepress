@@ -1,7 +1,9 @@
 module.exports = {
-  title: "Ladda ner CleanClip på din Mac",
-  desc: "Om du inte har en licensnyckel kan du fortfarande använda alla funktioner, men en aktiveringsruta visas efter ett visst antal klistringar.",
+  download_title: "Ladda ner CleanClip på din Mac",
+  desc: "Använd 25 gånger gratis dagligen, eller <a href='https://clip-purchase.macaify.com' target='blank'>köp en licens för obegränsad åtkomst</a>",
   appStore: "Ladda ner från AppStore",
-  download: "Ladda ner .dmg",
-  system: "Rekommenderas för macOS Monterey 12.0 eller senare."
+  download: "Gratis nedladdning",
+  system: "Rekommenderas för <b>macOS Ventura 13.0</b> eller högre.",
+  brewCopiedToClipboard: "Kopierat till urklipp",
+  brewCopiedToClipboardFailed: "Kopiering misslyckades, kontrollera kopieringsbehörigheter eller kopiera manuellt"
 }

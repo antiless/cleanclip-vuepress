@@ -21,7 +21,7 @@ module.exports = {
   ...footer,
   students: students,
   discounts: discounts,
-  download: download,
+  ...download,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "キーボードを離さずに記録を検索できる、即座に使用できるクイックウィンドウ",
