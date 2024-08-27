@@ -105,5 +105,18 @@ discuss: false
 </div>
 
 <br/><br/>
+#### 购买过 Paste？我们为你提供<em> 30% 的优惠<span class="underline underline-5px"></span></em>
+<p style="text-align: center; margin-top: -20px;">
+填写<a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="blank">这个表单</a>，我们会在审核完成后，为你发送优惠码
+</p>
+
+<br/><br/>
 
 </div>
+
+<style>
+video {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+</style>

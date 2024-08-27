@@ -30,4 +30,6 @@ module.exports = {
   for_pros_title: "For Pros",
   for_pros_vs_paste: "Paste vs CleanClip",
   for_pros_vs_paste_url: "/pages/a-cheaper-more-systematic-alternative-to-paste",
+  for_pros_vs_maccy: "Maccy vs CleanClip",
+  for_pros_vs_maccy_url: "/pages/a-feature-rich-alternative-to-maccy",
 }

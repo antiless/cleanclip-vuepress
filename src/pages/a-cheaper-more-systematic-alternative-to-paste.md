@@ -103,7 +103,12 @@ Check pricing: [Pricing](https://clip-purchase.macaify.com/)
     </button>
   </div>
 </div>
+<br/><br/>
 
+#### Bought Paste before? We offer you a <em>30% discount<span class="underline underline-5px"></span></em>
+<p style="text-align: center; margin-top: -20px;">
+Fill out <a href="https://forms.gle/v1ya3x93Z1ud3H4A7" target="blank">this form</a>, we will send you the discount code after the review is completed
+</p>
 <br/><br/>
 
 </div>

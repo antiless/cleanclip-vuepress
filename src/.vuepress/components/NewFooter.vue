@@ -78,6 +78,10 @@ export default {
               url: this.td("for_pros_vs_paste_url")
             },
             {
+              name: this.td("for_pros_vs_maccy"),
+              url: this.td("for_pros_vs_maccy_url")
+            },
+            {
               name: this.td("sales_affiliate_name"),
               url: "https://store.cleanclip.cc/affiliates",
               label: this.td("sales_affiliate_label")

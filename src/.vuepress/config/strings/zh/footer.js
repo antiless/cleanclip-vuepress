@@ -30,4 +30,6 @@ module.exports = {
   for_pros_title: "专业人士",
   for_pros_vs_paste: "Paste 对比 CleanClip",
   for_pros_vs_paste_url: "/zh/pages/a-cheaper-more-systematic-alternative-to-paste",
+  for_pros_vs_maccy: "Maccy 对比 CleanClip",
+  for_pros_vs_maccy_url: "/zh/pages/a-feature-rich-alternative-to-maccy",
 }
