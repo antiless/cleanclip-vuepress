@@ -1,0 +1,7 @@
+{
+  "pasteImage.path": "${projectRoot}/src/.vuepress/public/images",
+  "pasteImage.showFilePathConfirmInputBox": true,
+  "pasteImage.filePathConfirmInputBoxMode": "onlyName",
+  "pasteImage.basePath": "${projectRoot}/src/.vuepress/public/",
+  "pasteImage.prefix": "/"
+}
