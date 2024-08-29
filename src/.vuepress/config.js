@@ -77,7 +77,7 @@ module.exports = {
     smoothScroll: true,
     backToTop: false,
     search: false,
-    discuss: true,
+    discuss: false,
     alias: {
       '/affiliate': 'https://store.cleanclip.cc/affiliates',
       '/pricing': 'https://clip-purchase.macaify.com',
