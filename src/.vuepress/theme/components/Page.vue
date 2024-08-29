@@ -26,8 +26,6 @@ export default {
   props: ['sidebarItems'],
   computed: {
     showDiscuss() {
-      console.log("discuss")
-      console.log("discuss", this.$page.frontmatter.discuss, this.$site.themeConfig.discuss)
       return this.$page.frontmatter.discuss ?? this.$site.themeConfig.discuss
     },
     hasPageAnchor() {
