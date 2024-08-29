@@ -22,7 +22,8 @@ function getArticlesSidebar(title) {
       'Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/',
       'clipboard-managers-a-must-have-for-every-mac-user',
       'clipboard-managers-an-underrated-utility',
-      'why-you-need-clipboard-manager'
+      'why-you-need-clipboard-manager',
+      'advanced-mac-clipboard-management-tips'
     ]
   }]
 }
