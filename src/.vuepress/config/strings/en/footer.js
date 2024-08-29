@@ -32,4 +32,6 @@ module.exports = {
   for_pros_vs_paste_url: "/pages/a-cheaper-more-systematic-alternative-to-paste",
   for_pros_vs_maccy: "Maccy vs CleanClip",
   for_pros_vs_maccy_url: "/pages/a-feature-rich-alternative-to-maccy",
+  for_pros_vs_pastepal: "PastePal vs CleanClip",
+  for_pros_vs_pastepal_url: "/pages/a-more-powerful-system-level-alternative-to-pastepal",
 }
