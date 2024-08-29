@@ -33,7 +33,7 @@ module.exports = {
     ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card2.webp' }],
     ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app' }],
+    ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,历史剪贴板,剪贴板增强,clipboard enhancement,history clipboard,剪贴板历史记录,why use clipboard manager,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app' }],
     ['meta', { name: "robots", content: "index,follow" }],
     ['meta', { name: "twitter:title", content: "CleanClip - The cleanest Clipboard Manager on macOS, ever!" }],
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
