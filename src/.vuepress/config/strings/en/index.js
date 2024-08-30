@@ -38,4 +38,8 @@ module.exports = {
   promotion_action: "Get Pro Access",
   sidebar: sidebar,
   nav: nav,
+  // promotion
+  promotion_alternative_to_vote: 'Limited Time Activity: Vote to get <em><b>10% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em>. Deadline: 2024-09-07',
+  promotion_alternative_to_vote_url: '/pages/activity-alternative-to-vote.html',
+  promotion_alternative_to_vote_action: 'Get Discount >',
 }
