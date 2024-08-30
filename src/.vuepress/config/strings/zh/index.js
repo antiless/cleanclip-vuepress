@@ -40,6 +40,6 @@ module.exports = {
   nav: nav,
   // promotion
   promotion_alternative_to_vote: '限时活动：投票获取 <em><b>9 折优惠</b><span class="underline underline-5px background-image-tint-red"></span></em>。截止时间：2024-09-07',
-  promotion_alternative_to_vote_url: '/pages/zh/activity-alternative-to-vote.html',
+  promotion_alternative_to_vote_url: '/zh/pages/activity-alternative-to-vote.html',
   promotion_alternative_to_vote_action: '获取优惠 >',
 }
