@@ -5,7 +5,7 @@ heroText: Possibly the Cleanest Clipboard Manager on macOS!
 tagline: An immersive clipboard manager tailored for Mac, simple yet powerful
 actions:
   - text: Get 2x Productivity for Free
-    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
+    link: https://clip-purchase.macaify.com/freetrail
     type: primary
     size: large
     shape: round

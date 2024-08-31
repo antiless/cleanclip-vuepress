@@ -72,7 +72,7 @@ module.exports = {
     logo: '/images/logo.webp',
     latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.2.0-beta.1/CleanClip.dmg',
     latestVersion: 'v2.2.0',
-    freeTrailUrl: 'https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929',
+    freeTrailUrl: 'https://clip-purchase.macaify.com/freetrail',
     purchaseUrl: 'https://clip-purchase.macaify.com',
     smoothScroll: true,
     backToTop: false,

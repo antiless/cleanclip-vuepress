@@ -5,7 +5,7 @@ heroText: Možno najčistejší správca schránok na macOS!
 tagline: Jednoduchý a silný nástroj na správu schránok vytvorený pre Mac
 actions:
   - text: Získajte zdvojnásobenú produktivitu zadarmo
-    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
+    link: https://clip-purchase.macaify.com/freetrail
     type: primary
     size: large
     shape: round

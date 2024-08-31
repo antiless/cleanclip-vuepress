@@ -5,7 +5,7 @@ heroText: macOS 上で最もクリーンなクリップボード管理ツール�
 tagline: Mac向けに設計された没入型クリップボード管理ツール、シンプルでありながら複雑
 actions:
   - text: 無料トライアル
-    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
+    link: https://clip-purchase.macaify.com/freetrail
     type: primary
     size: large
     shape: round

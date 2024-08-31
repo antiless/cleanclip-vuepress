@@ -16,7 +16,7 @@ discuss: false
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center">
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
-      <a href="https://clip-purchase.macaify.com">
+      <a href="https://clip-purchase.macaify.com/freetrail">
                     30 天免费试用
       </a>
     </button>
@@ -131,7 +131,7 @@ CleanClip 适用于各种工作场景，特别是：
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center">
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
-      <a href="https://clip-purchase.macaify.com">
+      <a href="https://clip-purchase.macaify.com/freetrail">
                     30 天免费使用
       </a>
     </button>

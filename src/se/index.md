@@ -6,7 +6,7 @@ tagline: En minimalistisk och kraftfull klippbords hanteringsverktyg som är ska
 actions:
   - text: Få 2x produktivitet gratis
     # link: https://clip-purchase.macaify.com
-    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
+    link: https://clip-purchase.macaify.com/freetrail
     type: primary
     size: large
     shape: round

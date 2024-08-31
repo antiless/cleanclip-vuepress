@@ -6,7 +6,7 @@ tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，简约而强大
 actions:
   - text: 免费获取 2 倍生产力
     # link: https://clip-purchase.macaify.com
-    link: https://macaify.lemonsqueezy.com/checkout/buy/176e339c-ac2b-40d7-b253-c10b3dfdb929
+    link: https://clip-purchase.macaify.com/freetrail
     type: primary
     size: large
     shape: round

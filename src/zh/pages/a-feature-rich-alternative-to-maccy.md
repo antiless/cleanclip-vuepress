@@ -16,7 +16,7 @@ discuss: false
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com">
+      <a href="https://clip-purchase.macaify.com/freetrail">
                     30 天免费使用
       </a>
     </button>
@@ -141,7 +141,7 @@ CleanClip 适用于各种工作场景，特别是:
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com">
+      <a href="https://clip-purchase.macaify.com/freetrail">
                     30 天免费使用
       </a>
     </button>
