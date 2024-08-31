@@ -50,7 +50,7 @@ export default {
   computed: {
     activity() {
       return {
-        enabled: true,
+        enabled: false,
           message: this.$td("promotion_alternative_to_vote"),
           url: this.$td("promotion_alternative_to_vote_url"),
           actionText: this.$td("promotion_alternative_to_vote_action")
