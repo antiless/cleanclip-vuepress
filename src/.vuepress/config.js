@@ -33,7 +33,11 @@ module.exports = {
     ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card2.webp' }],
     ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,历史剪贴板,剪贴板增强,clipboard enhancement,history clipboard,剪贴板历史记录,why use clipboard manager,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app' }],
+    ['meta', { name: 'keywords', content: 'mac,clipboard,productivity,writing,tool,剪贴板,剪切板,效率,剪贴板管理器,历史剪贴板,剪贴板增强,clipboard enhancement,history clipboard,剪贴板历史记录,why use clipboard manager,best clipboard,best mac app,best productivity,clipboard management app,paste,maccy,clipy,iCopy,Copy\'em,pasta,raycast,top 10 clipboard,clean clip,clean clipboard,simple clipboard,mac clipboard manager,free,free cliboard manager,copyclip,app,application,mac app,clipboard app,mac clipboard,mac clipboard history,mac clipboard manager,mac clipboard history app,mac clipboard history shortc,mac clipboard shortcut,mac clipboard app,mac clipboard tool,mac clipboard icon,mac clipboard viewer,mac 剪贴板,mac剪贴板历史,mac剪贴板快捷键,mac剪贴板工具,mac剪贴板历史记录,mac剪贴板怎么打开,mac 剪贴板软件,mac 剪贴板推荐,'
+      + '剪贴板,剪贴板快捷键,剪贴板怎么打开,剪贴板历史记录,剪贴板工具,剪贴板同步,剪贴板记录,剪贴板查看器,剪贴板软件,剪贴板错误'
+      + 'clipboard virus removal,clipboard.js,clipboard history,clipboard +*,clipboard manager,clipboard open,clipboard npm,clipboardfusion,clipboard api,clipboard vue'
+      + 'clipboard manager, clipboard manager download'
+     }],
     ['meta', { name: "robots", content: "index,follow" }],
     ['meta', { name: "twitter:title", content: "CleanClip - The cleanest Clipboard Manager on macOS, ever!" }],
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
