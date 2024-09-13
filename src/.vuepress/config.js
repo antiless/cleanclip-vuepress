@@ -38,6 +38,7 @@ module.exports = {
       + 'clipboard virus removal,clipboard.js,clipboard history,clipboard +*,clipboard manager,clipboard open,clipboard npm,clipboardfusion,clipboard api,clipboard vue'
       + 'clipboard manager, clipboard manager download'
      }],
+    ['meta', { name: "baidu-site-verification", content: "codeva-TNrWQJe6cY" }],
     ['meta', { name: "robots", content: "index,follow" }],
     ['meta', { name: "twitter:title", content: "CleanClip - The cleanest Clipboard Manager on macOS, ever!" }],
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
