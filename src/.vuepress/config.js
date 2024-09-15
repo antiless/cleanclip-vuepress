@@ -1,23 +1,10 @@
 const configs = require('./config/index.js')
 
-const autometa_options = {
-  site: {
-    name: 'CleanClip - The cleanest Clipboard Manager on macOS, ever!'
-  },
-  twitter: true,
-  canonical_base: 'https://cleanclip.cc'
-};
-
 module.exports = {
   description: 'Auto save copies, easy management, find in seconds. Simple, but powerful. CleanClip not only protects your valuable content from being lost, but also provides powerful content filtering, bookmarking, and organizing capabilities. It permeates every aspect of your Mac usage.',
   plugins: [
-    [require('./plugins/autometa'), autometa_options],
     [require('./plugins/promotion')],
     [require('./plugins/localization')],
-    // [
-    //   'vuepress-plugin-sitemap',
-    //   { hostname: 'https://cleanclip.cc' }
-    // ]
   ],
   theme: 'antdocs',
   head: [
@@ -28,7 +15,7 @@ module.exports = {
     ['link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicon-16x16.png' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/apple-touch-icon.png' }],
     ['link', { rel: 'manifest', href: '/site.webmanifest' }],
-    ['meta', { property: 'og:title', content: 'CleanClip - The cleanest Clipboard Manager on macOS, ever!' }],
+    ['meta', { property: 'og:title', content: 'CleanClip - Clipboard Manager for macOS. Simple, but powerful.' }],
     ['meta', { property: 'og:description', content: 'An immersive clipboard management tool designed for Mac, allowing you to quickly search, preview, and use clipboard history at your input position.' }],
     ['meta', { property: 'og:image', content: 'https://cleanclip.cc/images/twitter_card2.webp' }],
     ['meta', { property: 'og:url', content: 'https://cleanclip.cc/' }],
@@ -40,7 +27,7 @@ module.exports = {
      }],
     ['meta', { name: "baidu-site-verification", content: "codeva-TNrWQJe6cY" }],
     ['meta', { name: "robots", content: "index,follow" }],
-    ['meta', { name: "twitter:title", content: "CleanClip - The cleanest Clipboard Manager on macOS, ever!" }],
+    ['meta', { name: "twitter:title", content: "CleanClip - Clipboard Manager for macOS. Simple, but powerful." }],
     ['meta', { name: "twitter:card", content: "summary_large_image" }],
     ['meta', { name: "twitter:site", content: "@s1ntone" }],
     ['meta', { name: "twitter:creator", content: "@s1ntone" }],
