@@ -1,4 +1,17 @@
-# src/zh/lizhi.md
+# CleanClip 项目合成文件
+
+本文件包含了 CleanClip 项目的所有 Markdown 文件和部分 JavaScript 配置文件的合并内容。CleanClip 是一个为 macOS 设计的剪贴板管理工具，具有自动保存、快速使用、多格式支持、智能列表等功能。
+
+该合成文件用于作为 LLM（大型语言模型）的知识库语料，以便于模型理解和回答有关 CleanClip 功能、使用方法、配置等相关问题。文件包含了多语言网站内容、用户文档、功能说明等信息。
+
+文件格式说明：
+====== <文件名> ======
+<文件内容>
+------- <文件名> ------
+
+以下是合并的文件内容：
+
+====== src/zh/lizhi.md ======
 
 
 <div class="lizhi text-center">
@@ -37,14 +50,14 @@ Customers who purchase from them are not allowed to enjoy the official customer 
 
 including license retrieval, version update, tech assistance.
 
-</div>
+</div>------- src/zh/lizhi.md ------
 
-# src/zh/students.md
+====== src/zh/students.md ======
 
 
-<Students/>
+<Students/>------- src/zh/students.md ------
 
-# src/zh/index.md
+====== src/zh/index.md ======
 
 
 <div class="segments">
@@ -132,22 +145,22 @@ including license retrieval, version update, tech assistance.
 
 </div>
 
-<NewFooter/>
+<NewFooter/>------- src/zh/index.md ------
 
-# src/zh/discounts.md
+====== src/zh/discounts.md ======
 
-<Discounts/>
+<Discounts/>------- src/zh/discounts.md ------
 
-# src/zh/download.md
+====== src/zh/download.md ======
 
-<Download/>
+<Download/>------- src/zh/download.md ------
 
-# src/zh/developer/README.md
+====== src/zh/developer/README.md ======
 
 # 开发者博客
+------- src/zh/developer/README.md ------
 
-
-# src/zh/developer/swiftui-nswindow-inactive-firstmouse.md
+====== src/zh/developer/swiftui-nswindow-inactive-firstmouse.md ======
 
 # SwiftUI 点击未激活的 NSWindow 上的按钮时，默认让按钮处理鼠标事件，而不是窗口
 
@@ -195,9 +208,9 @@ Text("Click me")
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
 
+------- src/zh/developer/swiftui-nswindow-inactive-firstmouse.md ------
 
-
-# src/zh/developer/web-axios-CROS.md
+====== src/zh/developer/web-axios-CROS.md ======
 
 # 简单解决 Web axios 网络请求跨域错误
 
@@ -223,9 +236,9 @@ headers: {
 作者：Sintone Li
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
+------- src/zh/developer/web-axios-CROS.md ------
 
-
-# src/zh/developer/cloudflare-worker-gmail-resend-enterprise-email/index.md
+====== src/zh/developer/cloudflare-worker-gmail-resend-enterprise-email/index.md ======
 
 
 # 域名搁着别浪费，Cloudflare + Gmail + Resend 十分钟轻松拥有免费的企业邮箱
@@ -310,9 +323,9 @@ Username 固定填 resend，Password 填上面获取的 API Key，点 Add Accoun
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
 
+------- src/zh/developer/cloudflare-worker-gmail-resend-enterprise-email/index.md ------
 
-
-# src/zh/developer/cloudflare-worker-implements-purchasing-power-parity/README.md
+====== src/zh/developer/cloudflare-worker-implements-purchasing-power-parity/README.md ======
 
 
 # 借助 Cloudflare Worker 一个文件快速为你的出海产品实现购买力平价能力（Purchasing Power Parity）
@@ -454,9 +467,9 @@ export default {
 作者：Sintone Li
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
+------- src/zh/developer/cloudflare-worker-implements-purchasing-power-parity/README.md ------
 
-
-# src/zh/articles/why-you-need-clipboard-manager.md
+====== src/zh/articles/why-you-need-clipboard-manager.md ======
 
 
 # 为什么你需要一款剪贴板管理软件
@@ -482,9 +495,9 @@ export default {
 作者：Sintone Li
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
+------- src/zh/articles/why-you-need-clipboard-manager.md ------
 
-
-# src/zh/articles/advanced-mac-clipboard-management-tips.md
+====== src/zh/articles/advanced-mac-clipboard-management-tips.md ======
 
 
 # Mac 剪贴板进阶：3 个实用技巧让你的复制粘贴效率翻倍
@@ -551,15 +564,15 @@ CleanClip 最厉害的是它的"收藏列表"功能。你可以创建多个收�
 
 有了这些神器加持，你的 Mac 剪贴板管理技能绝对能升级到新境界！无论你是选择轻量级的 Maccy，还是功能全面的 CleanClip，都能让你的复制粘贴效率飞速提升。
 
-快去试试吧，相信你会爱上这些强大的剪贴板管理工具的！让我们一起告别单调的系统剪贴板，拥抱更高效的 Mac 使用体验吧!
+快去试试吧，相信你会爱上这些强大的剪贴板管理工具的！让我们一起告别单调的系统剪贴板，拥抱更高效的 Mac 使用体验吧!------- src/zh/articles/advanced-mac-clipboard-management-tips.md ------
 
-# src/zh/articles/README.md
+====== src/zh/articles/README.md ======
 
 # 文章
 
-帮助您理解剪贴板管理器所需的所有文章。
+帮助您理解剪贴板管理器所需的所有文章。------- src/zh/articles/README.md ------
 
-# src/zh/articles/clipboard-managers-an-underrated-utility.md
+====== src/zh/articles/clipboard-managers-an-underrated-utility.md ======
 
 # 剪贴板管理器：一个被低估的实用工具
 
@@ -593,9 +606,9 @@ CleanClip 最厉害的是它的"收藏列表"功能。你可以创建多个收�
 作者：Sintone Li
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
+------- src/zh/articles/clipboard-managers-an-underrated-utility.md ------
 
-
-# src/zh/articles/clipboard-managers-a-must-have-for-every-mac-user.md
+====== src/zh/articles/clipboard-managers-a-must-have-for-every-mac-user.md ======
 
 # 剪贴板管理器：每个 Mac 用户必备的工具
 
@@ -656,9 +669,9 @@ CleanClip 最厉害的是它的"收藏列表"功能。你可以创建多个收�
 作者：Sintone Li
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
+------- src/zh/articles/clipboard-managers-a-must-have-for-every-mac-user.md ------
 
-
-# src/zh/articles/Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/index.md
+====== src/zh/articles/Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/index.md ======
 
 
 # 答用户问：为什么不是所有的剪贴板 App 都支持记录 Final Cut Pro 的复制项?
@@ -757,9 +770,9 @@ Mac 约定，每个放到剪贴板里的内容都要有至少两个东西：1. *
 
 文章地址：{{ $page.frontmatter.canonicalUrl }}
 
+------- src/zh/articles/Why-not-all-clipboard-managers-support-Final-Cut-Pro-copies/index.md ------
 
-
-# src/zh/docs/changelog.md
+====== src/zh/docs/changelog.md ======
 
 # 更新日志
 
@@ -1065,9 +1078,9 @@ Bug修复：
 - ❤️ 沉浸式交互风格
 - 支持订阅激活码
 
-![](/images/roadmap/snap1.png)
+![](/images/roadmap/snap1.png)------- src/zh/docs/changelog.md ------
 
-# src/zh/docs/privacy.md
+====== src/zh/docs/privacy.md ======
 
 # CleanClip 隐私政策
 欢迎您访问我们的产品。 CleanClip （包括App等产品提供的服务，以下简称“产品和服务”）是由 Nanjing Zuimeijia Technology Co., Ltd. （以下简称“我们”）开发并运营的。 确保用户的数据安全和隐私保护是我们的首要任务， 本隐私政策载明了您访问和使用我们的产品和服务时所收集的数据及其处理方式。
@@ -1111,15 +1124,15 @@ Bug修复：
 
 7、用于维护所提供的产品或服务的安全稳定运行所必需的，例如发现、处置产品或服务的故障；
 
-8、法律法规规定的其他情形。
+8、法律法规规定的其他情形。------- src/zh/docs/privacy.md ------
 
-# src/zh/docs/README.md
+====== src/zh/docs/README.md ======
 
 # 开始
 
-关于 CleanClip 的一切你需要知道的：[从这里开始](/zh/docs/manual)
+关于 CleanClip 的一切你需要知道的：[从这里开始](/zh/docs/manual)------- src/zh/docs/README.md ------
 
-# src/zh/docs/roadmap.md
+====== src/zh/docs/roadmap.md ======
 
 
 # CleanClip 规划路线
@@ -1233,9 +1246,9 @@ Bug修复：
 - fcp 增强/bug 解决
 - 重写设置
 - 自定义文字处理脚本
-- 粘贴队列/主窗口内容同步
+- 粘贴队列/主窗口内容同步------- src/zh/docs/roadmap.md ------
 
-# src/zh/docs/manual.md
+====== src/zh/docs/manual.md ======
 
 
 # 用户手册
@@ -1350,9 +1363,9 @@ Bug修复：
 
 使用 CleanClip：
 1. 小红书复制图片，复制文字，复制图片，复制文字...
-2. 电脑在编辑器里「⌘ + ;」后依次选择复制的文字
+2. 电脑在编辑器里「⌘ + ;」后依次选择复制的文字------- src/zh/docs/manual.md ------
 
-# src/zh/docs/cleanclip/README.md
+====== src/zh/docs/cleanclip/README.md ======
 
 # 介绍
 
@@ -1365,13 +1378,13 @@ CleanClip 支持三大用法：
 它支持按照多种条件进行筛选，能把不同的内容保存到不同的收藏列表中，也能自动根据前台 App 显示不同内容。
 
 **快捷菜单**：
-**粘贴队列**：
+**粘贴队列**：------- src/zh/docs/cleanclip/README.md ------
 
-# src/zh/docs/cleanclip/mac/README.md
+====== src/zh/docs/cleanclip/mac/README.md ======
 
-# 介绍
+# 介绍------- src/zh/docs/cleanclip/mac/README.md ------
 
-# src/zh/docs/cleanclip/mac/features/quickmenu-format-preset.md
+====== src/zh/docs/cleanclip/mac/features/quickmenu-format-preset.md ======
 
 
 # 统一预设粘贴格式
@@ -1383,9 +1396,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/quickmenu-format-preset.mp4" type="video/mp4">
     <iframe src="/videos/quickmenu-format-preset.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/quickmenu-format-preset.md ------
 
-# src/zh/docs/cleanclip/mac/features/quickmenu-format.md
+====== src/zh/docs/cleanclip/mac/features/quickmenu-format.md ======
 
 
 # 快速格式化粘贴
@@ -1397,9 +1410,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/quickmenu-format.mp4" type="video/mp4">
     <iframe src="/videos/quickmenu-format.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/quickmenu-format.md ------
 
-# src/zh/docs/cleanclip/mac/features/main-window-follow-frontmost-app.md
+====== src/zh/docs/cleanclip/mac/features/main-window-follow-frontmost-app.md ======
 
 
 # 自动跟随前台应用
@@ -1411,9 +1424,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/followfrontmost_1080.mp4" type="video/mp4">
     <iframe src="/videos/followfrontmost_1080.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/main-window-follow-frontmost-app.md ------
 
-# src/zh/docs/cleanclip/mac/features/statusbar_marked.md
+====== src/zh/docs/cleanclip/mac/features/statusbar_marked.md ======
 
 
 # 菜单栏功能
@@ -1424,9 +1437,9 @@ CleanClip 支持三大用法：
 4. 序列号管理
 5. 快速入门教程
 
-![cleanclip status bar](/images/statusbar_marked.png)
+![cleanclip status bar](/images/statusbar_marked.png)------- src/zh/docs/cleanclip/mac/features/statusbar_marked.md ------
 
-# src/zh/docs/cleanclip/mac/features/pastestack-drag.md
+====== src/zh/docs/cleanclip/mac/features/pastestack-drag.md ======
 
 
 # 拖拽
@@ -1436,9 +1449,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/pastestack-drag.mp4" type="video/mp4">
     <iframe src="/videos/pastestack-drag.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/pastestack-drag.md ------
 
-# src/zh/docs/cleanclip/mac/features/main-window-collection-lists.md
+====== src/zh/docs/cleanclip/mac/features/main-window-collection-lists.md ======
 
 
 # 收藏列表 - 手动管理
@@ -1450,9 +1463,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/collection-lists.mp4" type="video/mp4">
     <iframe src="/videos/collection-lists.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/main-window-collection-lists.md ------
 
-# src/zh/docs/cleanclip/mac/features/main-window.md
+====== src/zh/docs/cleanclip/mac/features/main-window.md ======
 
 
 # 介绍
@@ -1471,9 +1484,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/intro-1080.mp4" type="video/mp4">
     <iframe src="/videos/intro-1080.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/main-window.md ------
 
-# src/zh/docs/cleanclip/mac/features/pastestack-present.md
+====== src/zh/docs/cleanclip/mac/features/pastestack-present.md ======
 
 
 # 介绍
@@ -1488,9 +1501,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/pastestack-present.mp4" type="video/mp4">
     <iframe src="/videos/pastestack-present.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/pastestack-present.md ------
 
-# src/zh/docs/cleanclip/mac/features/pastestack-split.md
+====== src/zh/docs/cleanclip/mac/features/pastestack-split.md ======
 
 
 # 快速填表-拆分复制
@@ -1500,9 +1513,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/pastestack-split.mp4" type="video/mp4">
     <iframe src="/videos/pastestack-split.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/pastestack-split.md ------
 
-# src/zh/docs/cleanclip/mac/features/pastestack-fill-form.md
+====== src/zh/docs/cleanclip/mac/features/pastestack-fill-form.md ======
 
 
 
@@ -1513,9 +1526,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/pastestack-fill-form.mp4" type="video/mp4">
     <iframe src="/videos/pastestack-fill-form.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/pastestack-fill-form.md ------
 
-# src/zh/docs/cleanclip/mac/features/main-window-sketch.md
+====== src/zh/docs/cleanclip/mac/features/main-window-sketch.md ======
 
 
 # 收藏列表 - 自动收集
@@ -1531,9 +1544,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/sketch-simple-full.mp4" type="video/mp4">
     <iframe src="/videos/sketch-simple-full.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/main-window-sketch.md ------
 
-# src/zh/docs/cleanclip/mac/features/main-window-youtube-links.md
+====== src/zh/docs/cleanclip/mac/features/main-window-youtube-links.md ======
 
 
 # 智能列表 - 根据条件智能筛选项目
@@ -1545,9 +1558,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/youtubelinks-1080.mp4" type="video/mp4">
     <iframe src="/videos/youtubelinks-1080.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/main-window-youtube-links.md ------
 
-# src/zh/docs/cleanclip/mac/features/quick-use.md
+====== src/zh/docs/cleanclip/mac/features/quick-use.md ======
 
 
 # 快速使用
@@ -1561,9 +1574,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/quickuse.mp4" type="video/mp4">
     <iframe src="/videos/quickuse.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/quick-use.md ------
 
-# src/zh/docs/cleanclip/mac/features/pastestack-collect.md
+====== src/zh/docs/cleanclip/mac/features/pastestack-collect.md ======
 
 
 # 收集信息
@@ -1573,9 +1586,9 @@ CleanClip 支持三大用法：
 <video autoplay muted loop>
     <source src="/videos/pastestack-collect.mp4" type="video/mp4">
     <iframe src="/videos/pastestack-collect.mp4" scrolling="no" border="0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-</video>
+</video>------- src/zh/docs/cleanclip/mac/features/pastestack-collect.md ------
 
-# src/zh/pages/a-feature-rich-alternative-to-maccy.md
+====== src/zh/pages/a-feature-rich-alternative-to-maccy.md ======
 
 
 <div class="present-home">
@@ -1736,9 +1749,9 @@ video {
   border-radius: 1rem;
   overflow: hidden;
 }
-</style>
+</style>------- src/zh/pages/a-feature-rich-alternative-to-maccy.md ------
 
-# src/zh/pages/a-more-powerful-system-level-alternative-to-pastepal.md
+====== src/zh/pages/a-more-powerful-system-level-alternative-to-pastepal.md ======
 
 
 <div class="present-home">
@@ -1890,9 +1903,9 @@ video {
   border-radius: 1rem;
   overflow: hidden;
 }
-</style>
+</style>------- src/zh/pages/a-more-powerful-system-level-alternative-to-pastepal.md ------
 
-# src/zh/pages/a-cheaper-more-systematic-alternative-to-paste.md
+====== src/zh/pages/a-cheaper-more-systematic-alternative-to-paste.md ======
 
 
 <div class="present-home">
@@ -2009,9 +2022,9 @@ video {
   border-radius: 1rem;
   overflow: hidden;
 }
-</style>
+</style>------- src/zh/pages/a-cheaper-more-systematic-alternative-to-paste.md ------
 
-# src/zh/pages/activity-alternative-to-vote.md
+====== src/zh/pages/activity-alternative-to-vote.md ======
 
 
 <div class="present-home">
@@ -2044,5 +2057,119 @@ video {
   border-radius: 1rem;
   overflow: hidden;
 }
-</style>
+</style>------- src/zh/pages/activity-alternative-to-vote.md ------
+
+====== llm/images.txt ======
+
+下面是 CleanClip 相关的所有可使用的images文件
+格式为<资源url>|<资源解释>
+
+https://cleanclip.cc/images/favicon-16x16.png|
+https://cleanclip.cc/images/quickmenu-format-preset.webp|
+https://cleanclip.cc/images/twitter_card2.webp|
+https://cleanclip.cc/images/formfill.webp|
+https://cleanclip.cc/images/clean.webp|
+https://cleanclip.cc/images/quickuse.webp|
+https://cleanclip.cc/images/cleanclip-vs-paste.webp|
+https://cleanclip.cc/images/sketch-simple-1080.webp|
+https://cleanclip.cc/images/terminal.webp|
+https://cleanclip.cc/images/designer.webp|
+https://cleanclip.cc/images/android-chrome-192x192.png|
+https://cleanclip.cc/images/apple-touch-icon.png|
+https://cleanclip.cc/images/cleanclip_lists.png|
+https://cleanclip.cc/images/helptip.webp|
+https://cleanclip.cc/images/disneyland.webp|
+https://cleanclip.cc/images/hero2.webp|
+https://cleanclip.cc/images/pastestack-present.webp|
+https://cleanclip.cc/images/pinboards.webp|
+https://cleanclip.cc/images/pastestack.webp|
+https://cleanclip.cc/images/maccy_prefs.png|
+https://cleanclip.cc/images/logo.webp|
+https://cleanclip.cc/images/pastestack-split.webp|
+https://cleanclip.cc/images/lizhi.png|
+https://cleanclip.cc/images/finder_clipboard.png|
+https://cleanclip.cc/images/quickmenu-pinboard.webp|
+https://cleanclip.cc/images/maccy_history.png|
+https://cleanclip.cc/images/followfrontmost_1080.webp|
+https://cleanclip.cc/images/pastestack-collect.webp|
+https://cleanclip.cc/images/android-chrome-512x512.png|
+https://cleanclip.cc/images/followcursornoshadow.webp|
+https://cleanclip.cc/images/pastestack-fill-form.webp|
+https://cleanclip.cc/images/intro-1080.webp|
+https://cleanclip.cc/images/cleanclip-vs-maccy.png|
+https://cleanclip.cc/images/immersive.png|
+https://cleanclip.cc/images/producthunt.svg|
+https://cleanclip.cc/images/twitter_card_zh.webp|
+https://cleanclip.cc/images/emailtemplate.webp|
+https://cleanclip.cc/images/sketch-simple-full.webp|
+https://cleanclip.cc/images/youtubelinks-1080.webp|
+https://cleanclip.cc/images/statusbar_marked.png|
+https://cleanclip.cc/images/alternative_to_vote.png|
+https://cleanclip.cc/images/collection-lists.webp|
+https://cleanclip.cc/images/screenshots.webp|
+https://cleanclip.cc/images/favicon-32x32.png|
+https://cleanclip.cc/images/blogs/install.png|
+https://cleanclip.cc/images/blogs/vote_for_alternative.png|
+https://cleanclip.cc/images/blogs/preference.png|
+https://cleanclip.cc/images/blogs/multi-formats-preview-image.png|
+https://cleanclip.cc/images/blogs/quickmenu-lists.png|
+https://cleanclip.cc/images/blogs/theme.png|
+https://cleanclip.cc/images/blogs/perferences-general-quickmenu.png|
+https://cleanclip.cc/images/blogs/add-lists.png|
+https://cleanclip.cc/images/blogs/search.png|
+https://cleanclip.cc/images/blogs/settings-general.png|
+https://cleanclip.cc/images/blogs/quickmenu-shortcuts.png|
+https://cleanclip.cc/images/blogs/preferences-quickmenu.png|
+https://cleanclip.cc/images/blogs/default_action.png|
+https://cleanclip.cc/images/blogs/add-lists-with-background.png|
+https://cleanclip.cc/images/blogs/open-cleanclip.png|
+https://cleanclip.cc/images/blogs/drag-image-to-use.png|
+https://cleanclip.cc/images/roadmap/snap2.png|
+https://cleanclip.cc/images/roadmap/snap1.png|
+https://cleanclip.cc/images/roadmap/phase3.webp|
+https://cleanclip.cc/images/headers/ppp.png|
+------- llm/images.txt ------
+
+====== llm/videos.txt ======
+
+下面是 CleanClip 相关的所有可使用的videos文件
+格式为<资源url>|<资源解释>
+
+https://cleanclip.cc/videos/spacetopreview.mp4|
+https://cleanclip.cc/videos/youtubelinks-1080.mp4|
+https://cleanclip.cc/videos/quickmenu-format-preset.mp4|
+https://cleanclip.cc/videos/followfrontmost_1080.mp4|
+https://cleanclip.cc/videos/screenshots265.mp4|
+https://cleanclip.cc/videos/intro-1080.mp4|
+https://cleanclip.cc/videos/sketch-simple-1080.mp4|
+https://cleanclip.cc/videos/pastestack.mp4|
+https://cleanclip.cc/videos/pastestack-split.mp4|
+https://cleanclip.cc/videos/designer265.mp4|
+https://cleanclip.cc/videos/vertical16x9.mp4|
+https://cleanclip.cc/videos/search-expand.mp4|
+https://cleanclip.cc/videos/search-real.mp4|
+https://cleanclip.cc/videos/pastestack-drag.mp4|
+https://cleanclip.cc/videos/horizontal16x9.mp4|
+https://cleanclip.cc/videos/searchimagefile.mp4|
+https://cleanclip.cc/videos/disneyland265.mp4|
+https://cleanclip.cc/videos/followcursornoshadow265.mp4|
+https://cleanclip.cc/videos/followcursor16x9.mp4|
+https://cleanclip.cc/videos/pastestack-fill-form.mp4|
+https://cleanclip.cc/videos/collection-lists.mp4|
+https://cleanclip.cc/videos/selectpart.mp4|
+https://cleanclip.cc/videos/sketch-simple-full.mp4|
+https://cleanclip.cc/videos/searchhttp.mp4|
+https://cleanclip.cc/videos/clean265.mp4|
+https://cleanclip.cc/videos/search.mp4|
+https://cleanclip.cc/videos/quickmenu-pinboard.mp4|
+https://cleanclip.cc/videos/pastestack-present.mp4|
+https://cleanclip.cc/videos/terminal265.mp4|
+https://cleanclip.cc/videos/quickuse.mp4|
+https://cleanclip.cc/videos/preview.mp4|
+https://cleanclip.cc/videos/formfill265.mp4|
+https://cleanclip.cc/videos/emailtemplate265.mp4|
+https://cleanclip.cc/videos/quickmenu-format.mp4|
+https://cleanclip.cc/videos/pastestack-collect.mp4|
+https://cleanclip.cc/videos/pastestack265.mp4|
+------- llm/videos.txt ------
 
