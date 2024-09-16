@@ -145,4 +145,3 @@ autometa:
 </div>
 
 <NewFooter/>
-<MixPanel/>
