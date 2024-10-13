@@ -6,15 +6,15 @@
         <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.2.7</title>
+            <title>Version {{ version }}</title>
             <sparkle:releaseNotesLink>
-                https://github.com/CleanClip/CleanClipApp/releases/tag/v2.2.7
+                https://github.com/CleanClip/CleanClipApp/releases/tag/v{{ version }}
             </sparkle:releaseNotesLink>
-            <pubDate>Wed, 09 Oct 2024 11:02:14 +0800</pubDate>
-            <enclosure url="https://github.com/CleanClip/CleanClipApp/releases/download/2.2.7/CleanClip-2.2.7.dmg"
-                       sparkle:version="2.2.7"
-                       sparkle:shortVersionString="2.2.7"
-                       length="22611080"
+            <pubDate>{{ publish_date }}</pubDate>
+            <enclosure url="{{ download_url }}"
+                       sparkle:version="{{ version }}"
+                       sparkle:shortVersionString="{{ version }}"
+                       length="{{ file_size }}"
                        type="application/octet-stream" />
         </item>
     </channel>
