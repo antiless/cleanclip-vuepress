@@ -23,7 +23,8 @@ function getArticlesSidebar(title) {
       'clipboard-managers-a-must-have-for-every-mac-user',
       'clipboard-managers-an-underrated-utility',
       'why-you-need-clipboard-manager',
-      'advanced-mac-clipboard-management-tips'
+      'advanced-mac-clipboard-management-tips',
+      'mac-clipboard-managers-top-6-review'
     ]
   }]
 }
