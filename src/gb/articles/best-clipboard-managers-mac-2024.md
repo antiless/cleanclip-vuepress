@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/en/articles/best-clipboard-managers-mac-2024'
+canonicalUrl: 'https://cleanclip.cc/gb/articles/best-clipboard-managers-mac-2024'
 discuss: false
 pageClass: articles
 ---

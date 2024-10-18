@@ -24,7 +24,8 @@ function getArticlesSidebar(title) {
       'clipboard-managers-an-underrated-utility',
       'why-you-need-clipboard-manager',
       'advanced-mac-clipboard-management-tips',
-      'mac-clipboard-managers-top-6-review'
+      'mac-clipboard-managers-top-6-review',
+      'best-clipboard-managers-mac-2024'
     ]
   }]
 }
