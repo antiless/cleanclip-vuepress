@@ -25,7 +25,8 @@ function getArticlesSidebar(title) {
       'why-you-need-clipboard-manager',
       'advanced-mac-clipboard-management-tips',
       'mac-clipboard-managers-top-6-review',
-      'best-clipboard-managers-mac-2024'
+      'best-clipboard-managers-mac-2024',
+      'best-clipboard-managers-windows-mac-cleanclip'
     ]
   }]
 }
