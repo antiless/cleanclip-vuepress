@@ -28,7 +28,8 @@ function getArticlesSidebar(title) {
       'best-clipboard-managers-mac-2024',
       'best-clipboard-managers-windows-mac-cleanclip',
       'mac-clipboard-guide-faq-tips-tricks',
-      'understanding-clipboard-on-mac-guide'
+      'understanding-clipboard-on-mac-guide',
+      'how-to-view-clipboard-history-on-mac'
     ]
   }]
 }
