@@ -30,7 +30,9 @@ function getArticlesSidebar(title) {
       'mac-clipboard-guide-faq-tips-tricks',
       'understanding-clipboard-on-mac-guide',
       'how-to-view-clipboard-history-on-mac',
-      'mac-clipboard-history-default-and-cleanclip'
+      'mac-clipboard-history-default-and-cleanclip',
+      'macos-clipboard-history-tools',
+      'cleanclip-clipboard-history-manager'
     ]
   }]
 }
