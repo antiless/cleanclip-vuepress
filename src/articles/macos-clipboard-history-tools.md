@@ -1,5 +1,5 @@
 ---
-canonicalUrl: 'https://cleanclip.cc/en/articles/macos-clipboard-history-tools'
+canonicalUrl: 'https://cleanclip.cc/articles/macos-clipboard-history-tools'
 discuss: false
 pageClass: articles
 ---
