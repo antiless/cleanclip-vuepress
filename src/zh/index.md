@@ -64,41 +64,7 @@ canonicalUrl: 'https://cleanclip.cc/zh/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻 常见问题
-
-::: details 我可以在哪里找到我的许可证？
-> 在成功购买后,您会收到来自 LemonSqueezy 的电子邮件,其中包含收据和您的唯一许可证密钥。请务必同时检查您的垃圾邮件文件夹。如果您仍然找不到,请访问<a href="https://app.lemonsqueezy.com/my-orders">许可证管理器</a>,然后按照说明进行操作。
-:::
-
-::: details 如何将我的许可证转移到其他 Mac 上？
-> 您只需使用许可证密钥在新的 Mac 上激活应用程序即可。旧机器将自动被停用。如果您拥有多台 Mac 的许可证,您可以使用<a href="https://app.lemonsqueezy.com/my-orders">许可证管理器</a>管理活动设备。
-:::
-
-::: details 支持的系统版本？
-> 支持 macOS 12.0+。
-:::
-
-::: details 是否可以试用？
-> 基础功能免费使用，不限制时间。所以你可以在不付费的情况下永久使用 CleanClip 的基础功能。
-:::
-
-::: details 不满意是否可以退款？
-> No，我们提供了免费试用，你可以在试用满意后再付款。
-:::
-
-::: details 有无教育优惠？
-  > 您可以使用您的教育邮箱发送电子邮件至<a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE&BODY=REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE">edu@cleanclip.cc</a>，以获取*7折教育折扣**！
-:::
-
-::: details 我已经付费买了其它剪贴板管理器，可以获得折扣吗？
-  > 您可以使用您的电子邮件发送电子邮件给<a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a>获取**7折剪贴板专家折扣**！
-:::
-  </div>
-  </div>
+  <FAQPage />
 
   <div class="encourage">
   </br>

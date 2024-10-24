@@ -63,33 +63,7 @@ canonicalUrl: 'https://cleanclip.cc/sk/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻 Časté otázky
-
-::: details 💻 Podporované verzie systému?
-> Podpora macOS 12.0+.
-:::
-
-::: details 🆓 Je možné vyskúšať zadarmo?
-> Základné funkcie sú k dispozícii zadarmo, bez časového obmedzenia. Môžete tak navždy používať základné funkcie CleanClipu bezplatne.
-:::
-
-::: details 💰 Je možný vrátenie peňazí v prípade nespokojnosti?
-> Nie, poskytujeme bezplatnú skúšobnú verziu, platbu môžete uskutočniť až po spokojnosti so skúšobnou verziou.
-:::
-
-::: details 👩‍🎓🧑‍🎓 Sú dostupné vzdelávacie zľavy?
-  > Možno využiť vzdelávaciu zľavu vo výške *30 %*! Stačí zaslať e-mail so svojou vzdelávacou e-mailovou adresou na<a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20ŽIADOSŤ%20O%20ZĽAVOVÝ%20KÓD%20NA%2030%25%20ZĽAVU%20NA%20LICENCIU%20CLEANCLIP">edu@cleanclip.cc</a>.
-:::
-
-::: details 🕵️ Už som zaplatil za iný správca schránok, mám nárok na zľavu?
-  > Stačí zaslať e-mail na <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Žiadosť%20o%20zľavový%20kód%20na%2030%25%20zľavu%20na%20licenciu%20CleanClip&body=Zdravím,%20Team%20CleanClipu,%0A%0APreukazujem,%20že%20som%20predtým%20kúpil%20iný%20softvér%20na%20správu%20schránok%20a%20žiadam%20o%20zľavu%2030%25%20na%20CleanClip%20Licenciu.%0A%0AVeď%20k%20tomu%20som%20použil%20nasledujúci%20odkaz%3A%20%5Blink%5D%0A%0APredkladám%20doklad%20o%20nákupe:%20%5BFotky%5D">📮veteran@cleanclip.cc</a> a získajte zľavu 30 % na licenciu CleanClip!
-:::
-  </div>
-  </div>
+  <FAQPage />
 
   <div class="encourage">
   </br>

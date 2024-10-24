@@ -64,34 +64,7 @@ canonicalUrl: 'https://cleanclip.cc/se/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻 Vanliga Frågor
-
-::: details 💻 Vilka systemversioner stöds?
-> Stöder macOS 12.0+.
-:::
-
-::: details 🆓 Kan jag prova det?
-> Grundläggande funktioner kan användas gratis och har ingen tidsbegränsning. Så du kan använda CleanClips grundläggande funktioner permanent utan att betala.
-:::
-
-::: details 💰 Kan jag begära återbetalning om jag inte är nöjd?
-> Nej, vi erbjuder gratis provperiod s�� du kan betala när du är nöjd med provet.
-:::
-
-::: details 👩‍🎓🧑‍🎓 Finns det utbildningsrabatt?
-  > Du kan använda din utbildnings-e-post för att skicka en e-post till <a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE&BODY=REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE">edu@cleanclip.cc</a> för att få **30% rabatt för utbildning**!
-:::
-
-::: details 🕵️ Jag har redan köpt andra klippbordsprogram, kan jag få rabatt?
-  > Du kan skicka ett e-postmeddelande till <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a> för att få **30% klippbordsexpert rabatt**!
-:::
-  </div>
-  </div>
-
+  <FAQPage />
   <div class="encourage">
   </br>
 

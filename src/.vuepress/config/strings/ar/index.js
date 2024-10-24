@@ -9,6 +9,7 @@ const main_window = require('./main_window')
 const usecases = require('./usecases')
 const sidebar = require('./sidebar')
 const nav = require('./nav')
+const faqs = require('./faqs')
 
 module.exports = {
   name: "CleanClip",
@@ -22,6 +23,7 @@ module.exports = {
   students: students,
   discounts: discounts,
   ...download,
+  ...faqs,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "يمكنك البحث في السجلات دون الحاجة إلى فصل اليدين عن لوحة المفاتيح، نافذة سريعة للاستخدام فوري",

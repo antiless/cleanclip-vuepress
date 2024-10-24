@@ -9,6 +9,7 @@ const main_window = require('./main_window')
 const usecases = require('./usecases')
 const sidebar = require('./sidebar')
 const nav = require('./nav')
+const faqs = require('./faqs')
 
 module.exports = {
   name: "CleanClip",
@@ -22,6 +23,7 @@ module.exports = {
   students: students,
   discounts: discounts,
   ...download,
+  ...faqs,
   usp: usp,
   quick_menu: quick_menu,
   quick_menu_subtitle: "키보드를 떠나지 않고 레코드를 찾아보세요. 즉시 사용 가능한 빠른 창",

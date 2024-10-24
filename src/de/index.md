@@ -63,33 +63,7 @@ canonicalUrl: 'https://cleanclip.cc/de/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻 Häufig gestellte Fragen
-
-::: details 💻 Unterstützte Systemversionen?
-> Unterstützt macOS 12.0+.
-:::
-
-::: details 🆓 Kann ich es ausprobieren?
-> Grundfunktionen sind kostenlos und zeitlich unbegrenzt. So kannst du CleanClip jederzeit kostenlos in vollem Umfang nutzen.
-:::
-
-::: details 💰 Gibt es eine Geld-zurück-Garantie?
-> Nein, wir bieten eine kostenlose Testversion an, sodass du nach Zufriedenheit bezahlen kannst.
-:::
-
-::: details 👩‍🎓🧑‍🎓 Gibt es Bildungsrabatte?
-> Du kannst eine E-Mail mit deiner Bildungs-E-Mail an <a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20ANFORDERUNG%20EINES%20DISCOUNT-CODES%20FÜR%2030%25%20RABATT%20AUF%20DIE%20CLEANCLIP-LIZENZ&BODY=ANFORDERUNG%20EINES%20DISCOUNT-CODES%20FÜR%2030%25%20RABATT%20AUF%20DIE%20CLEANCLIP-LIZENZ">edu@cleanclip.cc</a> senden, um einen **Bildungsrabatt von 30 %** zu erhalten!
-:::
-
-::: details 🕵️ Ich habe bereits für eine andere Zwischenablageverwaltungssoftware bezahlt, erhalte ich einen Rabatt?
-> Du kannst eine E-Mail an <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Rabattcode%20für%2030%25%20Rabatt%20auf%20die%20CleanClip-Lizenz%20anfordern&body=Hallo%20CleanClips%2C%0A%0AIch%20habe%20zuvor%20andere%20Zwischenablage-Management-Software%20gekauft%20und%20ich%20möchte%20einen%2030%25%20Rabatt%20auf%20die%20CleanClip-Lizenz%20anfordern.%0A%0ADer%20Link%20zur%20verwendeten%20Software%3A%20%5BLink%5D%0A%0AHier%20ist%20der%20Kaufbeleg%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a> senden, um einen **70% Rabatt für Zwischenablage-Experten** zu erhalten!
-:::
-  </div>
-  </div>
+  <FAQPage />
 
   <div class="encourage">
   </br>

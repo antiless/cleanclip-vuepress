@@ -63,33 +63,7 @@ canonicalUrl: 'https://cleanclip.cc/ko/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻 자주 묻는 질문
-
-::: details 💻 지원되는 시스템 버전?
-> macOS 12.0+를 지원합니다.
-:::
-
-::: details 🆓 무료 평가판을 이용할 수 있나요?
-> 기본 기능은 시간 제한 없이 무료로 이용할 수 있습니다. 따라서 고객님은 CleanClip의 기본 기능을 영구적으로 무료로 사용할 수 있습니다.
-:::
-
-::: details 💰 만족하지 않을 경우 환불이 가능한가요?
-> 아니요, 무료 평가판을 제공하므로, 만족한 후 결제하실 수 있습니다.
-:::
-
-::: details 👩‍🎓🧑‍🎓 교육 할인 혜택이 있나요?
-  > 교육용 이메일로 메일을 보내어 *7할 교육 할인*을 받아보세요. 메일 주소: <a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE&BODY=REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE">edu@cleanclip.cc</a>
-:::
-
-::: details 🕵️ 이미 타 클립보드 관리자를 구입한 경우 할인이 가능한가요?
-  > 타 클립보드 관리 소프트웨어를 구입한 경우 <a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a>로 이메일을 보내어 **7할 클립보드 전문가 할인**을 받아보세요!
-:::
-  </div>
-  </div>
+  <FAQPage />
 
   <div class="encourage">
   </br>

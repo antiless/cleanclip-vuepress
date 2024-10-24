@@ -63,33 +63,7 @@ canonicalUrl: 'https://cleanclip.cc/jp/'
 
   </div>
 
-
-  <div class="faq">
-  <div>
-
-  ## 🙋🏻よくある質問
-
-::: details 💻 サポートされているシステムバージョンは？
-> macOS 12.0+をサポートしています。
-:::
-
-::: details 🆓 体験版は利用できますか？
-> 基本機能は無償でご利用いただけます。時間制限はありませんので、CleanClipの基本機能を永久に無料でご利用いただけます。
-:::
-
-::: details 💰 不満がある場合、返金されますか？
-> いいえ、無料トライアルを提供していますので、気に入ったら支払いをしていただけます。
-:::
-
-::: details 👩‍🎓🧑‍🎓 教育割引はありますか？
-  > 教育機関のメールアドレスで<a href="MAILTO:EDU@CLEANCLIP.CC?SUBJECT=%5BEDU%20DISCOUNT%5D%20REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE&BODY=REQUESTING%20DISCOUNT%20CODE%20FOR%2030%25%20OFF%20CLEANCLIP%20LICENSE">edu@cleanclip.cc</a>にメールを送信して、**7割の教育割引**コードを入手できます！
-:::
-
-::: details 🕵️ 他のクリップボード管理ソフトを購入したことがありますが、ディスカウントを受けられますか？
-  > 以前に別のクリップボード管理ソフトを購入した場合、<a href="mailto:veteran@cleanclip.cc?subject=%5Bveteran%20discount%5D%20Requesting%20Discount%20Code%20for%2030%25%20Off%20CleanClip%20License&body=Hello%20CleanClips%2C%0A%0AI%20have%20previously%20purchased%20other%20clipboard%20management%20software%20and%20I%20am%20requesting%20a%2030%25%20discount%20on%20the%20CleanClip%20License.%0A%0AThe%20link%20to%20the%20one%20I%20used%3A%20%5Blink%5D%0A%0AHere%20is%20the%20purchase%20receipt%3A%20%5BScreenshots%5D">📮veteran@cleanclip.cc</a>にメールを送信して、**7割のクリップボード専門家割引**を入手できます！
-:::
-  </div>
-  </div>
+  <FAQPage />
 
   <div class="encourage">
   </br>
