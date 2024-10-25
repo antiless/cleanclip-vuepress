@@ -33,7 +33,9 @@ function getArticlesSidebar(title) {
       'mac-clipboard-history-default-and-cleanclip',
       'macos-clipboard-history-tools',
       'cleanclip-clipboard-history-manager',
-      'mac-clipboard-guide-7-steps-to-master'
+      'mac-clipboard-guide-7-steps-to-master',
+      '15-best-mac-clipboard-manager-apps-comparison-and-features',
+      'my_minimal_app_list_8_mac_essentials'
     ]
   }]
 }
