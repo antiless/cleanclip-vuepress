@@ -37,7 +37,8 @@ function getArticlesSidebar(title) {
       '15-best-mac-clipboard-manager-apps-comparison-and-features',
       'my_minimal_app_list_8_mac_essentials',
       'mac-productivity-apps-top-8',
-      '10-best-mac-productivity-apps-to-supercharge-your-workflow-2024'
+      '10-best-mac-productivity-apps-to-supercharge-your-workflow-2024',
+      'macos-essential-menu-bar-and-background-apps'
     ]
   }]
 }
