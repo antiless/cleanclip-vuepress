@@ -4,6 +4,40 @@ canonicalUrl: 'https://cleanclip.cc/docs/changelog'
 
 # Release Notes
 
+## 2.3.0
+Date: 2024-11-12
+
+
+### New Features
+
+#### Ignore Rules for Privacy Protection
+- Smart content type recognition
+- Custom protection rules for sensitive data
+
+Rules include but are not limited to:
+- Advanced regex matching
+- Content type filtering (documents, images, videos, etc.)
+- Device-based filtering
+- Multi-condition combined filtering
+
+#### Enhanced Auto Cleanup
+- 🔧 Optimized auto cleanup strategy
+- Support time-based auto cleanup
+- Support storage threshold triggered cleanup
+- Added options to preserve aliases and favorites
+
+![Post Copy 7@1x](https://github.com/user-attachments/assets/44ff4643-d334-4b9d-8ea4-d0fa226d9466)
+
+[Download](https://github.com/CleanClip/CleanClipApp/releases/download/2.3.0/CleanClip-2.3.0.dmg)
+
+## 2.2.8
+Date: 2024-11-06
+
+
+### Fixes
+- Multi-monitor experience optimization
+[Download](https://github.com/CleanClip/CleanClipApp/releases/download/2.2.8/CleanClip-2.2.8.dmg)
+
 ## 2.2.7
 Date: 2024-10-09
 
