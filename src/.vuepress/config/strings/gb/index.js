@@ -38,6 +38,9 @@ module.exports = {
   promotion: "Offer affordable purchase for friends from <b>{0}</b> - <b>{1}% off</b>",
   promotion_code: "Promo Code: <b>{0}</b>",
   promotion_action: "Get Pro Version",
+  promotion_alternative_to_vote: 'Black Friday Deal: Get <em><b>30% off</b><span class="underline underline-5px background-image-tint-red"></span></em> on all multi-device plans. Deal ends: 4 Dec 2024',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=BF2024',
+  promotion_alternative_to_vote_action: 'Get Pro Version>',
   sidebar: sidebar,
   nav: nav,
 }

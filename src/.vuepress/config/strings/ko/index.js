@@ -38,6 +38,9 @@ module.exports = {
   promotion: "<b>{0}</b> 친구를 위한 구매력평정 혜택 - <b>{1}% 할인</b>",
   promotion_code: "프로모션 코드: <b>{0}</b>",
   promotion_action: "프로버전 얻기",
+  promotion_alternative_to_vote: '블랙 프라이데이 특가: 모든 멀티디바이스 플랜 <em><b>30% 할인</b><span class="underline underline-5px background-image-tint-red"></span></em>. 행사 종료: 2024년 12월 4일',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=BF2024',
+  promotion_alternative_to_vote_action: '할인받기 >',
   sidebar: sidebar,
   nav: nav,
 }

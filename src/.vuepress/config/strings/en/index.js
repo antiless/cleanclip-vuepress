@@ -38,10 +38,14 @@ module.exports = {
   promotion: "Parity Purchasing Power for friends from <b> {0}</b> - <b>{1}% off</b> on certain lifetime plans.",
   promotion_code: "Using code: <b>{0}</b>",
   promotion_action: "Get Pro Access",
+  
   sidebar: sidebar,
   nav: nav,
   // promotion
-  promotion_alternative_to_vote: 'Limited Time Activity: Vote to get <em><b>10% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em>. Deadline: 2024-09-07',
-  promotion_alternative_to_vote_url: '/pages/activity-alternative-to-vote.html',
+  // promotion_alternative_to_vote: 'Limited Time Activity: Vote to get <em><b>10% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em>. Deadline: 2024-09-07',
+  // promotion_alternative_to_vote_url: '/pages/activity-alternative-to-vote.html',
+  // promotion_alternative_to_vote_action: 'Get Discount >',
+  promotion_alternative_to_vote: 'Black Friday Deal: Get <em><b>30% off</b><span class="underline underline-5px background-image-tint-red"></span></em> on all multi-device plans. Deal ends: Dec 4, 2024',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=BF2024',
   promotion_alternative_to_vote_action: 'Get Discount >',
 }

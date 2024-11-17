@@ -15,7 +15,7 @@ module.exports = {
   name: "CleanClip",
   lang: 'zh-CN',
   title: 'CleanClip - Mac 上最干净的剪贴板管理器。简单且强大！',
-  description: '可能是 macOS 上最干净的剪贴板管理工具！自动保存复制内容，轻松管理，秒速查找。简单而强大。CleanClip 不仅可以保护您宝贵的内容不丢失，还提供强大的内容过滤、书签和组织能力。它渗透到您 Mac 使用日常的每个角落。',
+  description: '可能是 macOS 上最干净的剪贴板管理工具！自动保存复制内容，轻松管理，秒速查找。简单而强大。CleanClip 不仅可以保护您宝贵的内容不丢失，还提供强大的内容过滤、书签和组织能力。它渗透到您 Mac 使用日常的每个落。',
   selectText: '选择语言',
   label: '简体中文',
   lastUpdated: '最近更新',
@@ -41,7 +41,10 @@ module.exports = {
   sidebar: sidebar,
   nav: nav,
   // promotion
-  promotion_alternative_to_vote: '限时活动：投票获取 <em><b>9 折优惠</b><span class="underline underline-5px background-image-tint-red"></span></em>。截止时间：2024-09-07',
-  promotion_alternative_to_vote_url: '/zh/pages/activity-alternative-to-vote.html',
+  // promotion_alternative_to_vote: '限时活动：投票获取 <em><b>9 折优惠</b><span class="underline underline-5px background-image-tint-red"></span></em>。截止时间：2024-09-07',
+  // promotion_alternative_to_vote_url: '/zh/pages/activity-alternative-to-vote.html',
+  // promotion_alternative_to_vote_action: '获取优惠 >',
+  promotion_alternative_to_vote: '黑五特惠：所有多设备计划限时 <em><b>7折</b><span class="underline underline-5px background-image-tint-red"></span></em>。优惠截止：2024-12-04',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=BF2024',
   promotion_alternative_to_vote_action: '获取优惠 >',
 }

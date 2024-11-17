@@ -2,7 +2,7 @@
   <div v-if="$page.frontmatter.home && (ppp.discount && ppp.discount > 0 || activity.enabled)">
     <div class="text-white fixed bottom-0 w-full backdrop-blur-xl text-center">
       <div class="opacity-90 bg-blue-800 lg:h-20 md:h-32 h-32  w-full absolute"></div>
-      <div class="md:flex justify-around items-center p-2 relative">
+      <div class="md:flex justify-around items-center p-4 relative">
         <div class="flex items-center justify-around">
           <!-- <a class="pl-4 w-60" href="https://www.producthunt.com/posts/find-next-wow-app?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-find&#0045;next&#0045;wow&#0045;app" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=418594&theme=light" alt="Find&#0032;Next&#0032;Wow&#0032;App - Find&#0032;your&#0032;next&#0032;&#0034;Wow&#0034;&#0032;App&#0044;&#0032;for&#0032;100&#0037;&#0032;Free&#0046; | Product Hunt"> </a> -->
           <span v-if="activity.enabled" class="text-lg" v-html="activity.message"></span>
@@ -12,7 +12,7 @@
         <div v-if="activity.enabled" class="">
           <span v-if="activity.discountCode" class="text-xl pr-4 m-auto" v-html="$t().promotion_code.format(activity.discountCode)"></span>
           <a :href="activity.url" target="_blank">
-              <button v-if="activity.discountCode" class="bg-white text-blue-900 text px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_action }} - <b>${{ (19.99 * (100 - activity.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
+              <button v-if="activity.discountCode" class="bg-white text-blue-900 text px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_action }} - <b>${{ (ppp.price / 100 * (100 - activity.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">${{ ppp.price / 100 }}</del></button>
               <button v-else class="bg-white text-blue-900 text px-4 py-2 rounded-lg font-semibold">{{ activity.actionText }}</button>
           </a>
         </div>
@@ -50,10 +50,12 @@ export default {
   computed: {
     activity() {
       return {
-        enabled: false,
+        enabled: true,
           message: this.$td("promotion_alternative_to_vote"),
           url: this.$td("promotion_alternative_to_vote_url"),
-          actionText: this.$td("promotion_alternative_to_vote_action")
+          actionText: this.$td("promotion_alternative_to_vote_action"),
+          discountCode: "BF2024",
+          discount: 30
         }
     },
   },
@@ -67,15 +69,9 @@ export default {
   methods: {
     async fetchPPP() {
       try {
-        const response = await axios.get(`https://discounts.cleanclip.cc/discounts/ppp`, {
-          // const response = await axios.post(`https://newsletter-api.fndx.app/subscribe?mail=${email}`, { mail: email }, {
-          // const response = await axios.post(`/helloworld`, null, {
+        const response = await axios.get("https://clip-purchase.macaify.com/config", {
           headers: {
-            'Content-Type': 'application/json',
-            'Access-Control-Allow-Origin': '*',
-            'Access-Control-Allow-Headers': '*',
-            'Access-Control-Allow-Methods': 'GET, OPTIONS, POST, PUT, DELETE',
-            'Access-Control-Max-Age': '86400',
+            'Content-Type': 'application/json'
           }
         });
         console.log(response);
