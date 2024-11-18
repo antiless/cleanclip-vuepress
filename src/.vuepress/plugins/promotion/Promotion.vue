@@ -20,7 +20,7 @@
             <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_action }} - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
           </a>
         </div>
-        <button @click="closePromotion" class="absolute top-2 right-2 text-white hover:text-gray-300 flex items-center" >
+        <button @click="closePromotion" class="absolute top-2 right-2 text-white hover:text-gray-300 flex items-center" style="right: 0.5rem; top: 0.5rem;">
           <img src="/images/close.svg" class="h-4 w-4" alt="关闭"/>
         </button>
       </div>
