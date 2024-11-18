@@ -109,5 +109,4 @@ autometa:
   </div>
 
 </div>
-<Promotion/>
 <NewFooter/>

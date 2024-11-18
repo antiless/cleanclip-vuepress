@@ -350,3 +350,12 @@ a.sidebar-link {
         margin: 0 auto;
     }
 }
+
+* {
+    &::-webkit-scrollbar {
+        display: none;  /* Chrome, Safari, Opera */
+        width: 0;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
