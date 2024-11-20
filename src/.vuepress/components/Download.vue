@@ -23,7 +23,7 @@
           </svg>
         <div class="flex-initial w-56 sm:w-48" style="margin-left:0.5em">
           <span class="block text-xs font-normal justify-left">{{ $site.themeConfig.latestVersion }}</span>
-          <span class="block text-lg font-bold justify-left">{{ items.download }}</span>
+          <span class="block font-bold justify-left">{{ items.download }}</span>
         </div>
       </div>
       </a>
@@ -44,7 +44,7 @@
         </svg>
         <div class="flex-initial w-56 sm:w-48" style="margin-left:0.5em">
           <span class="block text-xs font-normal justify-left"><span class="font-bold">{{ $site.themeConfig.latestVersion }}</span></span>
-          <span class="block text-lg font-bold justify-left">brew install cleanclip</span>
+          <span class="block font-bold justify-left">brew install cleanclip</span>
         </div>
       </div>
     </div>
