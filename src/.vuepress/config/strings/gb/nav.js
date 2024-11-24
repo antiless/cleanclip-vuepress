@@ -5,5 +5,7 @@ module.exports = {
   pricing: 'Pricing',
   pricing_link: '/pricing',
   download: 'Download',
-  download_link: '/gb/download'
+  download_link: '/gb/download',
+  journey: "Quick Start",
+  journey_link: "https://journey.cleanclip.cc"
 }

@@ -10,7 +10,7 @@ actions:
     size: large
     shape: round
   - text: دليل المنتج
-    link: /ar/docs/manual
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

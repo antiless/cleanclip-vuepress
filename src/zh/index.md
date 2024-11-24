@@ -10,8 +10,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: 产品文档
-    link: /zh/docs/manual
+  - text: 快速上手
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

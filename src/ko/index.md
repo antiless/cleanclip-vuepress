@@ -9,8 +9,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: 제품 문서
-    link: /ko/docs/manual
+  - text: 빠른 시작
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

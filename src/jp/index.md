@@ -9,8 +9,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: 製品ドキュメント
-    link: /jp/docs/manual
+  - text: クイックスタート
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

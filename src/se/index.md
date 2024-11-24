@@ -10,8 +10,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: Produkt manual
-    link: /se/docs/manual
+  - text: Snabbstart
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

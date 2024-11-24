@@ -2,6 +2,7 @@ const string = require("../strings/index")
 
 function getNav(t) {
   return [
+    { text: t.journey, link: t.journey_link },
     {
       text: t.product_documentation,
       ariaLabel: t.product_documentation_ariaLabel,

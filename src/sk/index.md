@@ -9,8 +9,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: Dokumentácia produktu
-    link: /sk/docs/manual
+  - text: Rýchly štart
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large

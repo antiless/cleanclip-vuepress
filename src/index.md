@@ -12,8 +12,8 @@ actions:
     type: primary
     size: large
     shape: round
-  - text: Pricing
-    link: https://clip-purchase.macaify.com/
+  - text: Quick Start
+    link: https://journey.cleanclip.cc
     type: primary
     ghost: true
     size: large
