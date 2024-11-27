@@ -35,7 +35,7 @@ features:
   - title: 🧠 قوائم ذكية قوية
     details: طرق تصفية ذكية متعددة، تساعدك في تنظيم وتصفية المحتوى المحدد بسرعة
   - title: 🌍 دعم متعدد اللغات
-    details: الصينية البسيطة، الصينية التقليدية، الإنجليزية، سلوفينية, فرنسية, هولندية <a href="/ar/discounts">المساعدة في الترجمة</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย<a href="/ar/discounts">المساعدة في الترجمة</a>
 footer: حقوق النشر © 2024 شركة نانجينج لأجمل التقنية المحدودة
 canonicalUrl: 'https://cleanclip.cc/ar/'
 ---

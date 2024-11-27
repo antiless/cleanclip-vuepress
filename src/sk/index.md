@@ -35,7 +35,7 @@ features:
   - title: 🧠 Výkonné inteligentné zoznamy
     details: Rôzne inteligentné filtre vám pomôžu rýchlo zoradiť a filtrovať špecifický obsah
   - title: 🌍 Podpora viacerých jazykov
-    details: Jednoduchá čínština, tradičná čínština, angličtina, 🇸🇰Slovenský jazyk, 🇫🇷Francúzština, 🇳🇱Holandčina <a href="/sk/discounts">Pomoc s prekladom</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย <a href="/sk/discounts">Pomoc s prekladom</a>
 footer: Copyright © 2024 Najkrajšia technologická spoločnosť v Nan-chingu
 canonicalUrl: 'https://cleanclip.cc/sk/'
 ---

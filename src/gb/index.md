@@ -35,7 +35,7 @@ features:
   - title: 🧠 Powerful Smart Lists
     details: Multiple intelligent filtering methods to help you quickly organize and filter specific content
   - title: 🌍 Multi-Language Support
-    details: Simplified Chinese, Traditional Chinese, English, 🇸🇰Slovenčina, 🇫🇷Français, 🇳🇱Nederlands <a href="/gb/discounts">Help Translate</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย <a href="/gb/discounts">Help Translate</a>
 footer: Copyright © 2024 Nanking Best Beauty Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/gb/'
 ---

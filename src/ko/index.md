@@ -35,7 +35,7 @@ features:
   - title: 🧠 강력한 스마트 목록
     details: 다양한 스마트 필터링 방법으로 빠르게 정리 및 특정 내용을 걸러냅니다.
   - title: 🌍 다국어 지원
-    details: 간체 중국어, 번체 중국어, 영어, 🇸🇰 슬로바키아어, 🇫🇷 프랑스어, 🇳🇱 네덜란드어 <a href="/ko/discounts">번역 도와주기</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย <a href="/ko/discounts">번역 도와주기</a>
 footer: © 2024 南京 최아름 기술 유한회사
 canonicalUrl: 'https://cleanclip.cc/ko/'
 ---

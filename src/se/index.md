@@ -36,7 +36,7 @@ features:
   - title: 🧠 Kraftfulla Smarta Listor
     details: Olika sätt att intelligent filtrera, hjälper dig att snabbt sortera och välja specifika innehåll.
   - title: 🌍 Stöd för Flera Språk
-    details: Kinesiska (förenklad), kinesiska (traditionella), Engelska, 🇸🇰 slovenska, 🇫🇷 franska, 🇳🇱 nederländska <a href="/se/discounts">Hjälp översättningen</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย <a href="/se/discounts">Hjälp översättningen</a>
 footer: Upphovsrätt © 2024 Vackraste Tech Limited i Nanjing
 canonicalUrl: 'https://cleanclip.cc/se/'
 ---

@@ -35,7 +35,7 @@ features:
   - title: 🧠 Leistungsfähige intelligente Listen
     details: Mehrere intelligente Filtermethoden helfen dir beim schnellen Sortieren und Filtern spezifischer Inhalte
   - title: 🌍 Mehrsprachige Unterstützung
-    details: Vereinfachtes Chinesisch, Traditionelles Chinesisch, Englisch, 🇸🇰Slowakisch, 🇫🇷Französisch, 🇳🇱Niederländisch <a href="/de/discounts">Hilfe bei der Übersetzung</a>
+    details: 简体中文，繁體中文，English，🇸🇰Slovenčina，🇫🇷Français，🇳🇱Nederlands，🇩🇪Deutsch，🇪🇸Español，🇰🇷한국어，🇸🇦العربية，🇹🇭ไทย <a href="/de/discounts">Hilfe bei der Übersetzung</a>
 footer: Copyright © 2024 Nanjing Meinian Jia Technology Co., Ltd.
 canonicalUrl: 'https://cleanclip.cc/de/'
 ---
