@@ -62,7 +62,7 @@ module.exports = {
   themeConfig: {
     title: "CleanClip",
     logo: '/images/logo.webp',
-    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v3/CleanClip.dmg',
+    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.3.3/CleanClip.dmg',
     latestVersion: 'v2.3.3',
     freeTrailUrl: 'https://clip-purchase.macaify.com/freetrail',
     purchaseUrl: 'https://clip-purchase.macaify.com',
