@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     [require('./plugins/promotion')],
     [require('./plugins/localization')],
+    [require('./plugins/referral')],
   ],
   theme: 'antdocs',
   head: [
