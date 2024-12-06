@@ -1,43 +1,96 @@
-# CleanClip Sekretesspolicy
-Välkommen till vår produkt. CleanClip (inklusive App och andra tjänster tillhandahållna av produkten, hädanefter benämnt "produkten och tjänsterna") är utvecklad och drivs av Nanjing Zuimeijia Technology Co., Ltd. (hädanefter benämnt "vi"). Att säkerställa användarnas datasäkerhet och skydda integriteten är vår främsta uppgift, och denna integritetspolicy specificerar vilka data som samlas in när du besöker och använder våra produkter och tjänster samt hur de hanteras.
+# CleanClip Privacy Policy
+Last Updated: 2024-12-05
 
-Innan du fortsätter använda våra produkter, vänligen läs och förstå denna integritetspolicy noggrant i sin helhet. Genom att välja att använda accepterar du denna integritetspolicys hela innehåll och samtycker till att vi samlar in och använder dina relevanta uppgifter. Om du har några frågor angående denna policy, kontakta vår kundtjänst via hello@cleanclip.cc eller genom feedbackfunktionen i produkten. Om du inte godtar några av villkoren i policyn bör du sluta använda våra produkter och tjänster.
+Welcome to our product. CleanClip (including services provided by the App and other products, hereinafter referred to as "Products and Services") is developed and operated by Nanjing Zuimeijia Technology Co., Ltd. (hereinafter referred to as "we"). Ensuring the security of user data and privacy protection is our top priority. This privacy policy sets out the data collected and its processing when you access and use our products and services.
 
-Denna integritetspolicy hjälper dig att förstå följande:
+Before continuing to use our products, please read and fully understand all the rules and key points of this privacy policy carefully. Once you choose to use it, it is deemed that you agree to the entire content of this privacy policy and agree that we collect and use your relevant information accordingly. If you have any questions about this policy during the reading process, you can contact our customer service for consultation. Please contact us through support@cleanclip.cc or the feedback method in the product. If you do not agree to the relevant agreement or any of its terms, you should stop using our products and services.
 
-I. Hur vi samlar in och använder dina personuppgifter;
+This privacy policy helps you understand the following:
 
-II. Hur vi lagrar och skyddar dina personuppgifter;
+1. How we collect and use your personal information;
 
-III. Hur vi delar, överför och offentliggör dina personuppgifter;
+2. How we store and protect your personal information;
 
-## I. Hur vi samlar in och använder dina personuppgifter
-Personuppgifter är information som elektroniskt eller på annat sätt registrerats och kan enskilt eller i kombination med andra uppgifter identifiera en enskild persons identitet eller spegla en viss persons aktiviteter. Eftersom vår produkt inte kräver sådana uppgifter är vi glada att meddela att vi inte samlar in någon personlig information om dig.
+3. How we share, transfer, and disclose your personal information;
 
-## II. Hur vi lagrar och skyddar dina personuppgifter
-Som en generell regel behåller vi endast dina personuppgifter under den tid som behövs för att uppnå syftet med insamlingen av information. Vi behåller dina personuppgifter under en strikt nödvändig period för att hantera vår relation med dig (till exempel när du skapar ett konto eller får tjänster från vår produkt). Vi kan behöva behålla dina arkiverade personuppgifter efter att ovanstående period har löpt ut av rättslig skyldighet eller för att bevisa en rättighet enligt tillämpliga lagstadgade förfaranden och kan inte radera dem enligt din begäran. När dina personuppgifter inte längre är nödvändiga enligt vår rättsliga skyldighet eller syftet för gällande lagstadgade förfaranden eller arkivändamål kommer vi att försäkra oss om att de raderas helt eller anonymiseras.
+4. Your rights and choices regarding your personal information;
 
-Vi använder branschstandarden för säkerhetsåtgärder för att skydda de personuppgifter du tillhandahåller och krypterar känslig information för att förhindra obehörig åtkomst, offentliggörande, användning, ändring, skada eller förlust. Vi vidtar alla rimliga åtgärder för att skydda dina personuppgifter. Vi använder kryptoteknik för att säkerställa datakonfidentialiteten; Vi använder pålitliga skyddsmekanismer för att förhindra ondskefulla attacker.
+## 1. How we collect and use your personal information
+Personal information refers to various information recorded electronically or by other means that can identify a specific natural person's identity or reflect a specific natural person's activities, either alone or in combination with other information. We only collect essential information when you purchase our services, such as:
 
-## III. Hur vi delar, överför och offentliggör dina personuppgifter
-Vid behov för att driva våra dagliga verksamheter och för att bättre betjäna kunderna, kommer vi att använda dina personuppgifter på ett lagligt och lämpligt sätt. Av överväganden för vårt affärsområde och överväganden för olika aspekter, kommer vi enbart att använda dessa data internt och inte dela dem med tredje part.
+- Email address (for order confirmation and service delivery)
+- Payment information (processed securely through our payment providers)
 
-Vi kan, enligt lagar och regler eller vid tvångsmässiga krav från myndigheter, dela dina personuppgifter externt. När vi mottar en begäran om att dela informationen ovanstående, kommer vi att begära att motsvarande juridiska handlingar, såsom stämning eller informationsbegäran, måste lämnas. Vi tror att den information som krävs av oss bör vara så transparent som möjligt inom lagens tillåtna gränser.
+We do not collect any other personal information beyond what is strictly necessary for providing our services.
 
-I följande fall krävs det ingen förhandsauktorisation för att dela, överföra och offentliggöra dina personuppgifter:
+### 1.1 Necessary account information
+We only collect the necessary information for you to purchase services, including:
+- Email address (used for order confirmation and service delivery)
+- Payment information (processed securely by our payment service provider)
 
-1. Direkt relaterat till nationell säkerhet och försvarssäkerhet;
+### 1.2 Application data storage
+About the data generated during the use of the application:
+- Your copy records are only stored locally on the device
+- If you choose to enable the iCloud synchronization feature, these records will only be synchronized between your devices through Apple's iCloud service
+- We will not upload these data to any other server
+- You can enable or disable the iCloud synchronization feature in the application settings at any time
+- All data can be completely deleted by uninstalling the application
 
-2. Direkt relaterat till brottsbekämpning, åtal, rättegångar och domstolsbeslut;
+### 1.3 Network usage transparency
+About the network usage of the application, we provide a complete [network connection description](./network-endpoints.md) to ensure full transparency.
 
-3. För att skydda en persons eller andras liv, egendom eller andra stora rättmätiga intressen men där det är svårt att få personens samtycke;
+Besides the information explicitly listed above, we will not collect any other personal information.
 
-4. Personlig information som du själv har offentliggjort för allmänheten;
+## 2. How we store and protect your personal information
+As a general rule, we only retain your personal information for the time necessary to achieve the purpose of information collection. We will retain your personal information for the strictly necessary time for managing the relationship between you and us (for example, when you open an account or obtain services from our products). For the purpose of complying with legal obligations or proving certain rights or contractual statute of limitations requirements, we may need to retain your archived personal information after the above-mentioned period expires and cannot be deleted upon your request. When your personal information is no longer necessary for our legal obligations or the purposes or archives corresponding to the statutory time limit, we ensure that it is completely deleted or anonymized.
 
-5. Insamling av personuppgifter från lagligt offentliggjord information, såsom lagliga nyhetsrapporter, regeringsinformation etc.
+We use industry-standard security measures to protect the personal information you provide and encrypt the key data to prevent unauthorized access, disclosure, use, modification, damage, or loss. We will take all reasonable and feasible measures to protect your personal information. We will use encryption technology to ensure the confidentiality of data; we will use trusted protection mechanisms to prevent data from being maliciously attacked.
 
-6. Nödvändigt för att uppfylla kontrakt som krävs av den registrerade personen;
+## 3. How we share, transfer, and disclose your personal information
+In order to pursue legitimate interests and better serve customers in managing our daily business activities, we will use your personal information in compliance and appropriateness. Considering business and various aspects comprehensively, we only use this data ourselves and do not share it with any third parties.
 
-7. Nödvändigt för att säkerställa säker och stabil drift av de produkter eller tjänster som tillhandahålls, t.ex. identifiera och åtgärda fel i produkter eller tjänster;
+We strictly comply with data protection regulations worldwide (including but not limited to the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Personal Information Protection Law (PIPL)). In the following situations, if explicitly permitted or required by applicable laws and regulations in your jurisdiction, and subject to relevant legal conditions and procedures being met, we may share, transfer, and disclose your personal information without your prior authorization:
 
-8. Andra omständigheter som föreskrivs enligt lag och regelverket.
+1. Directly related to national security and national defense security;
+
+2. Directly related to criminal investigation, prosecution, trial, and execution of judgments;
+
+3. Difficult to obtain the consent of the individual but necessary to protect the life, property, and other major legitimate rights and interests of you or other individuals;
+
+4. Personal information that you voluntarily disclose to the public;
+
+5. Collecting personal information from legally disclosed information, such as legal news reports, government information disclosure, and other channels.
+
+6. Necessary for signing and performing contracts as required by the personal information subject;
+
+7. Necessary for the safe and stable operation of the provided products or services, such as discovering and handling faults in products or services;
+
+8. Other circumstances stipulated by laws and regulations.
+
+## 4. Your Rights and Choices Regarding Personal Information
+
+As a user, you have the following rights regarding your personal information:
+
+1. **Right to Access**
+   - You have the right to know what information we collect about you
+   - You can view your account information at any time
+
+2. **Right to Delete**
+   - You can delete your account and related information
+   - Uninstalling the application will completely remove all locally stored data
+
+3. **Right to Rectification**
+   - You can request corrections if you find any information inaccurate
+
+4. **Right to Choose**
+   - You have the freedom to enable or disable iCloud synchronization
+   - You can stop using our services at any time
+
+5. **Right to Know**
+   - We will notify you of any significant changes to this privacy policy
+   - You can inquire about privacy-related matters anytime via support@cleanclip.cc
+
+## 5. Contact Us
+If you have any questions about this Privacy Policy, please contact us:
+- Email: support@cleanclip.cc
+- Website: https://cleanclip.cc
