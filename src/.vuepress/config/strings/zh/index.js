@@ -44,7 +44,7 @@ module.exports = {
   // promotion_alternative_to_vote: '限时活动：投票获取 <em><b>9 折优惠</b><span class="underline underline-5px background-image-tint-red"></span></em>。截止时间：2024-09-07',
   // promotion_alternative_to_vote_url: '/zh/pages/activity-alternative-to-vote.html',
   // promotion_alternative_to_vote_action: '获取优惠 >',
-  promotion_alternative_to_vote: '黑五特惠：所有多设备计划限时 <em><b>7折</b><span class="underline underline-5px background-image-tint-red"></span></em>。优惠截止：2024-12-04',
-  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=BF2024',
-  promotion_alternative_to_vote_action: '获取优惠 >',
+  promotion_alternative_to_vote: '多设备计划 <em><b>8折</b><span class="underline underline-5px background-image-tint-red"></span></em> · 即将结束',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=CCIOS',
+  promotion_alternative_to_vote_action: '抢先加入 >',
 }
