@@ -45,7 +45,7 @@ module.exports = {
   // promotion_alternative_to_vote: 'Limited Time Activity: Vote to get <em><b>10% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em>. Deadline: 2024-09-07',
   // promotion_alternative_to_vote_url: '/pages/activity-alternative-to-vote.html',
   // promotion_alternative_to_vote_action: 'Get Discount >',
-  promotion_alternative_to_vote: 'Multi-device Plans <em><b>20% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em> · Ending Soon',
-  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=CCIOS',
+  promotion_alternative_to_vote: 'Christmas & New Year Sale <em><b>30% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em> · Ends Jan 4',
+  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=XMAS24',
   promotion_alternative_to_vote_action: 'Join Now >',
 }

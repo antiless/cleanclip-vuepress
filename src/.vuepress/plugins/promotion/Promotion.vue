@@ -56,8 +56,8 @@ export default {
         message: this.$td("promotion_alternative_to_vote"),
         url: this.$td("promotion_alternative_to_vote_url"),
         actionText: this.$td("promotion_alternative_to_vote_action"),
-        discountCode: "CCIOS",
-        discount: 20
+        discountCode: "XMAS24",
+        discount: 30
       }
     },
   },
