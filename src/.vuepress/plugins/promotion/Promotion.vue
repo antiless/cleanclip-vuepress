@@ -10,14 +10,14 @@
         <div v-if="activity.enabled" class="">
           <span v-if="activity.discountCode" class="text-xl pr-4 m-auto" v-html="$t().promotion_code.format(activity.discountCode)"></span>
           <a :href="activity.url" target="_blank">
-            <button v-if="activity.discountCode" class="bg-white text-blue-900 text px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_action }} - <b>${{ (ppp.price / 100 * (100 - activity.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">${{ ppp.price / 100 }}</del></button>
+            <button v-if="activity.discountCode" class="bg-white text-blue-900 text px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_alternative_to_vote_action }} - <b>${{ (ppp.price / 100 * (100 - activity.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">${{ ppp.price / 100 }}</del></button>
             <button v-else class="bg-white text-blue-900 text px-4 py-2 rounded-lg font-semibold">{{ activity.actionText }}</button>
           </a>
         </div>
         <div v-else class="">
           <span class="text-xl pr-4 m-auto" v-html="$t().promotion_code.format(ppp.discountCode)"></span>
           <a href="https://clip-purchase.macaify.com" target="_blank">
-            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_action }} - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
+            <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_alternative_to_vote_action }} - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
           </a>
         </div>
         <button @click="closePromotion" class="absolute top-2 right-2 text-white hover:text-gray-300 flex items-center" style="right: 0.5rem; top: 0.5rem;">
@@ -56,7 +56,7 @@ export default {
         message: this.$td("promotion_alternative_to_vote"),
         url: this.$td("promotion_alternative_to_vote_url"),
         actionText: this.$td("promotion_alternative_to_vote_action"),
-        discountCode: "XMAS24",
+        discountCode: "CCIOSEB",
         discount: 30
       }
     },

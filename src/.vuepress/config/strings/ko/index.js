@@ -38,9 +38,9 @@ module.exports = {
   promotion: "<b>{0}</b> 친구를 위한 구매력평정 혜택 - <b>{1}% 할인</b>",
   promotion_code: "프로모션 코드: <b>{0}</b>",
   promotion_action: "프로버전 얻기",
-  promotion_alternative_to_vote: '크리스마스 프로모션 <em><b>30% 할인</b><span class="underline underline-5px background-image-tint-red"></span></em> · 1월 4일 종료',
-  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=XMAS24',
-  promotion_alternative_to_vote_action: '할인받기 >',
+  promotion_alternative_to_vote: '2025년 1월 31일 iOS 버전 출시 · <em><b>얼리버드 30% 할인</b><span class="underline underline-5px background-image-tint-red"></span></em> · 하나의 라이선스로 Mac/iPhone/iPad 지원',
+  promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
+  promotion_alternative_to_vote_action: 'iOS 버전 미리보기 및 할인',
   sidebar: sidebar,
   nav: nav,
 }

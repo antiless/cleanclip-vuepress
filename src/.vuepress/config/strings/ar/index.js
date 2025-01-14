@@ -38,9 +38,9 @@ module.exports = {
   promotion: "قدم خصمًا يساوي <b>{0}</b> لأصدقائك من <b>{1}% </b> - خصمًا عادلاً",
   promotion_code: "كود الخصم: <b>{0}</b>",
   promotion_action: "الحصول على النسخة المحترفة",
-  promotion_alternative_to_vote: 'عروض عيد الميلاد ورأس السنة <em><b>خصم 30%</b><span class="underline underline-5px background-image-tint-red"></span></em> · ينتهي في 4 يناير',
-  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=XMAS24',
-  promotion_alternative_to_vote_action: 'احصل على الخصم >',
+  promotion_alternative_to_vote: 'سيتوفر على iOS في 31 يناير 2025 · <em><b>خصم مبكر 30%</b><span class="underline underline-5px background-image-tint-red"></span></em> · رخصة واحدة لـ Mac/iPhone/iPad',
+  promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
+  promotion_alternative_to_vote_action: 'معاينة نسخة iOS والعروض',
   sidebar: sidebar,
   nav: nav,
 }

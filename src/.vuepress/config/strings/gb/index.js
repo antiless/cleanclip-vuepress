@@ -38,9 +38,9 @@ module.exports = {
   promotion: "Offer affordable purchase for friends from <b>{0}</b> - <b>{1}% off</b>",
   promotion_code: "Promo Code: <b>{0}</b>",
   promotion_action: "Get Pro Version",
-  promotion_alternative_to_vote: 'Christmas & New Year Sale <em><b>30% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em> · Ends Jan 4',
-  promotion_alternative_to_vote_url: 'https://clip-purchase.macaify.com?utm_source=cleanclip&checkout[discount_code]=XMAS24',
-  promotion_alternative_to_vote_action: 'Get Pro Version>',
+  promotion_alternative_to_vote: 'Launching on iOS Jan 31, 2025 · <em><b>Early Bird 30% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em> · One Licence for Mac/iPhone/iPad',
+  promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
+  promotion_alternative_to_vote_action: 'iOS Preview & Deals',
   sidebar: sidebar,
   nav: nav,
 }
