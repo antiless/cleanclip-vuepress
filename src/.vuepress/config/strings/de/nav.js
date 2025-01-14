@@ -7,5 +7,7 @@ module.exports = {
   download: 'Herunterladen',
   download_link: '/de/download',
   journey: "Schnellstart",
-  journey_link: "https://journey.cleanclip.cc"
+  journey_link: "https://journey.cleanclip.cc",
+  ios_preview: "iOS Vorschau",
+  ios_preview_link: "https://ios.cleanclip.cc"
 }

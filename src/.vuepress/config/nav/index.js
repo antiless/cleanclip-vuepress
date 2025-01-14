@@ -2,6 +2,10 @@ const string = require("../strings/index")
 
 function getNav(t) {
   return [
+    {
+      text: t.ios_preview,
+      link: t.ios_preview_link
+    },
     { text: t.journey, link: t.journey_link },
     {
       text: t.product_documentation,
@@ -12,7 +16,7 @@ function getNav(t) {
     {
       text: t.download,
       link: t.download_link
-    },
+    }
   ]
 }
 module.exports = {

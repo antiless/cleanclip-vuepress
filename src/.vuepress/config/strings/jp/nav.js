@@ -7,5 +7,7 @@ module.exports = {
   download: 'ダウンロード',
   download_link: '/jp/download',
   journey: "クイックスタート",
-  journey_link: "https://journey.cleanclip.cc"
+  journey_link: "https://journey.cleanclip.cc",
+  ios_preview: "iOS プレビュー",
+  ios_preview_link: "https://ios.cleanclip.cc"
 }

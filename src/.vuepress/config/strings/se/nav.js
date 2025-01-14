@@ -7,5 +7,7 @@ module.exports = {
   download: 'Hämta',
   download_link: '/se/download',
   journey: 'Quick Start',
-  journey_link: "https://journey.cleanclip.cc"
+  journey_link: "https://journey.cleanclip.cc",
+  ios_preview: "iOS Vorschau",
+  ios_preview_link: "https://ios.cleanclip.cc"
 }

@@ -7,5 +7,7 @@ module.exports = {
   download: 'تحميل',
   download_link: '/ar/download',
   journey: "البدء السريع",
-  journey_link: "https://journey.cleanclip.cc"
+  journey_link: "https://journey.cleanclip.cc",
+  ios_preview: "معاينة iOS",
+  ios_preview_link: "https://ios.cleanclip.cc"
 }
