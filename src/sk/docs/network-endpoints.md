@@ -1,3 +1,7 @@
+# Sieťové koncové body
+
+> **Dôležité**: CleanClip berie vaše súkromie vážne. Všetky údaje schránky sú uložené len lokálne na vašom zariadení. Ak sa rozhodnete povoliť synchronizáciu iCloud, vaše údaje budú synchronizované prostredníctvom vášho osobného účtu iCloud. Žiadne údaje schránky nenahrávame na iné servery.
+
 ## Sieťové koncové body
 
 CleanClip sa pripája k nasledujúcim doménam pre rôzne funkcie:

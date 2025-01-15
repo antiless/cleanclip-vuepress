@@ -1,3 +1,7 @@
+# Nätverksändpunkter
+
+> **Viktigt**: CleanClip tar din integritet på allvar. All urklippsdata lagras endast lokalt på din enhet. Om du väljer att aktivera iCloud-synkronisering kommer din data att synkroniseras via ditt personliga iCloud-konto. Vi laddar inte upp någon urklippsdata till andra servrar.
+
 ## Nätverksändpunkter
 
 CleanClip ansluter till följande domäner för olika funktioner:

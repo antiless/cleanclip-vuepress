@@ -1,3 +1,7 @@
+# Network Endpoints
+
+> **Important**: CleanClip takes your privacy seriously. All clipboard data is stored locally on your device only. If you choose to enable iCloud sync, your data will be synced through your personal iCloud account. We do not upload any clipboard data to any other servers.
+
 ## Network Endpoints
 
 CleanClip connects to the following domains for various functionalities:

@@ -1,3 +1,7 @@
+# Netzwerk-Endpunkte
+
+> **Wichtig**: CleanClip nimmt Ihre Privatsphäre ernst. Alle Zwischenablage-Daten werden ausschließlich lokal auf Ihrem Gerät gespeichert. Wenn Sie die iCloud-Synchronisierung aktivieren, werden Ihre Daten über Ihr persönliches iCloud-Konto synchronisiert. Wir laden keine Zwischenablage-Daten auf andere Server hoch.
+
 ## Netzwerk-Endpunkte
 
 CleanClip verbindet sich für verschiedene Funktionalitäten mit den folgenden Domains:
