@@ -8,6 +8,6 @@ module.exports = {
   download_link: '/jp/download',
   journey: "クイックスタート",
   journey_link: "https://journey.cleanclip.cc",
-  ios_preview: "iOS プレビュー",
-  ios_preview_link: "https://ios.cleanclip.cc"
+  ios_preview: "iOS TestFlight に参加",
+  ios_preview_link: "https://testflight.apple.com/join/Byb4nwsQ"
 }
