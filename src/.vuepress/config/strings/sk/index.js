@@ -38,9 +38,9 @@ module.exports = {
   promotion: "Ponuka rovnakú zľavu ako pre vašich priateľov z <b>{0}</b> - <b>{1}% zľava</b>",
   promotion_code: "Kód zľavy: <b>{0}</b>",
   promotion_action: "Získať profesionálnu verziu",
-  promotion_alternative_to_vote: 'Prichádza na iOS 31. januára 2025 · <em><b>30% zľava pre prvých záujemcov</b><span class="underline underline-5px background-image-tint-red"></span></em> · Jedna licencia pre Mac/iPhone/iPad',
+  promotion_alternative_to_vote: 'iOS verzia je teraz dostupná · <em><b>Exkluzívna 30% zľava pre prvých záujemcov</b><span class="underline underline-5px background-image-tint-red"></span></em> · Jedna licencia pre Mac/iPhone/iPad (Obmedzený počet)',
   promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
-  promotion_alternative_to_vote_action: 'iOS Ukážka a Zľavy',
+  promotion_alternative_to_vote_action: 'Získajte zľavu teraz',
   sidebar: sidebar,
   nav: nav,
 }

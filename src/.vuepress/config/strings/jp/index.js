@@ -38,9 +38,9 @@ module.exports = {
   promotion: "<b>{0}</b> からの友達に購入力平価優待 - <b>{1}% OFF</b>",
   promotion_code: "プロモーションコード: <b>{0}</b>",
   promotion_action: "プロ版を入手",
-  promotion_alternative_to_vote: '2025年1月31日 iOS版リリース · <em><b>アーリーバード30%オフ</b><span class="underline underline-5px background-image-tint-red"></span></em> · 1つのライセンスでMac/iPhone/iPadに対応',
+  promotion_alternative_to_vote: 'iOS版リリース中 · <em><b>アーリーバード限定30%オフ</b><span class="underline underline-5px background-image-tint-red"></span></em> · 1つのライセンスでMac/iPhone/iPadに対応（限定数）',
   promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
-  promotion_alternative_to_vote_action: 'iOS版プレビューと特典',
+  promotion_alternative_to_vote_action: '今すぐ割引を取得',
   sidebar: sidebar,
   nav: nav,
 }

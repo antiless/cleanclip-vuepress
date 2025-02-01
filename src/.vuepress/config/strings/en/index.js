@@ -45,7 +45,7 @@ module.exports = {
   // promotion_alternative_to_vote: 'Limited Time Activity: Vote to get <em><b>10% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em>. Deadline: 2024-09-07',
   // promotion_alternative_to_vote_url: '/pages/activity-alternative-to-vote.html',
   // promotion_alternative_to_vote_action: 'Get Discount >',
-  promotion_alternative_to_vote: 'Launching on iOS Jan 31, 2025 · <em><b>Early Bird 30% OFF</b><span class="underline underline-5px background-image-tint-red"></span></em> · One License for Mac/iPhone/iPad',
+  promotion_alternative_to_vote: 'iOS version now available · <em><b>Exclusive 30% OFF for Early Birds</b><span class="underline underline-5px background-image-tint-red"></span></em> · One License for Mac/iPhone/iPad (Limited Spots)',
   promotion_alternative_to_vote_url: 'https://ios.cleanclip.cc',
-  promotion_alternative_to_vote_action: 'iOS Preview & Deals',
+  promotion_alternative_to_vote_action: 'Claim Your Discount Now',
 }

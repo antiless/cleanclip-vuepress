@@ -1,6 +1,6 @@
 <template>
   <div v-if="$page.frontmatter.home && (ppp.discount && ppp.discount > 0 || activity.enabled) && isVisible">
-    <div class="text-white fixed bottom-0 w-full backdrop-blur-xl text-center">
+    <div class="text-white bg-blue-800 fixed bottom-0 w-full backdrop-blur-xl text-center">
       <div class="opacity-90 bg-blue-800 lg:h-20 md:h-32 h-32 w-full absolute"></div>
       <div class="md:flex justify-around items-center p-4 relative">
         <div class="flex items-center justify-around">
