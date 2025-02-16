@@ -3,43 +3,15 @@
     <channel>
         <title>CleanClip Changelog</title>
         <link>https://cleanclip.cc/appcast.xml</link>
-        <description>Most recent changes with links to updates.</description>
+        <description>iCloud sync, iOS version, and more.</description>
         <language>en</language>
         <item>
             <title>Version 2.4.0</title>
             <sparkle:releaseNotesLink>
                 https://github.com/CleanClip/CleanClipApp/releases/tag/v2.4.0
             </sparkle:releaseNotesLink>
-            <sparkle:releaseNotesLink xml:lang="en">
-                • Now available on iOS, supporting iPhone/iPad
-                • Added iCloud sync functionality for seamless data synchronization
-                • Mac version users can use iOS version for free, see activation guide: ios.cleanclip.cc/activation
-                • Improved Quick Menu response speed for smoother operation
-                • Enhanced overall performance for better user experience
-                • Fixed various known issues for improved stability
-            </sparkle:releaseNotesLink>
-            <sparkle:releaseNotesLink xml:lang="zh">
-                • 全新推出 iOS 版本，支持在 iPhone/iPad 上使用
-                • 新增 iCloud 同步功能，数据随时随地保持同步
-                • Mac 版本用户可在 iOS 版本免费使用，查看激活方式：ios.cleanclip.cc/activation
-                • 优化快捷菜单响应速度，操作更加流畅
-                • 提升整体性能表现，使用更加顺畅
-                • 修复若干已知问题，提升应用稳定性
-            </sparkle:releaseNotesLink>
-            <pubDate>Sat, 17 Feb 2025 10:00:00 +0800</pubDate>
+            <pubDate>Mon, 17 Feb 2025 10:00:00 +0800</pubDate>
             <enclosure url="https://cleanclip.cc/releases/download/v2.4.0/CleanClip.app.zip"
-                       sparkle:version="2.4.0"
-                       sparkle:shortVersionString="2.4.0"
-                       length="22248155"
-                       type="application/octet-stream" />
-        </item>
-        <item>
-            <title>Version 2.4.0</title>
-            <sparkle:releaseNotesLink>
-                https://github.com/CleanClip/CleanClipApp/releases/tag/v2.4.0
-            </sparkle:releaseNotesLink>
-            <pubDate>Tue, 12 Nov 2024 23:44:58 +0800</pubDate>
-            <enclosure url="https://github.com/CleanClip/CleanClipApp/releases/download/2.4.0/CleanClip-2.4.0.dmg"
                        sparkle:version="2.4.0"
                        sparkle:shortVersionString="2.4.0"
                        length="22248155"
