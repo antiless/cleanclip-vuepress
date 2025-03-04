@@ -66,14 +66,14 @@ module.exports = {
     latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.4.0/CleanClip.dmg',
     latestVersion: 'v2.4.0',
     freeTrailUrl: 'https://clip-purchase.macaify.com/freetrail',
-    purchaseUrl: 'https://clip-purchase.macaify.com',
+    purchaseUrl: 'https://pricing.cleanclip.cc',
     smoothScroll: true,
     backToTop: false,
     search: false,
     discuss: false,
     alias: {
       '/affiliate': 'https://store.cleanclip.cc/affiliates',
-      '/pricing': 'https://clip-purchase.macaify.com',
+      '/pricing': 'https://pricing.cleanclip.cc',
     },
     pageAnchor: {
       isDisabled: true,

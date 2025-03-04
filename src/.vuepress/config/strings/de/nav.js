@@ -3,7 +3,7 @@ module.exports = {
   product_documentation_ariaLabel: 'Produktdokumentation',
   product_documentation_link: '/de/docs/',
   pricing: 'Preisgestaltung',
-  pricing_link: 'https://clip-purchase.macaify.com',
+  pricing_link: 'https://pricing.cleanclip.cc',
   download: 'Herunterladen',
   download_link: '/de/download',
   journey: "Schnellstart",

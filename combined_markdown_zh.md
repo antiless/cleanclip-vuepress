@@ -1968,7 +1968,7 @@ video {
 
 <div class="text-center">
 
-查看价格: [Pricing](https://clip-purchase.macaify.com/)
+查看价格: [Pricing](https://pricing.cleanclip.cc/)
 
 </div>
 <br/><br/><br/><br/>
