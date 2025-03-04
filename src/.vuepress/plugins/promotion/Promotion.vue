@@ -31,7 +31,6 @@
 <script>
 import { message } from 'ant-design-vue';
 import axios from 'axios';
-import { pricing } from '../../config/strings/en/nav';
 
 export default {
   name: 'Promotion',
@@ -69,9 +68,9 @@ export default {
   },
 
   mounted () {
-    new Promise((resolve, reject) => {
+    // new Promise((resolve, reject) => {
       // this.fetchPPP();
-    });
+    // });
   },
 
   methods: {
