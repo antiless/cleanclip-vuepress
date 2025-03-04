@@ -65,7 +65,7 @@ discuss: false
 
 <div class="text-center">
 
-Check pricing: [Pricing](https://pricing.cleanclip.cc)
+Check pricing: [Pricing](https://clip-purchase.macaify.com/)
 
 </div>
 <br/><br/><br/><br/>

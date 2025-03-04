@@ -3,7 +3,7 @@ module.exports = {
   product_documentation_ariaLabel: '製品文書',
   product_documentation_link: '/jp/docs/',
   pricing: '価格',
-  pricing_link: 'https://pricing.cleanclip.cc',
+  pricing_link: 'https://clip-purchase.macaify.com',
   download: 'ダウンロード',
   download_link: '/jp/download',
   journey: "クイックスタート",

@@ -16,7 +16,7 @@
         </div>
         <div v-else class="">
           <span class="text-xl pr-4 m-auto" v-html="$t().promotion_code.format(ppp.discountCode)"></span>
-          <a href="https://pricing.cleanclip.cc" target="_blank">
+          <a href="https://clip-purchase.macaify.com" target="_blank">
             <button class="bg-white text-blue-900 text-lg px-4 py-2 rounded-xl font-semibold">{{ $t().promotion_alternative_to_vote_action }} - <b>${{ (19.99 * (100 - ppp.discount) / 100).toFixed(2) }}</b> <del class="text-base text-slate-400">$19.99</del></button>
           </a>
         </div>
@@ -31,7 +31,6 @@
 <script>
 import { message } from 'ant-design-vue';
 import axios from 'axios';
-import { pricing } from '../../config/strings/en/nav';
 
 export default {
   name: 'Promotion',
@@ -45,12 +44,7 @@ export default {
 
   data () {
     return {
-      ppp: {
-        price: 1999,
-        discount: 30,
-        discountCode: 'CCIOSEB',
-        url: 'https://pricing.cleanclip.cc'
-      },
+      ppp: {},
       isVisible: true
     }
   },
@@ -60,7 +54,7 @@ export default {
       return {
         enabled: true,
         message: this.$td("promotion_alternative_to_vote"),
-        url: "https://pricing.cleanclip.cc",
+        url: this.$td("promotion_alternative_to_vote_url"),
         actionText: this.$td("promotion_alternative_to_vote_action"),
         discountCode: "CCIOSEB",
         discount: 30
@@ -70,7 +64,7 @@ export default {
 
   mounted () {
     new Promise((resolve, reject) => {
-      // this.fetchPPP();
+      this.fetchPPP();
     });
   },
 
