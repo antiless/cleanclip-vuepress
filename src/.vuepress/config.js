@@ -63,8 +63,8 @@ module.exports = {
   themeConfig: {
     title: "CleanClip",
     logo: '/images/logo.webp',
-    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.4.0/CleanClip.dmg',
-    latestVersion: 'v2.4.0',
+    latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.4.1/CleanClip.dmg',
+    latestVersion: 'v2.4.1',
     freeTrailUrl: 'https://clip-purchase.macaify.com/freetrail',
     purchaseUrl: 'https://clip-purchase.macaify.com',
     smoothScroll: true,
