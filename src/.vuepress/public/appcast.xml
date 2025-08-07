@@ -6,14 +6,14 @@
         <description>iCloud sync, iOS version, and more.</description>
         <language>en</language>
         <item>
-            <title>Version 2.4.1</title>
+            <title>Version 2.4.2</title>
             <sparkle:releaseNotesLink>
-                https://github.com/CleanClip/CleanClipApp/releases/tag/v2.4.1
+                https://github.com/CleanClip/CleanClipApp/releases/tag/v2.4.2
             </sparkle:releaseNotesLink>
-            <pubDate>Mon, 28 Apr 2025 10:00:00 +0800</pubDate>
-            <enclosure url="https://cleanclip.cc/releases/download/v2.4.1/CleanClip.app.zip"
-                       sparkle:version="2.4.1"
-                       sparkle:shortVersionString="2.4.1"
+            <pubDate>Thu, 07 Aug 2025 10:00:00 +0800</pubDate>
+            <enclosure url="https://cleanclip.cc/releases/download/v2.4.2/CleanClip.app.zip"
+                       sparkle:version="2.4.2"
+                       sparkle:shortVersionString="2.4.2"
                        length="22248155"
                        type="application/octet-stream" />
         </item>
