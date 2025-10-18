@@ -45,30 +45,78 @@ export default {
   data () {
     return {
       ppp: {},
-      isVisible: true
+      isVisible: true,
+      activityRaw: null
     }
   },
 
   computed: {
     activity() {
-      return {
-        enabled: true,
-        message: this.$td("promotion_alternative_to_vote"),
-        url: this.$td("promotion_alternative_to_vote_url"),
-        actionText: this.$td("promotion_alternative_to_vote_action"),
-        discountCode: "CCIOSEB",
-        discount: 30
+      const now = new Date()
+      const raw = this.activityRaw || {}
+
+      // Map VuePress $lang to API language suffix
+      const mapLang = (lang) => {
+        if (!lang) return undefined
+        if (lang.startsWith('zh')) return 'zh'
+        const supported = ['gb', 'de', 'ar', 'jp', 'ko', 'se', 'sk']
+        return supported.includes(lang) ? lang : undefined
       }
+      const langKey = mapLang(this.$lang)
+
+      const pick = (baseKey) => {
+        if (!langKey) return raw[baseKey]
+        const k = `${langKey}_${baseKey}`
+        return raw[k] || raw[baseKey]
+      }
+
+      // Time window check if provided
+      const startTime = raw['开始时间'] ? new Date(raw['开始时间']) : null
+      const endTime = raw['结束时间'] ? new Date(raw['结束时间']) : null
+      const inWindow = (!startTime || now >= startTime) && (!endTime || now <= endTime)
+
+      const enabled = !!raw['开启'] && inWindow
+
+      // Normalized activity object with fallbacks
+      const normalized = {
+        enabled: enabled,
+        message: pick('message'),
+        url: pick('url'),
+        actionText: pick('actionText'),
+        discountCode: raw['折扣码'] || '',
+        discount: typeof raw['折扣'] === 'number' ? raw['折扣'] : 30,
+      }
+
+      console.log(normalized)
+      // If no remote config, default to disabled with translated fallbacks
+      if (!this.activityRaw) {
+        normalized.enabled = false
+      }
+
+      return normalized
     },
   },
 
   mounted () {
     new Promise((resolve, reject) => {
       this.fetchPPP();
+      this.fetchActivity();
     });
   },
 
   methods: {
+    async fetchActivity() {
+      try {
+        const response = await axios.get('https://api2.screensage.pro/webhook/web_activity', {
+          headers: { 'Content-Type': 'application/json' }
+        })
+        this.activityRaw = response.data || null
+        console.log('activityRaw', this.activityRaw)
+      } catch (error) {
+        console.error('Failed to fetch activity config', error)
+        this.activityRaw = null
+      }
+    },
     async fetchPPP() {
       try {
         const response = await axios.get("https://clip-purchase.macaify.com/config", {
