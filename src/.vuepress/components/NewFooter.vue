@@ -58,7 +58,7 @@ export default {
             },
             {
               name: this.td("license_manager_name"),
-              url: "https://app.lemonsqueezy.com/my-orders",
+              url: "https://www.creem.io/portal/orders",
             },
             {
               name: this.td("contact_support_name"),

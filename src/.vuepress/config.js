@@ -35,9 +35,9 @@ module.exports = {
     ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card2.webp" }],
     ['script', { src: '/js/base.js' }],
     // ['script', { src: '/js/enhanceApp.js' }],
-    ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
+    // ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
     // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
-    ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
+    // ['script', { src: 'https://assets.lemonsqueezy.com/lemon.js' }],
     ['script', {}, `
       (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

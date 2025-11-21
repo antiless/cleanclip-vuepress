@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "자주 묻는 질문",
   faqs: [{
     question: "라이선스는 어디서 찾을 수 있나요?",
-    answer: "구매가 성공적으로 완료되면 LemonSqueezy로부터 영수증과 고유한 라이선스 키가 포함된 이메일을 받게 됩니다. 스팸 폴더도 꼭 확인해 주세요. 그래도 찾을 수 없다면 <a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">라이선스 관리자</a>를 방문하여 지침을 따라주세요."
+    answer: "구매가 성공적으로 완료되면 LemonSqueezy로부터 영수증과 고유한 라이선스 키가 포함된 이메일을 받게 됩니다. 스팸 폴더도 꼭 확인해 주세요. 그래도 찾을 수 없다면 <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">라이선스 관리자</a>를 방문하여 지침을 따라주세요."
   },
   {
     question: "라이선스를 다른 Mac으로 어떻게 이전하나요?",
-    answer: "새로운 Mac에서 라이선스 키를 사용하여 앱을 활성화하기만 하면 됩니다. 이전 기기는 자동으로 비활성화됩니다. 여러 대의 Mac에 대한 라이선스가 있는 경우 <a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">라이선스 관리자</a>를 사용하여 활성 기기를 관리할 수 있습니다."
+    answer: "새로운 Mac에서 라이선스 키를 사용하여 앱을 활성화하기만 하면 됩니다. 이전 기기는 자동으로 비활성화됩니다. 여러 대의 Mac에 대한 라이선스가 있는 경우 <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">라이선스 관리자</a>를 사용하여 활성 기기를 관리할 수 있습니다."
   },
   {
     question: "지원되는 시스템 버전은 무엇인가요?",

@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "常见问题",
   faqs: [{
     question: "我可以在哪里找到我的许可证？",
-    answer: "在成功购买后,您会收到来自 LemonSqueezy 的电子邮件,其中包含收据和您的唯一许可证密钥。请务必同时检查您的垃圾邮件文件夹。如果您仍然找不到,请访问<a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">许可证管理器</a>,然后按照说明进行操作。"
+    answer: "在成功购买后,您会收到来自 LemonSqueezy 的电子邮件,其中包含收据和您的唯一许可证密钥。请务必同时检查您的垃圾邮件文件夹。如果您仍然找不到,请访问<a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">许可证管理器</a>,然后按照说明进行操作。"
   },
   {
     question: "如何将我的许可证转移到其他 Mac 上？",
-    answer: "您只需使用许可证密钥在新的 Mac 上激活应用程序即可。旧机器将自动被停用。如果您拥有多台 Mac 的许可证,您可以使用<a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">许可证管理器</a>管理活动设备。"
+    answer: "您只需使用许可证密钥在新的 Mac 上激活应用程序即可。旧机器将自动被停用。如果您拥有多台 Mac 的许可证,您可以使用<a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">许可证管理器</a>管理活动设备。"
   },
   {
     question: "支持的系统版本？",

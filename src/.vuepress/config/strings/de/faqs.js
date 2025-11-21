@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "Häufig gestellte Fragen",
   faqs: [{
     question: "Wo finde ich meine Lizenz?",
-    answer: "Nach erfolgreichem Kauf erhalten Sie eine E-Mail von LemonSqueezy mit der Quittung und Ihrem einzigartigen Lizenzschlüssel. Bitte überprüfen Sie auch Ihren Spam-Ordner. Wenn Sie sie immer noch nicht finden können, besuchen Sie bitte den <a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">Lizenzmanager</a> und folgen Sie den Anweisungen."
+    answer: "Nach erfolgreichem Kauf erhalten Sie eine E-Mail von LemonSqueezy mit der Quittung und Ihrem einzigartigen Lizenzschlüssel. Bitte überprüfen Sie auch Ihren Spam-Ordner. Wenn Sie sie immer noch nicht finden können, besuchen Sie bitte den <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Lizenzmanager</a> und folgen Sie den Anweisungen."
   },
   {
     question: "Wie übertrage ich meine Lizenz auf einen anderen Mac?",
-    answer: "Aktivieren Sie die App einfach mit dem Lizenzschlüssel auf dem neuen Mac. Das alte Gerät wird automatisch deaktiviert. Wenn Sie eine Lizenz für mehrere Macs haben, können Sie aktive Geräte mit dem <a href=\"https://app.lemonsqueezy.com/my-orders\" class=\"text-blue-500 hover:underline\">Lizenzmanager</a> verwalten."
+    answer: "Aktivieren Sie die App einfach mit dem Lizenzschlüssel auf dem neuen Mac. Das alte Gerät wird automatisch deaktiviert. Wenn Sie eine Lizenz für mehrere Macs haben, können Sie aktive Geräte mit dem <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Lizenzmanager</a> verwalten."
   },
   {
     question: "Welche Systemversionen werden unterstützt?",
