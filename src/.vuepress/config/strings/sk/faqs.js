@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "Často kladené otázky",
   faqs: [{
     question: "Kde môžem nájsť svoju licenciu?",
-    answer: "Po úspešnom nákupe dostanete e-mail od LemonSqueezy obsahujúci vašu účtenku a jedinečný licenčný kľúč. Nezabudnite skontrolovať aj priečinok so spamom. Ak ho stále nemôžete nájsť, navštívte <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Správcu licencií</a> a postupujte podľa pokynov."
+    answer: "Po úspešnom nákupe dostanete e-mail od LemonSqueezy obsahujúci vašu účtenku a jedinečný licenčný kľúč. Nezabudnite skontrolovať aj priečinok so spamom. Ak ho stále nemôžete nájsť, navštívte <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">Správcu licencií</a> a postupujte podľa pokynov."
   },
   {
     question: "Ako môžem preniesť svoju licenciu na iný Mac?",
-    answer: "Jednoducho aktivujte aplikáciu na vašom novom Macu pomocou licenčného kľúča. Starý počítač bude automaticky deaktivovaný. Ak máte licenciu pre viacero Macov, môžete spravovať aktívne zariadenia pomocou <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Správcu licencií</a>."
+    answer: "Jednoducho aktivujte aplikáciu na vašom novom Macu pomocou licenčného kľúča. Starý počítač bude automaticky deaktivovaný. Ak máte licenciu pre viacero Macov, môžete spravovať aktívne zariadenia pomocou <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">Správcu licencií</a>."
   },
   {
     question: "Aké sú podporované verzie systému?",

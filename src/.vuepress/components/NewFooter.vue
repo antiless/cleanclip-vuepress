@@ -58,7 +58,7 @@ export default {
             },
             {
               name: this.td("license_manager_name"),
-              url: "https://www.creem.io/portal/orders",
+              url: "https://clip-purchase.macaify.com/licensemanager",
             },
             {
               name: this.td("contact_support_name"),

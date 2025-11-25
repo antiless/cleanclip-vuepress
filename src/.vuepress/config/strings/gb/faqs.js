@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "Frequently Asked Questions",
   faqs: [{
     question: "Where can I find my license?",
-    answer: "After a successful purchase, you will receive an email from LemonSqueezy containing your receipt and unique license key. Be sure to check your spam folder as well. If you still can't find it, please visit the <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">License Manager</a> and follow the instructions."
+    answer: "After a successful purchase, you will receive an email from LemonSqueezy containing your receipt and unique license key. Be sure to check your spam folder as well. If you still can't find it, please visit the <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">License Manager</a> and follow the instructions."
   },
   {
     question: "How do I transfer my license to another Mac?",
-    answer: "Simply activate the app on your new Mac using the license key. The old machine will be automatically deactivated. If you have a license for multiple Macs, you can manage active devices using the <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">License Manager</a>."
+    answer: "Simply activate the app on your new Mac using the license key. The old machine will be automatically deactivated. If you have a license for multiple Macs, you can manage active devices using the <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">License Manager</a>."
   },
   {
     question: "What are the supported system versions?",

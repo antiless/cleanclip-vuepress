@@ -2,11 +2,11 @@ module.exports = {
   faq_title: "Vanliga frågor",
   faqs: [{
     question: "Var kan jag hitta min licens?",
-    answer: "Efter ett lyckat köp kommer du att få ett e-postmeddelande från LemonSqueezy som innehåller ditt kvitto och din unika licensnyckel. Se till att även kontrollera din skräppostmapp. Om du fortfarande inte kan hitta det, besök <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Licenshanteraren</a> och följ instruktionerna."
+    answer: "Efter ett lyckat köp kommer du att få ett e-postmeddelande från LemonSqueezy som innehåller ditt kvitto och din unika licensnyckel. Se till att även kontrollera din skräppostmapp. Om du fortfarande inte kan hitta det, besök <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">Licenshanteraren</a> och följ instruktionerna."
   },
   {
     question: "Hur överför jag min licens till en annan Mac?",
-    answer: "Aktivera helt enkelt appen på din nya Mac med licensnyckeln. Den gamla maskinen kommer automatiskt att avaktiveras. Om du har en licens för flera Mac-datorer kan du hantera aktiva enheter med hjälp av <a href=\"https://www.creem.io/portal/orders\" class=\"text-blue-500 hover:underline\">Licenshanteraren</a>."
+    answer: "Aktivera helt enkelt appen på din nya Mac med licensnyckeln. Den gamla maskinen kommer automatiskt att avaktiveras. Om du har en licens för flera Mac-datorer kan du hantera aktiva enheter med hjälp av <a href=\"https://clip-purchase.macaify.com/licensemanager\" class=\"text-blue-500 hover:underline\">Licenshanteraren</a>."
   },
   {
     question: "Vilka systemversioner stöds?",
