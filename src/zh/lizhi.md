@@ -6,38 +6,26 @@ canonicalUrl: 'https://cleanclip.cc/zh/lizhi'
 
 <div class="lizhi text-center">
 
+![数码荔枝 DIGITALYCHEE](/images/lizhi.png)
+
 ## 授权证明
 
-**CleanClip 团队** 授权 **上海立七数码科技有限公司** 为大中国区官方合作伙伴，
+## Authorization Certificate
 
-并享有本公司旗下正版软件 **CleanClip** 在中国的销售资质。
+**南京最美佳科技有限公司** 授权 **「数码荔枝」** 为大中国区官方合作伙伴
 
-该合作伙伴旗下店铺域名或名称中均包含商标 **数码荔枝** 或 **DIGITALYCHEE**，
+We authorize **DIGITALYCHEE** as our official partner in China
 
-对应店铺网址为 **digitalychee**.taobao.com / **lizhi.shop**。
+负责以下软件在中国的销售事宜
 
-请勿在其他未经授权的网站购买我们的软件。
+Responsible for the sales of the following product(s)
 
-我们不再为这样的顾客提供任何售后服务，
+**CleanClip**
 
-包括：密钥找回、版本更新、技术支持。
+该合作伙伴的销售渠道
 
-![alt text](/images/lizhi.png)
+Authorized Sales Channels
 
-## AUTHORIZATION CERTIFICATE
-
-We, the development team of **CleanClip**
-
-authorizes **DIGITALYCHEE TECHNOLOGY CO, LTD** as our official partner in China,
-
-and it owns the right to sell the copyrighted software of us on their stores:
-
-**digitalychee**.taobao.com / **lizhi.shop**
-
-Please don't purchase our product(s) from any other unauthorized websites.
-
-Customers who purchase from them are not allowed to enjoy the official customer support,
-
-including license retrieval, version update, tech assistance.
+**[lizhi.shop](https://lizhi.shop)** / **[digitalychee.taobao.com](https://digitalychee.taobao.com)**
 
 </div>
