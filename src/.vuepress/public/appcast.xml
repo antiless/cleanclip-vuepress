@@ -3,18 +3,18 @@
     <channel>
         <title>CleanClip Changelog</title>
         <link>https://cleanclip.cc/appcast.xml</link>
-        <description>iCloud sync, iOS version, and more.</description>
+        <description>Most recent changes with links to updates.</description>
         <language>en</language>
         <item>
-            <title>Version 2.4.6</title>
+            <title>Version 2.4.7</title>
             <sparkle:releaseNotesLink>
-                https://github.com/CleanClip/CleanClipApp/releases/tag/v2.4.6
+                https://github.com/CleanClip/CleanClipApp/releases/tag/2.4.7
             </sparkle:releaseNotesLink>
-            <pubDate>Tue, 18 Nov 2025 10:00:00 +0800</pubDate>
-            <enclosure url="https://cleanclip.cc/releases/download/v2.4.6/CleanClip.app.zip"
-                       sparkle:version="2.4.6"
-                       sparkle:shortVersionString="2.4.6"
-                       length="22248155"
+            <pubDate>Wed, 27 May 2026 16:36:43 +0800</pubDate>
+            <enclosure url="https://github.com/CleanClip/CleanClipApp/releases/download/2.4.7/CleanClip-2.4.7.zip"
+                       sparkle:version="2.4.7"
+                       sparkle:shortVersionString="2.4.7"
+                       length="22016806"
                        type="application/octet-stream" />
         </item>
     </channel>

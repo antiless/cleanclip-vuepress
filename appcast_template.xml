@@ -8,7 +8,7 @@
         <item>
             <title>Version {{ version }}</title>
             <sparkle:releaseNotesLink>
-                https://github.com/CleanClip/CleanClipApp/releases/tag/v{{ version }}
+                https://github.com/CleanClip/CleanClipApp/releases/tag/{{ release_tag }}
             </sparkle:releaseNotesLink>
             <pubDate>{{ publish_date }}</pubDate>
             <enclosure url="{{ download_url }}"
