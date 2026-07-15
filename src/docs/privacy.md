@@ -1,5 +1,5 @@
 # CleanClip Privacy Policy
-Last Updated: 2026-07-14
+Last Updated: 2026-07-15
 
 Welcome to our product. CleanClip (including services provided by the App and other products, hereinafter referred to as "Products and Services") is developed and operated by Nanjing Zuimeijia Technology Co., Ltd. (hereinafter referred to as "we"). Ensuring the security of user data and privacy protection is our top priority. This privacy policy sets out the data collected and its processing when you access and use our products and services.
 
@@ -42,6 +42,9 @@ About the network usage of the application, we provide a complete [network conne
 ### 1.4 Affiliate attribution
 When you arrive through an affiliate link or use related referral pages, the TheAffs Affiliate SDK may store affiliate, click, visitor, source, and sub-partner identifiers in cookies scoped to `cleanclip.cc`. Your browser sends these cookies with matching requests to `cleanclip.cc` and its checkout subdomains so that an order can be attributed. These identifiers do not include clipboard content.
 
+### 1.5 Website analytics and revenue attribution
+When you visit `cleanclip.cc` or its pricing and checkout subdomains, DataFast processes page views, referral and campaign parameters, device/browser information, and selected product interactions such as viewing pricing, starting a download, opening a FAQ, contacting sales, or starting checkout. DataFast stores visitor and session identifiers in cookies scoped to `cleanclip.cc`. These identifiers may be copied into Stripe Checkout metadata so that a successful payment can be attributed to the website journey that preceded it. DataFast does not receive clipboard content.
+
 Besides the information explicitly listed above, we will not collect any other personal information.
 
 ## 2. How we store and protect your personal information
@@ -54,8 +57,9 @@ We limit third-party processing to what is needed to provide the service:
 
 - Stripe processes payment and checkout information.
 - TheAffs processes affiliate attribution identifiers used to associate referrals with orders.
+- DataFast processes website analytics, conversion events, and revenue attribution identifiers.
 
-Neither service receives clipboard content from CleanClip.
+None of these services receives clipboard content from CleanClip.
 
 We handle personal information under applicable data protection laws. We may also share, transfer, or disclose personal information where permitted or required by applicable law, subject to the relevant legal conditions and procedures, including in the following situations:
 

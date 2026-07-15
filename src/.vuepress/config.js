@@ -39,6 +39,19 @@ module.exports = {
       'data-product-id': 'prod_64143075d697',
       'data-domain': 'cleanclip.cc',
     }],
+    ['script', { id: 'datafast-queue' }, `
+      window.datafast = window.datafast || function() {
+        window.datafast.q = window.datafast.q || [];
+        window.datafast.q.push(arguments);
+      };
+    `],
+    ['script', {
+      src: 'https://datafa.st/js/script.js',
+      defer: true,
+      'data-website-id': 'dfid_QVP3FPOwhUM7NkCb0YpIg',
+      'data-domain': 'cleanclip.cc',
+      'data-disable-console': 'true',
+    }],
     // ['script', { src: '/js/enhanceApp.js' }],
     // ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
     // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],

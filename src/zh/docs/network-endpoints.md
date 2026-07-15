@@ -41,6 +41,11 @@ CleanClip 连接以下域名以提供各种功能：
 
 TheAffs SDK 会将推广者、点击、访客、来源和子推广者标识保存在作用域为 `cleanclip.cc` 的 Cookie 中。浏览器向 `cleanclip.cc` 及其结账子域发起匹配请求时会自动携带这些 Cookie，结账后端据此归因订单。这些 Cookie 不包含剪贴板内容。
 
+### 网站分析
+- datafa.st
+
+CleanClip 主站和价格子域使用 DataFast 统计页面浏览及特定转化事件。DataFast 的访客与会话 Cookie 作用域为 `cleanclip.cc`，Dashboard 会把这些标识写入 Stripe Checkout metadata 以进行收入归因。DataFast 不会接收剪贴板内容。
+
 ### 支付
 - checkout.stripe.com
 

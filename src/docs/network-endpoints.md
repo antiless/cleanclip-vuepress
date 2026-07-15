@@ -41,6 +41,11 @@ Note: Retrieving affiliate information is only available when accessing the affi
 
 The TheAffs SDK stores affiliate, click, visitor, source, and sub-partner attribution identifiers in cookies scoped to `cleanclip.cc`. The browser sends those cookies with matching requests to `cleanclip.cc` and its checkout subdomains so that the checkout backend can attribute an order. These cookies do not contain clipboard content.
 
+### Website Analytics
+- datafa.st
+
+The CleanClip website and pricing subdomain load DataFast to measure page views and selected conversion events. DataFast visitor and session cookies are scoped to `cleanclip.cc` so the Dashboard can attach those identifiers to Stripe Checkout metadata for revenue attribution. DataFast does not receive clipboard content.
+
 ### Payments
 - checkout.stripe.com
 
