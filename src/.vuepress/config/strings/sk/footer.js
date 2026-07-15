@@ -12,8 +12,8 @@ module.exports = {
 
   sales_title: "Predaj",
   sales_affiliate_name: "Partneri",
-  sales_affiliate_url: "/affiliate",
-  sales_affiliate_label: "15 % provízia z každého predaja",
+  sales_affiliate_url: "/sk/affiliate",
+  sales_affiliate_label: "25 % provízia z každého predaja",
   sales_discounts_name: "Špeciálne zľavy",
   sales_discounts_url: "/sk/discounts",
   sales_discounts_label: "Zľavy od 4-9",

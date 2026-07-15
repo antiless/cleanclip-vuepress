@@ -12,7 +12,7 @@ module.exports = {
     
   sales_title: "판매",
   sales_affiliate_name: "제휴 프로그램",
-  sales_affiliate_url: "/affiliate",
+  sales_affiliate_url: "/ko/affiliate",
   sales_affiliate_label: "판매당 25% 커미션",
   sales_discounts_name: "특별 혜택",
   sales_discounts_url: "/ko/discounts",

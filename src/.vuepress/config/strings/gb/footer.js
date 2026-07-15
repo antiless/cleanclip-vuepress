@@ -12,7 +12,7 @@ module.exports = {
 
   sales_title: "Sales",
   sales_affiliate_name: "Affiliate Program",
-  sales_affiliate_url: "/affiliate",
+  sales_affiliate_url: "/gb/affiliate",
   sales_affiliate_label: "25% commission per sale",
   sales_discounts_name: "Special Offers",
   sales_discounts_url: "/gb/discounts",

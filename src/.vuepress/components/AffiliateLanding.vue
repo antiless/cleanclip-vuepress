@@ -1,15 +1,22 @@
 <template>
-  <main class="affiliate-poster">
+  <main
+    class="affiliate-poster"
+    :data-locale="localeKey"
+  >
     <div class="affiliate-poster-shell">
-      <section class="affiliate-poster-copy" :aria-labelledby="headingId">
+      <section
+        class="affiliate-poster-copy"
+        :aria-labelledby="headingId"
+        :dir="copy.direction || 'ltr'"
+      >
         <p class="affiliate-poster-eyebrow">{{ copy.eyebrow }}</p>
 
         <h1 :id="headingId" class="affiliate-poster-title">
           <span>{{ copy.titleShare }}</span>
-          <span>{{ copy.titleProduct }}</span>
+          <span :dir="copy.productDirection || null">{{ copy.titleProduct }}</span>
           <span>
             {{ copy.titleAction }}
-            <strong>{{ copy.rate }}</strong>
+            <strong dir="ltr">{{ copy.rate }}</strong>
           </span>
         </h1>
 
@@ -72,6 +79,19 @@ const copies = {
     earn: 'Earn',
     note: 'Tracked and managed through TheAffs.',
   },
+  gb: {
+    eyebrow: 'CleanClip Affiliate Programme',
+    titleShare: 'Share',
+    titleProduct: 'CleanClip.',
+    titleAction: 'Keep',
+    rate: '25%.',
+    lead: 'One link or code. Every eligible sale is tracked automatically.',
+    join: 'Join the programme',
+    stepsLabel: 'How the CleanClip affiliate programme works',
+    share: 'Share',
+    earn: 'Earn',
+    note: 'Tracked and managed through TheAffs.',
+  },
   zh: {
     eyebrow: 'CleanClip 联盟计划',
     titleShare: '分享',
@@ -84,6 +104,86 @@ const copies = {
     share: '分享',
     earn: '获得佣金',
     note: '归因、佣金与结算由 TheAffs 管理。',
+  },
+  de: {
+    eyebrow: 'CleanClip Partnerprogramm',
+    titleShare: 'Empfiehl',
+    titleProduct: 'CleanClip.',
+    titleAction: 'Erhalte',
+    rate: '25 %.',
+    lead: 'Ein Link oder Code. Jeder qualifizierte Verkauf wird automatisch zugeordnet.',
+    join: 'Am Programm teilnehmen',
+    stepsLabel: 'So funktioniert das CleanClip Partnerprogramm',
+    share: 'Teilen',
+    earn: 'Verdienen',
+    note: 'Tracking und Verwaltung über TheAffs.',
+  },
+  ar: {
+    direction: 'rtl',
+    productDirection: 'ltr',
+    eyebrow: 'برنامج شركاء CleanClip',
+    titleShare: 'شارك',
+    titleProduct: 'CleanClip.',
+    titleAction: 'واحتفظ بـ',
+    rate: '25%.',
+    lead: 'رابط أو رمز واحد. تُنسب كل عملية بيع مؤهلة تلقائيًا.',
+    join: 'انضم إلى البرنامج',
+    stepsLabel: 'آلية عمل برنامج شركاء CleanClip',
+    share: 'شارك',
+    earn: 'اربح',
+    note: 'تتم المتابعة والإدارة عبر TheAffs.',
+  },
+  jp: {
+    eyebrow: 'CleanClip アフィリエイトプログラム',
+    titleShare: 'CleanClipを',
+    titleProduct: '紹介。',
+    titleAction: '報酬は',
+    rate: '25%。',
+    lead: 'リンクまたはコードひとつで、対象売上を自動計測。',
+    join: 'プログラムに参加',
+    stepsLabel: 'CleanClip アフィリエイトプログラムの仕組み',
+    share: '紹介',
+    earn: '報酬',
+    note: '計測と管理は TheAffs を通じて行われます。',
+  },
+  ko: {
+    eyebrow: 'CleanClip 제휴 프로그램',
+    titleShare: 'CleanClip을',
+    titleProduct: '공유하세요.',
+    titleAction: '수익은',
+    rate: '25%.',
+    lead: '링크나 코드 하나로 적격 판매가 자동 추적됩니다.',
+    join: '프로그램 참여',
+    stepsLabel: 'CleanClip 제휴 프로그램 이용 방법',
+    share: '공유',
+    earn: '수익',
+    note: '추적과 관리는 TheAffs를 통해 처리됩니다.',
+  },
+  sk: {
+    eyebrow: 'Partnerský program CleanClip',
+    titleShare: 'Odporučte',
+    titleProduct: 'CleanClip.',
+    titleAction: 'Získajte',
+    rate: '25 %.',
+    lead: 'Jeden odkaz alebo kód. Každý oprávnený predaj sa priradí automaticky.',
+    join: 'Zapojiť sa do programu',
+    stepsLabel: 'Ako funguje partnerský program CleanClip',
+    share: 'Zdieľať',
+    earn: 'Zarobiť',
+    note: 'Sledovanie a správa prebiehajú cez TheAffs.',
+  },
+  se: {
+    eyebrow: 'CleanClip partnerprogram',
+    titleShare: 'Dela',
+    titleProduct: 'CleanClip.',
+    titleAction: 'Behåll',
+    rate: '25 %.',
+    lead: 'En länk eller kod. Varje kvalificerad försäljning spåras automatiskt.',
+    join: 'Gå med i programmet',
+    stepsLabel: 'Så fungerar CleanClips partnerprogram',
+    share: 'Dela',
+    earn: 'Tjäna',
+    note: 'Spårning och hantering sker via TheAffs.',
   },
 }
 
@@ -98,11 +198,13 @@ export default {
   },
 
   computed: {
-    isZh() {
-      return (this.$lang || '').toLowerCase().startsWith('zh')
+    localeKey() {
+      const language = (this.$lang || 'en').toLowerCase()
+      const key = language.split('-')[0]
+      return copies[key] ? key : 'en'
     },
     copy() {
-      return this.isZh ? copies.zh : copies.en
+      return copies[this.localeKey]
     },
   },
 }
@@ -173,8 +275,23 @@ export default {
   font-family: 'Bricolage Grotesque', sans-serif;
   font-size: clamp(64px, 7.1vw, 106px);
   font-weight: 800;
-  letter-spacing: -0.07em;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+  letter-spacing: 0;
   line-height: 0.86;
+  text-rendering: optimizeLegibility;
+}
+
+.affiliate-poster[data-locale='en'] .affiliate-poster-title,
+.affiliate-poster[data-locale='gb'] .affiliate-poster-title {
+  letter-spacing: 0.01em;
+}
+
+.affiliate-poster[data-locale='zh'] .affiliate-poster-title,
+.affiliate-poster[data-locale='jp'] .affiliate-poster-title,
+.affiliate-poster[data-locale='ko'] .affiliate-poster-title,
+.affiliate-poster[data-locale='ar'] .affiliate-poster-title {
+  letter-spacing: 0;
 }
 
 .affiliate-poster-title span {
@@ -293,6 +410,24 @@ export default {
   line-height: 1.5;
 }
 
+.affiliate-poster[data-locale='ar'] .affiliate-poster-copy {
+  align-items: flex-start;
+  width: min(42vw, 540px);
+  text-align: right;
+}
+
+.affiliate-poster[data-locale='ar'] .affiliate-poster-eyebrow,
+.affiliate-poster[data-locale='ar'] .affiliate-poster-title,
+.affiliate-poster[data-locale='ar'] .affiliate-poster-lead,
+.affiliate-poster[data-locale='ar'] .affiliate-poster-note {
+  width: 100%;
+}
+
+.affiliate-page .affiliate-poster[data-locale='ar'] .affiliate-poster-title {
+  font-size: clamp(56px, 6.2vw, 92px);
+  line-height: 1;
+}
+
 .affiliate-poster-rate {
   position: absolute;
   z-index: 1;
@@ -395,6 +530,10 @@ export default {
     min-height: 760px;
   }
 
+  .affiliate-poster[data-locale='ar'] .affiliate-poster-copy {
+    width: 100%;
+  }
+
   .affiliate-poster-eyebrow {
     margin-bottom: 20px;
   }
@@ -405,6 +544,10 @@ export default {
     line-height: 0.88;
   }
 
+  .affiliate-page .affiliate-poster[data-locale='ar'] .affiliate-poster-title {
+    font-size: clamp(52px, 15vw, 72px);
+  }
+
   .affiliate-poster-title strong {
     display: block;
     margin-top: 0.08em;
@@ -413,7 +556,7 @@ export default {
   .affiliate-poster-lead {
     max-width: 480px;
     margin-top: 24px;
-    padding-right: 24px;
+    padding-inline-end: 24px;
   }
 
   .affiliate-poster-cta {

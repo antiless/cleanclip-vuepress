@@ -12,7 +12,7 @@ module.exports = {
 
   sales_title: "المبيعات",
   sales_affiliate_name: "برنامج الشراكة",
-  sales_affiliate_url: "/affiliate",
+  sales_affiliate_url: "/ar/affiliate",
   sales_affiliate_label: "عمولة 25% لكل عملية بيع",
   sales_discounts_name: "عروض خاصة",
   sales_discounts_url: "/ar/discounts",

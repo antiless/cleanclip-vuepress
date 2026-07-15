@@ -12,8 +12,8 @@ module.exports = {
 
   sales_title: "Försäljning",
   sales_affiliate_name: "Partnerprogram",
-  sales_affiliate_url: "/affiliate",
-  sales_affiliate_label: "15 % provision per försäljning",
+  sales_affiliate_url: "/se/affiliate",
+  sales_affiliate_label: "25 % provision per försäljning",
   sales_discounts_name: "Specialerbjudanden",
   sales_discounts_url: "/se/discounts",
   sales_discounts_label: "4-9% rabatt",
