@@ -13,7 +13,7 @@ module.exports = {
   sales_title: "販売",
   sales_affiliate_name: "アフィリエイトプログラム",
   sales_affiliate_url: "/affiliate",
-  sales_affiliate_label: "売上ごとに15%の報酬",
+  sales_affiliate_label: "売上ごとに25%の報酬",
   sales_discounts_name: "特別割引",
   sales_discounts_url: "/jp/discounts",
   sales_discounts_label: "4-9 折の割引",
