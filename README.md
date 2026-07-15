@@ -1,41 +1,30 @@
-# VuePress
+# CleanClip Official Website
 
-This directory is a brief example of a [VuePress](https://vuepress.vuejs.org/) site that can be deployed to Vercel with zero-configuration.
+This repository contains the VuePress 1 source for the CleanClip official website at [cleanclip.cc](https://cleanclip.cc). Site content lives in `src/`, with language-specific pages under their locale directories.
 
-## Deploy Your Own
+## Development
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vuepress&template=vuepress)
-
-_Live Example: https://vuepress-starter-template.vercel.app_
-
-## Setup
-
-Install the dependencies:
+Use Node.js 14–17, as required by `package.json`.
 
 ```bash
-$ yarn install
+yarn install
+yarn dev
 ```
 
-### Development
-
-Start the development server
+Create the production build with:
 
 ```bash
-$ yarn dev
+yarn build
 ```
 
-### Build the project
+## Affiliate integration
 
-Build for production
+- **Done:** The TheAffs Affiliate SDK is loaded site-wide for product `prod_64143075d697`, with attribution cookies scoped to `cleanclip.cc`; the network and privacy documentation describes the integration.
+- **Done:** Pricing links preserve campaign parameters, and the Dashboard reads the shared domain cookies server-side before copying the attribution into Stripe metadata for every Checkout path.
+- **Done:** `/affiliate` and `/zh/affiliate` explain the current 15% program, show plan-level commission examples, and link applicants to the CleanClip product context in TheAffs. The localized footer entries point to these pages.
+- **Planned:** Expose a public product catalog so the pricing page no longer duplicates Stripe lookup-key mappings.
 
-```bash
-$ yarn build
-```
+## Update log
 
-### Deploy
-
-Deploy your VuePress application to Vercel
-
-```bash
-$ vercel
-```
+- 2026-07-15 — Added the English and Chinese Affiliate landing pages, generated hero artwork, corrected the public commission copy, and replaced the legacy affiliate destination.
+- 2026-07-14 — Added the domain-scoped TheAffs SDK and documented checkout attribution.

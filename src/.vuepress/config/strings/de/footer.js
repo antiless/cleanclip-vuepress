@@ -12,7 +12,8 @@ module.exports = {
 
   sales_title: "Verkauf",
   sales_affiliate_name: "Partnerprogramm",
-  sales_affiliate_label: "Verdiene bis zu $10.00 pro Bestellung",
+  sales_affiliate_url: "/affiliate",
+  sales_affiliate_label: "15 % Provision pro Verkauf",
   sales_discounts_name: "Sonderangebote",
   sales_discounts_url: "/de/discounts",
   sales_discounts_label: "4-9 Rabatt",

@@ -12,7 +12,8 @@ module.exports = {
 
   sales_title: "销售",
   sales_affiliate_name: "联盟计划",
-  sales_affiliate_label: "每单最多挣 $10.00",
+  sales_affiliate_url: "/zh/affiliate",
+  sales_affiliate_label: "每单 15% 佣金",
   sales_discounts_name: "特别优惠",
   sales_discounts_url: "/zh/discounts",
   sales_discounts_label: "4-9 折优惠",

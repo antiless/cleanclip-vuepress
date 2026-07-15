@@ -5,7 +5,6 @@ module.exports = {
   plugins: [
     [require('./plugins/promotion')],
     [require('./plugins/localization')],
-    [require('./plugins/referral')],
   ],
   theme: 'antdocs',
   head: [
@@ -34,6 +33,12 @@ module.exports = {
     ['meta', { name: "twitter:creator", content: "@s1ntone" }],
     ['meta', { name: "twitter:image", content: "https://cleanclip.cc/images/twitter_card2.webp" }],
     ['script', { src: '/js/base.js' }],
+    ['script', {
+      src: 'https://theaffs.com/affiliate-sdk.js',
+      async: true,
+      'data-product-id': 'prod_64143075d697',
+      'data-domain': 'cleanclip.cc',
+    }],
     // ['script', { src: '/js/enhanceApp.js' }],
     // ['script', { src: 'https://lmsqueezy.com/affiliate.js' }],
     // ['script', { src: 'https://cdn.paritydeals.com/banner.js' }],
@@ -65,15 +70,14 @@ module.exports = {
     logo: '/images/logo.webp',
     latestDownloadUrl: 'https://cleanclip.cc/releases/download/v2.4.7/CleanClip.dmg',
     latestVersion: 'v2.4.7',
-    freeTrailUrl: 'https://clip-purchase.macaify.com/freetrail',
-    purchaseUrl: 'https://clip-purchase.macaify.com',
+    freeTrailUrl: 'https://pricing.cleanclip.cc/',
+    purchaseUrl: 'https://pricing.cleanclip.cc/',
     smoothScroll: true,
     backToTop: false,
     search: false,
     discuss: false,
     alias: {
-      '/affiliate': 'https://store.cleanclip.cc/affiliates',
-      '/pricing': 'https://clip-purchase.macaify.com',
+      '/pricing': 'https://pricing.cleanclip.cc/',
     },
     pageAnchor: {
       isDisabled: true,

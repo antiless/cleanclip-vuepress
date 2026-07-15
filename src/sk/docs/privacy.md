@@ -1,5 +1,5 @@
 # Zásady ochrany osobných údajov CleanClip
-Posledná aktualizácia: 2024-12-05
+Posledná aktualizácia: 2026-07-14
 
 Vitajte v našom produkte. CleanClip (vrátane služieb poskytovaných aplikáciou a ďalších produktov, ďalej len "Produkty a služby") je vyvíjaný a prevádzkovaný spoločnosťou Nanjing Zuimeijia Technology Co., Ltd. (ďalej len "my"). Zabezpečenie bezpečnosti používateľských údajov a ochrana súkromia je našou hlavnou prioritou. Tieto zásady ochrany osobných údajov stanovujú, aké údaje sa zhromažďujú a ako sa spracúvajú pri prístupe a používaní našich produktov a služieb.
 
@@ -19,14 +19,14 @@ Tieto zásady ochrany osobných údajov vám pomôžu pochopiť nasledovné:
 Osobné údaje sa vzťahujú na rôzne informácie zaznamenané elektronicky alebo inými prostriedkami, ktoré môžu identifikovať totožnosť konkrétnej fyzickej osoby alebo odrážať činnosti konkrétnej fyzickej osoby, a to buď samostatne alebo v kombinácii s inými informáciami. Pri nákupe našich služieb zhromažďujeme len nevyhnutné informácie, ako napríklad:
 
 - E-mailová adresa (na potvrdenie objednávky a poskytnutie služby)
-- Platobné údaje (bezpečne spracované prostredníctvom našich poskytovateľov platobných služieb)
+- Platobné údaje (spracúva ich Stripe ako náš poskytovateľ platobných služieb)
 
 Nezhromažďujeme žiadne iné osobné údaje okrem tých, ktoré sú nevyhnutne potrebné na poskytovanie našich služieb.
 
 ### 1.1 Nevyhnutné informácie o účte
 Zhromažďujeme len nevyhnutné informácie na nákup služieb, vrátane:
 - E-mailová adresa (používaná na potvrdenie objednávky a poskytnutie služby)
-- Platobné údaje (bezpečne spracované naším poskytovateľom platobných služieb)
+- Platobné údaje (spracúva ich Stripe ako náš poskytovateľ platobných služieb)
 
 ### 1.2 Ukladanie údajov aplikácie
 O údajoch generovaných počas používania aplikácie:
@@ -39,6 +39,9 @@ O údajoch generovaných počas používania aplikácie:
 ### 1.3 Transparentnosť používania siete
 O používaní siete aplikáciou poskytujeme úplný [popis sieťových pripojení](./network-endpoints.md) na zabezpečenie úplnej transparentnosti.
 
+### 1.4 Priradenie partnera
+Ak prídete prostredníctvom partnerského odkazu alebo použijete súvisiace odporúčacie stránky, TheAffs Affiliate SDK môže uložiť identifikátory partnera, kliknutia, návštevníka, zdroja a podpartnera do súborov cookie pre doménu `cleanclip.cc`. Prehliadač tieto súbory cookie odosiela s príslušnými požiadavkami na `cleanclip.cc` a jeho platobné subdomény, aby bolo možné priradiť objednávku. Tieto identifikátory neobsahujú obsah schránky.
+
 Okrem vyššie výslovne uvedených informácií nebudeme zhromažďovať žiadne iné osobné údaje.
 
 ## 2. Ako uchovávame a chránime vaše osobné údaje
@@ -47,9 +50,14 @@ Vo všeobecnosti uchovávame vaše osobné údaje len po dobu potrebnú na dosia
 Na ochranu osobných údajov, ktoré poskytujete, používame štandardné bezpečnostné opatrenia v odvetví a šifrujeme kľúčové údaje, aby sme zabránili neoprávnenému prístupu, zverejneniu, použitiu, úprave, poškodeniu alebo strate. Prijmeme všetky primerané a uskutočniteľné opatrenia na ochranu vašich osobných údajov. Na zabezpečenie dôvernosti údajov použijeme šifrovaciu technológiu; použijeme dôveryhodné ochranné mechanizmy na zabránenie škodlivým útokom na údaje.
 
 ## 3. Ako zdieľame, prenášame a zverejňujeme vaše osobné údaje
-S cieľom sledovať legitímne záujmy a lepšie slúžiť zákazníkom pri správe našich každodenných obchodných aktivít budeme používať vaše osobné údaje v súlade s predpismi a primeraným spôsobom. Po komplexnom zvážení obchodných a rôznych aspektov používame tieto údaje len my sami a nezdieľame ich so žiadnymi tretími stranami.
+Spracovanie poskytovateľmi služieb obmedzujeme na rozsah potrebný na poskytovanie služby:
 
-Prísne dodržiavame predpisy o ochrane údajov na celom svete (vrátane, ale nie výlučne, Všeobecného nariadenia o ochrane údajov (GDPR), Zákona o ochrane súkromia spotrebiteľov v Kalifornii (CCPA) a Zákona o ochrane osobných údajov (PIPL)). V nasledujúcich situáciách, ak to výslovne povoľujú alebo vyžadujú platné zákony a predpisy vo vašej jurisdikcii a za predpokladu splnenia príslušných právnych podmienok a postupov, môžeme zdieľať, prenášať a zverejňovať vaše osobné údaje bez vášho predchádzajúceho súhlasu:
+- Stripe spracúva informácie o platbe a nákupe.
+- TheAffs spracúva identifikátory partnerského priradenia používané na prepojenie odporúčaní s objednávkami.
+
+Ani jedna zo služieb nedostáva od CleanClip obsah schránky.
+
+Osobné údaje spracúvame podľa platných zákonov o ochrane údajov. Osobné údaje môžeme tiež zdieľať, prenášať alebo zverejniť, ak to platné právo povoľuje alebo vyžaduje a sú splnené príslušné právne podmienky a postupy, vrátane nasledujúcich situácií:
 
 1. Priamo súvisiace s národnou bezpečnosťou a obranou štátu;
 

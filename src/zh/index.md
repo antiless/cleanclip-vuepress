@@ -5,8 +5,8 @@ heroText: 可能是 macOS 上最干净的剪贴板管理工具！
 tagline: 专为 Mac 打造的沉浸式剪贴板管理工具，简约而强大
 actions:
   - text: 免费获取 2 倍生产力
-    # link: https://clip-purchase.macaify.com
-    link: https://clip-purchase.macaify.com/freetrail
+    # link: https://pricing.cleanclip.cc/
+    link: https://pricing.cleanclip.cc/
     type: primary
     size: large
     shape: round

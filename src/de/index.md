@@ -5,7 +5,7 @@ heroText: Möglicherweise das sauberste Zwischenablage-Management-Tool auf macOS
 tagline: Ein immersives Zwischenablage-Management-Tool, das speziell für Mac entwickelt wurde, einfach und leistungsstark
 actions:
   - text: Kostenlos 2-fache Produktivität erhalten
-    link: https://clip-purchase.macaify.com/freetrail
+    link: https://pricing.cleanclip.cc/
     type: primary
     size: large
     shape: round

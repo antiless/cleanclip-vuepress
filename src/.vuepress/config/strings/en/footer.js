@@ -12,7 +12,8 @@ module.exports = {
 
   sales_title: "Sales",
   sales_affiliate_name: "Affiliate",
-  sales_affiliate_label: "Earn up to $10.00",
+  sales_affiliate_url: "/affiliate",
+  sales_affiliate_label: "15% per sale",
   sales_discounts_name: "Special Offers",
   sales_discounts_url: " /discounts",
   sales_discounts_label: "10% -55 % Off",

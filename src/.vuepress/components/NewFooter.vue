@@ -58,7 +58,7 @@ export default {
             },
             {
               name: this.td("license_manager_name"),
-              url: "https://clip-purchase.macaify.com/licensemanager",
+              url: "https://dash.cleanclip.cc/",
             },
             {
               name: this.td("contact_support_name"),
@@ -87,7 +87,7 @@ export default {
             },
             {
               name: this.td("sales_affiliate_name"),
-              url: "https://store.cleanclip.cc/affiliates",
+              url: this.td("sales_affiliate_url"),
               label: this.td("sales_affiliate_label")
             },
             {

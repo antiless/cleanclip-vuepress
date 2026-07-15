@@ -90,11 +90,11 @@ including license retrieval, version update, tech assistance.
   ## 🙋🏻 常见问题
 
 ::: details 我可以在哪里找到我的许可证？
-> 在成功购买后,您会收到来自 LemonSqueezy 的电子邮件,其中包含收据和您的唯一许可证密钥。请务必同时检查您的垃圾邮件文件夹。如果您仍然找不到,请访问<a href="https://clip-purchase.macaify.com/licensemanager">许可证管理器</a>,然后按照说明进行操作。
+> 在成功购买后,您会收到来自 LemonSqueezy 的电子邮件,其中包含收据和您的唯一许可证密钥。请务必同时检查您的垃圾邮件文件夹。如果您仍然找不到,请访问<a href="https://dash.cleanclip.cc/">许可证管理器</a>,然后按照说明进行操作。
 :::
 
 ::: details 如何将我的许可证转移到其他 Mac 上？
-> 您只需使用许可证密钥在新的 Mac 上激活应用程序即可。旧机器将自动被停用。如果您拥有多台 Mac 的许可证,您可以使用<a href="https://clip-purchase.macaify.com/licensemanager">许可证管理器</a>管理活动设备。
+> 您只需使用许可证密钥在新的 Mac 上激活应用程序即可。旧机器将自动被停用。如果您拥有多台 Mac 的许可证,您可以使用<a href="https://dash.cleanclip.cc/">许可证管理器</a>管理活动设备。
 :::
 
 ::: details 支持的系统版本？
@@ -1602,7 +1602,7 @@ CleanClip 支持三大用法：
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费使用
       </a>
     </button>
@@ -1727,7 +1727,7 @@ CleanClip 适用于各种工作场景，特别是:
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费使用
       </a>
     </button>
@@ -1765,7 +1765,7 @@ video {
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center">
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费试用
       </a>
     </button>
@@ -1880,7 +1880,7 @@ CleanClip 适用于各种工作场景，特别是：
 <div style="display: flex; justify-content: center;">
   <div style="text-align: center">
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费使用
       </a>
     </button>
@@ -1919,7 +1919,7 @@ video {
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费使用
       </a>
     </button>
@@ -1968,7 +1968,7 @@ video {
 
 <div class="text-center">
 
-查看价格: [Pricing](https://clip-purchase.macaify.com/)
+查看价格: [Pricing](https://pricing.cleanclip.cc/)
 
 </div>
 <br/><br/><br/><br/>
@@ -2000,7 +2000,7 @@ video {
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     30 天免费使用
       </a>
     </button>
@@ -2172,4 +2172,3 @@ https://cleanclip.cc/videos/quickmenu-format.mp4|
 https://cleanclip.cc/videos/pastestack-collect.mp4|
 https://cleanclip.cc/videos/pastestack265.mp4|
 ------- llm/videos.txt ------
-

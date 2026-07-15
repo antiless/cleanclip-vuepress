@@ -51,7 +51,7 @@ export default ({ router }) => {
         console.log("Checking for purchase links...")
         document.querySelectorAll('a').forEach(link => {
           // console.log("link", link.href)
-          if (link.href && link.href.includes('clip-purchase.macaify.com')) {
+          if (link.href && link.href.includes('pricing.cleanclip.cc')) {
             const url = new URL(link.href)
             
             // 添加 aff 参数
@@ -103,4 +103,4 @@ export default ({ router }) => {
       subtree: true
     })
   }
-} 
+}

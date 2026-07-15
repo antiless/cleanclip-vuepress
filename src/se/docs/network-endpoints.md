@@ -30,11 +30,20 @@ Dessa domäner används för att kontrollera och ladda ner applikationsuppdateri
 
 ### Partnertjänster
 - api.cleanclip.cc
+- theaffs.com
 
-Denna domän hanterar partnerprogram-operationer inklusive:
+Dessa domäner hanterar partnerprogrammet, inklusive:
 - Generering av partnerlänkar
 - Hämtning av partnerinformation
+- Inläsning av TheAffs Affiliate SDK och registrering av hänvisningsattribution
 
 Obs: Hämtning av partnerinformation är endast tillgänglig vid åtkomst till partnersidan.
+
+TheAffs SDK lagrar identifierare för partner, klick, besökare, källa och underpartner i cookies för domänen `cleanclip.cc`. Webbläsaren skickar dessa cookies med matchande begäranden till `cleanclip.cc` och dess underdomäner för betalning, så att betalningsservern kan tillskriva en beställning. Dessa cookies innehåller inget innehåll från urklipp.
+
+### Betalningar
+- checkout.stripe.com
+
+Stripe tillhandahåller betalningssidan och behandlar betalningar. Betalningsuppgifter behandlas av Stripe; CleanClip skickar inget innehåll från urklipp till Stripe.
 
 > **Obs**: I takt med att applikationen utvecklas kan nätverksändpunkterna som listas i detta dokument vara inaktuella. Om du upptäcker några nätverksförfrågningar som inte deklareras här, är du välkommen att kontakta oss på support@cleanclip.cc för förtydligande.

@@ -5,7 +5,7 @@ heroText: macOS에서 가장 깔끔한 클립보드 관리 도구!
 tagline: 맥을 위한 강력한 클립보드 관리 도구, 심플하면서도 강력합니다.
 actions:
   - text: 생산성 2배 늘리기 무료로 받아보기
-    link: https://clip-purchase.macaify.com/freetrail
+    link: https://pricing.cleanclip.cc/
     type: primary
     size: large
     shape: round

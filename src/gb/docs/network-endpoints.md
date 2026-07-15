@@ -30,11 +30,20 @@ These domains are utilised for checking and downloading application updates.
 
 ### Affiliate Services
 - api.cleanclip.cc
+- theaffs.com
 
-This domain handles affiliate programme operations including:
+These domains handle affiliate programme operations including:
 - Affiliate link generation
-- Retrieving affiliate information 
+- Retrieving affiliate information
+- Loading the TheAffs Affiliate SDK and recording referral attribution
 
 Note: Retrieving affiliate information is only available when accessing the affiliate page.
+
+The TheAffs SDK stores affiliate, click, visitor, source, and sub-partner attribution identifiers in cookies scoped to `cleanclip.cc`. The browser sends those cookies with matching requests to `cleanclip.cc` and its checkout subdomains so that the checkout backend can attribute an order. These cookies do not contain clipboard content.
+
+### Payments
+- checkout.stripe.com
+
+Stripe hosts and processes payment checkout. Payment details are handled by Stripe; CleanClip does not send clipboard content to Stripe.
 
 > **Note**: As the application evolves, the network endpoints listed in this document may not be up to date. If you notice any network requests not declared here, please feel free to contact us at support@cleanclip.cc for clarification.

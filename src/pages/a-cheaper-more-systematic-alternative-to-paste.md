@@ -16,7 +16,7 @@ discuss: false
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     Get 2x productivity - for Free
       </a>
     </button>
@@ -65,7 +65,7 @@ discuss: false
 
 <div class="text-center">
 
-Check pricing: [Pricing](https://clip-purchase.macaify.com/)
+Check pricing: [Pricing](https://pricing.cleanclip.cc/)
 
 </div>
 <br/><br/><br/><br/>
@@ -97,7 +97,7 @@ Check pricing: [Pricing](https://clip-purchase.macaify.com/)
     <!-- <img src="/images/twitter_card.webp"/> -->
     <button type="button" class="ant-btn ant-btn-primary ant-btn-round ant-btn-lg" style="">
       <!-- <a href="https://macaify.lemonsqueezy.com/checkout/buy/69bd0056-9182-4030-9aaf-bd0604db751b?embed=1&media=0&logo=0&desc=0&discount=0&enabled=114543" class="lemonsqueezy-button"> -->
-      <a href="https://clip-purchase.macaify.com/freetrail">
+      <a href="https://pricing.cleanclip.cc/">
                     Get 2x productivity - for Free
       </a>
     </button>

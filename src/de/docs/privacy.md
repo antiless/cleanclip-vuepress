@@ -1,5 +1,5 @@
 # CleanClip Datenschutzerklärung
-Letzte Aktualisierung: 2024-12-05
+Letzte Aktualisierung: 2026-07-14
 
 Willkommen bei unserem Produkt. CleanClip (einschließlich der von der App bereitgestellten Dienste und anderer Produkte, im Folgenden als "Produkte und Dienste" bezeichnet) wird von Nanjing Zuimeijia Technology Co., Ltd. (im Folgenden als "wir" bezeichnet) entwickelt und betrieben. Die Sicherheit der Benutzerdaten und der Schutz der Privatsphäre haben für uns oberste Priorität. Diese Datenschutzerklärung legt fest, welche Daten bei Ihrem Besuch und der Nutzung unserer Produkte und Dienste erfasst werden und wie diese verarbeitet werden.
 
@@ -16,14 +16,14 @@ Diese Datenschutzerklärung hilft Ihnen, Folgendes zu verstehen:
 Personenbezogene Daten sind Informationen, die elektronisch oder auf andere Weise aufgezeichnet werden und allein oder in Kombination mit anderen Informationen eine bestimmte natürliche Person identifizieren oder die Aktivitäten einer bestimmten natürlichen Person widerspiegeln können. Wir erheben nur die notwendigen Informationen, wenn Sie unsere Dienste kaufen:
 
 - E-Mail-Adresse (für Auftragsbestätigung und Dienstleistungserbringung)
-- Zahlungsinformationen (werden sicher über unsere Zahlungsdienstleister verarbeitet)
+- Zahlungsinformationen (werden von Stripe als unserem Zahlungsdienstleister verarbeitet)
 
 Wir erheben keine anderen personenbezogenen Daten, die über das für die Bereitstellung unserer Dienste unbedingt erforderliche Maß hinausgehen.
 
 ### 1.1 Erforderliche Kontoinformationen
 Wir erheben nur die für den Kauf von Diensten erforderlichen Informationen:
 - E-Mail-Adresse (für Auftragsbestätigung und Dienstleistungserbringung)
-- Zahlungsinformationen (werden sicher über unsere Zahlungsdienstleister verarbeitet)
+- Zahlungsinformationen (werden von Stripe als unserem Zahlungsdienstleister verarbeitet)
 
 ### 1.2 Anwendungsdatenspeicherung
 Bezüglich der während der Nutzung der Anwendung generierten Daten:
@@ -36,6 +36,9 @@ Bezüglich der während der Nutzung der Anwendung generierten Daten:
 ### 1.3 Transparenz der Netzwerknutzung
 Für vollständige Transparenz über die Netzwerknutzung der Anwendung stellen wir eine [Erklärung der Netzwerkverbindungen](./network-endpoints.md) bereit.
 
+### 1.4 Partnerzuordnung
+Wenn Sie über einen Partnerlink kommen oder entsprechende Empfehlungsseiten nutzen, kann das TheAffs Affiliate SDK Kennungen für Partner, Klick, Besucher, Quelle und Unterpartner in Cookies für die Domain `cleanclip.cc` speichern. Der Browser sendet diese Cookies bei passenden Anfragen an `cleanclip.cc` und dessen Checkout-Subdomains, damit eine Bestellung zugeordnet werden kann. Diese Kennungen enthalten keine Inhalte der Zwischenablage.
+
 Wir erheben keine anderen personenbezogenen Daten als die oben ausdrücklich aufgeführten.
 
 ## 2. Wie wir Ihre personenbezogenen Daten speichern und schützen
@@ -44,9 +47,14 @@ Grundsätzlich bewahren wir personenbezogene Daten nur so lange auf, wie es für
 Wir verwenden branchenübliche Sicherheitsmaßnahmen zum Schutz Ihrer personenbezogenen Daten und verschlüsseln wichtige Daten, um unbefugten Zugriff, Offenlegung, Verwendung, Änderung, Beschädigung oder Verlust zu verhindern. Wir werden alle angemessenen Maßnahmen ergreifen, um Ihre personenbezogenen Daten zu schützen. Wir verwenden Verschlüsselungstechnologie, um die Vertraulichkeit der Daten zu gewährleisten, und verwenden vertrauenswürdige Schutzmechanismen, um böswillige Angriffe auf Daten zu verhindern.
 
 ## 3. Wie wir Ihre personenbezogenen Daten teilen, übertragen und offenlegen
-Um berechtigte Interessen zu verfolgen und Kunden bei der Verwaltung unserer täglichen Geschäftsaktivitäten besser zu bedienen, verwenden wir Ihre personenbezogenen Daten auf angemessene und rechtmäßige Weise. Unter Berücksichtigung des Geschäfts und aller Aspekte verwenden wir diese Daten nur intern und teilen sie nicht mit Dritten.
+Wir beschränken die Verarbeitung durch Dienstleister auf das für die Bereitstellung des Dienstes erforderliche Maß:
 
-Wir halten uns strikt an die weltweiten Datenschutzbestimmungen (einschließlich, aber nicht beschränkt auf die EU-Datenschutz-Grundverordnung (DSGVO), den California Consumer Privacy Act (CCPA) und das Gesetz zum Schutz personenbezogener Daten (PIPL)). In den folgenden Situationen können wir, wenn dies durch die in Ihrem Rechtsgebiet geltenden Gesetze und Vorschriften ausdrücklich erlaubt oder vorgeschrieben ist und die entsprechenden rechtlichen Bedingungen und Verfahren erfüllt sind, Ihre personenbezogenen Daten ohne Ihre vorherige Zustimmung teilen, übertragen und offenlegen:
+- Stripe verarbeitet Zahlungs- und Checkout-Informationen.
+- TheAffs verarbeitet Kennungen zur Partnerzuordnung, um Empfehlungen mit Bestellungen zu verknüpfen.
+
+Keiner der beiden Dienste erhält von CleanClip Inhalte der Zwischenablage.
+
+Wir verarbeiten personenbezogene Daten nach den anwendbaren Datenschutzgesetzen. Soweit das anwendbare Recht dies erlaubt oder verlangt und die entsprechenden rechtlichen Bedingungen und Verfahren erfüllt sind, können wir personenbezogene Daten außerdem in den folgenden Situationen teilen, übertragen oder offenlegen:
 
 1. Im direkten Zusammenhang mit der nationalen Sicherheit und Verteidigungssicherheit;
 

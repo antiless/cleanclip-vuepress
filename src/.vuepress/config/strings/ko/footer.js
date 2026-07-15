@@ -12,7 +12,8 @@ module.exports = {
     
   sales_title: "판매",
   sales_affiliate_name: "제휴 프로그램",
-  sales_affiliate_label: "주문 당 최대 $10.00를 벌 수 있습니다",
+  sales_affiliate_url: "/affiliate",
+  sales_affiliate_label: "판매당 15% 커미션",
   sales_discounts_name: "특별 혜택",
   sales_discounts_url: "/ko/discounts",
   sales_discounts_label: "4-9 할인 혜택",

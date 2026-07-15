@@ -5,7 +5,7 @@ heroText: ربما تكون أفضل أداة إدارة الحافظة النظ
 tagline: أداة إدارة الحافظة الانغماسية التي تم تصميمها خصيصًا لنظام Mac، بسيطة وقوية
 actions:
   - text: احصل على ضعف الإنتاجية مجانًا
-    link: https://clip-purchase.macaify.com/freetrail
+    link: https://pricing.cleanclip.cc/
     type: primary
     size: large
     shape: round

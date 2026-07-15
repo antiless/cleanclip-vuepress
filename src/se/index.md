@@ -5,8 +5,8 @@ heroText: Förmodligen den renaste klippbords hanteringsverktyget på macOS!
 tagline: En minimalistisk och kraftfull klippbords hanteringsverktyg som är skapat specifikt för Mac
 actions:
   - text: Få 2x produktivitet gratis
-    # link: https://clip-purchase.macaify.com
-    link: https://clip-purchase.macaify.com/freetrail
+    # link: https://pricing.cleanclip.cc/
+    link: https://pricing.cleanclip.cc/
     type: primary
     size: large
     shape: round

@@ -30,11 +30,20 @@ CleanClip 连接以下域名以提供各种功能：
 
 ### 推广服务
 - api.cleanclip.cc
+- theaffs.com
 
-此域名处理推广计划操作，包括：
+这些域名用于处理推广计划，包括：
 - 生成推广链接
 - 获取推广信息
+- 加载 TheAffs Affiliate SDK 并记录推广归因
 
 注意：仅在访问推广页面时才能获取推广信息。
+
+TheAffs SDK 会将推广者、点击、访客、来源和子推广者标识保存在作用域为 `cleanclip.cc` 的 Cookie 中。浏览器向 `cleanclip.cc` 及其结账子域发起匹配请求时会自动携带这些 Cookie，结账后端据此归因订单。这些 Cookie 不包含剪贴板内容。
+
+### 支付
+- checkout.stripe.com
+
+Stripe 提供结账页面并处理支付。支付信息由 Stripe 处理；CleanClip 不会向 Stripe 发送剪贴板内容。
 
 > **注意**：随着应用程序的发展，本文档中列出的网络端点可能不是最新的。如果您发现此处未声明的任何网络请求，请随时通过 support@cleanclip.cc 与我们联系以获取说明。

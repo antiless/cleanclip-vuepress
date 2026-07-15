@@ -1,5 +1,5 @@
 # CleanClip Privacy Policy
-Last Updated: 2024-12-05
+Last Updated: 2026-07-14
 
 Welcome to our product. CleanClip (including services provided by the App and other products, hereinafter referred to as "Products and Services") is developed and operated by Nanjing Zuimeijia Technology Co., Ltd. (hereinafter referred to as "we"). Ensuring the security of user data and privacy protection is our top priority. This privacy policy sets out the data collected and its processing when you access and use our products and services.
 
@@ -19,14 +19,14 @@ This privacy policy helps you understand the following:
 Personal information refers to various information recorded electronically or by other means that can identify a specific natural person's identity or reflect a specific natural person's activities, either alone or in combination with other information. We only collect essential information when you purchase our services, such as:
 
 - Email address (for order confirmation and service delivery)
-- Payment information (processed securely through our payment providers)
+- Payment information (processed by Stripe as our payment service provider)
 
 We do not collect any other personal information beyond what is strictly necessary for providing our services.
 
 ### 1.1 Necessary account information
 We only collect the necessary information for you to purchase services, including:
 - Email address (used for order confirmation and service delivery)
-- Payment information (processed securely by our payment service provider)
+- Payment information (processed by Stripe as our payment service provider)
 
 ### 1.2 Application data storage
 About the data generated during the use of the application:
@@ -39,6 +39,9 @@ About the data generated during the use of the application:
 ### 1.3 Network usage transparency
 About the network usage of the application, we provide a complete [network connection description](./network-endpoints.md) to ensure full transparency.
 
+### 1.4 Affiliate attribution
+When you arrive through an affiliate link or use related referral pages, the TheAffs Affiliate SDK may store affiliate, click, visitor, source, and sub-partner identifiers in cookies scoped to `cleanclip.cc`. Your browser sends these cookies with matching requests to `cleanclip.cc` and its checkout subdomains so that an order can be attributed. These identifiers do not include clipboard content.
+
 Besides the information explicitly listed above, we will not collect any other personal information.
 
 ## 2. How we store and protect your personal information
@@ -47,9 +50,14 @@ As a general rule, we only retain your personal information for the time necessa
 We use industry-standard security measures to protect the personal information you provide and encrypt the key data to prevent unauthorized access, disclosure, use, modification, damage, or loss. We will take all reasonable and feasible measures to protect your personal information. We will use encryption technology to ensure the confidentiality of data; we will use trusted protection mechanisms to prevent data from being maliciously attacked.
 
 ## 3. How we share, transfer, and disclose your personal information
-In order to pursue legitimate interests and better serve customers in managing our daily business activities, we will use your personal information in compliance and appropriateness. Considering business and various aspects comprehensively, we only use this data ourselves and do not share it with any third parties.
+We limit third-party processing to what is needed to provide the service:
 
-We strictly comply with data protection regulations worldwide (including but not limited to the EU General Data Protection Regulation (GDPR), California Consumer Privacy Act (CCPA), and Personal Information Protection Law (PIPL)). In the following situations, if explicitly permitted or required by applicable laws and regulations in your jurisdiction, and subject to relevant legal conditions and procedures being met, we may share, transfer, and disclose your personal information without your prior authorization:
+- Stripe processes payment and checkout information.
+- TheAffs processes affiliate attribution identifiers used to associate referrals with orders.
+
+Neither service receives clipboard content from CleanClip.
+
+We handle personal information under applicable data protection laws. We may also share, transfer, or disclose personal information where permitted or required by applicable law, subject to the relevant legal conditions and procedures, including in the following situations:
 
 1. Directly related to national security and national defense security;
 

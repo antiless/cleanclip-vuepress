@@ -30,11 +30,20 @@ Tieto domény sa používajú na kontrolu a sťahovanie aktualizácií aplikáci
 
 ### Partnerské služby
 - api.cleanclip.cc
+- theaffs.com
 
-Táto doména spracováva operácie partnerského programu vrátane:
+Tieto domény spracúvajú operácie partnerského programu vrátane:
 - Generovanie partnerských odkazov
 - Získavanie informácií o partneroch
+- Načítanie TheAffs Affiliate SDK a zaznamenanie priradenia odporúčania
 
 Poznámka: Získavanie informácií o partneroch je k dispozícii len pri prístupe na partnerskú stránku.
+
+TheAffs SDK ukladá identifikátory partnera, kliknutia, návštevníka, zdroja a podpartnera do súborov cookie pre doménu `cleanclip.cc`. Prehliadač tieto súbory cookie odosiela s príslušnými požiadavkami na `cleanclip.cc` a jeho platobné subdomény, aby platobný backend mohol priradiť objednávku. Tieto súbory cookie neobsahujú obsah schránky.
+
+### Platby
+- checkout.stripe.com
+
+Stripe poskytuje platobnú stránku a spracúva platby. Platobné údaje spracúva Stripe; CleanClip neposiela spoločnosti Stripe obsah schránky.
 
 > **Poznámka**: Keďže sa aplikácia vyvíja, sieťové koncové body uvedené v tomto dokumente nemusia byť aktuálne. Ak si všimnete akékoľvek sieťové požiadavky, ktoré tu nie sú uvedené, neváhajte nás kontaktovať na support@cleanclip.cc pre objasnenie.
