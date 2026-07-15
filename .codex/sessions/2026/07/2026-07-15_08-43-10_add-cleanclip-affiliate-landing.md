@@ -234,5 +234,5 @@ head_before_commit: "d8e1c7b"
 ## Commit
 
 - message: `接入 TheAffs 联盟计划与官网说明页`
-- hash: 见包含本记录的 Git 提交
-- result: 准备随本次官网改动提交并推送到 `main`
+- hash: `4a64626`
+- result: 官网实现已提交到 `main`；本记录在推送前通过后续提交补全实现提交哈希
