@@ -514,8 +514,18 @@ export default {
     opacity: 0.9;
   }
 
+  .affiliate-poster[data-locale='zh'] .affiliate-poster-rate {
+    right: -27%;
+  }
+
   .affiliate-poster-rate-symbol {
     top: 410px;
+  }
+}
+
+@media (min-width: 1051px) and (max-width: 1291px) {
+  .affiliate-poster[data-locale='zh'] .affiliate-poster-rate {
+    right: -17%;
   }
 }
 
