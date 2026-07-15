@@ -1,6 +1,6 @@
 ---
-title: 'CleanClip Affiliate Program — Earn 15% Per Sale'
-description: 'Join the CleanClip Affiliate Program, share your referral link or discount code, and earn 15% on every eligible sale.'
+title: 'CleanClip Affiliate Program — Keep 25% Per Sale'
+description: 'Share CleanClip with your referral link or discount code and earn 25% on every eligible sale.'
 canonicalUrl: 'https://cleanclip.cc/affiliate'
 sidebar: false
 pageClass: affiliate-page

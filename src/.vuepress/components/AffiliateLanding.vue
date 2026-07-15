@@ -1,226 +1,89 @@
 <template>
-  <div class="affiliate-landing">
-    <section class="affiliate-hero">
-      <div class="affiliate-shell affiliate-hero-grid">
-        <div class="affiliate-hero-copy">
-          <p class="affiliate-kicker">{{ copy.eyebrow }}</p>
-          <h1>{{ copy.title }}</h1>
-          <p class="affiliate-lead">{{ copy.lead }}</p>
-          <div class="affiliate-actions">
-            <a
-              class="affiliate-button affiliate-button-primary"
-              :href="joinUrl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {{ copy.join }}
-              <span aria-hidden="true">↗</span>
-            </a>
-            <a class="affiliate-button affiliate-button-secondary" href="https://pricing.cleanclip.cc/">
-              {{ copy.pricing }}
-            </a>
+  <main class="affiliate-poster">
+    <div class="affiliate-poster-shell">
+      <section class="affiliate-poster-copy" :aria-labelledby="headingId">
+        <p class="affiliate-poster-eyebrow">{{ copy.eyebrow }}</p>
+
+        <h1 :id="headingId" class="affiliate-poster-title">
+          <span>{{ copy.titleShare }}</span>
+          <span>{{ copy.titleProduct }}</span>
+          <span>
+            {{ copy.titleAction }}
+            <strong>{{ copy.rate }}</strong>
+          </span>
+        </h1>
+
+        <p class="affiliate-poster-lead">{{ copy.lead }}</p>
+
+        <a
+          class="affiliate-poster-cta"
+          :href="joinUrl"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {{ copy.join }}
+          <a-icon type="arrow-up" />
+        </a>
+
+        <div class="affiliate-poster-steps" :aria-label="copy.stepsLabel">
+          <div class="affiliate-poster-step">
+            <span class="affiliate-poster-step-number">1</span>
+            <a-icon type="share-alt" />
+            <strong>{{ copy.share }}</strong>
           </div>
-          <p class="affiliate-note">{{ copy.joinNote }}</p>
+          <span class="affiliate-poster-divider" aria-hidden="true"></span>
+          <div class="affiliate-poster-step">
+            <span class="affiliate-poster-step-number">2</span>
+            <a-icon type="dollar" />
+            <strong>{{ copy.earn }}</strong>
+          </div>
         </div>
-        <div class="affiliate-hero-art">
-          <img
-            src="/images/affiliate/affiliate-program-hero.webp"
-            :alt="copy.imageAlt"
-            width="1536"
-            height="1024"
-          />
-        </div>
-      </div>
-    </section>
 
-    <section class="affiliate-shell affiliate-stats" :aria-label="copy.highlightsLabel">
-      <article v-for="item in copy.highlights" :key="item.label">
-        <strong>{{ item.value }}</strong>
-        <span>{{ item.label }}</span>
-      </article>
-    </section>
+        <p class="affiliate-poster-note">{{ copy.note }}</p>
+      </section>
 
-    <section class="affiliate-shell affiliate-section">
-      <div class="affiliate-section-heading">
-        <p class="affiliate-kicker">{{ copy.howEyebrow }}</p>
-        <h2>{{ copy.howTitle }}</h2>
-        <p>{{ copy.howLead }}</p>
+      <div class="affiliate-poster-rate" aria-hidden="true">
+        <span class="affiliate-poster-rate-number">25</span>
+        <span class="affiliate-poster-rate-symbol">%</span>
+        <img
+          class="affiliate-poster-brush"
+          src="/images/affiliate/affiliate-brush-v2.png"
+          alt=""
+          width="1774"
+          height="887"
+        />
       </div>
-      <div class="affiliate-steps">
-        <article v-for="(step, index) in copy.steps" :key="step.title">
-          <span class="affiliate-step-number">0{{ index + 1 }}</span>
-          <h3>{{ step.title }}</h3>
-          <p>{{ step.body }}</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="affiliate-earnings-section">
-      <div class="affiliate-shell">
-        <div class="affiliate-section-heading affiliate-section-heading-light">
-          <p class="affiliate-kicker">{{ copy.earningsEyebrow }}</p>
-          <h2>{{ copy.earningsTitle }}</h2>
-          <p>{{ copy.earningsLead }}</p>
-        </div>
-        <div class="affiliate-plan-grid">
-          <article v-for="plan in plans" :key="plan.name">
-            <div>
-              <span class="affiliate-plan-name">{{ plan.name }}</span>
-              <span class="affiliate-plan-price">{{ plan.price }}</span>
-            </div>
-            <div class="affiliate-plan-commission">
-              <strong>{{ plan.commission }}</strong>
-              <span>{{ copy.perSale }}</span>
-            </div>
-          </article>
-        </div>
-        <p class="affiliate-rate-note">{{ copy.rateNote }}</p>
-      </div>
-    </section>
-
-    <section class="affiliate-shell affiliate-section affiliate-fit-section">
-      <div class="affiliate-fit-copy">
-        <p class="affiliate-kicker">{{ copy.fitEyebrow }}</p>
-        <h2>{{ copy.fitTitle }}</h2>
-        <p>{{ copy.fitLead }}</p>
-      </div>
-      <ul class="affiliate-fit-list">
-        <li v-for="item in copy.audiences" :key="item">
-          <span aria-hidden="true">✓</span>
-          {{ item }}
-        </li>
-      </ul>
-    </section>
-
-    <section class="affiliate-shell affiliate-faq-section">
-      <div class="affiliate-section-heading">
-        <p class="affiliate-kicker">{{ copy.faqEyebrow }}</p>
-        <h2>{{ copy.faqTitle }}</h2>
-      </div>
-      <div class="affiliate-faq-grid">
-        <article v-for="item in copy.faqs" :key="item.question">
-          <h3>{{ item.question }}</h3>
-          <p>{{ item.answer }}</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="affiliate-shell affiliate-final-cta">
-      <div>
-        <p class="affiliate-kicker">{{ copy.finalEyebrow }}</p>
-        <h2>{{ copy.finalTitle }}</h2>
-        <p>{{ copy.finalLead }}</p>
-      </div>
-      <a
-        class="affiliate-button affiliate-button-primary"
-        :href="joinUrl"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {{ copy.join }}
-        <span aria-hidden="true">↗</span>
-      </a>
-    </section>
-  </div>
+    </div>
+  </main>
 </template>
 
 <script>
 const copies = {
   en: {
     eyebrow: 'CleanClip Affiliate Program',
-    title: 'Recommend a cleaner clipboard. Earn 15%.',
-    lead: 'Share CleanClip with your audience using your own link or discount code. When an eligible order is attributed to you, the commission appears in your TheAffs dashboard.',
-    join: 'Join the affiliate program',
-    pricing: 'See CleanClip pricing',
-    joinNote: 'Free to apply. A TheAffs account is required.',
-    imageAlt: 'Affiliate flow from a creator to CleanClip customers and commission',
-    highlightsLabel: 'Affiliate program highlights',
-    highlights: [
-      { value: '15%', label: 'on every eligible sale' },
-      { value: '$3–$9', label: 'current commission per order' },
-      { value: 'TheAffs', label: 'links, codes and reporting' },
-    ],
-    howEyebrow: 'A simple loop',
-    howTitle: 'Share once. Let attribution do the rest.',
-    howLead: 'The program gives you the tools to recommend CleanClip without manually reporting sales.',
-    steps: [
-      { title: 'Apply', body: 'Sign in to TheAffs, open the CleanClip program and submit your application.' },
-      { title: 'Prepare', body: 'Create your partner profile, then choose a referral link or an assigned discount code.' },
-      { title: 'Share', body: 'Recommend CleanClip in articles, videos, newsletters or communities where it is genuinely useful.' },
-      { title: 'Track', body: 'See attributed orders and commission status in your TheAffs dashboard.' },
-    ],
-    earningsEyebrow: 'Current commission',
-    earningsTitle: 'The same 15% rate across every plan.',
-    earningsLead: 'Based on the CleanClip prices currently promoted through TheAffs.',
-    perSale: 'per eligible sale',
-    rateNote: 'Prices, eligibility and commission rules may change. The current terms shown in your TheAffs dashboard are authoritative.',
-    fitEyebrow: 'A good fit for',
-    fitTitle: 'People who teach better Mac workflows.',
-    fitLead: 'The strongest recommendations come from people who already help others work with less friction.',
-    audiences: [
-      'Mac, productivity and software creators',
-      'Newsletter, blog and community owners',
-      'Educators and workflow consultants',
-      'Existing CleanClip users with an audience',
-    ],
-    faqEyebrow: 'Details',
-    faqTitle: 'Before you apply',
-    faqs: [
-      { question: 'How is a sale attributed?', answer: 'TheAffs stores referral identifiers in cookies scoped to cleanclip.cc. The checkout backend copies those identifiers into Stripe metadata when the order is created.' },
-      { question: 'Do I need to install anything?', answer: 'No. You only need your TheAffs account and the link or code provided in your partner dashboard.' },
-      { question: 'Where do I see orders and payouts?', answer: 'Your TheAffs dashboard contains your links, codes, attributed orders, commission status and payout settings.' },
-    ],
-    finalEyebrow: 'Ready when you are',
-    finalTitle: 'Turn a useful recommendation into recurring upside.',
-    finalLead: 'Apply once, choose how you want to share, and keep the experience honest and helpful.',
+    titleShare: 'Share',
+    titleProduct: 'CleanClip.',
+    titleAction: 'Keep',
+    rate: '25%.',
+    lead: 'One link or code. Every eligible sale is tracked automatically.',
+    join: 'Join the program',
+    stepsLabel: 'How the CleanClip affiliate program works',
+    share: 'Share',
+    earn: 'Earn',
+    note: 'Tracked and managed through TheAffs.',
   },
   zh: {
     eyebrow: 'CleanClip 联盟计划',
-    title: '推荐更顺手的剪贴板，获得 15% 佣金。',
-    lead: '使用你的专属链接或优惠码向受众推荐 CleanClip。合格订单成功归因后，佣金会显示在你的 TheAffs 控制台中。',
+    titleShare: '分享',
+    titleProduct: 'CleanClip。',
+    titleAction: '获得',
+    rate: '25% 佣金。',
+    lead: '一个链接或优惠码，合格订单自动归因。',
     join: '加入联盟计划',
-    pricing: '查看 CleanClip 价格',
-    joinNote: '免费申请，需要注册 TheAffs 账号。',
-    imageAlt: '创作者推荐 CleanClip，并从客户订单获得佣金的联盟流程',
-    highlightsLabel: '联盟计划特点',
-    highlights: [
-      { value: '15%', label: '每笔合格订单佣金' },
-      { value: '$3–$9', label: '当前每单佣金范围' },
-      { value: 'TheAffs', label: '链接、优惠码与数据追踪' },
-    ],
-    howEyebrow: '简单闭环',
-    howTitle: '专注分享，归因交给系统。',
-    howLead: '联盟计划提供完整的推荐工具，不需要手工申报订单。',
-    steps: [
-      { title: '申请', body: '登录 TheAffs，进入 CleanClip 联盟计划并提交申请。' },
-      { title: '准备', body: '完善合作伙伴资料，选择专属推广链接或分配给你的优惠码。' },
-      { title: '分享', body: '在文章、视频、邮件或社区中，向真正需要的人推荐 CleanClip。' },
-      { title: '追踪', body: '在 TheAffs 控制台查看归因订单和佣金状态。' },
-    ],
-    earningsEyebrow: '当前佣金',
-    earningsTitle: '所有套餐统一 15% 佣金。',
-    earningsLead: '以下金额基于 TheAffs 当前推广的 CleanClip 售价。',
-    perSale: '每笔合格订单',
-    rateNote: '价格、订单资格和佣金规则可能调整，最终以 TheAffs 控制台展示的实时条款为准。',
-    fitEyebrow: '适合这些伙伴',
-    fitTitle: '帮助别人改善 Mac 工作流的人。',
-    fitLead: '真正有效的推荐，来自已经在帮助别人减少操作摩擦的创作者和用户。',
-    audiences: [
-      'Mac、效率工具和软件内容创作者',
-      'Newsletter、博客与社区运营者',
-      '讲师、培训者与工作流顾问',
-      '拥有受众的 CleanClip 用户',
-    ],
-    faqEyebrow: '更多信息',
-    faqTitle: '申请之前',
-    faqs: [
-      { question: '订单如何归因？', answer: 'TheAffs 会将推广标识存储在 cleanclip.cc 域级 Cookie 中。创建订单时，结账后台会把这些标识写入 Stripe metadata。' },
-      { question: '需要安装额外工具吗？', answer: '不需要。你只需要 TheAffs 账号，以及合作伙伴控制台生成的推广链接或优惠码。' },
-      { question: '在哪里查看订单和结算？', answer: 'TheAffs 控制台会集中展示推广链接、优惠码、归因订单、佣金状态和收款设置。' },
-    ],
-    finalEyebrow: '现在开始',
-    finalTitle: '让一次真诚推荐，产生持续回报。',
-    finalLead: '提交申请，选择适合你的分享方式，并始终保持真实、有帮助。',
+    stepsLabel: 'CleanClip 联盟计划流程',
+    share: '分享',
+    earn: '获得佣金',
+    note: '归因、佣金与结算由 TheAffs 管理。',
   },
 }
 
@@ -229,6 +92,7 @@ export default {
 
   data() {
     return {
+      headingId: 'affiliate-poster-title',
       joinUrl: 'https://cleanclip.theaffs.com/login',
     }
   },
@@ -240,28 +104,17 @@ export default {
     copy() {
       return this.isZh ? copies.zh : copies.en
     },
-    plans() {
-      if (this.isZh) {
-        return [
-          { name: '标准版 · 3 台设备', price: '$19.99', commission: '$3.00' },
-          { name: '专业版 · 5 台设备', price: '$29.99', commission: '$4.50' },
-          { name: '家庭版 · 12 台设备', price: '$59.99', commission: '$9.00' },
-        ]
-      }
-      return [
-        { name: 'Standard · 3 devices', price: '$19.99', commission: '$3.00' },
-        { name: 'Pro · 5 devices', price: '$29.99', commission: '$4.50' },
-        { name: 'Family · 12 devices', price: '$59.99', commission: '$9.00' },
-      ]
-    },
   },
 }
 </script>
 
 <style>
 .affiliate-page .theme-antdocs-content:not(.custom) {
-  max-width: none;
-  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 .affiliate-page .page-edit,
@@ -269,482 +122,354 @@ export default {
   display: none;
 }
 
-.affiliate-landing {
-  --affiliate-ink: #18221c;
-  --affiliate-muted: #647067;
-  --affiliate-green: #2d9d62;
-  --affiliate-green-dark: #1f7a4a;
-  --affiliate-mint: #eaf8ef;
-  color: var(--affiliate-ink);
-  overflow: hidden;
-}
-
-.affiliate-shell {
-  box-sizing: border-box;
-  width: min(1180px, calc(100% - 48px));
-  margin: 0 auto;
-}
-
-.affiliate-hero {
-  padding: 128px 0 72px;
-  background:
-    radial-gradient(circle at 12% 20%, rgba(180, 239, 202, 0.38), transparent 34%),
-    radial-gradient(circle at 88% 24%, rgba(210, 200, 255, 0.34), transparent 32%),
-    #fbfaf7;
-}
-
-.affiliate-hero-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(440px, 1.08fr);
-  align-items: center;
-  gap: 56px;
-}
-
-.affiliate-kicker {
-  margin: 0 0 18px;
-  color: var(--affiliate-green-dark);
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-}
-
-.affiliate-hero h1,
-.affiliate-section-heading h2,
-.affiliate-fit-copy h2,
-.affiliate-final-cta h2 {
-  margin: 0;
-  color: var(--affiliate-ink);
-  font-family: 'Bricolage Grotesque', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-weight: 800;
-  letter-spacing: -0.045em;
-}
-
-.affiliate-hero h1 {
-  max-width: 650px;
-  font-size: clamp(48px, 6vw, 76px);
-  line-height: 0.98;
-}
-
-.affiliate-lead {
-  max-width: 620px;
-  margin: 28px 0 0;
-  color: var(--affiliate-muted);
-  font-size: 19px;
-  line-height: 1.7;
-}
-
-.affiliate-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  margin-top: 34px;
-}
-
-.affiliate-button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 50px;
-  padding: 0 22px;
-  border: 1px solid transparent;
-  border-radius: 14px;
-  font-size: 15px;
-  font-weight: 750;
-  line-height: 1;
-  text-decoration: none !important;
-  transition: transform 180ms ease, box-shadow 180ms ease, background 180ms ease;
-}
-
-.affiliate-button:hover {
-  transform: translateY(-2px);
-}
-
-.affiliate-button-primary {
-  gap: 9px;
-  color: #fff !important;
-  background: var(--affiliate-green);
-  box-shadow: 0 12px 28px rgba(45, 157, 98, 0.22);
-}
-
-.affiliate-button-primary:hover {
-  background: var(--affiliate-green-dark);
-  box-shadow: 0 16px 32px rgba(45, 157, 98, 0.27);
-}
-
-.affiliate-button-secondary {
-  color: var(--affiliate-ink) !important;
-  border-color: rgba(24, 34, 28, 0.12);
-  background: rgba(255, 255, 255, 0.78);
-}
-
-.affiliate-note {
-  margin: 14px 0 0;
-  color: #7e8881;
-  font-size: 13px;
-}
-
-.affiliate-hero-art img {
-  display: block;
+.affiliate-poster {
+  --poster-paper: #f4f0e6;
+  --poster-ink: #171b18;
+  --poster-muted: #555c57;
+  --poster-green: #24834e;
+  position: relative;
   width: 100%;
-  height: auto;
-  border-radius: 36px;
-  box-shadow: 0 30px 80px rgba(74, 65, 55, 0.1);
+  min-height: calc(100vh - 96px);
+  margin: 0 !important;
+  overflow: hidden;
+  color: var(--poster-ink);
+  background-color: var(--poster-paper);
+  background-image: url('/images/affiliate/affiliate-paper-v2.webp');
+  background-size: 768px 512px;
 }
 
-.affiliate-stats {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: -28px;
-  border: 1px solid rgba(24, 34, 28, 0.09);
-  border-radius: 24px;
-  background: rgba(255, 255, 255, 0.95);
-  box-shadow: 0 18px 48px rgba(35, 55, 42, 0.08);
+.affiliate-poster-shell {
+  position: relative;
+  box-sizing: border-box;
+  width: min(100%, 1500px);
+  min-height: 920px;
+  margin: 0 auto;
+  padding: clamp(112px, 10vw, 168px) clamp(32px, 5vw, 80px) 54px;
 }
 
-.affiliate-stats article {
+.affiliate-poster-copy {
+  position: relative;
+  z-index: 2;
   display: flex;
+  align-items: flex-start;
   flex-direction: column;
-  gap: 4px;
-  padding: 27px 32px;
-  border-right: 1px solid rgba(24, 34, 28, 0.08);
+  width: min(54vw, 690px);
+  min-height: 750px;
+  animation: affiliate-poster-enter 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-.affiliate-stats article:last-child {
-  border-right: 0;
+.affiliate-poster-eyebrow {
+  margin: 0 0 24px;
+  color: var(--poster-green);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: clamp(15px, 1.35vw, 20px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
 }
 
-.affiliate-stats strong {
-  color: var(--affiliate-ink);
-  font-size: 25px;
+.affiliate-page .affiliate-poster-title {
+  margin: 0;
+  color: var(--poster-ink);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: clamp(64px, 7.1vw, 106px);
+  font-weight: 800;
+  letter-spacing: -0.07em;
+  line-height: 0.86;
 }
 
-.affiliate-stats span {
-  color: var(--affiliate-muted);
-  font-size: 14px;
+.affiliate-poster-title span {
+  display: block;
 }
 
-.affiliate-section,
-.affiliate-faq-section {
-  padding: 112px 0;
+.affiliate-poster-title span + span {
+  margin-top: 0.08em;
 }
 
-.affiliate-section-heading {
-  max-width: 680px;
+.affiliate-poster-title strong {
+  color: var(--poster-green);
+  font-weight: inherit;
+  white-space: nowrap;
 }
 
-.affiliate-section-heading h2,
-.affiliate-fit-copy h2,
-.affiliate-final-cta h2 {
-  font-size: clamp(38px, 4.2vw, 56px);
-  line-height: 1.04;
+.affiliate-poster-lead {
+  max-width: 580px;
+  margin: 30px 0 0;
+  color: var(--poster-muted);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: clamp(17px, 1.45vw, 21px);
+  font-weight: 400;
+  line-height: 1.45;
 }
 
-.affiliate-section-heading > p:last-child,
-.affiliate-fit-copy > p:last-child,
-.affiliate-final-cta > div > p:last-child {
-  margin: 20px 0 0;
-  color: var(--affiliate-muted);
-  font-size: 18px;
-  line-height: 1.7;
-}
-
-.affiliate-steps {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-top: 52px;
-}
-
-.affiliate-steps article {
-  min-height: 220px;
-  padding: 26px;
-  border: 1px solid rgba(24, 34, 28, 0.09);
-  border-radius: 22px;
-  background: #fff;
-}
-
-.affiliate-step-number {
+.affiliate-poster-cta {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-  border-radius: 13px;
-  color: var(--affiliate-green-dark);
-  background: var(--affiliate-mint);
-  font-size: 13px;
-  font-weight: 800;
-}
-
-.affiliate-steps h3,
-.affiliate-faq-grid h3 {
-  margin: 28px 0 0;
-  color: var(--affiliate-ink);
-  font-size: 19px;
-}
-
-.affiliate-steps p,
-.affiliate-faq-grid p {
-  margin: 12px 0 0;
-  color: var(--affiliate-muted);
-  font-size: 15px;
-  line-height: 1.65;
-}
-
-.affiliate-earnings-section {
-  padding: 108px 0;
-  background: #17231c;
-}
-
-.affiliate-section-heading-light h2 {
-  color: #fff;
-}
-
-.affiliate-section-heading-light > p:last-child {
-  color: #aab8af;
-}
-
-.affiliate-section-heading-light .affiliate-kicker {
-  color: #76d89d;
-}
-
-.affiliate-plan-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  margin-top: 52px;
-}
-
-.affiliate-plan-grid article {
-  display: flex;
-  align-items: flex-end;
   justify-content: space-between;
-  gap: 18px;
-  min-height: 170px;
-  padding: 26px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 22px;
-  background: rgba(255, 255, 255, 0.055);
+  box-sizing: border-box;
+  width: min(100%, 340px);
+  min-height: 72px;
+  margin-top: 34px;
+  padding: 0 30px;
+  border-radius: 12px;
+  color: #f9f7ef !important;
+  background: var(--poster-green);
+  box-shadow: 0 14px 28px rgba(22, 75, 45, 0.14);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1), background-color 180ms ease;
 }
 
-.affiliate-plan-grid article > div {
+.affiliate-poster-cta:hover {
+  color: #fff !important;
+  background: #1c6d40;
+  transform: translateY(-3px);
+}
+
+.affiliate-poster-cta:focus-visible {
+  outline: 3px solid var(--poster-ink);
+  outline-offset: 4px;
+}
+
+.affiliate-poster-cta .anticon {
+  display: inline-block !important;
+  font-size: 18px;
+  transform: rotate(45deg);
+}
+
+.affiliate-poster-steps {
   display: flex;
-  flex-direction: column;
-  gap: 6px;
-}
-
-.affiliate-plan-name,
-.affiliate-plan-commission span {
-  color: #aab8af;
-  font-size: 13px;
-}
-
-.affiliate-plan-price {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 750;
-}
-
-.affiliate-plan-commission {
-  align-items: flex-end;
-  text-align: right;
-}
-
-.affiliate-plan-commission strong {
-  color: #76d89d;
-  font-size: 34px;
-  letter-spacing: -0.04em;
-}
-
-.affiliate-rate-note {
-  max-width: 760px;
-  margin: 24px 0 0;
-  color: #89988f;
-  font-size: 13px;
-  line-height: 1.6;
-}
-
-.affiliate-fit-section {
-  display: grid;
-  grid-template-columns: 1fr 0.9fr;
-  gap: 96px;
   align-items: center;
+  gap: 32px;
+  margin-top: 38px;
+  font-family: 'Bricolage Grotesque', sans-serif;
 }
 
-.affiliate-fit-list {
-  display: grid;
-  gap: 12px;
-  margin: 0;
-  padding: 0 !important;
-  list-style: none !important;
-}
-
-.affiliate-fit-list li {
+.affiliate-poster-step {
   display: flex;
   align-items: center;
   gap: 14px;
-  padding: 18px 20px;
-  border: 1px solid rgba(24, 34, 28, 0.08);
-  border-radius: 16px;
-  color: var(--affiliate-ink);
-  background: #f8faf8;
-  font-size: 15px;
-  list-style: none !important;
+  min-width: 150px;
 }
 
-.affiliate-fit-list span {
+.affiliate-poster-step-number {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  flex: 0 0 27px;
-  width: 27px;
-  height: 27px;
+  flex: 0 0 36px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
-  color: var(--affiliate-green-dark);
-  background: var(--affiliate-mint);
+  color: #f9f7ef;
+  background: var(--poster-green);
+  font-size: 15px;
   font-weight: 800;
 }
 
-.affiliate-faq-section {
-  border-top: 1px solid rgba(24, 34, 28, 0.08);
+.affiliate-poster-step .anticon {
+  display: inline-block !important;
+  color: var(--poster-ink);
+  font-size: 30px;
 }
 
-.affiliate-faq-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 42px;
-  margin-top: 50px;
+.affiliate-poster-step strong {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: -0.04em;
 }
 
-.affiliate-faq-grid h3 {
-  margin-top: 0;
+.affiliate-poster-divider {
+  width: 1px;
+  height: 56px;
+  background: rgba(23, 27, 24, 0.2);
 }
 
-.affiliate-final-cta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 56px;
-  margin-bottom: 96px;
-  padding: 58px;
-  border-radius: 30px;
-  background:
-    radial-gradient(circle at 90% 10%, rgba(177, 224, 255, 0.55), transparent 34%),
-    linear-gradient(135deg, #e9f8ee, #f3efff);
+.affiliate-poster-note {
+  margin: auto 0 0;
+  color: var(--poster-muted);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
-.affiliate-final-cta > div {
-  max-width: 720px;
+.affiliate-poster-rate {
+  position: absolute;
+  z-index: 1;
+  top: 96px;
+  right: -3%;
+  bottom: 0;
+  width: 55%;
+  overflow: hidden;
+  color: var(--poster-green);
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.1em;
+  line-height: 0.7;
+  pointer-events: none;
+  animation: affiliate-poster-rate-enter 900ms 80ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
-.affiliate-final-cta .affiliate-button {
-  flex: 0 0 auto;
+.affiliate-poster-rate-number,
+.affiliate-poster-rate-symbol {
+  position: absolute;
+  display: block;
+  text-shadow: 0 0 1px rgba(20, 76, 44, 0.2);
 }
 
-@media (max-width: 980px) {
-  .affiliate-hero-grid {
-    grid-template-columns: 1fr;
-  }
+.affiliate-poster-rate-number {
+  top: 40px;
+  left: 0;
+  font-size: clamp(320px, 33vw, 500px);
+}
 
-  .affiliate-hero-copy {
-    max-width: 760px;
-  }
+.affiliate-poster-rate-symbol {
+  top: 445px;
+  left: 12%;
+  font-size: clamp(340px, 36vw, 540px);
+}
 
-  .affiliate-hero-art {
-    max-width: 760px;
-  }
+.affiliate-poster-brush {
+  position: absolute;
+  z-index: 3;
+  right: -20%;
+  bottom: -5%;
+  width: 155%;
+  max-width: none;
+  height: auto;
+  opacity: 0.96;
+  transform: rotate(-4deg);
+}
 
-  .affiliate-steps {
-    grid-template-columns: repeat(2, 1fr);
+@keyframes affiliate-poster-enter {
+  from {
+    opacity: 0;
+    transform: translateY(22px);
   }
-
-  .affiliate-plan-grid,
-  .affiliate-faq-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .affiliate-plan-grid article {
-    min-height: 120px;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-@media (max-width: 720px) {
-  .affiliate-shell {
-    width: min(100% - 30px, 1180px);
+@keyframes affiliate-poster-rate-enter {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 1050px) {
+  .affiliate-poster-shell {
+    min-height: 850px;
   }
 
-  .affiliate-hero {
-    padding: 108px 0 58px;
+  .affiliate-poster-copy {
+    width: 62%;
+    min-height: 690px;
   }
 
-  .affiliate-hero-grid {
-    gap: 38px;
+  .affiliate-poster-rate {
+    right: -20%;
+    width: 65%;
+    opacity: 0.9;
   }
 
-  .affiliate-hero h1 {
-    font-size: 45px;
+  .affiliate-poster-rate-symbol {
+    top: 410px;
+  }
+}
+
+@media (max-width: 760px) {
+  .affiliate-poster-shell {
+    min-height: 900px;
+    padding: 100px 22px 32px;
   }
 
-  .affiliate-lead {
-    font-size: 17px;
-  }
-
-  .affiliate-actions,
-  .affiliate-actions .affiliate-button {
+  .affiliate-poster-copy {
     width: 100%;
+    min-height: 760px;
   }
 
-  .affiliate-hero-art img {
-    border-radius: 22px;
+  .affiliate-poster-eyebrow {
+    margin-bottom: 20px;
   }
 
-  .affiliate-stats {
-    grid-template-columns: 1fr;
-    margin-top: -18px;
+  .affiliate-poster-title {
+    max-width: 620px;
+    font-size: clamp(55px, 17vw, 82px);
+    line-height: 0.88;
   }
 
-  .affiliate-stats article {
-    border-right: 0;
-    border-bottom: 1px solid rgba(24, 34, 28, 0.08);
+  .affiliate-poster-title strong {
+    display: block;
+    margin-top: 0.08em;
   }
 
-  .affiliate-stats article:last-child {
-    border-bottom: 0;
+  .affiliate-poster-lead {
+    max-width: 480px;
+    margin-top: 24px;
+    padding-right: 24px;
   }
 
-  .affiliate-section,
-  .affiliate-faq-section,
-  .affiliate-earnings-section {
-    padding: 78px 0;
+  .affiliate-poster-cta {
+    min-height: 64px;
+    margin-top: 28px;
   }
 
-  .affiliate-steps {
-    grid-template-columns: 1fr;
-  }
-
-  .affiliate-steps article {
-    min-height: 0;
-  }
-
-  .affiliate-plan-grid article {
-    align-items: flex-start;
-  }
-
-  .affiliate-fit-section {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .affiliate-final-cta {
+  .affiliate-poster-steps {
     align-items: flex-start;
     flex-direction: column;
-    margin-bottom: 60px;
-    padding: 34px 26px;
+    gap: 18px;
+    margin-top: 32px;
   }
 
-  .affiliate-final-cta .affiliate-button {
-    width: 100%;
+  .affiliate-poster-divider {
+    display: none;
+  }
+
+  .affiliate-poster-note {
+    max-width: 260px;
+  }
+
+  .affiliate-poster-rate {
+    top: auto;
+    right: -42%;
+    bottom: -7%;
+    width: 105%;
+    height: 410px;
+    opacity: 0.18;
+  }
+
+  .affiliate-poster-rate-number {
+    top: 30px;
+    left: 0;
+    font-size: 270px;
+  }
+
+  .affiliate-poster-rate-symbol {
+    top: 225px;
+    left: 18%;
+    font-size: 280px;
+  }
+
+  .affiliate-poster-brush {
+    bottom: -24%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .affiliate-poster-copy,
+  .affiliate-poster-rate {
+    animation: none;
+  }
+
+  .affiliate-poster-cta {
+    transition: none;
   }
 }
 </style>
