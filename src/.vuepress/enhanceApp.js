@@ -2,10 +2,6 @@ import './theme/styles/index.less';
 
 const DATAFAST_CLICK_EVENTS = [
   {
-    name: 'view_pricing',
-    matches: url => url.hostname === 'pricing.cleanclip.cc',
-  },
-  {
     name: 'download_started',
     matches: url =>
       url.hostname === 'cleanclip.cc' &&

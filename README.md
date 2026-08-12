@@ -27,9 +27,9 @@ yarn build
 ## Analytics
 
 - **Done:** DataFast loads site-wide with website ID `dfid_QVP3FPOwhUM7NkCb0YpIg` and domain scope `cleanclip.cc`, so visitor and session attribution is shared with CleanClip subdomains.
-- **Done:** The marketing site records pricing intent (`view_pricing`) and DMG acquisition (`download_started`) with source and destination paths.
-- **Done:** The pricing site records plan exposure, checkout intent by plan, FAQ engagement, and sales-support contact; the Dashboard copies DataFast visitor/session IDs into Stripe Checkout metadata for revenue attribution.
-- **Planned:** Connect the CleanClip Stripe account in DataFast and configure the `view_pricing → initiate_checkout → payment` funnel in the DataFast dashboard.
+- **Done:** The marketing site records DMG acquisition (`download_started`) with source and destination paths; arrival on the shared Pricing site is measured by its pageview rather than a duplicate CTA event.
+- **Done:** The pricing site records checkout intent by plan and sales-support contact; the Dashboard copies DataFast visitor/session IDs into Stripe Checkout metadata for revenue attribution.
+- **Planned:** Connect the CleanClip Stripe account in DataFast and configure the `pricing pageview → initiate_checkout → payment` funnel in the DataFast dashboard.
 
 ## Update log
 
