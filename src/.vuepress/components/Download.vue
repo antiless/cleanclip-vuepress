@@ -77,6 +77,18 @@ export default {
     },
     copyToClipboard(text) {
       navigator.clipboard.writeText(text).then(() => {
+        if (typeof window !== 'undefined' && window.AffSDK && typeof window.AffSDK.track === 'function') {
+          try {
+            window.AffSDK.track('brew_install_copied', {
+              properties: {
+                source_path: window.location.pathname,
+                command: text,
+              },
+            });
+          } catch (_) {
+            // Analytics must never interfere with the copy action.
+          }
+        }
         console.log('复制成功:', text);
         // 使用 alert 显示通知提示
         alert(this.items.copied);
