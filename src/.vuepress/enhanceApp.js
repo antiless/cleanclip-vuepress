@@ -1,19 +1,34 @@
 import './theme/styles/index.less';
 
-const DATAFAST_CLICK_EVENTS = [
+const IMPORTANT_CLICK_EVENTS = [
   {
     name: 'download_started',
+    datafast: true,
     matches: url =>
       url.hostname === 'cleanclip.cc' &&
       (url.pathname.endsWith('.dmg') || url.pathname.includes('/releases/download/')),
   },
+  {
+    name: 'pricing_cta_clicked',
+    datafast: false,
+    matches: url => url.hostname === 'pricing.cleanclip.cc',
+  },
 ];
+
+function trackTheAffsEvent(name, properties) {
+  if (!window.AffSDK || typeof window.AffSDK.track !== 'function') return;
+  try {
+    window.AffSDK.track(name, { properties });
+  } catch (_) {
+    // Analytics must never interfere with navigation.
+  }
+}
 
 function trackImportantLinkClick(event) {
   const anchor = event.target && event.target.closest
     ? event.target.closest('a[href]')
     : null;
-  if (!anchor || typeof window.datafast !== 'function') return;
+  if (!anchor) return;
 
   let destination;
   try {
@@ -22,14 +37,19 @@ function trackImportantLinkClick(event) {
     return;
   }
 
-  const trackedEvent = DATAFAST_CLICK_EVENTS.find(item => item.matches(destination));
+  const trackedEvent = IMPORTANT_CLICK_EVENTS.find(item => item.matches(destination));
   if (!trackedEvent) return;
 
-  window.datafast(trackedEvent.name, {
+  const properties = {
     source_path: window.location.pathname,
     destination_host: destination.hostname,
     destination_path: destination.pathname,
-  });
+  };
+
+  if (trackedEvent.datafast && typeof window.datafast === 'function') {
+    window.datafast(trackedEvent.name, properties);
+  }
+  trackTheAffsEvent(trackedEvent.name, properties);
 }
 
 export default ({ router, siteData, isServer }) => {
